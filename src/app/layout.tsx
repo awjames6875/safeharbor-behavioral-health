@@ -1,11 +1,12 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/layout/Header'
+import ModernHeader from '@/components/layout/ModernHeader'
 import Footer from '@/components/layout/Footer'
 import SkipNavigation from '@/components/SkipNavigation'
 import StickyHeader from '@/components/layout/StickyHeader'
 import SEOTracking from '@/components/SEOTracking'
+import FloatingActions from '@/components/FloatingActions'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -161,13 +162,13 @@ export default function RootLayout({
       <body className={inter.className}>
         <SkipNavigation />
         <div className="min-h-screen flex flex-col">
-          <Header />
+          <ModernHeader />
           <main id="main-content" className="flex-grow">
             {children}
           </main>
           <Footer />
         </div>
-        <StickyHeader />
+        <FloatingActions />
       </body>
     </html>
   )

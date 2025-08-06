@@ -1,7 +1,9 @@
 import { Metadata } from 'next'
-import HeroSection from '@/components/home/HeroSection'
+import ModernHeroSection from '@/components/home/ModernHeroSection'
 import TrustBar from '@/components/home/TrustBar'
-import ServicesGrid from '@/components/home/ServicesGrid'
+import AnimatedServicesGrid from '@/components/home/AnimatedServicesGrid'
+import AnimatedStats from '@/components/home/AnimatedStats'
+import TestimonialCarousel from '@/components/home/TestimonialCarousel'
 import BodyBrainFeature from '@/components/home/BodyBrainFeature'
 import BlogFeature from '@/components/home/BlogFeature'
 import InsuranceSection from '@/components/home/InsuranceSection'
@@ -96,10 +98,12 @@ export default function HomePage() {
           __html: JSON.stringify(homePageSchema)
         }}
       />
-      <HeroSection />
+      <ModernHeroSection />
       <TrustBar />
-      <ServicesGrid />
+      <AnimatedServicesGrid />
+      <AnimatedStats />
       <BodyBrainFeature />
+      <TestimonialCarousel />
       <BlogFeature />
       <InsuranceSection />
       <ContactSection />

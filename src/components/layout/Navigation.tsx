@@ -7,6 +7,7 @@ import { useState } from 'react'
 interface NavProps {
   mobile?: boolean
   onItemClick?: () => void
+  scrolled?: boolean
 }
 
 export default function Navigation({ mobile = false, onItemClick }: NavProps) {
