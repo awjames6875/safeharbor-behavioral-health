@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import ModernHeader from '@/components/layout/ModernHeader'
+import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import SkipNavigation from '@/components/SkipNavigation'
 import StickyHeader from '@/components/layout/StickyHeader'
@@ -162,7 +162,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <SkipNavigation />
         <div className="min-h-screen flex flex-col">
-          <ModernHeader />
+          <Header />
           <main id="main-content" className="flex-grow">
             {children}
           </main>

@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import ModernHeroSection from '@/components/home/ModernHeroSection'
+import HeroSection from '@/components/home/HeroSection'
 import TrustBar from '@/components/home/TrustBar'
 import AnimatedServicesGrid from '@/components/home/AnimatedServicesGrid'
 import AnimatedStats from '@/components/home/AnimatedStats'
@@ -98,7 +98,7 @@ export default function HomePage() {
           __html: JSON.stringify(homePageSchema)
         }}
       />
-      <ModernHeroSection />
+      <HeroSection />
       <TrustBar />
       <AnimatedServicesGrid />
       <AnimatedStats />

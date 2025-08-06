@@ -1,6 +1,5 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Link from 'next/link'
 
@@ -69,21 +68,10 @@ export default function AnimatedServicesGrid() {
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <motion.span
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="inline-block px-4 py-2 bg-gradient-to-r from-teal-500 to-blue-500 text-white text-sm font-semibold rounded-full mb-4"
-          >
+        <div className="text-center mb-16">
+          <span className="inline-block px-4 py-2 bg-gradient-to-r from-teal-500 to-blue-500 text-white text-sm font-semibold rounded-full mb-4">
             OUR SERVICES
-          </motion.span>
+          </span>
           <h2 className="text-5xl md:text-6xl font-black mb-6">
             <span className="gradient-text">Comprehensive Care</span>
             <br />
@@ -93,28 +81,21 @@ export default function AnimatedServicesGrid() {
             Evidence-based treatments delivered with compassion and expertise. 
             Every service accepts Medicaid/SoonerCare.
           </p>
-        </motion.div>
+        </div>
 
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: service.delay }}
-              onHoverStart={() => setHoveredIndex(index)}
-              onHoverEnd={() => setHoveredIndex(null)}
               className="relative"
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
             >
               <Link href={service.href}>
-                <motion.div
-                  whileHover={{ y: -10 }}
-                  className="relative h-full"
-                >
+                <div className="relative h-full hover:-translate-y-2 transition-all duration-300">
                   {/* Card Background with Gradient Border */}
-                  <div className="absolute inset-0 bg-gradient-to-r rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  <div className="absolute inset-0 bg-gradient-to-r rounded-2xl opacity-0 hover:opacity-100 transition-opacity duration-300"
                     style={{
                       background: `linear-gradient(135deg, ${service.gradient.split(' ')[1]} 0%, ${service.gradient.split(' ')[3]} 100%)`,
                       padding: '2px'
@@ -129,22 +110,14 @@ export default function AnimatedServicesGrid() {
                     <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} opacity-0 hover:opacity-5 transition-opacity duration-300 rounded-2xl`} />
                     
                     {/* Icon Container */}
-                    <motion.div
-                      animate={hoveredIndex === index ? { rotate: [0, -10, 10, -10, 0] } : {}}
-                      transition={{ duration: 0.5 }}
-                      className="relative mb-6"
-                    >
+                    <div className="relative mb-6">
                       <div className={`w-20 h-20 bg-gradient-to-br ${service.gradient} rounded-2xl flex items-center justify-center shadow-lg`}>
                         <span className="text-3xl">{service.icon}</span>
                       </div>
                       {hoveredIndex === index && (
-                        <motion.div
-                          initial={{ scale: 0 }}
-                          animate={{ scale: 1 }}
-                          className={`absolute -inset-2 bg-gradient-to-br ${service.gradient} rounded-2xl opacity-20 blur-xl`}
-                        />
+                        <div className={`absolute -inset-2 bg-gradient-to-br ${service.gradient} rounded-2xl opacity-20 blur-xl transition-opacity duration-300`} />
                       )}
-                    </motion.div>
+                    </div>
 
                     {/* Content */}
                     <h3 className="text-2xl font-bold text-gray-800 mb-3 group-hover:gradient-text transition-all">
@@ -157,44 +130,31 @@ export default function AnimatedServicesGrid() {
                     {/* CTA with Arrow */}
                     <div className="flex items-center text-teal-600 font-semibold group">
                       <span className="mr-2">Learn More</span>
-                      <motion.svg
-                        className="w-5 h-5"
+                      <svg
+                        className={`w-5 h-5 ${hoveredIndex === index ? 'translate-x-1' : ''} transition-transform`}
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
-                        animate={hoveredIndex === index ? { x: [0, 5, 0] } : {}}
-                        transition={{ duration: 0.5, repeat: Infinity }}
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </motion.svg>
+                      </svg>
                     </div>
 
                     {/* Floating Badge */}
                     {index === 0 && (
-                      <motion.div
-                        initial={{ opacity: 0, scale: 0 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: 1 }}
-                        className="absolute -top-3 -right-3 bg-gradient-to-r from-green-400 to-green-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg"
-                      >
+                      <div className="absolute -top-3 -right-3 bg-gradient-to-r from-green-400 to-green-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
                         MOST POPULAR
-                      </motion.div>
+                      </div>
                     )}
                   </div>
-                </motion.div>
+                </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
         </div>
 
         {/* Bottom CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.6 }}
-          className="text-center mt-12"
-        >
+        <div className="text-center mt-12">
           <Link
             href="/services"
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#0A9396] to-[#005F73] text-white font-bold rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
@@ -204,7 +164,7 @@ export default function AnimatedServicesGrid() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </Link>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
