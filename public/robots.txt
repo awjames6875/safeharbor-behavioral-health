@@ -1,0 +1,23 @@
+# Robots.txt for SafeHarbor Behavioral Health
+User-agent: *
+Allow: /
+
+# Important pages for better crawling
+Allow: /services/
+Allow: /locations/
+Allow: /programs/
+Allow: /resources/
+Allow: /about
+Allow: /contact
+
+# Block admin or sensitive areas (if any exist in future)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://safeharborbh.com/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
