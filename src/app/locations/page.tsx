@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { locations } from '@/data/locations'
 
 export const metadata: Metadata = {
   title: 'Our Locations | Child Therapy Tulsa, Broken Arrow, Owasso | SafeHarbor',
@@ -29,29 +30,7 @@ export const metadata: Metadata = {
 }
 
 export default function LocationsPage() {
-  const locations = [
-    {
-      name: 'Midtown Tulsa',
-      address: '1234 Main Street, Tulsa, OK 74103',
-      phone: '(918) 555-0101',
-      hours: 'Mon-Fri: 8AM-6PM, Sat: 9AM-2PM',
-      href: '/locations/midtown',
-    },
-    {
-      name: 'South Tulsa',
-      address: '5678 Yale Avenue, Tulsa, OK 74136',
-      phone: '(918) 555-0102',
-      hours: 'Mon-Fri: 8AM-6PM, Sat: 9AM-2PM',
-      href: '/locations/south-tulsa',
-    },
-    {
-      name: 'Broken Arrow',
-      address: '9012 Elm Street, Broken Arrow, OK 74012',
-      phone: '(918) 555-0103',
-      hours: 'Mon-Fri: 8AM-6PM',
-      href: '/locations/broken-arrow',
-    },
-  ]
+  const hours = 'Mon-Fri: 8AM-6PM, Sat: 9AM-2PM'
 
   return (
     <div className="min-h-screen">
@@ -68,16 +47,16 @@ export default function LocationsPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {locations.map((location) => (
-              <div key={location.name} className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+              <div key={location.slug} className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-xl transition-shadow">
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">{location.name}</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">{location.name.replace('SafeHarbor Behavioral Health - ', '')}</h2>
                   <div className="space-y-3 text-gray-600">
                     <div className="flex items-start">
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                       </svg>
-                      <span>{location.address}</span>
+                      <span>{location.streetAddress}, {location.city}, {location.state} {location.zipCode}</span>
                     </div>
                     <div className="flex items-start">
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -91,11 +70,11 @@ export default function LocationsPage() {
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      <span>{location.hours}</span>
+                      <span>{hours}</span>
                     </div>
                   </div>
                   <Link
-                    href={location.href}
+                    href={`/locations/${location.slug}`}
                     className="inline-flex items-center text-primary-600 font-semibold hover:text-primary-700 mt-4"
                   >
                     View Details
