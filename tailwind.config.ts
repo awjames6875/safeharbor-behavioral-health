@@ -9,55 +9,51 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // SafeHarbor Brand Colors
-        teal: {
-          50: '#f0fdfa',
-          100: '#ccfbf1',
-          200: '#99f6e4',
-          300: '#5eead4',
-          400: '#2dd4bf',
-          500: '#14b8a6', // Main teal
-          600: '#0d9488',
-          700: '#0f766e',
-          800: '#115e59',
-          900: '#134e4a',
-        },
         navy: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b', // Main navy
-          900: '#0f172a',
+          50: '#f0f4f8',
+          100: '#d9e2ec',
+          200: '#bcccdc',
+          300: '#9fb3c8',
+          400: '#829ab1',
+          500: '#627d98',
+          600: '#486581',
+          700: '#334e68',
+          800: '#243b53',
+          900: '#102a43',
+        },
+        teal: {
+          50: '#f0fcff',
+          100: '#c6f6ff',
+          200: '#99f2ff',
+          300: '#66eeff',
+          400: '#33eaff',
+          500: '#00e6ff',
+          600: '#00b8cc',
+          700: '#008a99',
+          800: '#005c66',
+          900: '#002e33',
         },
         cream: {
-          50: '#fefdf8',
-          100: '#fef9e8', // Main cream
-          200: '#fef2d5',
-          300: '#fde8b3',
-          400: '#fcd589',
-          500: '#f9bd5a',
+          50: '#fdfbf7',
+          100: '#fbf7ef',
+          200: '#f7efe2',
         },
-        primary: {
-          50: '#f0fdfa',
-          100: '#ccfbf1',
-          200: '#99f6e4',
-          300: '#5eead4',
-          400: '#2dd4bf',
-          500: '#14b8a6',
-          600: '#0d9488',
-          700: '#0f766e',
-          800: '#115e59',
-          900: '#134e4a',
-        },
+        sage: {
+          50: '#f4f7f6',
+          100: '#e3e9e6',
+          200: '#cdd8d3',
+          500: '#8da399',
+          900: '#2c3532',
+        }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['var(--font-serif)', 'serif'],
+        sans: ['var(--font-sans)', 'sans-serif'],
       },
+      boxShadow: {
+        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+        'glow': '0 0 15px rgba(141, 163, 153, 0.3)',
+      }
     },
   },
   plugins: [],

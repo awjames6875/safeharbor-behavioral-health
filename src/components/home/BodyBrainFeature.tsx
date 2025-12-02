@@ -28,7 +28,7 @@ export default function BodyBrainFeature() {
               The Body & Brain Advantage
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our revolutionary approach combines traditional therapy with movement and mindfulness, 
+              Our revolutionary approach combines traditional therapy with movement and mindfulness,
               helping children and teens heal faster and build lasting emotional resilience.
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function BodyBrainFeature() {
               Ready to Try a Different Approach?
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Body & Brain is perfect for kids who haven't responded well to traditional therapy, 
+              Body & Brain is perfect for kids who have not responded well to traditional therapy,
               have lots of energy, or struggle with anxiety and emotional regulation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

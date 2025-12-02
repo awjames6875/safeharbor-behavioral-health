@@ -13,12 +13,16 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'safeharborbh.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'randomuser.me',
+      },
     ],
   },
-  
+
   // Compression and performance
   compress: true,
-  
+
   // Headers for caching and security
   async headers() {
     return [
@@ -85,15 +89,15 @@ const nextConfig = {
       },
     ]
   },
-  
+
   // Font optimization
   optimizeFonts: true,
-  
+
   // Experimental features for performance
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
-  
+
   // Bundle analyzer (only for development)
   ...(process.env.ANALYZE === 'true' && {
     webpack: (config) => {

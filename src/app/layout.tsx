@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -8,7 +8,17 @@ import StickyHeader from '@/components/layout/StickyHeader'
 import SEOTracking from '@/components/SEOTracking'
 import FloatingActions from '@/components/FloatingActions'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+})
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: {
@@ -99,25 +109,25 @@ export default function RootLayout({
     },
     "medicalSpecialty": [
       "Child Psychology",
-      "Adolescent Psychology", 
+      "Adolescent Psychology",
       "Family Therapy",
       "Behavioral Health"
     ],
     "serviceType": [
       "Individual Therapy",
-      "Group Therapy", 
+      "Group Therapy",
       "Family Therapy",
       "Medication Management",
       "Psychiatric Evaluation"
     ],
     "paymentAccepted": [
       "Cash",
-      "Credit Card", 
+      "Credit Card",
       "Debit Card",
       "Check",
       "Insurance",
       "Medicaid",
-      "SoonerCare", 
+      "SoonerCare",
       "Medicare",
       "Blue Cross Blue Shield",
       "Aetna",
@@ -159,7 +169,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
         <SkipNavigation />
         <div className="min-h-screen flex flex-col">
           <Header />

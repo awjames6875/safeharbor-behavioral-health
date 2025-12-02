@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 const testimonials = [
   {
@@ -9,7 +10,8 @@ const testimonials = [
     author: "Sarah M.",
     role: "Parent",
     rating: 5,
-    gradient: "from-purple-400 to-pink-400"
+    gradient: "from-purple-400 to-pink-400",
+    image: "https://randomuser.me/api/portraits/women/44.jpg"
   },
   {
     id: 2,
@@ -17,7 +19,8 @@ const testimonials = [
     author: "James T.",
     role: "Parent",
     rating: 5,
-    gradient: "from-blue-400 to-teal-400"
+    gradient: "from-blue-400 to-teal-400",
+    image: "https://randomuser.me/api/portraits/men/32.jpg"
   },
   {
     id: 3,
@@ -25,7 +28,8 @@ const testimonials = [
     author: "Maria G.",
     role: "Parent",
     rating: 5,
-    gradient: "from-green-400 to-emerald-400"
+    gradient: "from-green-400 to-emerald-400",
+    image: "https://randomuser.me/api/portraits/women/65.jpg"
   },
   {
     id: 4,
@@ -33,7 +37,8 @@ const testimonials = [
     author: "David L.",
     role: "Parent",
     rating: 5,
-    gradient: "from-orange-400 to-red-400"
+    gradient: "from-orange-400 to-red-400",
+    image: "https://randomuser.me/api/portraits/men/52.jpg"
   }
 ]
 
@@ -43,7 +48,7 @@ export default function TestimonialCarousel() {
 
   useEffect(() => {
     if (!isAutoPlaying) return
-    
+
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % testimonials.length)
     }, 5000)
@@ -89,7 +94,7 @@ export default function TestimonialCarousel() {
             <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 relative overflow-hidden">
               {/* Gradient Background */}
               <div className={`absolute inset-0 bg-gradient-to-br ${testimonials[currentIndex].gradient} opacity-5`} />
-              
+
               {/* Quote Icon */}
               <div className="absolute top-6 left-6 text-6xl text-gray-200">
                 "
@@ -117,8 +122,13 @@ export default function TestimonialCarousel() {
                 {/* Author */}
                 <div className="text-center">
                   <div className="flex items-center justify-center mb-2">
-                    <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${testimonials[currentIndex].gradient} flex items-center justify-center text-white font-bold text-xl`}>
-                      {testimonials[currentIndex].author[0]}
+                    <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-white shadow-lg relative">
+                      <Image
+                        src={testimonials[currentIndex].image}
+                        alt={testimonials[currentIndex].author}
+                        fill
+                        className="object-cover"
+                      />
                     </div>
                   </div>
                   <p className="font-bold text-lg text-gray-800">
@@ -155,11 +165,10 @@ export default function TestimonialCarousel() {
                     setIsAutoPlaying(false)
                     setCurrentIndex(index)
                   }}
-                  className={`w-3 h-3 rounded-full transition-all duration-300 hover:scale-125 ${
-                    index === currentIndex
+                  className={`w-3 h-3 rounded-full transition-all duration-300 hover:scale-125 ${index === currentIndex
                       ? 'w-8 bg-gradient-to-r from-teal-500 to-blue-500'
                       : 'bg-gray-300'
-                  }`}
+                    }`}
                 />
               ))}
             </div>
