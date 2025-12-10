@@ -1,106 +1,89 @@
+'use client'
+
+import React from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function BodyBrainFeature() {
-  const benefits = [
-    {
-      icon: '🏃‍♂️',
-      title: 'Movement-Based Healing',
-      description: 'Physical activity releases natural mood boosters and reduces stress hormones',
-    },
-    {
-      icon: '🧘‍♀️',
-      title: 'Mind-Body Connection',
-      description: 'Learn to recognize and regulate emotions through body awareness',
-    },
-    {
-      icon: '🎯',
-      title: 'Faster Results',
-      description: 'Combining movement with therapy accelerates healing and builds resilience',
-    },
-  ]
-
   return (
-    <section className="py-16 bg-gradient-to-br from-teal-50 to-cream-100">
-      <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy-800 mb-4">
-              The Body & Brain Advantage
+    <section className="section-padding bg-cream-50 overflow-hidden">
+      <div className="container">
+        <div className="flex flex-col lg:flex-row items-center gap-16">
+
+          {/* Content Side */}
+          <div className="flex-1 order-2 lg:order-1">
+            <div className="inline-block px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-semibold mb-6">
+              Exclusive to SafeHarbor
+            </div>
+
+            <h2 className="text-3xl md:text-5xl font-serif text-navy-900 mb-6 leading-tight">
+              Healing Through <span className="text-teal-600 italic">Movement</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our revolutionary approach combines traditional therapy with movement and mindfulness,
-              helping children and teens heal faster and build lasting emotional resilience.
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Video Placeholder */}
-            <div className="relative">
-              <div className="bg-navy-800 rounded-lg aspect-video flex items-center justify-center shadow-xl">
-                <div className="text-center text-white">
-                  <svg className="w-20 h-20 mx-auto mb-4 opacity-50" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
-                  </svg>
-                  <p className="text-lg font-medium">Video Coming Soon</p>
-                  <p className="text-sm opacity-75 mt-2">Learn how Body & Brain transforms lives</p>
+            <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+              For many children, sitting still and talking isn't enough. Our <strong>Body & Brain</strong> program
+              combines evidence-based therapy with physical movement to help kids regulate emotions,
+              reduce anxiety, and build confidence from the inside out.
+            </p>
+
+            <div className="space-y-6 mb-10">
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center flex-shrink-0 text-teal-600">
+                  ⚡
+                </div>
+                <div>
+                  <h3 className="text-xl font-serif text-navy-900 mb-1">Release Pent-Up Energy</h3>
+                  <p className="text-slate-600">channeling hyperactivity into focused, positive movement.</p>
                 </div>
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-teal-500 text-white rounded-full p-3 shadow-lg">
-                <span className="text-2xl font-bold">NEW</span>
+
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center flex-shrink-0 text-teal-600">
+                  🧠
+                </div>
+                <div>
+                  <h3 className="text-xl font-serif text-navy-900 mb-1">Brain-Body Connection</h3>
+                  <p className="text-slate-600">Strengthening the neural pathways for better emotional regulation.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center flex-shrink-0 text-teal-600">
+                  🛡️
+                </div>
+                <div>
+                  <h3 className="text-xl font-serif text-navy-900 mb-1">Build Resilience</h3>
+                  <p className="text-slate-600">Developing physical and mental tools to handle life's stressors.</p>
+                </div>
               </div>
             </div>
 
-            {/* Benefits */}
-            <div className="space-y-6">
-              {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
-                    <span className="text-2xl">{benefit.icon}</span>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-navy-800 mb-2">
-                      {benefit.title}
-                    </h3>
-                    <p className="text-gray-600">
-                      {benefit.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
+            <Link
+              href="/programs/body-brain"
+              className="btn-primary"
+            >
+              Discover the Body & Brain Program
+            </Link>
+          </div>
 
-              <Link
-                href="/programs/body-brain"
-                className="inline-block bg-teal-500 text-white px-8 py-4 rounded-full hover:bg-teal-600 transition-all transform hover:scale-105 font-semibold text-lg shadow-lg mt-8"
-              >
-                Discover Body & Brain Program
-              </Link>
+          {/* Image Side */}
+          <div className="flex-1 order-1 lg:order-2 w-full">
+            <div className="relative aspect-square lg:aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-8 border-white transform lg:rotate-3 hover:rotate-0 transition-transform duration-500">
+              <Image
+                src="/images/body-brain-activity.png"
+                alt="Child participating in Body & Brain movement therapy"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy-900/50 via-transparent to-transparent"></div>
+
+              <div className="absolute bottom-8 left-8 right-8 text-white">
+                <p className="text-3xl font-serif mb-2">"He's a different kid."</p>
+                <p className="text-teal-200 font-medium">– Sarah, Mother of 8-year-old</p>
+              </div>
             </div>
           </div>
 
-          {/* Call to Action Box */}
-          <div className="mt-16 bg-white rounded-lg shadow-xl p-8 text-center">
-            <h3 className="text-2xl font-bold text-navy-800 mb-4">
-              Ready to Try a Different Approach?
-            </h3>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Body & Brain is perfect for kids who have not responded well to traditional therapy,
-              have lots of energy, or struggle with anxiety and emotional regulation.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/contact"
-                className="inline-block bg-teal-500 text-white px-6 py-3 rounded-md hover:bg-teal-600 transition-colors font-semibold"
-              >
-                Schedule a Consultation
-              </Link>
-              <a
-                href="tel:918-555-0100"
-                className="inline-block bg-navy-800 text-white px-6 py-3 rounded-md hover:bg-navy-900 transition-colors font-semibold"
-              >
-                Call (918) 555-0100
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </section>

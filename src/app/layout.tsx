@@ -7,6 +7,7 @@ import SkipNavigation from '@/components/SkipNavigation'
 import StickyHeader from '@/components/layout/StickyHeader'
 import SEOTracking from '@/components/SEOTracking'
 import FloatingActions from '@/components/FloatingActions'
+import VoiceAgent from '@/components/VoiceAgent'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -179,6 +180,7 @@ export default function RootLayout({
           <Footer />
         </div>
         <FloatingActions />
+        <VoiceAgent />
       </body>
     </html>
   )

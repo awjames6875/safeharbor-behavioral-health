@@ -72,11 +72,11 @@ export default function Navigation({ mobile = false, onItemClick }: NavProps) {
 
   const linkClass = (href: string) => {
     const baseClass = mobile
-      ? 'block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded-md'
-      : 'text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors'
-    
-    const activeClass = pathname === href ? (mobile ? 'bg-primary-50 text-primary-600' : 'text-primary-600') : ''
-    
+      ? 'block py-2 px-4 text-navy-700 hover:bg-teal-50 rounded-md'
+      : 'text-navy-700 hover:text-teal-600 px-3 py-2 rounded-md text-sm font-medium transition-colors'
+
+    const activeClass = pathname === href ? (mobile ? 'bg-teal-50 text-teal-600' : 'text-teal-600') : ''
+
     return `${baseClass} ${activeClass}`
   }
 
@@ -89,13 +89,12 @@ export default function Navigation({ mobile = false, onItemClick }: NavProps) {
               <>
                 <button
                   onClick={() => handleDropdownToggle(item.label)}
-                  className="w-full text-left py-2 px-4 text-gray-700 hover:bg-gray-100 rounded-md flex justify-between items-center"
+                  className="w-full text-left py-2 px-4 text-navy-700 hover:bg-teal-50 rounded-md flex justify-between items-center"
                 >
                   <span>{item.label}</span>
                   <svg
-                    className={`w-4 h-4 transition-transform ${
-                      openDropdown === item.label ? 'rotate-180' : ''
-                    }`}
+                    className={`w-4 h-4 transition-transform ${openDropdown === item.label ? 'rotate-180' : ''
+                      }`}
                     fill="none"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -168,18 +167,17 @@ export default function Navigation({ mobile = false, onItemClick }: NavProps) {
                 </svg>
               </button>
               <div
-                className={`absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 transition-all ${
-                  openDropdown === item.label
+                className={`absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 transition-all ${openDropdown === item.label
                     ? 'opacity-100 visible translate-y-0'
                     : 'opacity-0 invisible -translate-y-2'
-                }`}
+                  }`}
                 onMouseEnter={() => setOpenDropdown(item.label)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >
                 <div className="py-1">
                   <Link
                     href={item.href}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    className="block px-4 py-2 text-sm text-navy-700 hover:bg-teal-50"
                   >
                     All {item.label}
                   </Link>
@@ -187,7 +185,7 @@ export default function Navigation({ mobile = false, onItemClick }: NavProps) {
                     <Link
                       key={subItem.href}
                       href={subItem.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      className="block px-4 py-2 text-sm text-navy-700 hover:bg-teal-50"
                     >
                       {subItem.label}
                     </Link>

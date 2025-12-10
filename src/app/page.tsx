@@ -59,7 +59,7 @@ export default function HomePage() {
             }
           },
           {
-            "@type": "Offer", 
+            "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
               "name": "Teen Therapy Services",
@@ -69,7 +69,7 @@ export default function HomePage() {
           {
             "@type": "Offer",
             "itemOffered": {
-              "@type": "Service", 
+              "@type": "Service",
               "name": "Family Therapy",
               "description": "Family counseling and therapy sessions"
             }

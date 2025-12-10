@@ -1,0 +1,127 @@
+# Cline Rules - SafeHarbor Behavioral Health
+
+You are assisting with the SafeHarbor Behavioral Health website (Next.js 14 + TypeScript) for mental health services in Tulsa.
+
+## Session Start Protocol - READ MEMORY BANK FIRST
+
+ALWAYS read these files at the beginning of every session (in this order):
+1. `memory-bank/projectbrief.md` - Project goals, critical business rules
+2. `memory-bank/techContext.md` - Tech stack and architecture
+3. `memory-bank/activeContext.md` - What you were working on
+4. `memory-bank/progress.md` - Todo list and project status
+
+Take 2 minutes to understand the current state before starting work.
+
+## Session End Protocol - UPDATE MEMORY BANK
+
+BEFORE ENDING THE SESSION, you MUST update:
+
+1. **`memory-bank/activeContext.md`:**
+   - Summary of work done today (2-3 sentences)
+   - Files you modified + WHY (reasons for changes)
+   - Git branch and last commit
+   - Next immediate steps
+   - Update timestamp
+
+2. **`memory-bank/progress.md`:**
+   - Check off completed tasks with [x]
+   - Add any new tasks you found
+   - Update timestamp
+
+Then tell the user: "Memory bank updated. Session work recorded."
+
+## Protected Data (DO NOT MODIFY)
+
+**`src/data/locations.ts`** contains 15 production office locations with addresses, phone numbers, and local content. This is CRITICAL BUSINESS DATA.
+- ✋ NEVER delete any location
+- ✋ NEVER remove core location data
+- ✅ Only modify IF explicitly authorized
+
+## Non-Negotiable Requirements
+
+1. **Medicaid/SoonerCare Prominence** - Must appear on every page
+2. **988 Crisis Hotline Visibility** - Red banner in header, visible on all pages
+3. **Mobile-First Responsive Design** - Many users access on phones during crisis
+4. **Same-Week Appointment Messaging** - Key differentiator, highlight throughout
+
+## Special Commands
+
+### User says "update memory bank"
+- Summarize your session work
+- Update activeContext.md + progress.md
+- Confirm: "Memory bank updated with today's work."
+
+### User says "continue where I left off"
+- Read all memory-bank/ files
+- Tell user: "Last session you were working on [task]. Should I continue?"
+
+## Technical Stack
+
+- **Framework:** Next.js 14.2.18 (App Router)
+- **Language:** TypeScript (strict mode)
+- **Styling:** Tailwind CSS (teal-500, navy-800, cream colors)
+- **Animations:** Framer Motion
+- **AI:** Google Generative AI (for Voice Agent)
+
+## Architecture Pattern
+
+```
+src/app/[route]/page.tsx        ← Pages
+src/components/[cat]/Comp.tsx   ← Components by category
+src/data/[name].ts              ← Data files (locations, services, etc.)
+```
+
+## Color System
+
+- **Teal-500:** #14b8a6 (primary buttons, accents)
+- **Navy-800:** #1e293b (dark text, headers)
+- **Cream-50/100:** #fffbf0, #fef3c7 (warm backgrounds)
+- **Red-600:** Emergency messaging ONLY
+
+## Commands
+
+```bash
+npm run dev        # Development server (port 3000)
+npm run build      # Production build
+npm run lint       # Code linting
+npx playwright test # E2E tests
+```
+
+## File Protection
+
+### PROTECTED - DO NOT MODIFY
+- `src/data/locations.ts` (15 production locations)
+
+### CRITICAL - DOCUMENT CHANGES
+- `tailwind.config.ts` (color system)
+- `CLAUDE.md` (architecture guide)
+- `src/app/layout.tsx` (root layout, Schema.org)
+
+## Project Goals
+
+**Mission:** Mental health therapy for children & teens in Tulsa
+**Primary Goal:** Rank #1 for "child therapy Tulsa" in Google
+**Target Audience:** Low-income families seeking Medicaid-covered therapy
+**Key Program:** Body & Brain movement therapy (ADHD/sensory processing)
+
+**Launch Status:** 75% ready
+- SEO: 90% ✅
+- Content: 85% ✅
+- Technical: 70% 🔄
+- Conversion: 50% ❌
+- Performance: 60% ❌
+- Compliance: 40% ❌
+
+## Code Principles
+
+**Simplicity First:**
+- Minimize file changes per task
+- Reuse existing patterns
+- Avoid premature optimization
+- Keep changes focused and simple
+
+**From project rules:** "Make every task and code change as simple as possible."
+
+---
+
+See `CLAUDE.md` for complete architecture documentation.

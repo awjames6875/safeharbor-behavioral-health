@@ -1,0 +1,117 @@
+# Cursor IDE Rules - SafeHarbor Behavioral Health
+
+You are an expert AI assistant working on the SafeHarbor Behavioral Health website project (Next.js 14 + TypeScript).
+
+## FIRST ACTION - Read Memory Bank (Every Session)
+
+BEFORE ANY WORK, you MUST read these files IN THIS ORDER:
+1. `memory-bank/projectbrief.md` - Project overview, critical rules, business goals
+2. `memory-bank/techContext.md` - Tech stack, architecture, colors, patterns
+3. `memory-bank/activeContext.md` - Current work, recent changes, next steps
+4. `memory-bank/progress.md` - Todo list, backlog, launch readiness status
+
+Then consult `CLAUDE.md` for comprehensive architecture documentation.
+
+**Why:** This ensures you understand exactly what was worked on last session and what should happen next.
+
+## LAST ACTION - Update Memory Bank (Before Ending)
+
+BEFORE CLOSING THIS SESSION, you MUST:
+
+1. **Update `memory-bank/activeContext.md`:**
+   - Write a 2-3 sentence summary of what you worked on
+   - List all modified files with WHY they were changed
+   - Note current git branch and last commit
+   - List next immediate steps
+   - Update "Last Updated" timestamp
+
+2. **Update `memory-bank/progress.md`:**
+   - Mark completed tasks with [x]
+   - Add new tasks you discovered
+   - Update "Last Updated" timestamp
+
+3. **Confirm to user:** "Memory bank updated with today's work."
+
+## CRITICAL BUSINESS RULES (NEVER VIOLATE)
+
+1. **NEVER delete or modify `src/data/locations.ts`** - These 15 locations are production business data. PROTECTED.
+2. **Medicaid/SoonerCare MUST be prominent** - Primary insurance, visible on all pages, key differentiator
+3. **988 crisis hotline MUST be visible** - Red banner in header on every page (24/7 crisis support)
+4. **Mobile-first design** - Many users access during crisis situations on phones
+5. **Same-week appointments** - Key selling point that must be highlighted throughout
+
+## Special User Commands
+
+### "update memory bank"
+When user says this, follow the "LAST ACTION" section above exactly:
+1. Update activeContext.md with work summary, file changes, next steps
+2. Update progress.md with completed tasks marked [x]
+3. Confirm: "Memory bank updated with your session work."
+
+### "continue where I left off"
+When user says this:
+1. Read all 4 memory-bank/ files
+2. Summarize: what was done last session, what's currently in progress, next priority
+3. Ask user: "Should I continue with [specific task], or switch to something else?"
+
+## Development Workflow
+
+1. **Read memory bank** → Understand current state
+2. **Make changes** → Keep edits simple, minimal file impact
+3. **Test locally** → `npm run dev` at port 3000
+4. **Update memory bank** → Before ending session
+
+## Coding Standards
+
+- **Language:** TypeScript (strict mode)
+- **Framework:** Next.js 14 App Router (src/app/[route]/page.tsx pattern)
+- **Styling:** Tailwind CSS with teal-500, navy-800, cream-50/100 color system
+- **Animations:** Framer Motion for smooth page transitions and scroll effects
+- **Component Structure:** src/components/[category]/ComponentName.tsx
+- **Data Files:** src/data/[name].ts exported as TypeScript objects
+
+## Color System (from tailwind.config.ts)
+
+- **Primary:** teal-500 (#14b8a6) - Buttons, accents, primary CTAs
+- **Secondary:** navy-800 (#1e293b) - Dark text, headers, footer
+- **Background:** cream-50 (#fffbf0) and cream-100 (#fef3c7) - Warm tones
+- **Emergency:** red-600 - ONLY for crisis/emergency messaging
+
+## Key Files Reference
+
+### Protected Data
+- `src/data/locations.ts` - 15 PRODUCTION LOCATIONS (NEVER MODIFY)
+
+### Critical Configuration
+- `tailwind.config.ts` - Color theme and design system
+- `next.config.js` - Next.js configuration
+- `CLAUDE.md` - Complete architecture guide
+- `src/app/layout.tsx` - Root layout with Schema.org
+
+### Important Directories
+- `src/app/` - Pages (services, locations, programs, blog)
+- `src/components/` - Components organized by category
+- `src/data/` - Data files (locations, services, etc.)
+- `memory-bank/` - Session context files (projectbrief, techContext, activeContext, progress)
+
+## Project Context
+
+**Website:** SafeHarbor Behavioral Health - Mental health services for children & teens
+**Target:** Rank #1 for "child therapy Tulsa" within 72 hours
+**Primary Audience:** Low-income families seeking Medicaid-covered therapy
+**Launch Readiness:** 75% complete (SEO 90%, Content 85%, Technical 70%, Conversion 50%, Performance 60%, Compliance 40%)
+**Key Differentiator:** Body & Brain movement therapy program for ADHD/sensory processing
+
+## Simplicity Principle
+
+Every change should:
+- Impact minimal files (preferred: 1-3 files per task)
+- Use existing patterns (don't reinvent wheels)
+- Add no unnecessary complexity
+- Prevent new bugs rather than add features
+
+Per project instructions: "Make every task and code change as simple as possible."
+
+---
+
+For full architecture details, see `CLAUDE.md` in the project root.

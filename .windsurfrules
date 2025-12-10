@@ -1,0 +1,81 @@
+# Windsurf IDE Rules - SafeHarbor Behavioral Health
+
+Working on SafeHarbor Behavioral Health website (Next.js 14 + TypeScript).
+
+## Start Session - Read Memory Bank
+
+ALWAYS read these first:
+1. `memory-bank/projectbrief.md`
+2. `memory-bank/techContext.md`
+3. `memory-bank/activeContext.md`
+4. `memory-bank/progress.md`
+
+This takes 2 minutes and ensures context.
+
+## End Session - Update Memory Bank
+
+Before ending:
+1. Update `memory-bank/activeContext.md` with work summary, files changed, next steps
+2. Update `memory-bank/progress.md` with completed tasks marked [x]
+3. Tell user: "Memory bank updated."
+
+## Critical Rules
+
+1. NEVER modify `src/data/locations.ts` (15 production locations)
+2. Medicaid/SoonerCare MUST be prominent
+3. 988 hotline MUST be visible on all pages
+4. Mobile-first design priority
+5. Keep changes simple and minimal
+
+## Commands
+
+### "update memory bank"
+→ Update activeContext.md + progress.md, confirm
+
+### "continue where I left off"
+→ Load memory bank, summarize state, ask next priority
+
+## Tech Stack
+
+- Next.js 14 (App Router)
+- TypeScript (strict)
+- Tailwind CSS (teal-500, navy-800, cream)
+- Framer Motion (animations)
+- Google Generative AI (Voice Agent)
+
+## Color System
+
+- Teal-500: #14b8a6 (primary)
+- Navy-800: #1e293b (dark text)
+- Cream-50: #fffbf0 (background)
+- Red-600: Emergency only
+
+## Development
+
+```bash
+npm run dev      # Port 3000
+npm run build    # Production build
+npm run lint     # Linting
+```
+
+## File Structure
+
+- `src/app/[route]/page.tsx` - Pages
+- `src/components/[cat]/Component.tsx` - Components
+- `src/data/[name].ts` - Data files
+- `memory-bank/` - Session context (read/update every session)
+
+## Project Context
+
+- **Goal:** Rank #1 for "child therapy Tulsa"
+- **Audience:** Low-income families seeking Medicaid therapy
+- **Status:** 75% launch ready
+- **Key Program:** Body & Brain movement therapy
+
+## Key Principle
+
+Make every change as simple as possible. Impact minimal code.
+
+---
+
+See `CLAUDE.md` for full documentation.
