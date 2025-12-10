@@ -1,6 +1,6 @@
 # SafeHarbor Behavioral Health - Project Brief
 
-**Last Updated:** 2025-12-09
+**Last Updated:** 2025-12-10
 
 ## Project Identity
 - **Organization:** SafeHarbor Behavioral Health
@@ -14,13 +14,15 @@
 
 1. **LOCATION DATA PROTECTION** - The 15 locations in `src/data/locations.ts` are production business data. NEVER delete, remove, or modify core location data without explicit user instruction. These represent physical office locations critical to business operations.
 
-2. **Medicaid/SoonerCare Emphasis** - Must be prominently displayed on all pages. This is the primary insurance accepted and the key differentiator for our target audience (low-income families in crisis).
+2. **NO FALSE ACCREDITATIONS** - SafeHarbor is NOT CARF accredited. NEVER claim CARF accreditation on website, materials, or documentation. Only mention actual certifications (HIPAA compliance, licensed therapists, state-certified professionals).
 
-3. **988 Crisis Hotline Visibility** - Must appear on every page (red banner in header). We serve crisis-intervention as primary use case - users are often searching during mental health emergencies on mobile devices.
+3. **Medicaid/SoonerCare Emphasis** - Must be prominently displayed on all pages. This is the primary insurance accepted and the key differentiator for our target audience (low-income families in crisis).
 
-4. **Mobile-First Design** - Many users access during crisis situations on phones. Design and functionality must prioritize mobile experience.
+4. **988 Crisis Hotline Visibility** - Must appear on every page (red banner in header). We serve crisis-intervention as primary use case - users are often searching during mental health emergencies on mobile devices.
 
-5. **Same-Week Appointments** - Key selling point. Must be highlighted throughout the site to differentiate from competitors with 4-6 week wait times.
+5. **Mobile-First Design** - Many users access during crisis situations on phones. Design and functionality must prioritize mobile experience.
+
+6. **Same-Week Appointments** - Key selling point. Must be highlighted throughout the site to differentiate from competitors with 4-6 week wait times.
 
 ## Project Structure
 
