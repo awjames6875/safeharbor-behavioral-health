@@ -36,11 +36,6 @@ export default function TrustBadges({ variant = 'horizontal', className = '' }: 
       subtitle: 'No long waiting lists'
     },
     {
-      icon: '🏆',
-      title: 'CARF Accredited',
-      subtitle: 'Quality standards met'
-    },
-    {
       icon: '📱',
       title: '24/7 Crisis Support',
       subtitle: 'Always here to help'

@@ -46,7 +46,7 @@ function calculateGap(width: number) {
     return minGap + (maxGap - minGap) * ((width - minWidth) / (maxWidth - minWidth));
 }
 
-export const CircularTestimonials = ({
+export const CircularTestimonials = React.memo(({
     testimonials,
     autoplay = true,
     colors = {},
@@ -352,4 +352,6 @@ export const CircularTestimonials = ({
       `}</style>
         </div>
     );
-};
+});
+
+CircularTestimonials.displayName = 'CircularTestimonials';

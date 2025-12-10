@@ -1,9 +1,9 @@
 export default function TrustBar() {
   const trustItems = [
-    { icon: '🏆', text: 'CARF Accredited' },
     { icon: '✓', text: 'Medicaid Accepted' },
     { icon: '📅', text: 'Same Week Appointments' },
     { icon: '🆘', text: '24/7 Crisis Support' },
+    { icon: '🛡️', text: 'HIPAA Compliant' },
   ]
 
   return (
