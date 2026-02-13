@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import ParentIntakeForm from '@/components/ParentIntakeForm'
 
 export const metadata: Metadata = {
   title: 'For Parents | Body & Brain Program for Kids 3-8 | SafeHarbor Behavioral Health',
@@ -98,6 +99,19 @@ export default function ParentsPage() {
               allowFullScreen
             />
           </div>
+        </div>
+      </section>
+
+      {/* Quick Intake Form */}
+      <section className="py-20 px-4 bg-cream-50">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 text-center mb-4">
+            Enroll Your Child in 2 Minutes
+          </h2>
+          <p className="text-center text-navy-700 text-lg mb-8">
+            Fill out this quick form and we&apos;ll handle the rest. SoonerCare accepted — zero cost to you.
+          </p>
+          <ParentIntakeForm />
         </div>
       </section>
 

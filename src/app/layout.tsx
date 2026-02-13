@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   description: 'Leading child therapy in Tulsa, OK. SafeHarbor accepts Medicaid/SoonerCare. Comprehensive mental health services for children, teens, and families. Same-week appointments available.',
   keywords: 'child therapy Tulsa Medicaid, teen counseling Tulsa SoonerCare, mental health crisis Tulsa, behavioral health Tulsa Medicaid, anxiety therapy children, ADHD treatment Tulsa, family therapy Oklahoma, psychiatry Tulsa',
-  metadataBase: new URL('https://safeharborbh.com'),
+  metadataBase: new URL('https://safeharborbehavioralhealth.com'),
   alternates: {
     canonical: '/'
   },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, and families.',
     type: 'website',
     locale: 'en_US',
-    url: 'https://safeharborbh.com',
+    url: 'https://safeharborbehavioralhealth.com',
     siteName: 'SafeHarbor Behavioral Health',
     images: [
       {
@@ -82,16 +82,16 @@ export default function RootLayout({
     "@type": "MedicalBusiness",
     "name": "SafeHarbor Behavioral Health",
     "description": "Leading child therapy and mental health services in Tulsa, Oklahoma",
-    "url": "https://safeharborbh.com",
-    "logo": "https://safeharborbh.com/images/logo.png",
-    "image": "https://safeharborbh.com/images/og-image.jpg",
-    "telephone": "+1-918-555-0100",
+    "url": "https://safeharborbehavioralhealth.com",
+    "logo": "https://safeharborbehavioralhealth.com/images/logo.png",
+    "image": "https://safeharborbehavioralhealth.com/images/og-image.jpg",
+    "telephone": "+1-918-553-5746",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "1234 Main Street",
+      "streetAddress": "2510 East 15th Street",
       "addressLocality": "Tulsa",
       "addressRegion": "OK",
-      "postalCode": "74103",
+      "postalCode": "74104",
       "addressCountry": "US"
     },
     "geo": {

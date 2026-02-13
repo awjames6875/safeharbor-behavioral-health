@@ -13,17 +13,17 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
     {
       position: 1,
       name: 'Home',
-      item: 'https://safeharborbh.com'
+      item: 'https://safeharborbehavioralhealth.com'
     },
     {
       position: 2,
       name: 'Locations',
-      item: 'https://safeharborbh.com/locations'
+      item: 'https://safeharborbehavioralhealth.com/locations'
     },
     {
       position: 3,
       name: location.name,
-      item: `https://safeharborbh.com/locations/${location.slug}`
+      item: `https://safeharborbehavioralhealth.com/locations/${location.slug}`
     }
   ];
 
@@ -40,7 +40,7 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
         telephone={location.phone}
         latitude={location.latitude}
         longitude={location.longitude}
-        url={`https://safeharborbh.com/locations/${location.slug}`}
+        url={`https://safeharborbehavioralhealth.com/locations/${location.slug}`}
         areaServed={location.neighborhoods}
         services={[
           'Individual Child Therapy',

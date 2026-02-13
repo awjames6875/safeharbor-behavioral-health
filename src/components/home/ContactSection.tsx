@@ -13,10 +13,42 @@ export default function ContactSection() {
     preferredTime: '',
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
-    alert('Thank you for reaching out. We will contact you within 24 hours.')
+    setIsSubmitting(true)
+    setSubmitStatus('idle')
+
+    try {
+      const nameParts = formData.parentName.trim().split(/\s+/)
+      const firstName = nameParts[0] || ''
+      const lastName = nameParts.slice(1).join(' ') || ''
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          firstName,
+          lastName,
+          email: formData.email,
+          phone: formData.phone,
+          childAge: formData.childAge,
+          insurance: formData.insurance,
+          message: formData.concern,
+          preferredTime: formData.preferredTime,
+          source: 'website-homepage-contact',
+        }),
+      })
+
+      if (!response.ok) throw new Error('Submission failed')
+      setSubmitStatus('success')
+    } catch {
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -72,10 +104,10 @@ export default function ContactSection() {
                   📞 Call Us Today
                 </h3>
                 <a
-                  href="tel:918-555-0100"
+                  href="tel:918-553-5746"
                   className="text-3xl font-bold text-teal-600 hover:text-teal-700 transition-colors"
                 >
-                  (918) 555-0100
+                  (918) 553-5746
                 </a>
                 
                 <div className="mt-6 space-y-3">
@@ -98,8 +130,8 @@ export default function ContactSection() {
                     </svg>
                     <div>
                       <p className="font-semibold text-navy-800">Main Location</p>
-                      <p className="text-gray-600">1234 Main Street</p>
-                      <p className="text-gray-600">Tulsa, OK 74103</p>
+                      <p className="text-gray-600">2510 East 15th Street</p>
+                      <p className="text-gray-600">Tulsa, OK 74104</p>
                     </div>
                   </div>
                 </div>
@@ -242,13 +274,25 @@ export default function ContactSection() {
 
                   <button
                     type="submit"
-                    className="w-full bg-teal-500 text-white px-6 py-3 rounded-md hover:bg-teal-600 transition-colors font-semibold text-lg"
+                    disabled={isSubmitting}
+                    className="w-full bg-teal-500 text-white px-6 py-3 rounded-md hover:bg-teal-600 transition-colors font-semibold text-lg disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    Request Appointment
+                    {isSubmitting ? 'Submitting...' : 'Request Appointment'}
                   </button>
 
+                  {submitStatus === 'success' && (
+                    <p className="text-green-600 text-sm text-center font-medium">
+                      ✓ Thank you! We&apos;ll contact you within 24 hours.
+                    </p>
+                  )}
+                  {submitStatus === 'error' && (
+                    <p className="text-red-600 text-sm text-center">
+                      Something went wrong. Please call us at (918) 391-3606.
+                    </p>
+                  )}
+
                   <p className="text-xs text-gray-500 text-center">
-                    We'll contact you within 24 hours to schedule your appointment.
+                    We&apos;ll contact you within 24 hours to schedule your appointment.
                     For immediate assistance, please call us directly.
                   </p>
                 </form>

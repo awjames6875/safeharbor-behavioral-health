@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { blogPosts } from '@/data/blogPosts'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://safeharborbh.com'
+  const baseUrl = 'https://safeharborbehavioralhealth.com'
   
   // Static pages
   const staticPages = [

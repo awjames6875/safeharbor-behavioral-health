@@ -11,7 +11,7 @@ import ContactSection from '@/components/home/ContactSection'
 
 export const metadata: Metadata = {
   title: 'Child Therapy Tulsa | Teen Mental Health Services | SafeHarbor',
-  description: 'Leading child therapy in Tulsa, OK. Expert treatment for anxiety, depression, ADHD, and behavioral issues in children and teens. Call (918) 555-0100 to schedule.',
+  description: 'Leading child therapy in Tulsa, OK. Expert treatment for anxiety, depression, ADHD, and behavioral issues in children and teens. Call (918) 553-5746 to schedule.',
   keywords: 'child therapy Tulsa, teen therapy Tulsa, child psychologist Oklahoma, anxiety treatment children, ADHD therapy Tulsa, depression treatment teens, behavioral therapy',
   alternates: {
     canonical: '/'
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Child Therapy Tulsa | Teen Mental Health Services',
     description: 'Leading child therapy in Tulsa, OK. Expert treatment for anxiety, depression, ADHD, and behavioral issues in children and teens.',
-    url: 'https://safeharborbh.com',
+    url: 'https://safeharborbehavioralhealth.com',
     images: [
       {
         url: '/images/home-og-image.jpg',
@@ -42,7 +42,7 @@ export default function HomePage() {
     "@type": "WebPage",
     "name": "Child Therapy Tulsa | Teen Mental Health Services",
     "description": "Leading child therapy in Tulsa, OK. Expert treatment for anxiety, depression, ADHD, and behavioral issues in children and teens.",
-    "url": "https://safeharborbh.com",
+    "url": "https://safeharborbehavioralhealth.com",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "SafeHarbor Behavioral Health",
@@ -84,7 +84,7 @@ export default function HomePage() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://safeharborbh.com"
+          "item": "https://safeharborbehavioralhealth.com"
         }
       ]
     }

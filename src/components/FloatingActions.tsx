@@ -16,7 +16,7 @@ export default function FloatingActions() {
     {
       icon: '📞',
       label: 'Call Now',
-      href: 'tel:918-391-3606',
+      href: 'tel:918-553-5746',
       color: 'from-green-500 to-emerald-500'
     },
     {

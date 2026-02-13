@@ -32,7 +32,7 @@ export default function StickyHeader() {
         
         <div className="flex items-center space-x-2">
           <a
-            href="tel:918-391-3606"
+            href="tel:918-553-5746"
             className="bg-white text-teal-600 px-4 py-2 rounded-full font-semibold text-sm hover:bg-gray-100 transition-colors"
             onClick={() => {
               if (typeof window !== 'undefined' && window.gtag) {
@@ -44,7 +44,7 @@ export default function StickyHeader() {
               }
             }}
           >
-            📞 (918) 391-3606
+            📞 (918) 553-5746
           </a>
           
           <Link

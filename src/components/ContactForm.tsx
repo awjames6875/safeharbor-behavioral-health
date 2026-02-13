@@ -55,8 +55,32 @@ export default function ContactForm({
     }
 
     try {
-      // In a real implementation, this would send to your backend
-      await new Promise(resolve => setTimeout(resolve, 1000)) // Simulate API call
+      // Split parentName into first and last
+      const nameParts = formData.parentName.trim().split(/\s+/)
+      const firstName = nameParts[0] || ''
+      const lastName = nameParts.slice(1).join(' ') || ''
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          firstName,
+          lastName,
+          email: formData.email,
+          phone: formData.phone,
+          childName: formData.childName,
+          childAge: formData.childAge,
+          insurance: formData.insurance,
+          message: formData.concerns,
+          preferredLocation: formData.preferredLocation,
+          serviceInterest: formData.serviceInterest,
+          urgency: formData.urgency,
+          preferredContact: formData.preferredContact,
+          source: `website-contact-form-${formType}`,
+        }),
+      })
+
+      if (!response.ok) throw new Error('Submission failed')
       
       setSubmitStatus('success')
       
@@ -125,7 +149,7 @@ export default function ContactForm({
           </h3>
           <p className="text-green-700 mb-4">
             We've received your request and will contact you within 2 hours during business hours.
-            For immediate assistance, call <a href="tel:918-391-3606" className="font-bold underline">918-391-3606</a>.
+            For immediate assistance, call <a href="tel:918-553-5746" className="font-bold underline">918-553-5746</a>.
           </p>
           {formType === 'crisis' && (
             <div className="bg-red-100 border border-red-300 rounded p-4 mt-4">
@@ -411,7 +435,7 @@ export default function ContactForm({
           
           {submitStatus === 'error' && (
             <p className="text-red-600 text-sm text-center mt-2">
-              There was an error submitting your request. Please call us directly at (918) 391-3606.
+              There was an error submitting your request. Please call us directly at (918) 553-5746.
             </p>
           )}
         </div>

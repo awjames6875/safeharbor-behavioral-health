@@ -1,67 +1,77 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Medication Management Resources | Safe Harbor Behavioral Health',
+  description: 'Looking for medication management? Safe Harbor specializes in activity-based behavioral support for children ages 3-17 in Tulsa, OK. We can connect you with the right provider.',
+  alternates: {
+    canonical: 'https://safeharborbehavioralhealth.com/services/medication-management',
+  },
+}
 
 export default function MedicationManagementPage() {
   return (
     <div className="min-h-screen">
-      <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16">
-        <div className="container mx-auto px-4">
+      <section className="bg-gradient-to-br from-navy-700 to-navy-900 text-white py-16">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">Medication Management</h1>
-          <p className="text-xl opacity-95 max-w-2xl">
-            Expert psychiatric care to optimize your medication treatment plan for better mental health outcomes.
+          <p className="text-xl opacity-95 max-w-2xl mx-auto">
+            Connecting families with the right behavioral health resources in Tulsa
           </p>
         </div>
       </section>
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Comprehensive Medication Management</h2>
-            <p className="text-gray-600 mb-6">
-              Our board-certified psychiatrists provide expert medication management services to help you find the right 
-              treatment for your mental health condition. We take a careful, personalized approach to ensure medications 
-              are safe, effective, and well-tolerated.
-            </p>
-
-            <div className="bg-gray-50 rounded-lg p-8 mb-8">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Our Process</h3>
-              <div className="space-y-4">
-                <div className="flex items-start">
-                  <div className="bg-primary-100 rounded-full p-2 mr-4">
-                    <span className="text-primary-600 font-bold">1</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Initial Evaluation</h4>
-                    <p className="text-gray-600">Comprehensive assessment of symptoms, medical history, and current medications</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="bg-primary-100 rounded-full p-2 mr-4">
-                    <span className="text-primary-600 font-bold">2</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Treatment Planning</h4>
-                    <p className="text-gray-600">Develop a personalized medication plan based on your specific needs</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="bg-primary-100 rounded-full p-2 mr-4">
-                    <span className="text-primary-600 font-bold">3</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Ongoing Monitoring</h4>
-                    <p className="text-gray-600">Regular follow-ups to assess effectiveness and adjust as needed</p>
-                  </div>
-                </div>
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="bg-teal-50 border-2 border-teal-200 rounded-2xl p-10 mb-10">
+              <h2 className="text-2xl font-bold text-navy-800 mb-4">Looking for Medication Management?</h2>
+              <p className="text-gray-700 text-lg mb-6">
+                While Safe Harbor Behavioral Health specializes in <strong>activity-based behavioral support for children ages 3–17</strong> through 
+                our Body &amp; Brain program, we understand that some families need medication management services. We&apos;re happy to help 
+                connect you with trusted providers in the Tulsa area.
+              </p>
+              <p className="text-gray-700 text-lg mb-8">
+                Call us at{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-bold hover:underline">(918) 553-5746</a>{' '}
+                and we&apos;ll point you in the right direction.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://SafeHarborEasyEnrollment.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-teal-600 text-white px-8 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold text-lg"
+                >
+                  Enroll in Our Programs
+                </a>
+                <Link
+                  href="/services"
+                  className="inline-block bg-navy-700 text-white px-8 py-3 rounded-lg hover:bg-navy-800 transition-colors font-semibold text-lg"
+                >
+                  View Our Services
+                </Link>
               </div>
             </div>
 
-            <div className="text-center">
-              <Link
-                href="/contact"
-                className="inline-block bg-primary-600 text-white px-8 py-3 rounded-md hover:bg-primary-700 transition-colors font-semibold"
-              >
-                Schedule a Consultation
-              </Link>
+            <div className="text-left bg-gray-50 rounded-xl p-8">
+              <h3 className="text-xl font-bold text-navy-800 mb-4">What Safe Harbor Does Offer</h3>
+              <p className="text-gray-700 mb-4">
+                Safe Harbor provides trauma-informed, activity-based behavioral health services for children and teens ages 3–17, including:
+              </p>
+              <ul className="space-y-2 text-gray-700 mb-6">
+                <li className="flex items-start"><span className="text-teal-500 mr-2">✓</span> Body &amp; Brain activity-based therapy</li>
+                <li className="flex items-start"><span className="text-teal-500 mr-2">✓</span> Child and teen behavioral support</li>
+                <li className="flex items-start"><span className="text-teal-500 mr-2">✓</span> Family and parent coaching</li>
+                <li className="flex items-start"><span className="text-teal-500 mr-2">✓</span> School-based support services</li>
+                <li className="flex items-start"><span className="text-teal-500 mr-2">✓</span> Group therapy sessions</li>
+              </ul>
+              <p className="text-gray-700">
+                <strong>Current families:</strong>{' '}
+                <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">
+                  Access your Therapy Portal here
+                </a>
+              </p>
             </div>
           </div>
         </div>

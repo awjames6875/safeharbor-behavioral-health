@@ -8,10 +8,10 @@ import { getServiceBySlug } from '@/data/services'
 
 export const metadata: Metadata = {
   title: 'Child Therapy Tulsa | Medicaid Accepted | Play Therapy Ages 5-12',
-  description: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 391-3606.',
+  description: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
   keywords: 'child therapy Tulsa Medicaid, play therapy SoonerCare, child counseling Tulsa, kids therapy Medicaid, behavioral therapy children Tulsa, child psychologist Medicaid',
   alternates: {
-    canonical: 'https://safeharborbh.com/services/child-therapy'
+    canonical: 'https://safeharborbehavioralhealth.com/services/child-therapy'
   }
 }
 
@@ -22,17 +22,17 @@ export default function ChildTherapyPage() {
     {
       position: 1,
       name: 'Home',
-      item: 'https://safeharborbh.com'
+      item: 'https://safeharborbehavioralhealth.com'
     },
     {
       position: 2,
       name: 'Services', 
-      item: 'https://safeharborbh.com/services'
+      item: 'https://safeharborbehavioralhealth.com/services'
     },
     {
       position: 3,
       name: 'Child Therapy',
-      item: 'https://safeharborbh.com/services/child-therapy'
+      item: 'https://safeharborbehavioralhealth.com/services/child-therapy'
     }
   ];
 
@@ -61,7 +61,7 @@ export default function ChildTherapyPage() {
         <div className="container mx-auto px-4">
           <p className="text-center font-medium">
             ✓ Medicaid & SoonerCare Accepted ✓ Same-Week Appointments ✓ No Waitlist
-            <a href="tel:918-391-3606" className="ml-4 underline font-bold">Call (918) 391-3606</a>
+            <a href="tel:918-553-5746" className="ml-4 underline font-bold">Call (918) 553-5746</a>
           </p>
         </div>
       </div>
@@ -477,10 +477,10 @@ export default function ChildTherapyPage() {
                 Schedule Your Child's First Session
               </Link>
               <Link
-                href="tel:918-391-3606"
+                href="tel:918-553-5746"
                 className="inline-block border-2 border-white text-white px-8 py-4 rounded-md hover:bg-white hover:text-navy-800 transition-colors font-semibold text-lg"
               >
-                Call (918) 391-3606
+                Call (918) 553-5746
               </Link>
             </div>
             <p className="text-lg mt-6 opacity-90">

@@ -3,7 +3,7 @@ import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact SafeHarbor Behavioral Health | Schedule Child Therapy Tulsa',
-  description: 'Contact SafeHarbor Behavioral Health to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa. Call (918) 555-0100.',
+  description: 'Contact SafeHarbor Behavioral Health to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa. Call (918) 553-5746.',
   keywords: 'contact SafeHarbor Tulsa, schedule child therapy appointment, teen counseling contact, mental health services inquiry, therapy consultation Tulsa',
   alternates: {
     canonical: '/contact'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact SafeHarbor Behavioral Health | Schedule Child Therapy',
     description: 'Contact us to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa. We\'re here to help.',
-    url: 'https://safeharborbh.com/contact',
+    url: 'https://safeharborbehavioralhealth.com/contact',
     images: [
       {
         url: '/images/contact-og-image.jpg',
@@ -34,18 +34,18 @@ export default function ContactPage() {
     "@type": "ContactPage",
     "name": "Contact SafeHarbor Behavioral Health",
     "description": "Contact SafeHarbor Behavioral Health to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa.",
-    "url": "https://safeharborbh.com/contact",
+    "url": "https://safeharborbehavioralhealth.com/contact",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "SafeHarbor Behavioral Health",
-      "telephone": "+1-918-555-0100",
-      "email": "info@safeharborbh.com",
+      "telephone": "+1-918-553-5746",
+      "email": "support@safeharborbehavioralhealth.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "1234 Main Street",
+        "streetAddress": "2510 East 15th Street",
         "addressLocality": "Tulsa",
         "addressRegion": "OK",
-        "postalCode": "74103",
+        "postalCode": "74104",
         "addressCountry": "US"
       },
       "openingHours": [
@@ -80,13 +80,13 @@ export default function ContactPage() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://safeharborbh.com"
+          "item": "https://safeharborbehavioralhealth.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Contact",
-          "item": "https://safeharborbh.com/contact"
+          "item": "https://safeharborbehavioralhealth.com/contact"
         }
       ]
     }
@@ -129,8 +129,8 @@ export default function ContactPage() {
                     </svg>
                     <div>
                       <p className="font-medium text-gray-900">Phone</p>
-                      <a href="tel:918-555-0100" className="text-gray-600 hover:text-primary-600">
-                        (918) 555-0100
+                      <a href="tel:918-553-5746" className="text-gray-600 hover:text-primary-600">
+                        (918) 553-5746
                       </a>
                     </div>
                   </div>
@@ -141,8 +141,8 @@ export default function ContactPage() {
                     </svg>
                     <div>
                       <p className="font-medium text-gray-900">Email</p>
-                      <a href="mailto:info@safeharborbh.com" className="text-gray-600 hover:text-primary-600">
-                        info@safeharborbh.com
+                      <a href="mailto:support@safeharborbehavioralhealth.com" className="text-gray-600 hover:text-primary-600">
+                        support@safeharborbehavioralhealth.com
                       </a>
                     </div>
                   </div>

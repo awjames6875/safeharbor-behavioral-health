@@ -4,9 +4,9 @@
 export const SAFEHARBOR_KNOWLEDGE = {
     companyInfo: {
         name: "SafeHarbor Behavioral Health",
-        phone: "(918) 391-3606",
-        email: "info@safeharborbh.com",
-        address: "1234 Main Street, Tulsa, OK 74103",
+        phone: "(918) 553-5746",
+        email: "support@safeharborbehavioralhealth.com",
+        address: "2510 East 15th Street, Tulsa, OK 74104",
         hours: {
             weekdays: "Monday - Friday: 8:00 AM - 6:00 PM",
             saturday: "Saturday: 9:00 AM - 2:00 PM",
@@ -117,7 +117,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
 
     crisisResources: {
         emergencyLine: "988 (Suicide & Crisis Lifeline - Call or Text 24/7)",
-        safeharborCrisis: "(918) 391-3606 (SafeHarbor 24/7 crisis support)",
+        safeharborCrisis: "(918) 553-5746 (SafeHarbor 24/7 crisis support)",
         whenToCall: [
             "Suicidal thoughts or self-harm",
             "Severe panic attacks",
@@ -127,11 +127,11 @@ export const SAFEHARBOR_KNOWLEDGE = {
     },
 
     bookingInfo: {
-        phone: "(918) 391-3606",
+        phone: "(918) 553-5746",
         contactPage: "/contact",
         medicaidNote: "We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can often schedule within 24-48 hours.",
         process: [
-            "1. Call us at (918) 391-3606 or fill out the contact form",
+            "1. Call us at (918) 553-5746 or fill out the contact form",
             "2. We'll verify your insurance benefits",
             "3. Schedule an initial assessment",
             "4. Begin your personalized treatment plan"
@@ -168,12 +168,12 @@ CRISIS RESPONSE (IMMEDIATE):
 If someone mentions suicide, self-harm, or immediate danger:
 - Express care: "I'm really glad you told me this. Your safety matters."
 - Provide resources: "Please call 988 (Suicide & Crisis Lifeline) or text HOME to 741741"
-- Offer SafeHarbor's crisis line: (918) 391-3606 (24/7)
+- Offer SafeHarbor's crisis line: (918) 553-5746 (24/7)
 - Stay present: "I'm here with you. Are you safe right now?"
 
 BOOKING & SERVICES:
 - After emotional support, gently ask if they'd like to connect with a professional
-- Phone: (918) 391-3606 | Contact page: /contact
+- Phone: (918) 553-5746 | Contact page: /contact
 - Medicaid/SoonerCare accepted | Same-week appointments often available
 - Body & Brain movement therapy program for ages 5-18
 

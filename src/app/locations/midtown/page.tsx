@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Child Therapy Midtown Tulsa | SafeHarbor Behavioral Health',
     description: 'Expert child therapy and teen counseling in Midtown Tulsa. Specializing in anxiety, depression, ADHD, and behavioral issues. Medicaid accepted.',
-    url: 'https://safeharborbh.com/locations/midtown',
+    url: 'https://safeharborbehavioralhealth.com/locations/midtown',
     images: [
       {
         url: '/images/midtown-tulsa-og-image.jpg',
@@ -33,16 +33,16 @@ export default function MidtownPage() {
     "@type": ["MedicalBusiness", "LocalBusiness"],
     "name": "SafeHarbor Behavioral Health - Midtown Tulsa",
     "description": "Child therapy and teen counseling services in Midtown Tulsa, specializing in anxiety, depression, ADHD, and behavioral issues.",
-    "url": "https://safeharborbh.com/locations/midtown",
+    "url": "https://safeharborbehavioralhealth.com/locations/midtown",
     "telephone": "+1-918-555-0101",
     "faxNumber": "+1-918-555-0201",
-    "email": "midtown@safeharborbh.com",
+    "email": "support@safeharborbehavioralhealth.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "1234 Main Street",
+      "streetAddress": "2510 East 15th Street",
       "addressLocality": "Tulsa",
       "addressRegion": "OK", 
-      "postalCode": "74103",
+      "postalCode": "74104",
       "addressCountry": "US"
     },
     "geo": {
@@ -144,19 +144,19 @@ export default function MidtownPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://safeharborbh.com"
+        "item": "https://safeharborbehavioralhealth.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Locations",
-        "item": "https://safeharborbh.com/locations"
+        "item": "https://safeharborbehavioralhealth.com/locations"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Midtown Tulsa",
-        "item": "https://safeharborbh.com/locations/midtown"
+        "item": "https://safeharborbehavioralhealth.com/locations/midtown"
       }
     ]
   };
@@ -178,7 +178,7 @@ export default function MidtownPage() {
         <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold mb-4">Midtown Tulsa Location</h1>
-          <p className="text-xl opacity-95">1234 Main Street, Tulsa, OK 74103</p>
+          <p className="text-xl opacity-95">2510 East 15th Street, Tulsa, OK 74104</p>
         </div>
       </section>
 

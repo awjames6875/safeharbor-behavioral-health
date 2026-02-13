@@ -421,10 +421,10 @@ export default function NorthTulsaPage() {
                   Begin Your Journey
                 </Link>
                 <a
-                  href="tel:918-555-0100"
+                  href="tel:918-553-5746"
                   className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-teal-600 transition-all transform hover:scale-105 font-bold text-lg"
                 >
-                  Call Now: (918) 555-0100
+                  Call Now: (918) 553-5746
                 </a>
               </div>
               <p className="mt-6 text-sm opacity-90">

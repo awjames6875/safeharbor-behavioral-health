@@ -451,10 +451,10 @@ export default function TeenCounselingPage() {
                 Schedule Teen Counseling
               </Link>
               <Link
-                href="tel:918-391-3606"
+                href="tel:918-553-5746"
                 className="inline-block border-2 border-white text-white px-8 py-4 rounded-md hover:bg-white hover:text-navy-800 transition-colors font-semibold text-lg"
               >
-                Call (918) 391-3606
+                Call (918) 553-5746
               </Link>
             </div>
             <p className="text-lg mt-6 opacity-90">

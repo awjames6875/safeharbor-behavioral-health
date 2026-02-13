@@ -303,8 +303,8 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                     </div>
                     <div>
                       <p className="font-medium">SafeHarbor:</p>
-                      <a href="tel:918-555-0100" className="text-teal-300 hover:text-teal-200">
-                        (918) 555-0100
+                      <a href="tel:918-553-5746" className="text-teal-300 hover:text-teal-200">
+                        (918) 553-5746
                       </a>
                     </div>
                     <div>
@@ -386,14 +386,14 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               "name": "SafeHarbor Behavioral Health",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://safeharborbh.com/images/logo.png"
+                "url": "https://safeharborbehavioralhealth.com/images/logo.png"
               }
             },
             "datePublished": post.date,
             "dateModified": post.date,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": `https://safeharborbh.com/blog/${post.slug}`
+              "@id": `https://safeharborbehavioralhealth.com/blog/${post.slug}`
             },
             "keywords": post.tags.join(", "),
             "articleSection": "Mental Health",

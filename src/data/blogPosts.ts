@@ -2362,7 +2362,7 @@ Our team helps navigate benefit changes:
 ### Initial Contact Process
 
 **Scheduling Your First Appointment**
-1. Call our main number: (918) 555-0100
+1. Call our main number: (918) 553-5746
 2. Our intake coordinator will verify your benefits
 3. Schedule your comprehensive evaluation
 4. Receive confirmation and preparation materials

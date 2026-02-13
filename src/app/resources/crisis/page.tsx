@@ -91,8 +91,8 @@ export default function CrisisResourcesPage() {
               <div className="bg-white rounded-lg p-6 shadow-md border-l-4 border-teal-600">
                 <h3 className="text-xl font-bold text-teal-600 mb-2">SafeHarbor Crisis Line</h3>
                 <p className="text-gray-600 mb-4">Direct access to our crisis specialists</p>
-                <a href="tel:9185550100" className="block bg-teal-600 text-white text-center py-3 px-4 rounded-md hover:bg-teal-700 transition-colors font-semibold">
-                  (918) 555-0100
+                <a href="tel:9185535746" className="block bg-teal-600 text-white text-center py-3 px-4 rounded-md hover:bg-teal-700 transition-colors font-semibold">
+                  (918) 553-5746
                 </a>
               </div>
 
@@ -645,7 +645,7 @@ export default function CrisisResourcesPage() {
                     <p>Phone: ___________________________________</p>
                     <br />
                     <p className="font-semibold">Crisis Service: SafeHarbor Crisis Line</p>
-                    <p>Phone: (918) 555-0100</p>
+                    <p>Phone: (918) 553-5746</p>
                   </div>
                 </div>
 
@@ -1284,8 +1284,8 @@ export default function CrisisResourcesPage() {
                 <div className="space-y-3">
                   <div>
                     <p className="font-semibold">Crisis Line:</p>
-                    <a href="tel:9185550100" className="text-teal-300 hover:text-teal-200 text-lg">
-                      (918) 555-0100
+                    <a href="tel:9185535746" className="text-teal-300 hover:text-teal-200 text-lg">
+                      (918) 553-5746
                     </a>
                   </div>
                   <div>
@@ -1311,7 +1311,7 @@ export default function CrisisResourcesPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="tel:9185550100" 
+                href="tel:9185535746" 
                 className="inline-block bg-red-600 text-white px-8 py-4 rounded-lg hover:bg-red-700 transition-colors font-bold text-lg"
               >
                 Call Crisis Line Now
@@ -1343,7 +1343,7 @@ export default function CrisisResourcesPage() {
               </div>
               <div className="text-center">
                 <p className="text-sm opacity-90">SafeHarbor Crisis Line</p>
-                <p className="text-2xl font-bold">(918) 555-0100</p>
+                <p className="text-2xl font-bold">(918) 553-5746</p>
               </div>
               <div className="text-center">
                 <p className="text-sm opacity-90">Crisis Text Line</p>

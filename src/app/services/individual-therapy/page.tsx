@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Individual Therapy Tulsa | Child & Teen Counseling | SafeHarbor',
-  description: 'Expert individual therapy in Tulsa for children, teens, and adults. CBT, DBT, EMDR, and mindfulness-based approaches. Medicaid accepted. Call (918) 555-0100.',
+  description: 'Expert individual therapy in Tulsa for children, teens, and adults. CBT, DBT, EMDR, and mindfulness-based approaches. Medicaid accepted. Call (918) 553-5746.',
   keywords: 'individual therapy Tulsa, child therapy sessions, teen counseling Oklahoma, CBT therapy Tulsa, DBT therapy, EMDR therapy, anxiety therapy Tulsa, depression counseling',
   alternates: {
     canonical: '/services/individual-therapy'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Individual Therapy Tulsa | Child & Teen Counseling | SafeHarbor',
     description: 'Expert individual therapy using CBT, DBT, EMDR, and mindfulness approaches. Personalized treatment for children, teens, and adults in Tulsa.',
-    url: 'https://safeharborbh.com/services/individual-therapy',
+    url: 'https://safeharborbehavioralhealth.com/services/individual-therapy',
     images: [
       {
         url: '/images/individual-therapy-og-image.jpg',
@@ -39,14 +39,14 @@ export default function IndividualTherapyPage() {
       "name": "SafeHarbor Behavioral Health",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "1234 Main Street",
+        "streetAddress": "2510 East 15th Street",
         "addressLocality": "Tulsa",
         "addressRegion": "OK",
-        "postalCode": "74103",
+        "postalCode": "74104",
         "addressCountry": "US"
       },
-      "telephone": "+1-918-555-0100",
-      "url": "https://safeharborbh.com"
+      "telephone": "+1-918-553-5746",
+      "url": "https://safeharborbehavioralhealth.com"
     },
     "serviceType": "Mental Health Treatment",
     "areaServed": {
@@ -98,8 +98,8 @@ export default function IndividualTherapyPage() {
     "availableChannel": {
       "@type": "ServiceChannel",
       "availableLanguage": "English",
-      "servicePhone": "+1-918-555-0100",
-      "serviceUrl": "https://safeharborbh.com/contact"
+      "servicePhone": "+1-918-553-5746",
+      "serviceUrl": "https://safeharborbehavioralhealth.com/contact"
     }
   };
 
@@ -111,19 +111,19 @@ export default function IndividualTherapyPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://safeharborbh.com"
+        "item": "https://safeharborbehavioralhealth.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Services",
-        "item": "https://safeharborbh.com/services"
+        "item": "https://safeharborbehavioralhealth.com/services"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Individual Therapy",
-        "item": "https://safeharborbh.com/services/individual-therapy"
+        "item": "https://safeharborbehavioralhealth.com/services/individual-therapy"
       }
     ]
   };

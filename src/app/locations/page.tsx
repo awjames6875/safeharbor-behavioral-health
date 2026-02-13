@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'SafeHarbor Locations | Child Therapy Throughout Tulsa Area',
     description: 'Convenient SafeHarbor locations throughout Tulsa metro. Find child therapy services near you in Midtown, South Tulsa, Broken Arrow, and more.',
-    url: 'https://safeharborbh.com/locations',
+    url: 'https://safeharborbehavioralhealth.com/locations',
     images: [
       {
         url: '/images/locations-og-image.jpg',

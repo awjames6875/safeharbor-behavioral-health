@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About SafeHarbor Behavioral Health | Child Therapy Tulsa',
     description: 'Learn about SafeHarbor\'s mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.',
-    url: 'https://safeharborbh.com/about',
+    url: 'https://safeharborbehavioralhealth.com/about',
     images: [
       {
         url: '/images/about-og-image.jpg',
@@ -33,7 +33,7 @@ export default function AboutPage() {
     "@type": "WebPage",
     "name": "About SafeHarbor Behavioral Health",
     "description": "Learn about SafeHarbor Behavioral Health's mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.",
-    "url": "https://safeharborbh.com/about",
+    "url": "https://safeharborbehavioralhealth.com/about",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "SafeHarbor Behavioral Health",
@@ -83,13 +83,13 @@ export default function AboutPage() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://safeharborbh.com"
+          "item": "https://safeharborbehavioralhealth.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "About",
-          "item": "https://safeharborbh.com/about"
+          "item": "https://safeharborbehavioralhealth.com/about"
         }
       ]
     }

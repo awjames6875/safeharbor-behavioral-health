@@ -808,8 +808,8 @@ export default function BodyBrainPage() {
                   <p className="text-teal-100">Next program start date</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-cream-100 mb-2">$0</div>
-                  <p className="text-teal-100">Cost for initial assessment</p>
+                  <div className="text-3xl font-bold text-cream-100 mb-2">Free</div>
+                  <p className="text-teal-100">Initial assessment</p>
                 </div>
               </div>
             </div>
@@ -825,7 +825,7 @@ export default function BodyBrainPage() {
                   </div>
                   <div>
                     <label className="block text-navy-700 font-medium mb-2">Phone Number</label>
-                    <input type="tel" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" placeholder="(918) 555-0100" />
+                    <input type="tel" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" placeholder="(918) 553-5746" />
                   </div>
                 </div>
                 <div>
@@ -897,10 +897,10 @@ export default function BodyBrainPage() {
             <div className="mb-8">
               <p className="text-teal-100 text-lg mb-2">Prefer to call? Speak with our Body & Brain specialist:</p>
               <Link 
-                href="tel:918-555-0100" 
+                href="tel:918-553-5746" 
                 className="text-3xl md:text-4xl font-bold text-cream-100 hover:text-cream-200 transition-colors"
               >
-                (918) 555-0100
+                (918) 553-5746
               </Link>
             </div>
 

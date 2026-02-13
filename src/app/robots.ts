@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/admin/'],
     },
-    sitemap: 'https://safeharborbh.com/sitemap.xml',
+    sitemap: 'https://safeharborbehavioralhealth.com/sitemap.xml',
   }
 }

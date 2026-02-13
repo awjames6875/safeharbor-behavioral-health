@@ -33,8 +33,8 @@ export default function StickyBookingCTA() {
         </Link>
         
         <div className="text-center">
-          <Link href="tel:918-391-3606" className="text-xl font-bold hover:text-cream-100 transition-colors">
-            (918) 391-3606
+          <Link href="tel:918-553-5746" className="text-xl font-bold hover:text-cream-100 transition-colors">
+            (918) 553-5746
           </Link>
           <p className="text-sm opacity-90">Same-Week Appointments</p>
         </div>
@@ -62,8 +62,8 @@ export default function StickyBookingCTA() {
             <span>Book Now</span>
           </Link>
           
-          <Link href="tel:918-391-3606" className="text-lg font-bold hover:text-cream-100 transition-colors">
-            (918) 391-3606
+          <Link href="tel:918-553-5746" className="text-lg font-bold hover:text-cream-100 transition-colors">
+            (918) 553-5746
           </Link>
         </div>
         

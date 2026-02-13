@@ -55,7 +55,7 @@ export default function InsuranceSection() {
                 Learn About Financial Assistance
               </Link>
               <a
-                href="tel:918-555-0100"
+                href="tel:918-553-5746"
                 className="inline-block bg-white text-teal-600 border-2 border-teal-500 px-6 py-3 rounded-md hover:bg-teal-50 transition-colors font-semibold"
               >
                 Call for Insurance Verification

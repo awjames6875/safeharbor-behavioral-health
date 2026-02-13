@@ -14,7 +14,7 @@ export const services: ServiceData[] = [
     slug: 'child-therapy',
     name: 'Individual Child Therapy',
     description: 'Specialized therapy services for children ages 5-12 using play therapy, art therapy, and age-appropriate interventions.',
-    metaDescription: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 391-3606.',
+    metaDescription: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Does SafeHarbor accept Medicaid and SoonerCare for child therapy?',
@@ -26,7 +26,7 @@ export const services: ServiceData[] = [
       },
       {
         question: 'How quickly can my child start therapy with Medicaid coverage?',
-        answer: 'We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can often schedule within 24-48 hours. Call (918) 391-3606 to schedule your child\'s first appointment.'
+        answer: 'We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can often schedule within 24-48 hours. Call (918) 553-5746 to schedule your child\'s first appointment.'
       },
       {
         question: 'What mental health conditions do you treat in children?',
@@ -42,7 +42,7 @@ export const services: ServiceData[] = [
     slug: 'teen-counseling',
     name: 'Teen Counseling & Adolescent Therapy',
     description: 'Specialized counseling for teenagers dealing with depression, anxiety, peer pressure, academic stress, and identity issues.',
-    metaDescription: 'Teen counseling Tulsa - Medicaid accepted. Adolescent therapy for depression, anxiety, peer pressure. SafeHarbor accepts SoonerCare. Call (918) 391-3606.',
+    metaDescription: 'Teen counseling Tulsa - Medicaid accepted. Adolescent therapy for depression, anxiety, peer pressure. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is teen counseling covered by SoonerCare in Tulsa?',
@@ -70,7 +70,7 @@ export const services: ServiceData[] = [
     slug: 'family-therapy',
     name: 'Family Therapy & Counseling',
     description: 'Family counseling to improve communication, resolve conflicts, and strengthen relationships between family members.',
-    metaDescription: 'Family therapy Tulsa with Medicaid coverage. Strengthen family relationships, improve communication. SafeHarbor accepts SoonerCare. Call (918) 391-3606.',
+    metaDescription: 'Family therapy Tulsa with Medicaid coverage. Strengthen family relationships, improve communication. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Does Medicaid cover family therapy in Tulsa?',
@@ -98,7 +98,7 @@ export const services: ServiceData[] = [
     slug: 'crisis-intervention',
     name: 'Crisis Intervention & Emergency Mental Health',
     description: '24/7 crisis support for mental health emergencies, suicidal thoughts, and immediate safety concerns.',
-    metaDescription: 'Mental health crisis Tulsa - immediate help available. 24/7 crisis intervention, suicide prevention. Medicaid accepted. Call (918) 391-3606.',
+    metaDescription: 'Mental health crisis Tulsa - immediate help available. 24/7 crisis intervention, suicide prevention. Medicaid accepted. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is crisis intervention covered by Medicaid in Tulsa?',
@@ -110,7 +110,7 @@ export const services: ServiceData[] = [
       },
       {
         question: 'Do you provide 24/7 crisis support?',
-        answer: 'Yes, SafeHarbor provides 24/7 crisis support. Call our main number (918) 391-3606 and you\'ll be connected to our crisis response team, even after hours and on weekends.'
+        answer: 'Yes, SafeHarbor provides 24/7 crisis support. Call our main number (918) 553-5746 and you\'ll be connected to our crisis response team, even after hours and on weekends.'
       },
       {
         question: 'What happens during a crisis intervention?',
@@ -126,7 +126,7 @@ export const services: ServiceData[] = [
     slug: 'medication-management',
     name: 'Psychiatric Medication Management',
     description: 'Comprehensive medication evaluation and management by board-certified psychiatrists for children, teens, and adults.',
-    metaDescription: 'Psychiatric medication management Tulsa. Child psychiatrist accepts Medicaid/SoonerCare. ADHD, anxiety, depression meds. Call (918) 391-3606.',
+    metaDescription: 'Psychiatric medication management Tulsa. Child psychiatrist accepts Medicaid/SoonerCare. ADHD, anxiety, depression meds. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is psychiatric medication management covered by SoonerCare?',
@@ -154,7 +154,7 @@ export const services: ServiceData[] = [
     slug: 'group-therapy',
     name: 'Group Therapy for Children & Teens',
     description: 'Therapeutic group sessions providing peer support and social skills development for children and adolescents.',
-    metaDescription: 'Group therapy Tulsa for kids and teens. Peer support groups, social skills training. Medicaid accepted. SafeHarbor Behavioral Health. Call (918) 391-3606.',
+    metaDescription: 'Group therapy Tulsa for kids and teens. Peer support groups, social skills training. Medicaid accepted. SafeHarbor Behavioral Health. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Does Medicaid cover group therapy in Tulsa?',
@@ -182,7 +182,7 @@ export const services: ServiceData[] = [
     slug: 'behavioral-assessments',
     name: 'Comprehensive Behavioral Assessments',
     description: 'Thorough psychological and behavioral evaluations for ADHD, autism, learning disabilities, and other developmental concerns.',
-    metaDescription: 'Behavioral assessments Tulsa - ADHD testing, autism evaluations. Comprehensive psychological testing. Medicaid accepted. Call (918) 391-3606.',
+    metaDescription: 'Behavioral assessments Tulsa - ADHD testing, autism evaluations. Comprehensive psychological testing. Medicaid accepted. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Are behavioral assessments covered by Medicaid in Oklahoma?',
@@ -210,7 +210,7 @@ export const services: ServiceData[] = [
     slug: 'trauma-treatment',
     name: 'Trauma Treatment & PTSD Therapy',
     description: 'Specialized trauma-informed therapy for children and teens who have experienced abuse, neglect, or traumatic events.',
-    metaDescription: 'Trauma therapy Tulsa for children and teens. PTSD treatment, abuse recovery. Medicaid/SoonerCare accepted. SafeHarbor Behavioral Health. Call (918) 391-3606.',
+    metaDescription: 'Trauma therapy Tulsa for children and teens. PTSD treatment, abuse recovery. Medicaid/SoonerCare accepted. SafeHarbor Behavioral Health. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is trauma therapy covered by SoonerCare?',
@@ -238,7 +238,7 @@ export const services: ServiceData[] = [
     slug: 'school-support',
     name: 'School Support & Educational Advocacy',
     description: 'Collaboration with schools to support student success, including IEP/504 plan assistance and behavioral interventions.',
-    metaDescription: 'School support services Tulsa - IEP advocacy, 504 plans, behavioral interventions. Medicaid accepted. Tulsa schools collaboration. Call (918) 391-3606.',
+    metaDescription: 'School support services Tulsa - IEP advocacy, 504 plans, behavioral interventions. Medicaid accepted. Tulsa schools collaboration. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Does Medicaid cover school support services?',
@@ -266,7 +266,7 @@ export const services: ServiceData[] = [
     slug: 'parent-coaching',
     name: 'Parent Coaching & Family Support',
     description: 'Specialized coaching to help parents develop effective strategies for managing child behavior and supporting mental health.',
-    metaDescription: 'Parent coaching Tulsa - learn effective parenting strategies. Behavior management, family support. Medicaid accepted. Call (918) 391-3606.',
+    metaDescription: 'Parent coaching Tulsa - learn effective parenting strategies. Behavior management, family support. Medicaid accepted. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is parent coaching covered by Medicaid?',

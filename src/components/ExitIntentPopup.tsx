@@ -152,7 +152,7 @@ export default function ExitIntentPopup() {
 
               {submitStatus === 'error' && (
                 <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md text-sm">
-                  Something went wrong. Please try again or call us at (918) 391-3606.
+                  Something went wrong. Please try again or call us at (918) 553-5746.
                 </div>
               )}
 
@@ -178,10 +178,10 @@ export default function ExitIntentPopup() {
           <div className="text-center">
             <p className="text-sm text-gray-600 mb-2">Need immediate help?</p>
             <a
-              href="tel:918-391-3606"
+              href="tel:918-553-5746"
               className="text-teal-600 hover:text-teal-700 font-semibold"
             >
-              Call (918) 391-3606
+              Call (918) 553-5746
             </a>
             <span className="text-gray-400 mx-2">•</span>
             <span className="text-sm text-gray-600">We Accept Medicaid</span>

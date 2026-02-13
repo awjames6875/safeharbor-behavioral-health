@@ -97,7 +97,7 @@ export default function ServiceContactForm({ serviceName, serviceTitle }: Servic
 
       {submitStatus === 'error' && (
         <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md mb-6">
-          <p className="font-semibold">Something went wrong. Please call us at (918) 391-3606 or try again.</p>
+          <p className="font-semibold">Something went wrong. Please call us at (918) 553-5746 or try again.</p>
         </div>
       )}
 
@@ -131,7 +131,7 @@ export default function ServiceContactForm({ serviceName, serviceTitle }: Servic
               onChange={handleChange}
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-teal-500 focus:border-teal-500 outline-none transition-colors"
-              placeholder="(918) 555-0100"
+              placeholder="(918) 553-5746"
             />
           </div>
         </div>
@@ -256,10 +256,10 @@ export default function ServiceContactForm({ serviceName, serviceTitle }: Servic
         <div className="text-center pt-4 border-t border-gray-200">
           <p className="text-sm text-gray-600 mb-2">Prefer to call?</p>
           <a
-            href="tel:918-391-3606"
+            href="tel:918-553-5746"
             className="text-teal-600 hover:text-teal-700 font-semibold text-lg"
           >
-            (918) 391-3606
+            (918) 553-5746
           </a>
         </div>
       </form>

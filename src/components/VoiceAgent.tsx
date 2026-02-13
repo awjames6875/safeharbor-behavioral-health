@@ -183,7 +183,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
             }
         } catch (err) {
             console.error('Error generating response:', err);
-            setError('I apologize, but I encountered an issue. Please try again or call us at (918) 391-3606.');
+            setError('I apologize, but I encountered an issue. Please try again or call us at (918) 553-5746.');
         } finally {
             setIsLoading(false);
         }
@@ -194,11 +194,11 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
         const lower = input.toLowerCase();
 
         if (lower.includes('crisis') || lower.includes('suicide') || lower.includes('hurt myself') || lower.includes('end my life')) {
-            return "I'm here for you. If you're in crisis, please call 988 (Suicide & Crisis Lifeline) immediately - they're available 24/7. You can also call SafeHarbor's crisis line at (918) 391-3606. You're not alone, and help is available right now.";
+            return "I'm here for you. If you're in crisis, please call 988 (Suicide & Crisis Lifeline) immediately - they're available 24/7. You can also call SafeHarbor's crisis line at (918) 553-5746. You're not alone, and help is available right now.";
         }
 
         if (lower.includes('book') || lower.includes('appointment') || lower.includes('schedule')) {
-            return "I'd be happy to help you schedule an appointment! The fastest way is to call us at (918) 391-3606 - we often have same-week availability. You can also fill out the form on our contact page. Do you have any questions about our services before booking?";
+            return "I'd be happy to help you schedule an appointment! The fastest way is to call us at (918) 553-5746 - we often have same-week availability. You can also fill out the form on our contact page. Do you have any questions about our services before booking?";
         }
 
         if (lower.includes('body') && lower.includes('brain')) {
@@ -214,11 +214,11 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
         }
 
         if (lower.includes('hour') || lower.includes('open') || lower.includes('when')) {
-            return "We're open Monday-Friday 8:00 AM - 6:00 PM and Saturday 9:00 AM - 2:00 PM. For crisis support, we're available 24/7 at (918) 391-3606.";
+            return "We're open Monday-Friday 8:00 AM - 6:00 PM and Saturday 9:00 AM - 2:00 PM. For crisis support, we're available 24/7 at (918) 553-5746.";
         }
 
         if (lower.includes('location') || lower.includes('where') || lower.includes('address')) {
-            return "We're located at 1234 Main Street in Tulsa, OK 74103. We serve all Tulsa neighborhoods including Downtown, Midtown, South Tulsa, Brookside, and more. Call (918) 391-3606 for directions!";
+            return "We're located at 2510 East 15th Street in Tulsa, OK 74104. We serve all Tulsa neighborhoods including Downtown, Midtown, South Tulsa, Brookside, and more. Call (918) 553-5746 for directions!";
         }
 
         if (lower.includes('hello') || lower.includes('hi') || lower.includes('hey')) {
