@@ -18,7 +18,7 @@ export const services: ServiceData[] = [
     faqs: [
       {
         question: 'Does SafeHarbor accept Medicaid and SoonerCare for child therapy?',
-        answer: 'Yes! SafeHarbor proudly accepts Oklahoma Medicaid and SoonerCare for our Body &amp; Brain program and child behavioral health services. We can also help families apply for Medicaid/SoonerCare if they are not yet enrolled.'
+        answer: 'Yes! SafeHarbor proudly accepts Oklahoma Medicaid and SoonerCare for all child therapy services. We also accept most major insurance plans and offer sliding scale fees for families who need financial assistance.'
       },
       {
         question: 'What age children do you provide therapy for in Tulsa?',

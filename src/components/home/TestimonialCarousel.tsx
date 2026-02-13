@@ -5,22 +5,28 @@ import { CircularTestimonials } from '../ui/circular-testimonials'
 
 const testimonials = [
   {
-    quote: "The Body & Brain program meets kids right where they are — at daycare. No extra drives, no waiting rooms. My son doesn't even realize he's learning coping skills. He just thinks he's having fun.",
-    name: "Safe Harbor Parent",
-    designation: "Body & Brain Program",
-    src: "https://images.unsplash.com/photo-1609220136736-443140cffec6?q=80&w=1376&auto=format&fit=crop"
+    quote: "SafeHarbor changed our family's life. Our son is thriving now thanks to their Body & Brain program and compassionate therapists. It's truly a different approach that works.",
+    name: "Sarah M.",
+    designation: "Parent of 8-year-old",
+    src: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1376&auto=format&fit=crop"
   },
   {
-    quote: "As a daycare owner, partnering with Safe Harbor was the best decision we made. Parents see the difference in their kids, and our staff feel empowered knowing they're part of something bigger.",
-    name: "Daycare Partner",
-    designation: "Community Partner",
-    src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1376&auto=format&fit=crop"
+    quote: "The fact that they accept Medicaid made quality mental health care accessible for my daughter. The staff is incredible and treats us with such dignity and respect.",
+    name: "James T.",
+    designation: "Parent of 14-year-old",
+    src: "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?q=80&w=1376&auto=format&fit=crop"
   },
   {
-    quote: "Oklahoma kids deserve better access to mental health support. Safe Harbor brings preventive care directly into the communities that need it most — no barriers, no stigma.",
-    name: "Community Advocate",
-    designation: "Tulsa, Oklahoma",
-    src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1376&auto=format&fit=crop"
+    quote: "My teenager was struggling with anxiety and depression. The team at SafeHarbor gave us hope and real strategies that work at home and school.",
+    name: "Maria G.",
+    designation: "Parent of 16-year-old",
+    src: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?q=80&w=1376&auto=format&fit=crop"
+  },
+  {
+    quote: "24/7 crisis support saved us during our darkest hour. Forever grateful for SafeHarbor's immediate response and ongoing care for our family.",
+    name: "David L.",
+    designation: "Parent of 12-year-old",
+    src: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?q=80&w=1376&auto=format&fit=crop"
   }
 ]
 
