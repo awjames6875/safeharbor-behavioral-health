@@ -17,8 +17,11 @@ export default function PartnersPage() {
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
             You Have The Space.<br />We Bring The <span className="text-teal-500">Program.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-navy-100 max-w-2xl mx-auto mb-8">
-            Embedded behavioral health services inside your facility. We handle everything. You get the competitive advantage.
+          <p className="text-xl md:text-2xl text-navy-100 max-w-2xl mx-auto mb-4">
+            400+ Oklahoma daycares have permanently closed since November 2024. Funding is gone. Oversight is tightening. The ones that survive will be the ones that adapt.
+          </p>
+          <p className="text-lg text-red-300 font-semibold max-w-2xl mx-auto mb-8">
+            The question isn&apos;t whether your daycare will be affected. It&apos;s whether you&apos;ll be ready when it hits.
           </p>
           <Link
             href="/contact"
@@ -66,8 +69,11 @@ export default function PartnersPage() {
             <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mb-4">
               400+ Daycares Have Closed.<br />Yours Doesn&apos;t Have To Be Next.
             </h2>
-            <p className="text-navy-700 text-lg max-w-3xl mx-auto">
-              Since November 2024, over 400 Oklahoma childcare centers have permanently shut down. Federal COVID-era funding expired. The state slashed its childcare budget request from $57 million to $7.5 million. And new fraud investigations are tightening oversight on every provider.
+            <p className="text-navy-700 text-lg max-w-3xl mx-auto mb-4">
+              Since November 2024, over 400 Oklahoma childcare centers have permanently shut down. Federal COVID-era funding expired. The state slashed its childcare budget request from $57 million to $7.5 million. Fraud investigations are coming for providers who aren&apos;t compliant.
+            </p>
+            <p className="text-red-700 text-xl font-bold max-w-3xl mx-auto">
+              If you don&apos;t have a plan, you&apos;re next.
             </p>
           </div>
 
@@ -135,6 +141,35 @@ export default function PartnersPage() {
         </div>
       </section>
 
+      {/* Compliance Warning */}
+      <section className="bg-navy-900 py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6">
+            🚨 The Government Is Coming For <span className="text-red-400">Non-Compliant Providers</span>
+          </h2>
+          <p className="text-navy-200 text-lg max-w-3xl mx-auto mb-8">
+            In January 2026, HHS announced it&apos;s closing the Biden-era loophole that let states pay childcare providers without counting attendance. Federal fraud investigations are expanding. Providers without proper documentation, compliance systems, and oversight are being flagged.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <div className="bg-red-900/30 border border-red-500/30 rounded-xl p-6">
+              <p className="text-red-400 text-4xl font-black mb-2">87%</p>
+              <p className="text-navy-200">State childcare budget CUT from $57M to $7.5M</p>
+            </div>
+            <div className="bg-red-900/30 border border-red-500/30 rounded-xl p-6">
+              <p className="text-red-400 text-4xl font-black mb-2">400+</p>
+              <p className="text-navy-200">Oklahoma daycares permanently CLOSED</p>
+            </div>
+            <div className="bg-red-900/30 border border-red-500/30 rounded-xl p-6">
+              <p className="text-red-400 text-4xl font-black mb-2">$0</p>
+              <p className="text-navy-200">What non-compliant providers will receive</p>
+            </div>
+          </div>
+          <p className="text-teal-400 text-xl font-bold">
+            Safe Harbor handles ALL compliance. ODMHSAS. HIPAA. Medicaid documentation. Audits. You&apos;re covered.
+          </p>
+        </div>
+      </section>
+
       {/* Who This Is For */}
       <section className="bg-navy-50 py-20 px-4">
         <div className="max-w-4xl mx-auto">
@@ -177,10 +212,13 @@ export default function PartnersPage() {
       <section className="py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mb-4">
-            Zero Risk. All Upside.
+            The Daycares That Survive Will Have This.
           </h2>
-          <p className="text-navy-700 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-navy-700 text-lg mb-4 max-w-2xl mx-auto">
             We don&apos;t ask you to gamble on anything. We bring the staff. We handle the compliance. We manage the paperwork. We do the training. If it doesn&apos;t work, you lost nothing.
+          </p>
+          <p className="text-red-600 text-lg font-semibold mb-8 max-w-2xl mx-auto">
+            But if you do nothing? Look at the 400+ facilities that already closed. They thought they had time too.
           </p>
           <div className="bg-navy-900 text-white rounded-2xl p-8 md:p-12 text-left">
             <h3 className="text-2xl font-bold mb-6 text-teal-500">Quick Recap — What You Get:</h3>
@@ -209,10 +247,10 @@ export default function PartnersPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-500 py-16 px-4">
         <div className="max-w-3xl mx-auto text-center text-white">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
-            Ready To Stand Out?
+            Don&apos;t Wait Until It&apos;s Too Late.
           </h2>
           <p className="text-xl mb-8 text-teal-50">
-            One conversation. That&apos;s all it takes to see if this is right for your facility.
+            Every week another daycare closes its doors for good. One conversation is all it takes to make sure yours isn&apos;t next.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
