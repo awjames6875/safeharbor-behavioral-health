@@ -3,13 +3,6 @@ import Link from 'next/link'
 export default function InsuranceSection() {
   const insurances = [
     'Medicaid/SoonerCare',
-    'Blue Cross Blue Shield',
-    'United Healthcare',
-    'Aetna',
-    'Cigna',
-    'Health Choice',
-    'Community Care',
-    'TriCare',
   ]
 
   return (
@@ -17,10 +10,10 @@ export default function InsuranceSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-navy-800 mb-4">
-            We Accept Most Insurance Including Medicaid/SoonerCare
+            We Accept Medicaid/SoonerCare
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Quality mental health care should be accessible to everyone. We work with most major insurance plans.
+            Quality mental health care should be accessible to every child in Oklahoma.
           </p>
 
           <div className="bg-cream-100 rounded-lg p-8 mb-8">
@@ -36,16 +29,16 @@ export default function InsuranceSection() {
             </div>
             
             <p className="text-sm text-gray-600 italic">
-              Don't see your insurance? Call us - we may still be able to help!
+              Our group Body &amp; Brain program is covered through Medicaid/SoonerCare.
             </p>
           </div>
 
           <div className="bg-teal-50 border-2 border-teal-200 rounded-lg p-6">
             <h3 className="text-xl font-bold text-navy-800 mb-3">
-              No Insurance? We Can Help
+              Need Help Enrolling in Medicaid?
             </h3>
             <p className="text-gray-600 mb-4">
-              We offer sliding scale fees, payment plans, and can help you apply for Medicaid/SoonerCare.
+              We can help you apply for Medicaid/SoonerCare so your child can access our programs at no cost to you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
