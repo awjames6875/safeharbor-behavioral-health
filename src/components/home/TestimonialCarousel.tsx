@@ -6,25 +6,25 @@ import { CircularTestimonials } from '../ui/circular-testimonials'
 const testimonials = [
   {
     quote: "SafeHarbor changed our family's life. Our son is thriving now thanks to their Body & Brain program and compassionate therapists. It's truly a different approach that works.",
-    name: "Sarah M.",
+    name: "Safe Harbor Parent",
     designation: "Parent of 8-year-old",
     src: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1376&auto=format&fit=crop"
   },
   {
     quote: "The fact that they accept Medicaid made quality mental health care accessible for my daughter. The staff is incredible and treats us with such dignity and respect.",
-    name: "James T.",
+    name: "Daycare Parent",
     designation: "Parent of 14-year-old",
     src: "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?q=80&w=1376&auto=format&fit=crop"
   },
   {
     quote: "My teenager was struggling with anxiety and depression. The team at SafeHarbor gave us hope and real strategies that work at home and school.",
-    name: "Maria G.",
+    name: "Tulsa Parent",
     designation: "Parent of 16-year-old",
     src: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?q=80&w=1376&auto=format&fit=crop"
   },
   {
     quote: "24/7 crisis support saved us during our darkest hour. Forever grateful for SafeHarbor's immediate response and ongoing care for our family.",
-    name: "David L.",
+    name: "Safe Harbor Family",
     designation: "Parent of 12-year-old",
     src: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?q=80&w=1376&auto=format&fit=crop"
   }
