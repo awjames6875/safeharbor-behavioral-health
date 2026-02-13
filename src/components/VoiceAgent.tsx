@@ -194,7 +194,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
         const lower = input.toLowerCase();
 
         if (lower.includes('crisis') || lower.includes('suicide') || lower.includes('hurt myself') || lower.includes('end my life')) {
-            return "I'm here for you. If you're in crisis, please call 988 (Suicide & Crisis Lifeline) immediately - they're available 24/7. You can also reach SafeHarbor during business hours at (918) 553-5746. You're not alone, and help is available right now.";
+            return "I'm here for you. If you're in crisis, please call 988 (Suicide & Crisis Lifeline) immediately - they're available 24/7. You can also call SafeHarbor's crisis line at (918) 553-5746. You're not alone, and help is available right now.";
         }
 
         if (lower.includes('book') || lower.includes('appointment') || lower.includes('schedule')) {
@@ -214,7 +214,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
         }
 
         if (lower.includes('hour') || lower.includes('open') || lower.includes('when')) {
-            return "We're open Monday-Friday 8:00 AM - 6:00 PM and Saturday 9:00 AM - 2:00 PM. For 24/7 crisis support, call 988 (Suicide & Crisis Lifeline).";
+            return "We're open Monday-Friday 8:00 AM - 6:00 PM and Saturday 9:00 AM - 2:00 PM. For crisis support, we're available 24/7 at (918) 553-5746.";
         }
 
         if (lower.includes('location') || lower.includes('where') || lower.includes('address')) {

@@ -117,7 +117,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
 
     crisisResources: {
         emergencyLine: "988 (Suicide & Crisis Lifeline - Call or Text 24/7)",
-        safeharborCrisis: "(918) 553-5746 (SafeHarbor business hours)",
+        safeharborCrisis: "(918) 553-5746 (SafeHarbor 24/7 crisis support)",
         whenToCall: [
             "Suicidal thoughts or self-harm",
             "Severe panic attacks",
@@ -168,7 +168,7 @@ CRISIS RESPONSE (IMMEDIATE):
 If someone mentions suicide, self-harm, or immediate danger:
 - Express care: "I'm really glad you told me this. Your safety matters."
 - Provide resources: "Please call 988 (Suicide & Crisis Lifeline) or text HOME to 741741"
-- Offer the national crisis line: 988 (24/7). SafeHarbor: (918) 553-5746 (business hours)
+- Offer SafeHarbor's crisis line: (918) 553-5746 (24/7)
 - Stay present: "I'm here with you. Are you safe right now?"
 
 BOOKING & SERVICES:
