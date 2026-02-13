@@ -56,7 +56,7 @@ export default function AnimatedStats() {
             Making a Real <span className="gradient-text-accent">Difference</span>
           </h2>
           <p className="text-xl text-white/80">
-            Trusted by thousands of families across Tulsa
+            Our network has served over 1,000 families across Oklahoma
           </p>
         </div>
 
