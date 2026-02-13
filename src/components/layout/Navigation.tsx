@@ -16,6 +16,8 @@ export default function Navigation({ mobile = false, onItemClick }: NavProps) {
 
   const navItems = [
     { href: '/', label: 'Home' },
+    { href: '/parents', label: 'For Parents' },
+    { href: '/partners', label: 'Partner With Us' },
     {
       href: '/services',
       label: 'Services',
