@@ -58,6 +58,83 @@ export default function PartnersPage() {
         </div>
       </section>
 
+      {/* Oklahoma Daycare Crisis */}
+      <section className="bg-red-50 py-20 px-4 border-y-4 border-red-200">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-red-600 font-bold uppercase tracking-widest mb-3">⚠️ Oklahoma Childcare Crisis</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mb-4">
+              400+ Daycares Have Closed.<br />Yours Doesn&apos;t Have To Be Next.
+            </h2>
+            <p className="text-navy-700 text-lg max-w-3xl mx-auto">
+              Since November 2024, over 400 Oklahoma childcare centers have permanently shut down. Federal COVID-era funding expired. The state slashed its childcare budget request from $57 million to $7.5 million. And new fraud investigations are tightening oversight on every provider.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-12">
+            <div className="bg-white rounded-xl p-6 shadow-sm border-l-4 border-red-500">
+              <h3 className="text-xl font-bold text-navy-900 mb-2">📉 The Numbers Are Devastating</h3>
+              <ul className="text-navy-700 space-y-2">
+                <li>• <strong>400+</strong> centers closed since Nov 2024</li>
+                <li>• <strong>2,300</strong> childcare slots lost statewide</li>
+                <li>• <strong>34 of 77</strong> counties are childcare deserts</li>
+                <li>• <strong>$1.2 billion</strong> in economic losses from the crisis</li>
+                <li>• Staff pay as low as <strong>$11/hour</strong> — can&apos;t compete</li>
+              </ul>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm border-l-4 border-red-500">
+              <h3 className="text-xl font-bold text-navy-900 mb-2">🔍 Why It&apos;s Happening</h3>
+              <ul className="text-navy-700 space-y-2">
+                <li>• Federal pandemic funding <strong>expired</strong></li>
+                <li>• State budget for childcare <strong>slashed 87%</strong></li>
+                <li>• Subsidy eligibility <strong>reduced</strong></li>
+                <li>• Federal fraud investigations <strong>tightening oversight</strong></li>
+                <li>• Providers can&apos;t afford staff or meet ratios</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-navy-900 text-white rounded-2xl p-8 md:p-12">
+            <h3 className="text-2xl font-bold mb-4 text-teal-400">
+              🛡️ How Partnering With Safe Harbor Protects Your Daycare
+            </h3>
+            <p className="text-navy-100 text-lg mb-6">
+              While other daycares are closing, our partners are <strong>thriving</strong>. Here&apos;s why:
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h4 className="text-teal-400 font-bold mb-2">💰 New Revenue Stream</h4>
+                <p className="text-navy-200">Safe Harbor pays your facility a monthly lease fee. Predictable income that doesn&apos;t depend on state subsidies or government funding.</p>
+              </div>
+              <div>
+                <h4 className="text-teal-400 font-bold mb-2">📋 Full Compliance Protection</h4>
+                <p className="text-navy-200">With fraud investigations increasing, compliance matters more than ever. We handle ALL compliance — ODMHSAS, HIPAA, Medicaid documentation, audits. You&apos;re protected.</p>
+              </div>
+              <div>
+                <h4 className="text-teal-400 font-bold mb-2">📊 Grant-Ready Data</h4>
+                <p className="text-navy-200">Our tracking provides outcomes data that proves your facility&apos;s impact. When you apply for grants, you&apos;ll have the numbers to back it up.</p>
+              </div>
+              <div>
+                <h4 className="text-teal-400 font-bold mb-2">🏆 Competitive Advantage</h4>
+                <p className="text-navy-200">&ldquo;The daycare that also supports your child&apos;s emotional health&rdquo; — parents tell their friends. You stand out while others shut down.</p>
+              </div>
+              <div>
+                <h4 className="text-teal-400 font-bold mb-2">🎓 Staff Development</h4>
+                <p className="text-navy-200">Your staff can earn CMI certification — a real career path. Better trained staff = better retention = better outcomes for kids.</p>
+              </div>
+              <div>
+                <h4 className="text-teal-400 font-bold mb-2">🤝 Collaborative Care Model</h4>
+                <p className="text-navy-200">This isn&apos;t a vendor relationship — it&apos;s a partnership. We bring the clinical expertise. You bring the community trust. Together, we change kids&apos; lives.</p>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-center text-sm text-navy-500 mt-6">
+            Sources: News9, Read Frontier, Licensed Childcare Association of Oklahoma, Greater OKC Chamber, KGOU/NPR
+          </p>
+        </div>
+      </section>
+
       {/* Who This Is For */}
       <section className="bg-navy-50 py-20 px-4">
         <div className="max-w-4xl mx-auto">
