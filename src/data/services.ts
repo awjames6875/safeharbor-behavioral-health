@@ -110,7 +110,7 @@ export const services: ServiceData[] = [
       },
       {
         question: 'Do you provide 24/7 crisis support?',
-        answer: 'Yes, SafeHarbor provides 24/7 crisis support. Call our main number (918) 553-5746 and you\'ll be connected to our crisis response team, even after hours and on weekends.'
+        answer: 'For 24/7 crisis support, call 988 (Suicide & Crisis Lifeline). During business hours, you can also reach SafeHarbor directly at (918) 553-5746.'
       },
       {
         question: 'What happens during a crisis intervention?',
