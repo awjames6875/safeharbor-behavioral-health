@@ -94,9 +94,6 @@ const nextConfig = {
     ]
   },
 
-  // Font optimization
-  optimizeFonts: true,
-
   // Experimental features for performance
   experimental: {
     optimizePackageImports: ['lucide-react'],
