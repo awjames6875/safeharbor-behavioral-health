@@ -33,9 +33,9 @@ export default function OwassoPage() {
                 the balance between growth and maintaining neighborhood connections.
               </p>
               <p className="text-gray-600 mb-4">
-                Our Owasso location serves families throughout the city and surrounding areas, including established 
+                We proudly serve families throughout the city and surrounding areas, including established 
                 neighborhoods near downtown Owasso, new developments along 86th Street North, families in Collinsville, 
-                and those in northern Tulsa County areas. We're conveniently located with easy access from Highway 169, 
+                and those in northern Tulsa County areas. We're conveniently accessible with easy access from Highway 169, 
                 86th Street North, and Main Street, making it simple for families to fit therapy into their schedules 
                 alongside school activities, sports at the Owasso Sports Park, and community events.
               </p>
@@ -153,7 +153,7 @@ export default function OwassoPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our Owasso location is designed for busy families with multiple commitments:
+                    Our services are designed for busy families with multiple commitments:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 50+ spaces</li>
@@ -195,7 +195,7 @@ export default function OwassoPage() {
                 Easy to Find Near Owasso Landmarks
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is strategically located near the places Owasso families visit regularly:
+                Our team is strategically convenient to the places Owasso families visit regularly:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

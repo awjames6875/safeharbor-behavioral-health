@@ -32,9 +32,9 @@ export default function BrokenArrowPage() {
                 involvement, school spirit, and raising children in a safe, supportive environment.
               </p>
               <p className="text-gray-600 mb-4">
-                Our Broken Arrow location serves families throughout the city, including those in established neighborhoods 
+                We proudly serve families throughout the city, including those in established neighborhoods 
                 near Central Park, new developments around Aspen Creek, families near the Rose District, and those in 
-                surrounding areas like Coweta and South Broken Arrow. We're conveniently located with easy access from 
+                surrounding areas like Coweta and South Broken Arrow. We're conveniently accessible with easy access from 
                 Highway 51, 71st Street, and Aspen Avenue, making it simple for families to incorporate therapy into their 
                 busy schedules of school activities, sports, and community events.
               </p>
@@ -191,7 +191,7 @@ export default function BrokenArrowPage() {
                 Easy to Find Near Broken Arrow Landmarks
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is conveniently located near the places Broken Arrow families visit regularly:
+                Our team is conveniently convenient to the places Broken Arrow families visit regularly:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

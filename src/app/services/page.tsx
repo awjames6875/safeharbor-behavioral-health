@@ -231,13 +231,26 @@ export default function ServicesPage() {
                 </div>
               ))}
             </div>
-            <div className="text-center mt-8">
+            <div className="text-center mt-8 space-x-4">
+              <a
+                href="https://SafeHarborEasyEnrollment.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-teal-600 text-white px-8 py-3 rounded-md hover:bg-teal-700 transition-colors font-semibold"
+              >
+                Enroll Today
+              </a>
               <Link
                 href="/contact"
                 className="inline-block bg-primary-600 text-white px-8 py-3 rounded-md hover:bg-primary-700 transition-colors font-semibold"
               >
-                Schedule a Consultation
+                Contact Us
               </Link>
+            </div>
+            <div className="text-center mt-4">
+              <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-medium">
+                Current families: Access your Therapy Portal →
+              </a>
             </div>
           </div>
         </div>

@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Individual Therapy Tulsa | Child & Teen Counseling | SafeHarbor',
-  description: 'Expert individual therapy in Tulsa for children, teens, and adults. CBT, DBT, EMDR, and mindfulness-based approaches. Medicaid accepted. Call (918) 553-5746.',
+  description: 'Expert individual therapy in Tulsa for children and teens ages 3–17. activity-based and trauma-informed approaches. Medicaid accepted. Call (918) 553-5746.',
   keywords: 'individual therapy Tulsa, child therapy sessions, teen counseling Oklahoma, CBT therapy Tulsa, DBT therapy, EMDR therapy, anxiety therapy Tulsa, depression counseling',
   alternates: {
     canonical: '/services/individual-therapy'
   },
   openGraph: {
     title: 'Individual Therapy Tulsa | Child & Teen Counseling | SafeHarbor',
-    description: 'Expert individual therapy using CBT, DBT, EMDR, and mindfulness approaches. Personalized treatment for children, teens, and adults in Tulsa.',
+    description: 'Expert individual therapy using activity-based and trauma-informed approaches. Personalized treatment for children and teens ages 3–17 in Tulsa.',
     url: 'https://safeharborbehavioralhealth.com/services/individual-therapy',
     images: [
       {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'Individual Therapy Tulsa | SafeHarbor Behavioral Health',
-    description: 'Expert individual therapy using evidence-based approaches for children, teens, and adults.',
+    description: 'Expert individual therapy using evidence-based approaches for children and teens ages 3–17.',
     images: ['/images/individual-therapy-twitter-image.jpg']
   }
 }
@@ -55,7 +55,7 @@ export default function IndividualTherapyPage() {
     },
     "audience": {
       "@type": "PeopleAudience",
-      "audienceType": "Children, Teens, Adults"
+      "audienceType": "Children and Teens ages 3-17"
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

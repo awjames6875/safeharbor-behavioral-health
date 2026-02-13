@@ -33,7 +33,7 @@ export default function UnionDistrictPage() {
                 support for student achievement, and the high expectations that define the Redskin way of life.
               </p>
               <p className="text-gray-600 mb-4">
-                Our Union District location serves families throughout the area, including neighborhoods near Union 
+                We proudly serve families throughout the area, including neighborhoods near Union 
                 High School, families in the 61st and Yale corridor, residents of developments throughout the district 
                 boundaries, and those in south Tulsa areas served by Union schools. We're strategically positioned 
                 with excellent access from major routes like Yale Avenue, 61st Street, and 71st Street, making it 
@@ -153,7 +153,7 @@ export default function UnionDistrictPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Premium Access & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our Union District location is designed for busy, high-achieving families:
+                    Our services are designed for busy, high-achieving families:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 60+ premium spaces</li>
@@ -195,7 +195,7 @@ export default function UnionDistrictPage() {
                 Located in the Heart of Union Excellence
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is positioned near the landmarks and institutions that define Union District pride:
+                Our team is positioned near the landmarks and institutions that define Union District pride:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

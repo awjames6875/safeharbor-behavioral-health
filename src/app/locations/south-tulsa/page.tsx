@@ -33,7 +33,7 @@ export default function SouthTulsaPage() {
                 the emphasis on educational excellence, and the balance between suburban convenience and community connection.
               </p>
               <p className="text-gray-600 mb-4">
-                Our South Tulsa location serves families throughout the area, including established neighborhoods 
+                We proudly serve families throughout the area, including established neighborhoods 
                 near Yale Avenue and 71st Street, families along the river corridor, residents of newer developments 
                 near 101st and Memorial, and those throughout central and southern Tulsa County. We're strategically 
                 located with easy access from major corridors like Yale Avenue, Memorial Drive, and 71st Street, 
@@ -153,7 +153,7 @@ export default function SouthTulsaPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our South Tulsa location is designed for busy suburban families:
+                    Our services are designed for busy suburban families:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 60+ spaces available</li>
@@ -195,7 +195,7 @@ export default function SouthTulsaPage() {
                 Located in the Heart of South Tulsa
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is strategically positioned near the landmarks and destinations South Tulsa families visit regularly:
+                Our team is strategically positioned near the landmarks and destinations South Tulsa families visit regularly:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -429,7 +429,7 @@ export default function SouthTulsaPage() {
                 </a>
               </div>
               <p className="mt-6 text-sm opacity-90">
-                Conveniently located near Woodland Hills Mall, serving all of South Tulsa
+                Conveniently convenient to Woodland Hills Mall, serving all of South Tulsa
               </p>
             </div>
           </div>

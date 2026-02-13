@@ -398,24 +398,20 @@ export default function TeenCounselingPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-teal-600 mb-4">Our Success Metrics:</h3>
+                <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <div className="border-l-4 border-teal-500 pl-4">
-                    <p className="text-2xl font-bold text-navy-800">82%</p>
-                    <p className="text-sm text-gray-700">of teens show significant reduction in depression symptoms</p>
-                  </div>
-                  <div className="border-l-4 border-teal-500 pl-4">
-                    <p className="text-2xl font-bold text-navy-800">88%</p>
-                    <p className="text-sm text-gray-700">of teens report improved family relationships</p>
-                  </div>
-                  <div className="border-l-4 border-teal-500 pl-4">
-                    <p className="text-2xl font-bold text-navy-800">91%</p>
-                    <p className="text-sm text-gray-700">of teens complete their treatment plan successfully</p>
-                  </div>
-                  <div className="border-l-4 border-teal-500 pl-4">
-                    <p className="text-2xl font-bold text-navy-800">75%</p>
-                    <p className="text-sm text-gray-700">maintain improvements 12 months post-treatment</p>
-                  </div>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <a
+                    href="https://SafeHarborEasyEnrollment.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold"
+                  >
+                    Enroll Today
+                  </a>
+                  <p className="text-sm text-gray-600 mt-2">
+                    Current families: <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Access your Therapy Portal</a>
+                  </p>
                 </div>
               </div>
             </div>

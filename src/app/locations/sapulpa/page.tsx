@@ -33,10 +33,10 @@ export default function SapulpaPage() {
                 honoring the past while building for the future that characterizes Sapulpa families.
               </p>
               <p className="text-gray-600 mb-4">
-                Our Sapulpa location serves families throughout the city and surrounding areas, including established 
+                We proudly serve families throughout the city and surrounding areas, including established 
                 neighborhoods near downtown Sapulpa, families along Historic Route 66, residents of Kellyville and 
                 surrounding rural Creek County areas, and those throughout the region who appreciate Sapulpa's unique 
-                character. We're conveniently located with easy access from Highway 97, Main Street, and Highway 66, 
+                character. We're conveniently accessible with easy access from Highway 97, Main Street, and Highway 66, 
                 making it simple for families to coordinate therapy with school activities, work schedules, and the 
                 community events that are central to Sapulpa life.
               </p>
@@ -155,7 +155,7 @@ export default function SapulpaPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our Sapulpa location is designed to be accessible for families throughout Creek County:
+                    Our services are designed to be accessible for families throughout Creek County:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 40+ spaces available</li>
@@ -197,7 +197,7 @@ export default function SapulpaPage() {
                 Located in Historic Sapulpa
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is strategically positioned near the landmarks and places that define Sapulpa:
+                Our team is strategically positioned near the landmarks and places that define Sapulpa:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

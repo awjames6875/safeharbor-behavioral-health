@@ -32,7 +32,7 @@ export default function DowntownTulsaPage() {
                 headquarters to families enjoying the amenities of downtown living.
               </p>
               <p className="text-gray-600 mb-4">
-                Our convenient location serves families from all downtown neighborhoods, including residents of Tribune Lofts, 
+                We proudly serve families from all downtown neighborhoods, including residents of Tribune Lofts, 
                 Metro at Brady, and the growing residential communities near Guthrie Green. We're easily accessible from major 
                 employers like ONE Gas, Public Service Company of Oklahoma, and the numerous law firms and businesses along 
                 Boston Avenue and Main Street.
@@ -181,7 +181,7 @@ export default function DowntownTulsaPage() {
                 Easy to Find - Near Downtown Landmarks You Know
               </h2>
               <p className="text-gray-600 mb-6">
-                Our downtown office is centrally located and easy to find. We're situated in the heart of downtown, making us 
+                Our team is centrally located and easy to find. We're situated in the heart of downtown, making us 
                 convenient for families throughout the area:
               </p>
               

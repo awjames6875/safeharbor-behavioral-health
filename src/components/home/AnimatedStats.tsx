@@ -5,31 +5,31 @@ import CountUp from 'react-countup'
 
 const stats = [
   {
-    number: 1000,
-    suffix: '+',
-    label: 'Families Helped',
-    icon: '👨‍👩‍👧‍👦',
+    number: 3,
+    suffix: '–17',
+    label: 'Ages We Serve',
+    icon: '🧒',
     gradient: 'from-purple-500 to-pink-500'
   },
   {
-    number: 98,
-    suffix: '%',
-    label: 'Satisfaction Rate',
-    icon: '⭐',
+    number: 1,
+    suffix: '',
+    label: 'Tulsa Location',
+    icon: '📍',
     gradient: 'from-yellow-400 to-orange-500'
   },
   {
-    number: 24,
-    suffix: '/7',
-    label: 'Crisis Support',
-    icon: '🚨',
-    gradient: 'from-red-500 to-pink-500'
+    number: 16,
+    suffix: '+',
+    label: 'Communities Served',
+    icon: '🤝',
+    gradient: 'from-teal-500 to-blue-500'
   },
   {
-    number: 15,
-    suffix: '+',
-    label: 'Years of Service',
-    icon: '🏆',
+    number: 5,
+    suffix: '',
+    label: 'Days a Week',
+    icon: '📅',
     gradient: 'from-blue-500 to-teal-500'
   }
 ]

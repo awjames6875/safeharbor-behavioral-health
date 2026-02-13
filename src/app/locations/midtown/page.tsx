@@ -188,7 +188,7 @@ export default function MidtownPage() {
             <div className="bg-gray-50 rounded-lg p-8 mb-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">About Our Midtown Office</h2>
               <p className="text-gray-600 mb-4">
-                Our Midtown Tulsa location serves as our flagship facility, offering the full range of SafeHarbor services 
+                We proudly serve as our flagship facility, offering the full range of SafeHarbor services 
                 in a convenient, centrally-located setting. With easy access from major highways and ample parking, 
                 we're here to serve residents throughout the Tulsa metropolitan area.
               </p>

@@ -32,7 +32,7 @@ export default function CherryStreetPage() {
                 appreciate the walkability and central location that this district provides.
               </p>
               <p className="text-gray-600 mb-4">
-                Our office serves families throughout the Cherry Street corridor, including those living in nearby 
+                Our team serves families throughout the Cherry Street corridor, including those living in nearby 
                 neighborhoods like Terwilliger Heights, families with children at Cascia Hall, and those working 
                 in the medical district. Whether you're coming from Saint Francis Hospital, stopping by after 
                 shopping at Cherry Street Farmers Market, or coordinating with other appointments along this busy 

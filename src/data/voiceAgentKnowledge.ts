@@ -109,9 +109,9 @@ export const SAFEHARBOR_KNOWLEDGE = {
         },
         duration: "8-12 week cycles",
         results: {
-            anxietyReduction: "89% reduction in anxiety symptoms after 8 weeks",
-            emotionalRegulation: "76% improvement in emotional regulation skills",
-            confidence: "92% increase in self-reported confidence levels"
+            anxietyReduction: "Activity-based approaches help reduce anxiety through movement and mindfulness",
+            emotionalRegulation: "Children develop stronger emotional regulation through Body & Brain activities",
+            confidence: "Families report meaningful improvements in confidence and self-expression"
         }
     },
 

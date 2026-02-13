@@ -33,9 +33,9 @@ export default function JenksPage() {
                 family environments that characterizes this remarkable district.
               </p>
               <p className="text-gray-600 mb-4">
-                Our Jenks location serves families throughout the district and surrounding areas, including established 
+                We proudly serve families throughout the district and surrounding areas, including established 
                 neighborhoods near downtown Jenks, new developments along the Arkansas River, families in Glenpool, 
-                and those in south Tulsa County. We're conveniently located with easy access from Highway 75, 101st 
+                and those in south Tulsa County. We're conveniently accessible with easy access from Highway 75, 101st 
                 Street, and Elm Street, making it simple for families to coordinate therapy with the busy schedules 
                 of Jenks students involved in academics, athletics, fine arts, and the many extracurricular activities 
                 that make Jenks education so comprehensive.
@@ -155,7 +155,7 @@ export default function JenksPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our Jenks location is designed to accommodate busy families with packed schedules:
+                    Our services are designed to accommodate busy families with packed schedules:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Spacious parking lot with 45+ dedicated spaces</li>
@@ -197,7 +197,7 @@ export default function JenksPage() {
                 Located Near Jenks Landmarks
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is strategically positioned near the places Jenks families frequent:
+                Our team is strategically positioned near the places Jenks families frequent:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -41,7 +41,7 @@ export default function BrooksidePage() {
               <p className="text-gray-600">
                 Parents appreciate our convenient location, just minutes from Brookside's main corridor. Whether you're coming 
                 from a home near 41st and Peoria, the neighborhoods around Christ the King Church, or the areas near Marquette 
-                School, our office is easily accessible with ample parking. We schedule appointments to work around Brookside 
+                School, our team is easily accessible with ample parking. We schedule appointments to work around Brookside 
                 traffic patterns and popular community events.
               </p>
             </div>
@@ -187,7 +187,7 @@ export default function BrooksidePage() {
                 Easy to Find Near Brookside Landmarks
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is conveniently located near familiar Brookside landmarks:
+                Our team is conveniently convenient to familiar Brookside landmarks:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -34,7 +34,7 @@ export default function SandSpringsPage() {
                 embracing growth and progress.
               </p>
               <p className="text-gray-600 mb-4">
-                Our Sand Springs location serves families throughout the city and surrounding areas, including 
+                We proudly serve families throughout the city and surrounding areas, including 
                 established neighborhoods near downtown Sand Springs, families along the Arkansas River, residents 
                 of Mannford and surrounding rural areas, and those throughout western Tulsa County. We're conveniently 
                 located with easy access from Highway 97, 41st Street, and Highway 412, making it simple for families 
@@ -156,7 +156,7 @@ export default function SandSpringsPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Easy Access & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our Sand Springs location is designed to be accessible for families throughout the area:
+                    Our services are designed to be accessible for families throughout the area:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 45+ spaces available</li>
@@ -198,7 +198,7 @@ export default function SandSpringsPage() {
                 Located Near Sand Springs Landmarks
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is strategically positioned near the places Sand Springs families visit regularly:
+                Our team is strategically positioned near the places Sand Springs families visit regularly:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

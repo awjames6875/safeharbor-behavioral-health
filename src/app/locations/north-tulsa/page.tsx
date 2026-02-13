@@ -33,9 +33,9 @@ export default function NorthTulsaPage() {
                 this area through generations of change and growth.
               </p>
               <p className="text-gray-600 mb-4">
-                Our North Tulsa location serves families throughout the area, including historic neighborhoods near 
+                We proudly serve families throughout the area, including historic neighborhoods near 
                 Greenwood District, families along Admiral Boulevard, residents of Turley and surrounding communities, 
-                and those throughout northern Tulsa County. We're conveniently located with easy access from major 
+                and those throughout northern Tulsa County. We're conveniently accessible with easy access from major 
                 corridors like Pine Street, Admiral Boulevard, and Apache Street, making it accessible for families 
                 to coordinate therapy with school activities, work schedules, and community involvement.
               </p>
@@ -152,7 +152,7 @@ export default function NorthTulsaPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Accessible Location & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our North Tulsa location is designed to be accessible and welcoming for all families:
+                    Our services are designed to be accessible and welcoming for all families:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 50+ spaces available</li>
@@ -194,7 +194,7 @@ export default function NorthTulsaPage() {
                 Located in Historic North Tulsa
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is positioned near the landmarks and institutions that define North Tulsa's rich heritage:
+                Our team is positioned near the landmarks and institutions that define North Tulsa's rich heritage:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

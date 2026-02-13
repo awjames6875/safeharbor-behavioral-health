@@ -34,9 +34,9 @@ export default function WestTulsaPage() {
                 part of Tulsa.
               </p>
               <p className="text-gray-600 mb-4">
-                Our West Tulsa location serves families throughout the area, including historic neighborhoods like 
+                We proudly serve families throughout the area, including historic neighborhoods like 
                 Red Fork, families along Southwest Boulevard and 41st Street, residents of newer developments, and 
-                those in surrounding communities throughout western Tulsa County. We're conveniently located with 
+                those in surrounding communities throughout western Tulsa County. We're conveniently accessible with 
                 easy access from major west-side routes and Highway 75, making it accessible for families to coordinate 
                 therapy with work schedules, school activities, and the community involvement that characterizes 
                 West Tulsa living.
@@ -155,7 +155,7 @@ export default function WestTulsaPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Easy Access & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our West Tulsa location is designed to be accessible and convenient for working families:
+                    Our services are designed to be accessible and convenient for working families:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 50+ spaces available</li>
@@ -197,7 +197,7 @@ export default function WestTulsaPage() {
                 Located in the Heart of West Tulsa
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is positioned near the landmarks and community centers that define West Tulsa:
+                Our team is positioned near the landmarks and community centers that define West Tulsa:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

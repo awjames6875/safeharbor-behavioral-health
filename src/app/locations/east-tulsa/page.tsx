@@ -33,7 +33,7 @@ export default function EastTulsaPage() {
                 between city conveniences and community connection that characterizes this growing area.
               </p>
               <p className="text-gray-600 mb-4">
-                Our East Tulsa location serves families throughout the area, including neighborhoods near the Arkansas 
+                We proudly serve families throughout the area, including neighborhoods near the Arkansas 
                 River, families along major corridors like 21st Street and Garnett Road, residents of newer developments 
                 near 31st and Mingo, and those in surrounding communities like Catoosa and eastern Tulsa County. We're 
                 strategically positioned with easy access from major east-west routes and Highway 169, making it 
@@ -154,7 +154,7 @@ export default function EastTulsaPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our East Tulsa location is designed to be accessible for diverse families with varying needs:
+                    Our services are designed to be accessible for diverse families with varying needs:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 55+ spaces available</li>
@@ -196,7 +196,7 @@ export default function EastTulsaPage() {
                 Located in Growing East Tulsa
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is positioned near the landmarks and destinations that make East Tulsa distinctive:
+                Our team is positioned near the landmarks and destinations that make East Tulsa distinctive:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

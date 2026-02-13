@@ -33,9 +33,9 @@ export default function BixbyPage() {
                 that makes residents proud to call themselves Spartans.
               </p>
               <p className="text-gray-600 mb-4">
-                Our Bixby location serves families throughout the city and surrounding areas, including established 
+                We proudly serve families throughout the city and surrounding areas, including established 
                 neighborhoods near downtown Bixby, new developments along 151st Street, families in Leonard and 
-                Glenpool areas, and those throughout south Tulsa County. We're conveniently located with easy access 
+                Glenpool areas, and those throughout south Tulsa County. We're conveniently accessible with easy access 
                 from Highway 75, Memorial Drive, and 111th Street, making it simple for families to incorporate 
                 therapy into their busy schedules filled with school activities, sports at the Bixby Sports Complex, 
                 and community events.
@@ -155,7 +155,7 @@ export default function BixbyPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Location & Parking</h3>
                   <p className="text-gray-600 mb-3">
-                    Our Bixby location is designed for busy families with multiple commitments:
+                    Our services are designed for busy families with multiple commitments:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Large parking lot with 40+ spaces available</li>
@@ -197,7 +197,7 @@ export default function BixbyPage() {
                 Easy to Find Near Bixby Landmarks
               </h2>
               <p className="text-gray-600 mb-6">
-                Our office is strategically located near the places Bixby families visit regularly:
+                Our team is strategically convenient to the places Bixby families visit regularly:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
