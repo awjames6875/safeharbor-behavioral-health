@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
+import { GlowingEffect } from '@/components/ui/glowing-effect'
 
 const services = [
   {
@@ -57,35 +58,45 @@ export default function AnimatedServicesGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Link
-              href={service.link}
-              key={index}
-              className="card group hover:-translate-y-1 transition-all duration-300"
-            >
-              <div className="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                {service.icon}
+            <li key={index} className="min-h-[14rem] list-none">
+              <div className="relative h-full rounded-[1.25rem] border-[0.75px] border-slate-200 p-2 md:rounded-[1.5rem] md:p-3">
+                <GlowingEffect
+                  spread={40}
+                  glow={true}
+                  disabled={false}
+                  proximity={64}
+                  inactiveZone={0.01}
+                  borderWidth={3}
+                />
+                <Link
+                  href={service.link}
+                  className="relative flex h-full flex-col justify-between gap-4 overflow-hidden rounded-xl border-[0.75px] border-slate-100 bg-white p-6 shadow-sm group hover:-translate-y-1 transition-all duration-300"
+                >
+                  <div className="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center text-3xl group-hover:scale-110 transition-transform duration-300">
+                    {service.icon}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-serif text-navy-900 mb-3 group-hover:text-teal-600 transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-slate-600 leading-relaxed mb-4">
+                      {service.description}
+                    </p>
+                    <div className="flex items-center text-teal-600 font-medium text-sm">
+                      Learn More
+                      <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </div>
+                </Link>
               </div>
-              <h3 className="text-xl font-serif text-navy-900 mb-3 group-hover:text-teal-600 transition-colors">
-                {service.title}
-              </h3>
-              <p className="text-slate-600 leading-relaxed mb-4">
-                {service.description}
-              </p>
-              <div className="flex items-center text-teal-600 font-medium text-sm">
-                Learn More
-                <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </div>
-            </Link>
+            </li>
           ))}
         </div>
 
         <div className="mt-16 text-center">
-          <Link
-            href="/services"
-            className="btn-secondary"
-          >
+          <Link href="/services" className="btn-secondary">
             View All Services
           </Link>
         </div>

@@ -11,7 +11,7 @@ export default function PartnersPage() {
   return (
     <main className="bg-white">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 text-white py-20 px-4">
+      <section className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 text-white pt-44 pb-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-teal-500 font-semibold uppercase tracking-widest mb-4">For Daycares, Gyms &amp; Youth Programs</p>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">

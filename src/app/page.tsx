@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import HeroSection from '@/components/home/HeroSection'
+import { GlowingEffect } from '@/components/ui/glowing-effect'
 import TrustBar from '@/components/home/TrustBar'
 import AnimatedServicesGrid from '@/components/home/AnimatedServicesGrid'
 import AnimatedStats from '@/components/home/AnimatedStats'
@@ -106,22 +107,22 @@ export default function HomePage() {
           <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mb-4">How Can We Help?</h2>
           <p className="text-navy-700 text-lg mb-10">Choose your path. We&apos;ll take it from there.</p>
           <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-            <a
-              href="/parents"
-              className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow border border-navy-50 group"
-            >
-              <div className="text-4xl mb-4">👨‍👩‍👧</div>
-              <h3 className="text-xl font-bold text-navy-900 mb-2 group-hover:text-teal-600 transition-colors">I&apos;m a Parent</h3>
-              <p className="text-navy-700">Learn about our Body &amp; Brain program for kids ages 3–8.</p>
-            </a>
-            <a
-              href="/partners"
-              className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow border border-navy-50 group"
-            >
-              <div className="text-4xl mb-4">🏢</div>
-              <h3 className="text-xl font-bold text-navy-900 mb-2 group-hover:text-teal-600 transition-colors">I&apos;m a Daycare / Gym Owner</h3>
-              <p className="text-navy-700">Partner with us and bring behavioral health to your facility.</p>
-            </a>
+            <div className="relative rounded-[1.25rem] border-[0.75px] border-slate-200 p-2">
+              <GlowingEffect spread={40} glow={true} disabled={false} proximity={64} inactiveZone={0.01} borderWidth={3} />
+              <a href="/parents" className="relative block bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow group">
+                <div className="text-4xl mb-4">👨‍👩‍👧</div>
+                <h3 className="text-xl font-bold text-navy-900 mb-2 group-hover:text-teal-600 transition-colors">I&apos;m a Parent</h3>
+                <p className="text-navy-700">Learn about our Body &amp; Brain program for kids ages 3–8.</p>
+              </a>
+            </div>
+            <div className="relative rounded-[1.25rem] border-[0.75px] border-slate-200 p-2">
+              <GlowingEffect spread={40} glow={true} disabled={false} proximity={64} inactiveZone={0.01} borderWidth={3} />
+              <a href="/partners" className="relative block bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow group">
+                <div className="text-4xl mb-4">🏢</div>
+                <h3 className="text-xl font-bold text-navy-900 mb-2 group-hover:text-teal-600 transition-colors">I&apos;m a Daycare / Gym Owner</h3>
+                <p className="text-navy-700">Partner with us and bring behavioral health to your facility.</p>
+              </a>
+            </div>
           </div>
         </div>
       </section>

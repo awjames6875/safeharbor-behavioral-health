@@ -48,9 +48,9 @@ function formatArticleContent(content: string): string {
 }
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export async function generateStaticParams() {
@@ -60,7 +60,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
-  const post = blogPosts.find((p) => p.slug === params.slug)
+  const { slug } = await params
+  const post = blogPosts.find((p) => p.slug === slug)
   
   if (!post) {
     return {
@@ -89,8 +90,9 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = blogPosts.find((p) => p.slug === params.slug)
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params
+  const post = blogPosts.find((p) => p.slug === slug)
   
   if (!post) {
     notFound()
@@ -112,7 +114,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <article className="bg-white">
       {/* Header */}
-      <header className="bg-gradient-to-br from-teal-50 to-cream-50 py-16">
+      <header className="bg-gradient-to-br from-teal-50 to-cream-50 pt-56 pb-16 md:pt-60">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             {/* Breadcrumb */}

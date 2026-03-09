@@ -3,11 +3,11 @@ import Link from 'next/link'
 export default function ProgramsPage() {
   return (
     <div className="min-h-screen">
-      <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16">
+      <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white pt-56 pb-16 md:pt-60">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold mb-4">Our Programs</h1>
           <p className="text-xl opacity-95 max-w-2xl">
-            Specialized treatment programs designed for comprehensive healing and lasting recovery.
+            Preventative and supportive programs designed to strengthen emotional wellness and build lasting resilience.
           </p>
         </div>
       </section>

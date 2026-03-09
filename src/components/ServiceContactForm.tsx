@@ -30,8 +30,30 @@ export default function ServiceContactForm({ serviceName, serviceTitle }: Servic
     setIsSubmitting(true)
     
     try {
-      // Simulate form submission - replace with actual API call
-      await new Promise(resolve => setTimeout(resolve, 1000))
+      const nameParts = formData.name.trim().split(/\s+/)
+      const firstName = nameParts[0] || ''
+      const lastName = nameParts.slice(1).join(' ') || ''
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          firstName,
+          lastName,
+          email: formData.email,
+          phone: formData.phone,
+          childAge: formData.childAge,
+          insurance: formData.insuranceType,
+          serviceInterest: formData.serviceInterested,
+          message: formData.message,
+          source: `website-service-contact-${serviceName.toLowerCase().replace(/\s+/g, '-')}`,
+        }),
+      })
+
+      if (!response.ok) {
+        throw new Error('Submission failed')
+      }
+
       setSubmitStatus('success')
       setFormData({
         name: '',

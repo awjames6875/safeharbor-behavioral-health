@@ -285,7 +285,7 @@ export default function SouthTulsaPage() {
                   </p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Amanda Chen, MD</h3>
+                  <h3 className="font-semibold text-navy-800 mb-2">Safe Harbor Behavioral Health Team</h3>
                   <p className="text-teal-600 text-sm mb-2">Child & Adolescent Psychiatrist</p>
                   <p className="text-gray-600 text-sm">
                     Specializes in anxiety disorders, ADHD, and mood disorders in academically gifted students. 

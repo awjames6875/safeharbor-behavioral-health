@@ -18,7 +18,7 @@ export default function Header() {
   }, [])
 
   return (
-    <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
+    <header className={`fixed top-0 w-full z-[100] transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-white shadow-sm'}`}>
       {/* Crisis Banner */}
       <div className="bg-navy-900 text-white py-2 px-4 text-center text-sm font-medium tracking-wide">
         <div className="container mx-auto flex justify-center md:justify-between items-center">
@@ -35,8 +35,8 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="relative w-12 h-12 md:w-14 md:h-14 transform group-hover:scale-105 transition-transform duration-300">
-              <img src="/logo.jpg" alt="SafeHarbor Logo" className="w-full h-full object-contain rounded-full shadow-md" />
+            <div className="relative w-12 h-12 md:w-14 md:h-14 overflow-hidden rounded-full border-2 border-teal-100 shadow-md transform group-hover:scale-105 transition-transform duration-300">
+              <img src="/logo.jpg" alt="SafeHarbor Logo" className="w-full h-full object-cover" />
             </div>
             <div>
               <h1 className="text-xl font-serif font-bold text-navy-900 tracking-tight">SafeHarbor</h1>
@@ -44,22 +44,22 @@ export default function Header() {
             </div>
           </Link>
 
-          <nav className="hidden lg:block">
+          <nav className="hidden xl:block">
             <Navigation />
           </nav>
 
           <div className="flex items-center space-x-4">
-            <MedicaidBadge className="hidden lg:flex opacity-90 hover:opacity-100 transition-opacity" />
+            <MedicaidBadge className="hidden xl:flex opacity-90 hover:opacity-100 transition-opacity" />
             <Link
               href="/contact"
-              className="hidden md:inline-block bg-teal-600 text-white px-6 py-2.5 rounded-full hover:bg-teal-700 transition-all shadow-md hover:shadow-lg font-medium tracking-wide transform hover:-translate-y-0.5"
+              className="hidden lg:inline-block bg-teal-600 text-white px-5 py-2.5 rounded-full hover:bg-teal-700 transition-all shadow-md hover:shadow-lg text-sm font-medium tracking-wide transform hover:-translate-y-0.5"
             >
               Schedule Appointment
             </Link>
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="lg:hidden p-2 text-slate-600 hover:text-teal-600 transition-colors"
+              className="xl:hidden p-2 text-slate-600 hover:text-teal-600 transition-colors"
               aria-label="Toggle menu"
             >
               <svg
@@ -82,7 +82,7 @@ export default function Header() {
         </div>
 
         {isMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-slate-100 bg-white absolute left-0 right-0 px-4 shadow-lg animate-slide-down">
+          <div className="xl:hidden py-4 border-t border-slate-100 bg-white absolute left-0 right-0 px-4 shadow-lg animate-slide-down">
             <Navigation mobile onItemClick={() => setIsMenuOpen(false)} />
             <Link
               href="/contact"

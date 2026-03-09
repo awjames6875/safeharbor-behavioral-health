@@ -12,11 +12,11 @@ export default function ParentsPage() {
   return (
     <main className="bg-white">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 text-white py-20 px-4">
+      <section className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 text-white pt-44 pb-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-teal-500 font-semibold uppercase tracking-widest mb-4">For Parents of Kids Ages 3–8</p>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-            We Don&apos;t Diagnose.<br />We <span className="text-teal-500">Equip.</span>
+            Emotional Wellness<br />Starts <span className="text-teal-500">Early.</span>
           </h1>
           <p className="text-xl md:text-2xl text-navy-100 max-w-2xl mx-auto mb-8">
             Your child gets world-class behavioral support — disguised as the most fun part of their day. And you don&apos;t have to drive anywhere.

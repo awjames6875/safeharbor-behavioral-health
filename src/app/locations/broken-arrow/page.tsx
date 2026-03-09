@@ -286,7 +286,7 @@ export default function BrokenArrowPage() {
                   </p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Robert Kim, MD</h3>
+                  <h3 className="font-semibold text-navy-800 mb-2">Safe Harbor Behavioral Health Team</h3>
                   <p className="text-teal-600 text-sm mb-2">Child Psychiatrist</p>
                   <p className="text-gray-600 text-sm">
                     Available for medication evaluation and management. Specializes in ADHD, anxiety, and mood disorders. 

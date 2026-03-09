@@ -1148,7 +1148,7 @@ Remember, seeking help for school anxiety is not a sign of weakness—it's an in
 
 *If your child is struggling with school anxiety, don't wait for the problem to resolve on its own. Contact SafeHarbor Behavioral Health today to learn how we can help your family navigate these challenges and create a positive school experience.*
     `,
-    author: 'Jennifer Kim, LCSW, School-Based Mental Health Specialist',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'January 8, 2024',
     readTime: '11 min read',
     category: 'child',
@@ -1507,7 +1507,7 @@ Remember, you don't have to navigate these challenges alone. Professional suppor
 
 *If you're concerned about how social media is affecting your teenager's mental health, contact SafeHarbor Behavioral Health today. Our experienced therapists specialize in adolescent mental health and can provide the support and strategies your family needs.*
     `,
-    author: 'Dr. Amanda Chen, Licensed Professional Counselor',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'January 5, 2024',
     readTime: '13 min read',
     category: 'teen',
@@ -2012,7 +2012,7 @@ The journey of healing from childhood trauma takes time, patience, and professio
 
 *If you're concerned that your child may have experienced trauma, or if you're seeing signs that worry you, don't hesitate to reach out for help. Early intervention can make a significant difference in your child's recovery and long-term well-being. Contact SafeHarbor Behavioral Health today to learn more about our trauma-informed services and how we can support your family's healing journey.*
     `,
-    author: 'Dr. Robert Kim, Trauma Specialist & Licensed Psychologist',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'January 3, 2024',
     readTime: '15 min read',
     category: 'child',

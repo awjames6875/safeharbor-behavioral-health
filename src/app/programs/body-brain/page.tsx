@@ -4,31 +4,31 @@ export default function BodyBrainPage() {
   return (
     <div className="min-h-screen">
       {/* HERO SECTION */}
-      <section className="relative bg-gradient-to-br from-teal-600 via-teal-500 to-navy-700 text-white py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-teal-600 via-teal-500 to-navy-700 text-white pt-56 pb-20 overflow-hidden md:pt-60">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Where Movement Meets
               <span className="block text-cream-100">Mental Health</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-teal-50 max-w-3xl mx-auto leading-relaxed">
-              Revolutionary therapy that harnesses the power of physical movement to heal the mind, 
-              build confidence, and transform lives for children and teens ages 5-18.
+              A preventative approach that harnesses the power of physical movement to strengthen 
+              emotional resilience, build confidence, and support lasting wellness.
             </p>
             
-            {/* Video Placeholder */}
-            <div className="bg-navy-800/30 border-2 border-cream-100/30 rounded-2xl p-8 mb-8 max-w-2xl mx-auto">
-              <div className="aspect-video bg-navy-800/50 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-cream-100/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-cream-100" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <p className="text-cream-100 text-lg font-medium">Watch: Body & Brain in Action</p>
-                  <p className="text-teal-100 text-sm mt-1">See how movement transforms mental health</p>
-                </div>
+            {/* Program Video */}
+            <div className="bg-navy-800/30 border-2 border-cream-100/30 rounded-2xl p-4 sm:p-6 mb-8 max-w-3xl mx-auto">
+              <div className="aspect-video overflow-hidden rounded-lg">
+                <iframe
+                  className="h-full w-full"
+                  src="https://www.youtube.com/embed/8PXrrC4TzwU"
+                  title="Safe Harbor Body and Brain Program"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
               </div>
             </div>
 
@@ -232,6 +232,9 @@ export default function BodyBrainPage() {
                   Builds body awareness, emotional regulation, and stress management through gentle poses, 
                   breathing exercises, and guided meditation practices.
                 </p>
+                <Link href="/contact" className="inline-block mt-5 text-sm font-semibold underline underline-offset-4">
+                  Learn more
+                </Link>
               </div>
 
               <div className="bg-cream-500 text-navy-800 rounded-2xl p-8 text-center hover:bg-cream-400 transition-colors">
@@ -245,6 +248,9 @@ export default function BodyBrainPage() {
                   Encourages emotional expression, creativity, and self-discovery through structured and 
                   free-form movement experiences tailored to individual needs.
                 </p>
+                <Link href="/contact" className="inline-block mt-5 text-sm font-semibold underline underline-offset-4">
+                  Learn more
+                </Link>
               </div>
 
               <div className="bg-navy-600 rounded-2xl p-8 text-center hover:bg-navy-500 transition-colors">
@@ -258,6 +264,9 @@ export default function BodyBrainPage() {
                   Develops discipline, concentration, and self-control through age-appropriate martial arts 
                   techniques emphasizing respect, patience, and inner strength.
                 </p>
+                <Link href="/contact" className="inline-block mt-5 text-sm font-semibold underline underline-offset-4">
+                  Learn more
+                </Link>
               </div>
 
               <div className="bg-teal-500 rounded-2xl p-8 text-center hover:bg-teal-400 transition-colors">
@@ -271,6 +280,9 @@ export default function BodyBrainPage() {
                   Builds cooperation, communication, and friendship skills through modified team games 
                   designed to be inclusive and confidence-building for all skill levels.
                 </p>
+                <Link href="/contact" className="inline-block mt-5 text-sm font-semibold underline underline-offset-4">
+                  Learn more
+                </Link>
               </div>
 
               <div className="bg-cream-400 text-navy-800 rounded-2xl p-8 text-center hover:bg-cream-300 transition-colors">
@@ -284,6 +296,9 @@ export default function BodyBrainPage() {
                   Challenges comfort zones safely through outdoor activities, obstacle courses, and adventure 
                   games that build resilience, problem-solving skills, and self-confidence.
                 </p>
+                <Link href="/contact" className="inline-block mt-5 text-sm font-semibold underline underline-offset-4">
+                  Learn more
+                </Link>
               </div>
 
               <div className="bg-navy-700 rounded-2xl p-8 text-center hover:bg-navy-600 transition-colors">
@@ -297,6 +312,9 @@ export default function BodyBrainPage() {
                   Helps children with sensory processing challenges through specialized activities that 
                   improve body awareness, coordination, and sensory regulation skills.
                 </p>
+                <Link href="/contact" className="inline-block mt-5 text-sm font-semibold underline underline-offset-4">
+                  Learn more
+                </Link>
               </div>
             </div>
           </div>
@@ -528,19 +546,19 @@ export default function BodyBrainPage() {
                     <span className="text-2xl font-bold">S</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold">Sofia, Age 14</h3>
+                    <h3 className="text-xl font-bold">Sophia, Age 14</h3>
                     <p className="text-navy-600">Anxiety & Depression</p>
                   </div>
                 </div>
                 <p className="leading-relaxed mb-4">
-                  "Sofia had been struggling with severe anxiety and depression for two years. Traditional talk therapy 
+                  "Sophia had been struggling with severe anxiety and depression for two years. Traditional talk therapy 
                   helped somewhat, but she still spent most days in her room, avoiding friends and activities she used to love."
                 </p>
                 <p className="leading-relaxed mb-4">
                   "The dance therapy component of Body & Brain gave her a way to express feelings she couldn't put into words. 
                   Gradually, she started opening up, making friends in the group, and rediscovering her confidence."
                 </p>
-                <p className="text-navy-600 italic">- Sofia's Dad, Carlos</p>
+                <p className="text-navy-600 italic">- Sophia's Dad, Carlos</p>
               </div>
 
               <div className="bg-navy-600 rounded-2xl p-8">
@@ -549,7 +567,7 @@ export default function BodyBrainPage() {
                     <span className="text-2xl font-bold">J</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold">Jayden, Age 11</h3>
+                    <h3 className="text-xl font-bold">Jayden, Age 12</h3>
                     <p className="text-navy-200">Autism Spectrum & Sensory Processing</p>
                   </div>
                 </div>
@@ -613,8 +631,8 @@ export default function BodyBrainPage() {
               </div>
 
               <div className="text-center">
-                <div className="w-20 h-20 bg-cream-400 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-navy-800">2</span>
+                <div className="w-20 h-20 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-3xl font-bold text-white">2</span>
                 </div>
                 <h3 className="text-2xl font-bold text-navy-800 mb-4">Program Matching</h3>
                 <p className="text-navy-600 leading-relaxed">
@@ -624,7 +642,7 @@ export default function BodyBrainPage() {
               </div>
 
               <div className="text-center">
-                <div className="w-20 h-20 bg-navy-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-20 h-20 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl font-bold text-white">3</span>
                 </div>
                 <h3 className="text-2xl font-bold text-navy-800 mb-4">8-12 Week Cycles</h3>
@@ -804,8 +822,8 @@ export default function BodyBrainPage() {
                   <p className="text-teal-100">Spots remaining in next cohort</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-cream-100 mb-2">Aug 15</div>
-                  <p className="text-teal-100">Next program start date</p>
+                  <div className="text-2xl font-bold text-cream-100 mb-2">Always Open</div>
+                  <p className="text-teal-100">Enroll anytime — no wait list</p>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-cream-100 mb-2">Free</div>

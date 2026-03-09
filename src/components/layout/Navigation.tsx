@@ -75,7 +75,7 @@ export default function Navigation({ mobile = false, onItemClick }: NavProps) {
   const linkClass = (href: string) => {
     const baseClass = mobile
       ? 'block py-2 px-4 text-navy-700 hover:bg-teal-50 rounded-md'
-      : 'text-navy-700 hover:text-teal-600 px-3 py-2 rounded-md text-sm font-medium transition-colors'
+      : 'text-navy-700 hover:text-teal-600 px-2 rounded-md text-[13px] font-semibold transition-colors whitespace-nowrap flex items-center h-10'
 
     const activeClass = pathname === href ? (mobile ? 'bg-teal-50 text-teal-600' : 'text-teal-600') : ''
 
@@ -145,13 +145,13 @@ export default function Navigation({ mobile = false, onItemClick }: NavProps) {
   }
 
   return (
-    <nav className="flex space-x-1">
+    <nav className="flex items-center gap-0.5 whitespace-nowrap">
       {navItems.map((item) => (
-        <div key={item.href} className="relative group">
+        <div key={item.href} className="relative group flex items-center h-10">
           {item.subItems ? (
             <>
               <button
-                className={`${linkClass(item.href)} flex items-center space-x-1`}
+                className={`${linkClass(item.href)} flex items-center gap-1 h-full`}
                 onMouseEnter={() => setOpenDropdown(item.label)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >

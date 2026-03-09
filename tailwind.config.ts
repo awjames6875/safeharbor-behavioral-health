@@ -12,6 +12,8 @@ const config: Config = {
         navy: {
           50: '#f0f4ff',
           100: '#dce4ff',
+          500: '#3b5fc0',
+          600: '#2f54b5',
           700: '#2d4a9f',
           800: '#1e40af',
           900: '#1e3a8a',
@@ -23,6 +25,18 @@ const config: Config = {
         cream: {
           50: '#fffbf0',
           100: '#fef3c7',
+          200: '#fde68a',
+          300: '#fcd34d',
+          400: '#fbbf24',
+          500: '#f59e0b',
+        },
+        primary: {
+          50: '#eefcf9',
+          100: '#d6f7f1',
+          500: '#14b8a6',
+          600: '#0d9488',
+          700: '#0f766e',
+          800: '#115e59',
         },
         slate: {
           50: '#f8fafc',
@@ -38,8 +52,8 @@ const config: Config = {
         }
       },
       fontFamily: {
-        serif: ['var(--font-serif)', 'serif'],
-        sans: ['var(--font-sans)', 'sans-serif'],
+        serif: ['"Georgia"', '"Times New Roman"', 'serif'],
+        sans: ['"Segoe UI"', '"Helvetica Neue"', 'Arial', 'sans-serif'],
       },
       boxShadow: {
         'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',

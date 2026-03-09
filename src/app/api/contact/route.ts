@@ -33,38 +33,48 @@ interface ContactPayload {
   preferredTime?: string
 }
 
+function getApiToken(): string | undefined {
+  return (
+    process.env.GHL_API_TOKEN ||
+    process.env.GHL_PRIVATE_INTEGRATION_TOKEN ||
+    process.env.LEADCONNECTOR_API_TOKEN
+  )
+}
+
+function buildFirstLastName(body: ContactPayload): { firstName: string; lastName: string } {
+  const firstName = (body.firstName || '').trim()
+  const lastName = (body.lastName || '').trim()
+  return { firstName, lastName }
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body: ContactPayload = await request.json()
 
-    const apiToken = process.env.GHL_API_TOKEN
-    if (!apiToken) {
-      console.error('GHL_API_TOKEN environment variable is not set')
+    if (!body.email && !body.phone) {
       return NextResponse.json(
-        { error: 'Server configuration error' },
-        { status: 500 }
+        { error: 'Email or phone is required' },
+        { status: 400 }
       )
     }
 
-    // Split parentName into first/last if firstName not provided separately
-    let firstName = body.firstName || ''
-    let lastName = body.lastName || ''
-    if (!firstName && body.firstName === undefined) {
-      // Some forms send a combined name — not applicable here but safe fallback
-    }
+    const apiToken = getApiToken()
+    const webhookUrl = process.env.GHL_WEBHOOK_URL
+    const { firstName, lastName } = buildFirstLastName(body)
 
     // Build custom fields for GHL (child info, insurance, etc.)
-    const customFields: Record<string, string> = {}
-    if (body.childName) customFields['child_name'] = body.childName
-    if (body.childAge) customFields['child_age'] = body.childAge
-    if (body.insurance) customFields['insurance_type'] = body.insurance
-    if (body.preferredLocation) customFields['preferred_location'] = body.preferredLocation
-    if (body.serviceInterest) customFields['service_interest'] = body.serviceInterest
-    if (body.urgency) customFields['urgency'] = body.urgency
-    if (body.preferredContact) customFields['preferred_contact'] = body.preferredContact
-    if (body.preferredTime) customFields['preferred_time'] = body.preferredTime
+    const customFields = [
+      { id: 'child_name', value: body.childName || '' },
+      { id: 'child_age', value: body.childAge || '' },
+      { id: 'insurance_type', value: body.insurance || '' },
+      { id: 'preferred_location', value: body.preferredLocation || '' },
+      { id: 'service_interest', value: body.serviceInterest || '' },
+      { id: 'urgency', value: body.urgency || '' },
+      { id: 'preferred_contact', value: body.preferredContact || '' },
+      { id: 'preferred_time', value: body.preferredTime || '' },
+    ].filter((field) => field.value)
 
-    // Build the GHL contact payload
+    // Build the GHL contact payload.
     const ghlPayload: Record<string, unknown> = {
       locationId: GHL_LOCATION_ID,
       firstName,
@@ -73,39 +83,81 @@ export async function POST(request: NextRequest) {
       phone: body.phone || '',
       tags: ['website-signup'],
       source: body.source || 'website-contact-form',
+      customFields,
     }
 
-    // Add notes with message/concerns if provided
     if (body.message) {
       ghlPayload.notes = body.message
     }
 
-    // POST to GHL Contacts API
+    // Optional webhook passthrough for workflows/forms inside GHL.
+    if (webhookUrl) {
+      const webhookResponse = await fetch(webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...ghlPayload,
+          message: body.message || '',
+        }),
+      })
+
+      if (!webhookResponse.ok) {
+        const webhookError = await webhookResponse.text()
+        console.error('GHL webhook error:', webhookResponse.status, webhookError)
+      }
+    }
+
+    // If API token is missing but webhook exists, treat as accepted.
+    if (!apiToken && webhookUrl) {
+      return NextResponse.json({
+        success: true,
+        message: 'Contact submitted via webhook',
+      })
+    }
+
+    if (!apiToken) {
+      console.error('GHL token env var is not set')
+      return NextResponse.json(
+        { error: 'Server configuration error' },
+        { status: 500 }
+      )
+    }
+
     const ghlResponse = await fetch(`${GHL_API_BASE}/contacts/`, {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${apiToken}`,
+        Authorization: `Bearer ${apiToken}`,
         'Content-Type': 'application/json',
-        'Version': '2021-07-28',
+        Version: '2021-07-28',
       },
       body: JSON.stringify(ghlPayload),
     })
 
+    // GHL can return duplicate-contact style errors when email/phone already exists.
     if (!ghlResponse.ok) {
       const errorText = await ghlResponse.text()
-      console.error('GHL API error:', ghlResponse.status, errorText)
-      return NextResponse.json(
-        { error: 'Failed to submit contact information' },
-        { status: 502 }
-      )
+      const duplicate = ghlResponse.status === 409 || /already exists|duplicate/i.test(errorText)
+      if (!duplicate) {
+        console.error('GHL API error:', ghlResponse.status, errorText)
+        return NextResponse.json(
+          { error: 'Failed to submit contact information' },
+          { status: 502 }
+        )
+      }
     }
 
-    const ghlData = await ghlResponse.json()
+    let contactId: string | undefined
+    try {
+      const ghlData = await ghlResponse.json()
+      contactId = ghlData?.contact?.id
+    } catch {
+      // Non-JSON responses are acceptable for duplicate/edge responses.
+    }
 
     return NextResponse.json({
       success: true,
-      message: 'Contact created successfully',
-      contactId: ghlData?.contact?.id,
+      message: 'Contact submitted successfully',
+      contactId,
     })
   } catch (error) {
     console.error('Contact API error:', error)

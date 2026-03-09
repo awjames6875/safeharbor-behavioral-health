@@ -66,7 +66,7 @@ export default function AdamJamesPage() {
             />
             <div className="min-h-screen bg-gray-50">
                 {/* Hero Section */}
-                <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 text-white py-20">
+                <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 text-white pt-44 pb-20">
                     <div className="container mx-auto px-4">
                         <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
                             <div className="relative w-64 h-64 lg:w-80 lg:h-80 flex-shrink-0">

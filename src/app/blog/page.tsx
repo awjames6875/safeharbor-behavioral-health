@@ -28,7 +28,7 @@ export default function BlogPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-50 to-cream-50 py-16">
+      <section className="bg-gradient-to-br from-teal-50 to-cream-50 pt-56 pb-16 md:pt-60">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-navy-800 mb-6">

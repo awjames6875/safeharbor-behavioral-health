@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -8,18 +7,6 @@ import StickyHeader from '@/components/layout/StickyHeader'
 import SEOTracking from '@/components/SEOTracking'
 import FloatingActions from '@/components/FloatingActions'
 import VoiceAgent from '@/components/VoiceAgent'
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-})
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
-  display: 'swap',
-})
 
 export const metadata: Metadata = {
   title: {
@@ -170,7 +157,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
+      <body className="font-sans antialiased">
         <SkipNavigation />
         <div className="min-h-screen flex flex-col">
           <Header />
