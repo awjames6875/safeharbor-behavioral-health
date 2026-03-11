@@ -7,6 +7,7 @@ import StickyHeader from '@/components/layout/StickyHeader'
 import SEOTracking from '@/components/SEOTracking'
 import FloatingActions from '@/components/FloatingActions'
 import VoiceAgent from '@/components/VoiceAgent'
+import { OrganizationSchema, WebsiteSchema } from '@/components/SchemaMarkup'
 
 export const metadata: Metadata = {
   title: {
@@ -150,12 +151,8 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />
         <meta name="msapplication-TileColor" content="#1e40af" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationSchema)
-          }}
-        />
+        <OrganizationSchema />
+        <WebsiteSchema />
       </head>
       <body className="font-sans antialiased">
         <SkipNavigation />
