@@ -414,8 +414,7 @@ export default function ContactForm({
             className="mt-1 h-4 w-4 text-teal-600 focus:ring-teal-500 border-gray-300 rounded"
           />
           <label htmlFor="consent" className="text-sm text-gray-700">
-            I consent to be contacted by SafeHarbor Behavioral Health and understand that my information 
-            is protected under HIPAA. I agree to the <a href="/privacy" className="text-teal-600 underline">Privacy Policy</a>.
+            I consent to be contacted by SafeHarbor Behavioral Health via phone, text, or email regarding my inquiry. I understand an automated call may follow this submission. My information is protected under HIPAA. I agree to the <a href="/privacy" className="text-teal-600 underline">Privacy Policy</a>.
           </label>
         </div>
 
