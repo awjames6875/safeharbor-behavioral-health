@@ -1,3 +1,5 @@
+import ServiceSchema from '@/components/schema/ServiceSchema'
+import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 
@@ -11,6 +13,18 @@ export const metadata: Metadata = {
 
 export default function CrisisInterventionPage() {
   return (
+    <>
+      <ServiceSchema
+        name="Crisis Intervention"
+        description="Rapid support and stabilization planning for children in crisis in Tulsa"
+        serviceType="Crisis Support"
+        url="https://safeharborbehavioralhealth.com/services/crisis-intervention"
+      />
+      <BreadcrumbSchema items={[
+        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Crisis Intervention", item: "https://safeharborbehavioralhealth.com/services/crisis-intervention" },
+      ]} />
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-navy-700 to-navy-900 text-white py-16">
         <div className="container mx-auto px-4 text-center">
@@ -90,5 +104,6 @@ export default function CrisisInterventionPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }

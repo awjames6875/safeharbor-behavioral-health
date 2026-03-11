@@ -1,8 +1,22 @@
+import ServiceSchema from '@/components/schema/ServiceSchema'
+import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
 export default function SchoolSupportPage() {
   return (
+    <>
+      <ServiceSchema
+        name="School Support"
+        description="Coordination and strategies to improve success in school settings in Tulsa"
+        serviceType="School-Based Services"
+        url="https://safeharborbehavioralhealth.com/services/school-support"
+      />
+      <BreadcrumbSchema items={[
+        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "School Support", item: "https://safeharborbehavioralhealth.com/services/school-support" },
+      ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-teal-500 to-navy-800 text-white py-16">
@@ -473,5 +487,6 @@ export default function SchoolSupportPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }

@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About SafeHarbor Behavioral Health | Child Therapy Tulsa | Our Mission',
-  description: 'Learn about SafeHarbor Behavioral Health, Tulsa\'s leading child and teen therapy center. Our mission, values, and commitment to evidence-based mental health treatment.',
+  title: 'About SafeHarbor | Trauma-Informed Child Wellness in Tulsa',
+  description: 'Meet the SafeHarbor team. Founded by Adam James, we provide evidence-based emotional wellness care for children and teens in Tulsa. ODMHSAS certified.',
   keywords: 'about SafeHarbor, Tulsa mental health center, child therapy mission, behavioral health team, compassionate care Tulsa, evidence-based therapy Oklahoma',
   alternates: {
     canonical: '/about'

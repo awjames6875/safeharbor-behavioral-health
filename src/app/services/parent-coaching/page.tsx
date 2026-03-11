@@ -1,8 +1,22 @@
+import ServiceSchema from '@/components/schema/ServiceSchema'
+import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
 export default function ParentCoachingPage() {
   return (
+    <>
+      <ServiceSchema
+        name="Parent Coaching"
+        description="Expert parent guidance for routines and behavior support in Tulsa"
+        serviceType="Parenting Support"
+        url="https://safeharborbehavioralhealth.com/services/parent-coaching"
+      />
+      <BreadcrumbSchema items={[
+        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Parent Coaching", item: "https://safeharborbehavioralhealth.com/services/parent-coaching" },
+      ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-teal-500 to-navy-800 text-white py-16">
@@ -473,5 +487,6 @@ export default function ParentCoachingPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }

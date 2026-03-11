@@ -1,3 +1,5 @@
+import ServiceSchema from '@/components/schema/ServiceSchema'
+import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 
@@ -11,6 +13,18 @@ export const metadata: Metadata = {
 
 export default function MedicationManagementPage() {
   return (
+    <>
+      <ServiceSchema
+        name="Medication Management"
+        description="Medication evaluation and follow-up for children and teens in Tulsa"
+        serviceType="Psychiatric Medication"
+        url="https://safeharborbehavioralhealth.com/services/medication-management"
+      />
+      <BreadcrumbSchema items={[
+        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Medication Management", item: "https://safeharborbehavioralhealth.com/services/medication-management" },
+      ]} />
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-navy-700 to-navy-900 text-white py-16">
         <div className="container mx-auto px-4 text-center">
@@ -77,5 +91,6 @@ export default function MedicationManagementPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }

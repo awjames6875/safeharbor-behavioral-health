@@ -1,8 +1,22 @@
+import ServiceSchema from '@/components/schema/ServiceSchema'
+import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
 export default function BehavioralAssessmentsPage() {
   return (
+    <>
+      <ServiceSchema
+        name="Behavioral Assessments"
+        description="Structured assessments to identify strengths and care planning for children and teens in Tulsa"
+        serviceType="Behavioral Health Assessment"
+        url="https://safeharborbehavioralhealth.com/services/behavioral-assessments"
+      />
+      <BreadcrumbSchema items={[
+        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Behavioral Assessments", item: "https://safeharborbehavioralhealth.com/services/behavioral-assessments" },
+      ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-teal-500 to-navy-800 text-white py-16">
@@ -477,5 +491,6 @@ export default function BehavioralAssessmentsPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }

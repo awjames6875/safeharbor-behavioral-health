@@ -1,8 +1,22 @@
+import ServiceSchema from '@/components/schema/ServiceSchema'
+import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
 export default function FamilyTherapyPage() {
   return (
+    <>
+      <ServiceSchema
+        name="Family Therapy"
+        description="Family-centered sessions strengthening communication and home stability in Tulsa"
+        serviceType="Family Counseling"
+        url="https://safeharborbehavioralhealth.com/services/family-therapy"
+      />
+      <BreadcrumbSchema items={[
+        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Family Therapy", item: "https://safeharborbehavioralhealth.com/services/family-therapy" },
+      ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-teal-500 to-navy-800 text-white py-16">
@@ -490,5 +504,6 @@ export default function FamilyTherapyPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }

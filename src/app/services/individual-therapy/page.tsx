@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import ServiceSchema from '@/components/schema/ServiceSchema'
+import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 
 export const metadata: Metadata = {
   title: 'Individual Therapy Tulsa | Child & Teen Counseling | SafeHarbor',
@@ -129,6 +131,17 @@ export default function IndividualTherapyPage() {
   };
   return (
     <>
+      <ServiceSchema
+        name="Individual Therapy"
+        description="One-on-one emotional wellness support for children and teens in Tulsa"
+        serviceType="Individual Counseling"
+        url="https://safeharborbehavioralhealth.com/services/individual-therapy"
+      />
+      <BreadcrumbSchema items={[
+        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Individual Therapy", item: "https://safeharborbehavioralhealth.com/services/individual-therapy" },
+      ]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
