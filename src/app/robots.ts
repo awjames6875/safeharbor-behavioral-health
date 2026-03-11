@@ -1,6 +1,5 @@
 // app/robots.ts
-// SEO Fix: Creates robots.txt automatically via Next.js
-// Drop this file in your app/ directory
+// Drop this file in your app/ directory — creates robots.txt automatically
 
 import { MetadataRoute } from 'next'
 
@@ -12,7 +11,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/api/', '/admin/', '/_next/', '/private/'],
       },
-      // Allow AI crawlers explicitly for GEO (AI search visibility)
       { userAgent: 'GPTBot', allow: '/' },
       { userAgent: 'ChatGPT-User', allow: '/' },
       { userAgent: 'ClaudeBot', allow: '/' },

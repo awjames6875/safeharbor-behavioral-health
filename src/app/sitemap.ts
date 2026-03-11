@@ -1,6 +1,6 @@
 // app/sitemap.ts
-// SEO Fix: Auto-generates sitemap.xml with all pages, priorities, and dates
-// Drop this file in your app/ directory
+// Drop this file in your app/ directory — generates sitemap.xml
+// URL slugs match your existing routes (no changes needed)
 
 import { MetadataRoute } from 'next'
 
@@ -8,7 +8,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.safeharborbehavioralhealth.com'
   const now = new Date().toISOString()
 
-  // Core pages (highest priority)
   const corePages = [
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const },
     { path: '/about', priority: 0.9, changeFrequency: 'monthly' as const },
@@ -24,7 +23,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/resources/crisis-help', priority: 0.7, changeFrequency: 'monthly' as const },
   ]
 
-  // Service pages (high priority - money pages)
   const servicePages = [
     'individual-therapy', 'group-therapy', 'medication-management',
     'psychiatric-evaluation', 'child-therapy', 'teen-counseling',
@@ -37,7 +35,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
   }))
 
-  // Location pages (important for local SEO)
   const locationPages = [
     'downtown-tulsa', 'midtown-tulsa', 'brookside', 'cherry-street',
     'broken-arrow', 'owasso', 'jenks', 'bixby', 'sand-springs',
@@ -49,7 +46,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
   }))
 
-  // Blog posts
   const blogPosts = [
     'is-my-childs-behavior-normal',
     'teen-depression-tulsa-guide',
@@ -66,7 +62,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
   }))
 
-  // Legal pages (low priority)
   const legalPages = [
     { path: '/privacy', priority: 0.2, changeFrequency: 'yearly' as const },
     { path: '/terms', priority: 0.2, changeFrequency: 'yearly' as const },

@@ -4,7 +4,7 @@
 
 ## About
 
-SafeHarbor Behavioral Health provides evidence-based emotional wellness support for children and teens in the Tulsa metro area. Founded by Adam James, we deliver group sessions in daycare and after-school settings through our innovative Body & Brain program, which combines movement-based activities with therapeutic intervention.
+SafeHarbor Behavioral Health provides evidence-based emotional wellness support for children and teens in the Tulsa metro area. Founded by Adam James, we deliver group support sessions in daycare and after-school settings through our innovative Body & Brain program, which combines movement-based activities with emotional regulation techniques.
 
 We are certified by the Oklahoma Department of Mental Health and Substance Abuse Services (ODMHSAS) and accept Medicaid/SoonerCare, Blue Cross Blue Shield, United Healthcare, Aetna, Cigna, Health Choice, Community Care, and TriCare.
 
@@ -15,31 +15,31 @@ Our approach is trauma-informed, culturally sensitive, and focused on meeting ch
 - Homepage: https://www.safeharborbehavioralhealth.com - Overview of services, programs, and how to get started
 - About Us: https://www.safeharborbehavioralhealth.com/about - Our mission, values, and founder story
 - Services: https://www.safeharborbehavioralhealth.com/services - Full list of 14 behavioral health services
-- Body & Brain Program: https://www.safeharborbehavioralhealth.com/programs/body-brain - Our signature movement-based therapy program
+- Body & Brain Program: https://www.safeharborbehavioralhealth.com/programs/body-brain - Our signature movement-based wellness program
 - For Parents: https://www.safeharborbehavioralhealth.com/parents - Parent resources and enrollment info
 - Partner With Us: https://www.safeharborbehavioralhealth.com/partners - Facility partnership opportunities for daycares and gyms
-- Blog: https://www.safeharborbehavioralhealth.com/blog - Mental health resources and insights
+- Blog: https://www.safeharborbehavioralhealth.com/blog - Behavioral health resources and insights for families
 - Locations: https://www.safeharborbehavioralhealth.com/locations - 15 service areas across Tulsa metro
 - Contact: https://www.safeharborbehavioralhealth.com/contact - Schedule appointments and get in touch
 
 ## Services
 
-- Individual Therapy: One-on-one emotional wellness support for children and teens
-- Group Therapy: Structured group sessions building skills, connection, and confidence
+- Individual Support: One-on-one emotional wellness sessions for children and teens
+- Group Support Sessions: Structured group sessions building skills, connection, and confidence
 - Body & Brain Integration: Innovative movement-based program connecting physical wellness with emotional regulation
 - Family Support: Strengthening family bonds through collaborative sessions
-- ADHD & Focus: Practical strategies and behavioral interventions for school and home
+- ADHD & Focus Support: Practical strategies and behavioral interventions for school and home
 - Trauma Recovery: Compassionate, trauma-informed care for difficult experiences
 - Medication Management: Medication evaluation and follow-up visits
 - Psychiatric Evaluation: Comprehensive diagnostic assessments
-- Teen Counseling: Adolescent-focused care for stress, mood, and life transitions
-- Child Therapy: Age-appropriate support for children ages 3-12
+- Teen Support: Adolescent-focused care for stress, mood, and life transitions
+- Child Behavioral Health: Age-appropriate support for children ages 3-12
 - School Support: Coordination with school settings for academic success
 - Parent Coaching: Practical parent guidance for routines and behavior support
 - Behavioral Assessments: Structured assessments to identify strengths and needs
 - Crisis Intervention: Rapid support and stabilization planning
 
-## Conditions We Treat
+## Conditions We Support
 
 Depression, Anxiety Disorders, PTSD and Trauma, ADHD, Bipolar Disorder, OCD, Eating Disorders, Substance Use Disorders, Grief and Loss, Behavioral Challenges, School Refusal, Social Anxiety
 

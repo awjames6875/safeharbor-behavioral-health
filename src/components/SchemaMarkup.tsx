@@ -1,11 +1,12 @@
 // components/SchemaMarkup.tsx
-// SEO Fix: JSON-LD structured data for rich search results
-// Import this in your layout.tsx or individual pages
+// JSON-LD structured data — all parent-facing text uses
+// "emotional wellness" / "behavioral health" / "support sessions"
+// Schema @type values stay as Google's vocabulary (MedicalTherapy, etc.)
 
 import Script from 'next/script'
 
 // ============================================================
-// ORGANIZATION + LOCAL BUSINESS (add to layout.tsx for sitewide)
+// ORGANIZATION + LOCAL BUSINESS (add to layout.tsx)
 // ============================================================
 export function OrganizationSchema() {
   const schema = {
@@ -71,38 +72,38 @@ export function OrganizationSchema() {
       // Add your social media URLs here:
       // 'https://www.facebook.com/safeharborbehavioralhealth',
       // 'https://www.instagram.com/safeharborbehavioralhealth',
-      // 'https://www.linkedin.com/company/safeharborbehavioralhealth',
     ],
-    medicalSpecialty: [
-      'Psychiatric',
-      'Pediatric',
-    ],
+    medicalSpecialty: ['Psychiatric', 'Pediatric'],
     availableService: [
       {
         '@type': 'MedicalTherapy',
-        name: 'Child Therapy',
-        description: 'Specialized emotional wellness support for children ages 3-12',
+        name: 'Child Behavioral Health Services',
+        description:
+          'Specialized emotional wellness support for children ages 3-12',
       },
       {
         '@type': 'MedicalTherapy',
-        name: 'Teen Counseling',
-        description: 'Adolescent-focused care for stress, mood, and life transitions',
+        name: 'Teen Support & Counseling',
+        description:
+          'Adolescent-focused support for stress, mood, and life transitions',
       },
       {
         '@type': 'MedicalTherapy',
-        name: 'Body & Brain Integration',
+        name: 'Body & Brain Integration Program',
         description:
           'Innovative movement-based program connecting physical wellness with emotional regulation',
       },
       {
         '@type': 'MedicalTherapy',
-        name: 'Trauma Recovery',
-        description: 'Trauma-informed care helping children process difficult experiences',
+        name: 'Trauma Recovery Services',
+        description:
+          'Trauma-informed care helping children process difficult experiences',
       },
       {
         '@type': 'MedicalTherapy',
-        name: 'Family Support',
-        description: 'Strengthening family bonds through collaborative sessions',
+        name: 'Family Support Sessions',
+        description:
+          'Strengthening family bonds through collaborative support sessions',
       },
     ],
   }
@@ -117,7 +118,7 @@ export function OrganizationSchema() {
 }
 
 // ============================================================
-// WEBSITE + SEARCH (add to layout.tsx for sitewide)
+// WEBSITE + SEARCH (add to layout.tsx)
 // ============================================================
 export function WebsiteSchema() {
   const schema = {
@@ -201,10 +202,7 @@ export function ArticleSchema({
     '@type': 'Article',
     headline: title,
     description,
-    author: {
-      '@type': 'Person',
-      name: author,
-    },
+    author: { '@type': 'Person', name: author },
     datePublished,
     dateModified: dateModified || datePublished,
     image: image || 'https://www.safeharborbehavioralhealth.com/logo.jpg',
@@ -217,10 +215,7 @@ export function ArticleSchema({
         url: 'https://www.safeharborbehavioralhealth.com/logo.jpg',
       },
     },
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': url,
-    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   }
 
   return (
@@ -233,7 +228,7 @@ export function ArticleSchema({
 }
 
 // ============================================================
-// FAQ PAGE (use on any page with FAQ content)
+// FAQ PAGE
 // ============================================================
 interface FAQItem {
   question: string
@@ -247,10 +242,7 @@ export function FAQSchema({ items }: { items: FAQItem[] }) {
     mainEntity: items.map(item => ({
       '@type': 'Question',
       name: item.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.answer,
-      },
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
     })),
   }
 
@@ -326,10 +318,7 @@ export function LocationSchema({ name, areaName, url }: LocationSchemaProps) {
     url,
     description: `Emotional wellness services for children and teens in ${areaName}. Medicaid accepted.`,
     telephone: '(918) 553-5746',
-    areaServed: {
-      '@type': 'City',
-      name: areaName,
-    },
+    areaServed: { '@type': 'City', name: areaName },
     parentOrganization: {
       '@type': 'MedicalBusiness',
       name: 'SafeHarbor Behavioral Health',
