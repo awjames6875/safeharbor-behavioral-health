@@ -154,6 +154,40 @@ export async function POST(request: NextRequest) {
       // Non-JSON responses are acceptable for duplicate/edge responses.
     }
 
+    // Trigger AI voice call via Twilio (Phase 1 — scripted greeting)
+    const twilioSid = process.env.TWILIO_ACCOUNT_SID
+    const twilioAuth = process.env.TWILIO_AUTH_TOKEN
+    const twilioFrom = process.env.TWILIO_PHONE_NUMBER || '+15396667913'
+    
+    if (twilioSid && twilioAuth && body.phone && body.urgency !== 'crisis') {
+      const parentName = firstName || 'there'
+      const twiml = `<Response><Say voice="Polly.Joanna">Hi ${parentName}! This is Harbor from Safe Harbor Behavioral Health. We just received your inquiry and wanted to reach out right away. We help children ages 3 to 12 build emotional wellness through programs like our Body and Brain program delivered right at your child's school or daycare. A member of our team will follow up with you very shortly to answer your questions and help you get started. We're here for you and your family. Have a wonderful day!</Say></Response>`
+      
+      // Clean phone number
+      let callTo = body.phone.replace(/[^+\d]/g, '')
+      if (!callTo.startsWith('+')) callTo = '+1' + callTo
+      
+      const twilioUrl = `https://api.twilio.com/2010-04-01/Accounts/${twilioSid}/Calls.json`
+      const twilioBody = new URLSearchParams({
+        To: callTo,
+        From: twilioFrom,
+        Twiml: twiml,
+      })
+      
+      // Fire and forget — don't block the form response
+      fetch(twilioUrl, {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Basic ' + Buffer.from(`${twilioSid}:${twilioAuth}`).toString('base64'),
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: twilioBody.toString(),
+      })
+      .then(res => res.json())
+      .then(data => console.log('Twilio call initiated:', data.sid))
+      .catch(err => console.error('Twilio call error:', err))
+    }
+
     // Send Telegram notification to Adam
     const telegramToken = process.env.TELEGRAM_BOT_TOKEN
     const telegramChatId = process.env.TELEGRAM_CHAT_ID || '8537172734'
