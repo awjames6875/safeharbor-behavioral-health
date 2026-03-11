@@ -154,6 +154,33 @@ export async function POST(request: NextRequest) {
       // Non-JSON responses are acceptable for duplicate/edge responses.
     }
 
+    // Send Telegram notification to Adam
+    const telegramToken = process.env.TELEGRAM_BOT_TOKEN
+    const telegramChatId = process.env.TELEGRAM_CHAT_ID || '8537172734'
+    if (telegramToken) {
+      const urgencyEmoji = body.urgency === 'crisis' ? '🚨' : body.urgency === 'urgent' ? '⚡' : '📋'
+      const msg = `${urgencyEmoji} *New Safe Harbor Inquiry*\n\n` +
+        `👤 ${firstName} ${lastName}\n` +
+        `📱 ${body.phone || 'no phone'}\n` +
+        `📧 ${body.email || 'no email'}\n` +
+        `👶 Child: ${body.childName || 'not provided'} (age ${body.childAge || '?'})\n` +
+        `🏥 Service: ${body.serviceInterest || 'general'}\n` +
+        `📍 Location: ${body.preferredLocation || 'any'}\n` +
+        `💳 Insurance: ${body.insurance || 'not specified'}\n` +
+        `⏰ Urgency: ${body.urgency || 'routine'}\n` +
+        (body.message ? `\n💬 "${body.message.slice(0, 200)}"` : '')
+      
+      fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: telegramChatId,
+          text: msg,
+          parse_mode: 'Markdown',
+        }),
+      }).catch(err => console.error('Telegram notify error:', err))
+    }
+
     return NextResponse.json({
       success: true,
       message: 'Contact submitted successfully',
