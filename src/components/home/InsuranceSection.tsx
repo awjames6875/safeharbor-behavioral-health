@@ -1,15 +1,15 @@
 import Link from 'next/link'
 
 export default function InsuranceSection() {
-  const insurances = [
-    'Medicaid/SoonerCare',
-    'Blue Cross Blue Shield',
-    'United Healthcare',
-    'Aetna',
-    'Cigna',
-    'Health Choice',
-    'Community Care',
-    'TriCare',
+  const accepting = [
+    { name: 'Medicaid/SoonerCare', status: 'active' as const },
+  ]
+
+  const credentialingInProgress = [
+    { name: 'Blue Cross Blue Shield', status: 'pending' as const },
+    { name: 'United Healthcare', status: 'pending' as const },
+    { name: 'Aetna', status: 'pending' as const },
+    { name: 'Cigna', status: 'pending' as const },
   ]
 
   return (
@@ -17,28 +17,54 @@ export default function InsuranceSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-navy-800 mb-4">
-            We Accept Most Insurance Including Medicaid/SoonerCare
+            Insurance &amp; Coverage
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Quality mental health care should be accessible to everyone. We work with most major insurance plans.
+            Quality emotional wellness support should be accessible to every family.
           </p>
 
-          <div className="bg-cream-100 rounded-lg p-8 mb-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-              {insurances.map((insurance, index) => (
+          <div className="bg-cream-100 rounded-lg p-8 mb-6">
+            {/* Currently Accepting */}
+            <h3 className="text-lg font-bold text-navy-800 mb-4 uppercase tracking-wide">
+              Currently Accepting
+            </h3>
+            <div className="flex justify-center mb-8">
+              {accepting.map((insurance, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded-md py-3 px-4 text-sm font-medium text-navy-800 shadow-sm"
+                  className="bg-green-50 border-2 border-green-300 rounded-lg py-4 px-8 text-base font-bold text-green-800 shadow-sm flex items-center gap-2"
                 >
-                  {insurance}
+                  <span className="text-xl">✅</span>
+                  {insurance.name}
                 </div>
               ))}
             </div>
-            
-            <p className="text-sm text-gray-600 italic">
-              Don't see your insurance? Call us - we may still be able to help!
-            </p>
+
+            {/* Credentialing In Progress */}
+            <h3 className="text-lg font-bold text-navy-800 mb-4 uppercase tracking-wide">
+              Credentialing In Progress <span className="text-sm font-normal text-gray-500 normal-case">(coming soon)</span>
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+              {credentialingInProgress.map((insurance, index) => (
+                <div
+                  key={index}
+                  className="bg-amber-50 border border-amber-200 rounded-md py-3 px-4 text-sm font-medium text-amber-800 shadow-sm flex items-center gap-2 justify-center"
+                >
+                  <span>🔄</span>
+                  {insurance.name}
+                </div>
+              ))}
+            </div>
           </div>
+
+          {/* Disclaimer */}
+          <p className="text-sm text-gray-500 italic mb-8">
+            Insurance acceptance is subject to individual credentialing and plan participation. 
+            Please call to verify your specific plan:{' '}
+            <a href="tel:918-553-5746" className="text-teal-600 font-semibold hover:underline">
+              (918) 553-5746
+            </a>
+          </p>
 
           <div className="bg-teal-50 border-2 border-teal-200 rounded-lg p-6">
             <h3 className="text-xl font-bold text-navy-800 mb-3">
