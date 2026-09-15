@@ -145,166 +145,27 @@ export default function SapulpaPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Sapulpa Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in Sapulpa
+                How We Serve Sapulpa Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed to be accessible for families throughout Creek County:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 40+ spaces available</li>
-                    <li>• Easy access from major Sapulpa highways</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered drop-off area for weather protection</li>
-                    <li>• Well-lit, secure parking for all appointment times</li>
-                    <li>• Central location for combining with other errands</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major Sapulpa Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Sapulpa High School: 4-minute drive via Main Street</li>
-                    <li>• From downtown Sapulpa: 2-minute drive via Highway 66</li>
-                    <li>• From Liberty Park: 3-minute drive via Dewey Avenue</li>
-                    <li>• From Historic Route 66 areas: Walking distance or 1-minute drive</li>
-                    <li>• From Kellyville: 10-minute drive via Highway 66</li>
-                    <li>• From rural Creek County areas: 15-20 minutes via county roads</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Highway and Regional Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Direct access from Historic Route 66</li>
-                    <li>• Easy route from Highway 97 (north-south corridor)</li>
-                    <li>• Quick access via Highway 33 from eastern areas</li>
-                    <li>• Convenient from Highway 16 (southern Creek County)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Located in Historic Sapulpa
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is strategically positioned near the landmarks and places that define Sapulpa:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Sapulpa families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Close to Historic Sites:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Historic Route 66 corridor</li>
-                    <li>• Sapulpa Historical Museum</li>
-                    <li>• Downtown Sapulpa shopping district</li>
-                    <li>• Liberty Park and Recreation Center</li>
-                    <li>• Sapulpa Community Center</li>
-                    <li>• Multiple SPS school campuses</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Walmart and local shopping centers</li>
-                    <li>• Various restaurants and local diners</li>
-                    <li>• Homeland grocery and local markets</li>
-                    <li>• Coffee shops and local cafes</li>
-                    <li>• CVS, Walgreens, and pharmacy services</li>
-                    <li>• Banking and professional services on Main Street</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Sapulpa
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "Our daughter was struggling with severe anxiety and depression during her junior year at Sapulpa 
-                  High School. She felt trapped between wanting to leave Sapulpa for college and feeling guilty about 
-                  abandoning family and community. She was also dealing with some questioning of her identity that 
-                  she felt she couldn't talk about with anyone in our small town. As parents, we felt lost and worried 
-                  about saying or doing the wrong thing."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor was a godsend. The therapists understood both our daughter's individual needs and the 
-                  unique dynamics of living in a small town like Sapulpa. They helped her work through her anxiety 
-                  and depression, but also helped our whole family learn how to have honest conversations about 
-                  difficult topics. They never judged our community or suggested our daughter needed to reject her 
-                  roots - instead, they helped her find ways to be authentic while still honoring her family and hometown."
-                </p>
-                <p className="text-gray-600 italic">
-                  "Now she's thriving at college but comes home regularly and maintains strong relationships with 
-                  family and friends. She's learned that she can love Sapulpa and also grow beyond it. The family 
-                  therapy sessions helped us become closer and more open with each other. SafeHarbor helped us navigate 
-                  challenging times while keeping our family bonds strong."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Susan K., Mother of two, lifelong Sapulpa resident
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Sapulpa Chieftain Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand Sapulpa because they're part of the Chieftain community:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Mary Ellen Thompson, PsyD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Rural Community Psychology Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Sapulpa resident for 20+ years, SPS parent and grandparent. Specializes in anxiety, depression, 
-                    and identity issues in small-town youth. Former school counselor who understands the unique 
-                    challenges and strengths of rural Creek County communities.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Daniel Creek, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Adolescent and Family Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Sapulpa High School graduate who returned to serve his community. Expert in teen identity development, 
-                    family communication, and helping young people navigate the balance between tradition and personal growth. 
-                    Active in local church and community organizations.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Jennifer Walsh, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Community Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in mood disorders, ADHD, and anxiety in children and teens. Experienced in working 
-                    with rural families and understanding the unique pressures of small-town life. Available for 
-                    comprehensive evaluations and medication management when needed.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Lisa Running Bear, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Cultural and Family Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Creek Nation member specializing in cultural identity, family systems, and helping young people 
-                    navigate multiple cultural influences. Expert in addressing mental health stigma and helping 
-                    families access resources while respecting cultural values and traditions.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

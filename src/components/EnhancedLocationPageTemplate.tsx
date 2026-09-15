@@ -64,11 +64,8 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
           'Insurance',
           'Medicaid',
           'SoonerCare',
-          'Medicare',
           'Blue Cross Blue Shield',
-          'Aetna',
-          'UnitedHealthcare',
-          'Cigna'
+          'Aetna'
         ]}
         amenityFeature={[
           { name: 'Wheelchair Accessible', value: true },
@@ -159,19 +156,11 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
                       </li>
                       <li className="flex items-center">
                         <span className="text-green-500 mr-2">✓</span>
-                        Medicare
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-green-500 mr-2">✓</span>
                         Blue Cross Blue Shield
                       </li>
                       <li className="flex items-center">
                         <span className="text-green-500 mr-2">✓</span>
-                        UnitedHealthcare
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-green-500 mr-2">✓</span>
-                        Aetna & Cigna
+                        Aetna
                       </li>
                     </ul>
                   </div>

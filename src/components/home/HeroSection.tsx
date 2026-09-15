@@ -134,8 +134,8 @@ export default function HeroSection() {
                 <div className="flex items-center gap-4">
                   <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center text-3xl">🌟</div>
                   <div>
-                    <p className="font-bold text-navy-900 text-lg">Top Rated Care</p>
-                    <p className="text-sm text-slate-500">Trusted by 1000+ Tulsa Families</p>
+                    <p className="font-bold text-navy-900 text-lg">ODMHSAS Certified</p>
+                    <p className="text-sm text-slate-500">Medicaid, BCBS &amp; Aetna accepted</p>
                   </div>
                 </div>
               </motion.div>

@@ -145,167 +145,27 @@ export default function WestTulsaPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve West Tulsa Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in West Tulsa
+                How We Serve West Tulsa Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Easy Access & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed to be accessible and convenient for working families:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 50+ spaces available</li>
-                    <li>• Easy access from major West Tulsa streets</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered drop-off area for weather protection</li>
-                    <li>• Well-lit, secure parking for evening appointments</li>
-                    <li>• Convenient location for combining with errands</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major West Tulsa Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Red Fork: 6-minute drive via Southwest Boulevard</li>
-                    <li>• From Tulsa Zoo: 5-minute drive via Mohawk Boulevard</li>
-                    <li>• From Webster High School: 4-minute drive via 41st Street</li>
-                    <li>• From 41st & Southwest area: 3-minute drive</li>
-                    <li>• From Berryhill area: 8-minute drive via 51st Street</li>
-                    <li>• From Sand Springs (eastern edge): 10-minute drive</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Highway and Public Transit Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Easy access from Highway 75 (major north-south route)</li>
-                    <li>• Quick routes from 41st Street and Southwest Boulevard</li>
-                    <li>• Tulsa Transit bus routes serve major West Tulsa corridors</li>
-                    <li>• Safe walking distance from bus stops on main streets</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Located in the Heart of West Tulsa
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is positioned near the landmarks and community centers that define West Tulsa:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves West Tulsa families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Major Destinations:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Tulsa Zoo and Living Museum</li>
-                    <li>• Mohawk Park and Golf Course</li>
-                    <li>• Red Fork community area</li>
-                    <li>• West Tulsa historical sites</li>
-                    <li>• Multiple TPS school campuses</li>
-                    <li>• Community centers and parks</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Services:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Walmart and local shopping centers</li>
-                    <li>• Family restaurants and diners</li>
-                    <li>• Homeland and other grocery stores</li>
-                    <li>• Local coffee shops and community gathering places</li>
-                    <li>• CVS, Walgreens, and pharmacy services</li>
-                    <li>• Banking and service providers on main corridors</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from West Tulsa
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "My 12-year-old son was acting out at Webster Middle School - getting in fights, talking back 
-                  to teachers, and his grades were dropping fast. At home, he was angry all the time and wouldn't 
-                  talk to me about what was wrong. I was working two jobs and raising him alone after his dad left, 
-                  and I felt like I was failing as a mother. I didn't really believe in therapy, but the school 
-                  counselor kept pushing me to get help."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor was different than what I expected. The therapists didn't make me feel judged or 
-                  like I was a bad parent. They understood our situation - they knew what it was like to be a 
-                  single working mom in West Tulsa. They helped me see that my son wasn't just 'bad' - he was 
-                  hurting and angry about his dad leaving, and he didn't know how to express those feelings in 
-                  a healthy way."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The individual therapy helped my son learn to manage his anger, and the family sessions taught 
-                  us both how to communicate better. His behavior at school improved dramatically, and at home, 
-                  we actually talk now instead of just yelling at each other. Most importantly, we're close again. 
-                  SafeHarbor showed us that getting help wasn't about being weak - it was about being strong 
-                  enough to do what's best for our family."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Angela M., Single mother of one, West Tulsa resident since 2018
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our West Tulsa Community Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand West Tulsa because they're part of the working-class community:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Tom Richardson, PsyD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Working-Class Family Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    West Tulsa resident for 20+ years, former factory worker who became a psychologist. Specializes 
-                    in economic stress, family dysfunction, and trauma. Expert in providing straightforward, 
-                    practical therapy that respects working-class values and reduces mental health stigma.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Rachel Thompson, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Trauma and Family Crisis Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Webster High School graduate who understands West Tulsa family dynamics. Expert in substance 
-                    abuse, domestic violence, and family crisis intervention. Specializes in helping families 
-                    break cycles of trauma and build healthier relationship patterns.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Maria Gonzalez, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Community Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Bilingual psychiatrist specializing in mood disorders, ADHD, and trauma-related conditions. 
-                    Experienced in working with families facing economic challenges. Provides accessible medication 
-                    management and collaborates closely with community resources.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Mike Davis, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Men's Issues and Anger Management Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Former TPS teacher who understands the challenges facing West Tulsa boys and young men. 
-                    Expert in anger management, behavioral issues, and helping young men develop healthy 
-                    expressions of masculinity and emotional intelligence.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

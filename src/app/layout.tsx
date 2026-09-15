@@ -117,11 +117,8 @@ export default function RootLayout({
       "Insurance",
       "Medicaid",
       "SoonerCare",
-      "Medicare",
       "Blue Cross Blue Shield",
-      "Aetna",
-      "UnitedHealthcare",
-      "Cigna"
+      "Aetna"
     ],
     "currenciesAccepted": "USD",
     "openingHours": [

@@ -145,166 +145,27 @@ export default function JenksPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Jenks Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in Jenks
+                How We Serve Jenks Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed to accommodate busy families with packed schedules:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Spacious parking lot with 45+ dedicated spaces</li>
-                    <li>• Easy access from major Jenks thoroughfares</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered walkway for protection during weather</li>
-                    <li>• Well-lit, secure parking for evening appointments</li>
-                    <li>• Quick access to minimize disruption to busy schedules</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major Jenks Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Jenks High School: 4-minute drive via Main Street</li>
-                    <li>• From downtown Jenks: 3-minute drive via Elm Street</li>
-                    <li>• From Arkansas Riverfront: 6-minute drive via 101st Street</li>
-                    <li>• From new developments near 111th & Elm: 5-minute drive</li>
-                    <li>• From Glenpool: 8-minute drive via Highway 75</li>
-                    <li>• From south Tulsa areas: 10-minute drive via Yale Avenue</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Highway Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• 2 minutes from Highway 75 (main north-south corridor)</li>
-                    <li>• Easy access from Creek Turnpike</li>
-                    <li>• Quick routes from 101st Street and 111th Street</li>
-                    <li>• Convenient from Yale Avenue and Elm Street</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Located Near Jenks Landmarks
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is strategically positioned near the places Jenks families frequent:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Jenks families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Close to Major Destinations:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Jenks High School and Athletic Complex</li>
-                    <li>• Arkansas River and Riverwalk</li>
-                    <li>• Oklahoma Aquarium</li>
-                    <li>• Downtown Jenks antique district</li>
-                    <li>• Jenks Community Center</li>
-                    <li>• Multiple JPS campuses</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Walmart Supercenter and Target</li>
-                    <li>• Numerous restaurants and cafes</li>
-                    <li>• Reasor's and Homeland grocery stores</li>
-                    <li>• Starbucks and local coffee shops</li>
-                    <li>• CVS, Walgreens, and pharmacy services</li>
-                    <li>• Banking and professional services</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Jenks
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "Our daughter was the epitome of a successful Jenks student - 4.0 GPA, varsity soccer, National 
-                  Honor Society, volunteer coordinator, and applying to Ivy League schools. But by her junior year, 
-                  she was having panic attacks before every test, couldn't sleep, and had developed perfectionist 
-                  tendencies that were paralyzing rather than motivating. She was terrified of getting her first B 
-                  and convinced that anything less than perfection would ruin her college chances."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor immediately understood the unique pressures of being a high-achieving Jenks student. 
-                  The therapists didn't suggest she lower her standards or quit activities - instead, they taught her 
-                  healthy ways to manage stress and maintain perspective. They worked with her school counselor to 
-                  ensure she was taking appropriate course loads and helped her develop a more balanced view of success."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The transformation was remarkable. She learned that excellence didn't require perfection, developed 
-                  healthy study habits, and actually improved her performance by reducing her anxiety. She got into 
-                  her dream college, but more importantly, she learned life skills for managing stress and maintaining 
-                  mental health. SafeHarbor helped her realize that being a successful Jenks graduate meant more than 
-                  just academic achievements - it meant being a well-rounded, resilient person."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Lisa S., Mother of two, Jenks resident since 2018
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Jenks Trojan Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand Jenks because they're part of the Trojan family:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Rebecca Taylor, PhD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Educational Psychology Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Jenks graduate, current JPS parent. Specializes in gifted student psychology and academic anxiety. 
-                    Former JPS counselor who understands the district's culture, expectations, and the unique needs of 
-                    high-achieving students.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Andrew Miller, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Adolescent Stress Management Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Expert in helping high-achieving teens manage perfectionism and college preparation stress. 
-                    Familiar with Jenks athletics and fine arts programs. Specializes in helping students balance 
-                    multiple demanding commitments.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Michael Chang, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child & Adolescent Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in anxiety disorders, ADHD, and mood disorders in academically gifted students. 
-                    Experienced in medication management for high-achieving teens. Collaborates closely with JPS 
-                    special services and counseling staff.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Sarah Mitchell, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Family Systems Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Helps high-achieving families maintain healthy relationships while pursuing excellence. Specializes 
-                    in family communication, boundary setting, and helping parents support their children's success 
-                    without creating additional pressure.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

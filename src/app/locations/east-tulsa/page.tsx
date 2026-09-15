@@ -144,168 +144,27 @@ export default function EastTulsaPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve East Tulsa Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in East Tulsa
+                How We Serve East Tulsa Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed to be accessible for diverse families with varying needs:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 55+ spaces available</li>
-                    <li>• Easy access from major East Tulsa corridors</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered drop-off area for weather protection</li>
-                    <li>• Well-lit, secure parking for all appointment times</li>
-                    <li>• Public transportation accessible location</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major East Tulsa Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Gathering Place: 8-minute drive via Riverside Drive</li>
-                    <li>• From 21st & Garnett area: 5-minute drive via 21st Street</li>
-                    <li>• From 31st & Mingo area: 6-minute drive via Mingo Road</li>
-                    <li>• From Memorial High School: 4-minute drive via Memorial Drive</li>
-                    <li>• From Catoosa: 12-minute drive via Highway 66</li>
-                    <li>• From Tulsa Hills: 10-minute drive via 21st Street</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Major Highway and Transit Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Easy access from Highway 169 (north-south corridor)</li>
-                    <li>• Quick routes from 21st Street and 31st Street</li>
-                    <li>• Convenient from Highway 66 (east-west route)</li>
-                    <li>• Multiple Tulsa Transit bus routes serve the area</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Located in Growing East Tulsa
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is positioned near the landmarks and destinations that make East Tulsa distinctive:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves East Tulsa families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Major Attractions & Destinations:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Gathering Place (A'DAM FORUM)</li>
-                    <li>• Arkansas River and RiverParks trails</li>
-                    <li>• Tulsa Hills Shopping Center</li>
-                    <li>• Multiple TPS school campuses</li>
-                    <li>• East Tulsa community centers</li>
-                    <li>• Cultural centers and places of worship</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Walmart, Target, and diverse shopping options</li>
-                    <li>• Wide variety of ethnic restaurants and markets</li>
-                    <li>• Multiple grocery stores and pharmacies</li>
-                    <li>• Coffee shops and community gathering places</li>
-                    <li>• Healthcare facilities and clinics</li>
-                    <li>• Banking and professional services along major streets</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from East Tulsa
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "Our 16-year-old son was struggling with his identity as a first-generation American. His father 
-                  and I immigrated from Guatemala, and our son felt caught between two worlds - wanting to honor 
-                  our cultural traditions while also fitting in with his peers at Memorial High School. He was 
-                  experiencing anxiety, dropping grades, and becoming increasingly withdrawn from both his family 
-                  and his friends."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor provided exactly what our family needed. The therapists understood the unique challenges 
-                  of navigating multiple cultures, and they had staff who could communicate in Spanish when needed. 
-                  They helped our son see his bilingual, bicultural identity as a strength rather than a burden. 
-                  They also helped our whole family learn to communicate better about our different experiences and 
-                  expectations."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The change was remarkable. Our son started embracing both parts of his identity - he began 
-                  volunteering as a translator for other immigrant families while also participating more in school 
-                  activities. He's now proud of his heritage and confident about his future. He's planning to study 
-                  international business in college so he can use his cultural knowledge and language skills. 
-                  SafeHarbor helped our whole family navigate the challenges of the American dream while staying 
-                  connected to who we are."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Maria R., Mother of three, East Tulsa resident since 2015
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our East Tulsa Multicultural Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand East Tulsa's diversity because they reflect it:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Carmen Velazquez, PhD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Multicultural Psychology Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Bilingual (Spanish/English) therapist specializing in immigration adjustment, cultural identity, 
-                    and intergenerational family dynamics. Expert in helping first and second-generation immigrants 
-                    navigate cultural challenges while maintaining family connections and cultural pride.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Ahmad Hassan, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Cultural Identity Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    East Tulsa resident who understands the experiences of diverse cultural communities. Expert in 
-                    helping teens navigate multiple cultural identities, address discrimination, and build resilience. 
-                    Specializes in working with refugee and immigrant families.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Jennifer Park, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in anxiety, depression, and ADHD in culturally diverse populations. Experienced 
-                    in providing culturally sensitive medication management and working with interpreters when needed. 
-                    Collaborates closely with community health centers and cultural organizations.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Lisa Cherokee, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Native American Family Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Cherokee Nation member specializing in Native American mental health, historical trauma, and 
-                    cultural identity. Expert in providing culturally responsive therapy that honors indigenous 
-                    values and healing traditions while addressing contemporary mental health needs.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

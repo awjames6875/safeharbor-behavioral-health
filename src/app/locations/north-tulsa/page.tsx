@@ -142,166 +142,27 @@ export default function NorthTulsaPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve North Tulsa Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in North Tulsa
+                How We Serve North Tulsa Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Accessible Location & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed to be accessible and welcoming for all families:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 50+ spaces available</li>
-                    <li>• Easy access from major North Tulsa streets</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered drop-off area for weather protection</li>
-                    <li>• Well-lit, secure parking for all appointment times</li>
-                    <li>• Public transportation accessible location</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major North Tulsa Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Greenwood District: 5-minute drive via Pine Street</li>
-                    <li>• From Apache Park: 4-minute drive via Apache Street</li>
-                    <li>• From McLain High School: 6-minute drive via Admiral</li>
-                    <li>• From Gilcrease Museum: 8-minute drive via Gilcrease Road</li>
-                    <li>• From Turley: 10-minute drive via Highway 11</li>
-                    <li>• From downtown Tulsa: 8-minute drive via Highway 75</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Public Transportation Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Multiple Tulsa Transit routes serve the area</li>
-                    <li>• Walking distance from bus stops on major streets</li>
-                    <li>• Easy access from Highway 75 and city bus routes</li>
-                    <li>• Safe pedestrian access from surrounding neighborhoods</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Located in Historic North Tulsa
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is positioned near the landmarks and institutions that define North Tulsa's rich heritage:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves North Tulsa families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Historic & Cultural Sites:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Greenwood Cultural Center</li>
-                    <li>• John Hope Franklin Reconciliation Park</li>
-                    <li>• Gilcrease Museum</li>
-                    <li>• Booker T. Washington High School</li>
-                    <li>• Vernon AME Church</li>
-                    <li>• Historic Apache Park</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Community Resources:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• North Tulsa community centers</li>
-                    <li>• Local grocery stores and pharmacies</li>
-                    <li>• Community health centers</li>
-                    <li>• Faith community organizations</li>
-                    <li>• Public library branches</li>
-                    <li>• Recreation and sports facilities</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from North Tulsa
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "My 14-year-old daughter was struggling with anger and depression after learning about the Tulsa 
-                  Race Massacre in school. She felt overwhelmed by the history of our community and didn't understand 
-                  how to process feelings of anger about the injustices while still feeling proud of where she came 
-                  from. She was getting in trouble at McLain, fighting with family members, and talking about how 
-                  nothing would ever change."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor provided exactly what we needed - therapists who understood both our family's experience 
-                  and our community's history. They helped my daughter process her feelings about historical trauma 
-                  while also connecting her to the strength and resilience that defines North Tulsa. The therapists 
-                  incorporated our cultural values and helped her see herself as part of a powerful legacy of 
-                  community builders and survivors."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The transformation was incredible. She started volunteering at the Greenwood Cultural Center, 
-                  became involved in community organizations, and her grades improved dramatically. Most importantly, 
-                  she learned to channel her passion for justice into positive action. She's now proud of her 
-                  heritage and sees herself as part of continuing North Tulsa's story of strength and resilience."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Denise W., Mother of two, North Tulsa resident for three generations
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our North Tulsa Community Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand North Tulsa because they're part of the community:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Keisha Johnson, PsyD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Cultural Psychology Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    North Tulsa resident and Booker T. Washington graduate. Specializes in historical trauma, 
-                    cultural identity development, and community resilience. Expert in providing culturally 
-                    responsive therapy that honors African American heritage and community strength.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Marcus Williams, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Community Advocacy Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    McLain High School graduate who returned to serve his community. Expert in helping teens 
-                    navigate identity, overcome educational barriers, and develop leadership skills. Active in 
-                    North Tulsa community organizations and youth mentorship programs.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Robert Jackson, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Community Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in trauma-informed care, ADHD, and mood disorders. Experienced in working with 
-                    families affected by community violence and economic stress. Provides culturally sensitive 
-                    medication management and works closely with community resources.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Tanya Davis, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Family Empowerment Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in family systems therapy with focus on building on community and cultural 
-                    strengths. Expert in helping families navigate systemic challenges while maintaining strong 
-                    family bonds and cultural connections. Fluent in trauma-informed care approaches.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

@@ -152,7 +152,7 @@ Remember, seeking help is a sign of strength, not weakness. Every child deserves
 
 *If you're concerned about your child's behavior or mental health, don't hesitate to reach out to SafeHarbor Behavioral Health. Our compassionate team is here to support your family's journey toward healing and growth.*
     `,
-    author: 'Dr. Sarah Martinez, Licensed Clinical Psychologist',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'January 15, 2024',
     readTime: '8 min read',
     category: 'parents',
@@ -440,7 +440,7 @@ At SafeHarbor Behavioral Health, our team of experienced therapists and psychiat
 
 *If you're concerned about your teenager's mental health, don't wait. Early intervention can make all the difference. Contact SafeHarbor Behavioral Health today to schedule a consultation.*
     `,
-    author: 'Dr. Michael Thompson, Child & Adolescent Psychiatrist',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'January 12, 2024',
     readTime: '12 min read',
     category: 'teen',
@@ -766,7 +766,7 @@ Remember, movement isn't the opposite of learning—it's the foundation for it.
 
 *Ready to explore how Body-Brain Integration can help your child with ADHD? Contact SafeHarbor Behavioral Health today to learn more about our innovative programs and schedule an evaluation.*
     `,
-    author: 'Lisa Rodriguez, OTR/L, Occupational Therapist',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'January 10, 2024',
     readTime: '10 min read',
     category: 'body-brain',
@@ -2396,7 +2396,7 @@ If you've been hesitating to seek mental health services because of financial co
 
 *Don't let insurance concerns prevent your child from getting help. Contact SafeHarbor Behavioral Health today to learn more about our Medicaid services and how we can support your family's mental health journey. Your child's well-being is worth the call.*
     `,
-    author: 'Patricia Williams, LMSW, Community Outreach Coordinator',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'December 30, 2023',
     readTime: '9 min read',
     category: 'parents',
@@ -2821,7 +2821,7 @@ Your children need to see that while your marriage didn't work out, your commitm
 
 *If your family is going through a divorce or separation, you don't have to face these challenges alone. Contact SafeHarbor Behavioral Health today to learn about our family therapy services, co-parenting counseling, and individual support for children. We're here to help your family find strength, healing, and hope during this difficult time.*
     `,
-    author: 'Dr. Rachel Thompson, Licensed Marriage and Family Therapist',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'December 28, 2023',
     readTime: '14 min read',
     category: 'parents',
@@ -3272,7 +3272,7 @@ If your child struggles with shyness or social anxiety, consider the transformat
 
 *Is your shy child ready to build confidence and social skills? Contact SafeHarbor Behavioral Health today to learn more about our group therapy programs for children and teens. Our experienced therapists are ready to help your child discover the joy of authentic social connection while honoring their unique personality and temperament.*
     `,
-    author: 'Kelly Martinez, LPC, Group Therapy Specialist',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'December 26, 2023',
     readTime: '12 min read',
     category: 'child',
@@ -3841,7 +3841,7 @@ Prevention is always preferable to crisis intervention. By building resilience p
 
 *Ready to help your child build emotional resilience and prevent mental health crises? Contact SafeHarbor Behavioral Health today to learn about our resilience building programs and comprehensive mental health services. Together, we can give your child the tools they need for a lifetime of emotional strength and well-being.*
     `,
-    author: 'Dr. Maria Santos, Director of Prevention Programs',
+    author: 'Safe Harbor Behavioral Health Team',
     date: 'December 24, 2023',
     readTime: '16 min read',
     category: 'parents',

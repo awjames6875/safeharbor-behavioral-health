@@ -143,161 +143,27 @@ export default function OwassoPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Owasso Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in Owasso
+                How We Serve Owasso Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed for busy families with multiple commitments:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 50+ spaces</li>
-                    <li>• Easy access from major Owasso roads</li>
-                    <li>• Handicap accessible parking and entrance</li>
-                    <li>• Covered walkway for weather protection</li>
-                    <li>• Well-lit, secure parking for all appointment times</li>
-                    <li>• Quick access to minimize time away from activities</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major Owasso Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Owasso High School: 5-minute drive via 86th Street North</li>
-                    <li>• From downtown Owasso: 7-minute drive via Main Street</li>
-                    <li>• From Redbud Valley Nature Preserve: 8-minute drive</li>
-                    <li>• From Owasso Sports Park: 6-minute drive via Highway 20</li>
-                    <li>• From new developments off 106th Street: 10-minute drive</li>
-                    <li>• From Collinsville: 12-minute drive via Highway 20</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Highway and Regional Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• 3 minutes from Highway 169 (access to Tulsa)</li>
-                    <li>• Easy access via 86th Street North corridor</li>
-                    <li>• Quick route from Highway 20 (Collinsville Road)</li>
-                    <li>• Convenient from 76th Street North</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Easy to Find Near Owasso Landmarks
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is strategically convenient to the places Owasso families visit regularly:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Owasso families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">We're Close To:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Owasso Sports Park and Aquatic Center</li>
-                    <li>• Redbud Valley Nature Preserve</li>
-                    <li>• Downtown Owasso shops and restaurants</li>
-                    <li>• Owasso Community Center</li>
-                    <li>• Preston Trail Shopping</li>
-                    <li>• Multiple OPS school campuses</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Walmart Supercenter and Target</li>
-                    <li>• Multiple restaurants and fast food</li>
-                    <li>• Reasor's and Homeland grocery stores</li>
-                    <li>• Starbucks and local coffee shops</li>
-                    <li>• CVS, Walgreens, and other pharmacies</li>
-                    <li>• Banks and service providers on main corridors</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Owasso
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "We moved to Owasso for the schools when our son was in 4th grade. While the academics were excellent, 
-                  he struggled to fit in with classmates who had grown up together. He was a quiet kid in a community 
-                  that seemed to celebrate outgoing, high-achieving students. By middle school, he was experiencing 
-                  severe social anxiety and didn't want to participate in any school activities."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor understood exactly what we were dealing with. The therapists knew how tight-knit OPS 
-                  social circles could be and how overwhelming it felt for newcomer families to break in. They worked 
-                  with our son on social skills and confidence, but more importantly, they helped him find his own way 
-                  to contribute to the community without trying to be someone he wasn't."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The breakthrough came when they connected him with the robotics team - a smaller group where his 
-                  quiet, analytical nature was valued. Now he's thriving at Owasso High School, has a solid friend 
-                  group, and even volunteers at community events. He didn't become the stereotypical 'Ram spirited' 
-                  student, but he found his own authentic way to be part of Owasso. SafeHarbor helped him realize 
-                  that there are many ways to belong in this community."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Mark D., Father of two, Owasso resident since 2019
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Owasso Community Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand Owasso because they're part of the Ram family:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Jessica Martinez, PsyD</h3>
-                  <p className="text-teal-600 text-sm mb-2">School Psychology Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Owasso resident for 8 years, OPS parent. Former school psychologist who understands the district's 
-                    culture and expectations. Specializes in academic anxiety and social adjustment for high-achieving students.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Brandon Lee, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Teen and Young Adult Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Owasso High School graduate, returned to serve his community. Expert in adolescent identity development 
-                    and peer relationship issues. Understands the social dynamics and pressures specific to OPS students.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Patricia Johnson, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in ADHD, anxiety, and mood disorders in high-achieving students. Works closely with 
-                    OPS counselors and special education teams. Available for comprehensive evaluations and medication management.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Kelly Rogers, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Family Systems Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Helps families navigate the pressures of high-achieving communities while maintaining healthy relationships. 
-                    Specializes in helping newcomer families integrate into the Owasso community successfully.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

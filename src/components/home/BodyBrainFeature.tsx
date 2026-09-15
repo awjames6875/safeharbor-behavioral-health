@@ -78,8 +78,8 @@ export default function BodyBrainFeature() {
               <div className="absolute inset-0 bg-gradient-to-t from-navy-900/50 via-transparent to-transparent"></div>
 
               <div className="absolute bottom-8 left-8 right-8 text-white">
-                <p className="text-3xl font-serif mb-2">"He's a different kid."</p>
-                <p className="text-teal-200 font-medium">– Sarah, Mother of 8-year-old</p>
+                <p className="text-3xl font-serif mb-2">Movement first, then words.</p>
+                <p className="text-teal-200 font-medium">The Body &amp; Brain approach</p>
               </div>
             </div>
           </div>

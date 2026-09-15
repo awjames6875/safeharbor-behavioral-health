@@ -102,7 +102,7 @@ export default function ExitIntentPopup() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
-          <h2 className="text-2xl font-bold mb-2">Wait! Your Child's Mental Health Can't Wait</h2>
+          <h2 className="text-2xl font-bold mb-2 text-white">Wait! Your Child's Mental Health Can't Wait</h2>
           <p className="text-lg opacity-95">Don't leave empty-handed</p>
         </div>
 
@@ -119,7 +119,7 @@ export default function ExitIntentPopup() {
               "10 Signs Your Child Needs Mental Health Support"
             </p>
             <p className="text-sm text-gray-600">
-              Written by licensed therapists • Trusted by 10,000+ Oklahoma families
+              Written by our licensed clinical team in Tulsa
             </p>
           </div>
 

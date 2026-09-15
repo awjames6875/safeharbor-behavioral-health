@@ -133,162 +133,27 @@ export default function CherryStreetPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Cherry Street Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor on Cherry Street
+                How We Serve Cherry Street Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Parking Solutions</h3>
-                  <p className="text-gray-600 mb-3">
-                    We understand parking can be challenging on busy Cherry Street, so we've made it easy:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Private parking lot with 35 dedicated client spaces</li>
-                    <li>• Additional street parking on surrounding side streets</li>
-                    <li>• Valet parking available during peak hours</li>
-                    <li>• Handicap accessible parking and building access</li>
-                    <li>• Short-term parking for brief appointments</li>
-                    <li>• Evening parking easier to find after business hours</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Cherry Street Landmarks</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Saint Francis Hospital: 2-minute drive via 19th Street</li>
-                    <li>• From Cascia Hall: 5-minute drive via 15th Street</li>
-                    <li>• From Cherry Street shopping: Walking distance or 2-minute drive</li>
-                    <li>• From Bishop Kelley: 8-minute drive via Harvard Avenue</li>
-                    <li>• From Medical District offices: 3-5 minute drive or walk</li>
-                    <li>• From Cherry Street Farmers Market: 1 block away</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Public Transportation & Walking</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Multiple Tulsa Transit bus routes along Cherry Street</li>
-                    <li>• Safe sidewalks throughout the medical district</li>
-                    <li>• Well-lit walking paths for evening appointments</li>
-                    <li>• Pedestrian-friendly crosswalks at major intersections</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Centrally Located on Cherry Street
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our Cherry Street location puts us at the center of one of Tulsa's most convenient corridors, 
-                near the places families visit regularly:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Cherry Street families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Major Landmarks Nearby:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Saint Francis Hospital (2 blocks)</li>
-                    <li>• Cascia Hall Preparatory School (5 minutes)</li>
-                    <li>• Cherry Street shopping district</li>
-                    <li>• 15th & Cherry intersection</li>
-                    <li>• Medical District offices</li>
-                    <li>• Hillcrest Medical Center (nearby)</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Starbucks on 15th & Cherry</li>
-                    <li>• Walgreens pharmacy</li>
-                    <li>• Several restaurants for family meals</li>
-                    <li>• QuikTrip for quick stops</li>
-                    <li>• Banks and ATMs</li>
-                    <li>• Cherry Street Farmers Market (Saturdays)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Cherry Street
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "Our son attends Cascia Hall and has several ongoing medical issues that require regular appointments 
-                  at Saint Francis. Between school, medical appointments, therapy for his chronic condition, and trying 
-                  to maintain some normalcy, he was constantly anxious and overwhelmed. The driving between appointments, 
-                  the pressure to keep up academically despite missing school, and the stress of medical procedures was 
-                  affecting our whole family."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "Finding SafeHarbor on Cherry Street was a game-changer. Not only could we combine therapy with our 
-                  medical appointments, but the therapists understood medical trauma and the unique stress of managing 
-                  chronic illness as a teenager. They worked with Cascia Hall counselors to develop an academic plan 
-                  that reduced pressure while keeping him on track."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The location made such a difference - instead of driving all over town, we could park once and walk 
-                  to multiple appointments. Our son started seeing therapy not as another burden on his schedule, but 
-                  as a supportive resource. He's now managing his medical care with confidence and maintaining good 
-                  grades without the constant anxiety he had before."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Patricia M., Mother of one, Cascia Hall parent
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Cherry Street Medical District Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand the unique needs of families in the medical district and school corridor:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Maria Rodriguez, PhD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Pediatric Health Psychologist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in medical trauma and chronic illness adjustment. Collaborates regularly with Saint Francis 
-                    pediatric team. Fluent in Spanish. Expert in helping children cope with medical procedures and conditions.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">David Chen, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Academic Stress Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Former Cascia Hall counselor. Expert in high-achieving student anxiety and college prep stress. 
-                    Maintains relationships with area school counselors. Specializes in perfectionism and academic burnout.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Jennifer Walsh, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Works closely with medical teams at area hospitals. Specializes in anxiety disorders and medication 
-                    management for children with complex medical needs. Available for urgent consultations.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Christina Lee, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Family Systems Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in helping families navigate chronic illness, medical trauma, and the stress of managing 
-                    complex schedules. Provides family therapy and parent support groups.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

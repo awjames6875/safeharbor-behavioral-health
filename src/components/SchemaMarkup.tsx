@@ -57,7 +57,7 @@ export function OrganizationSchema() {
     ],
     priceRange: '$$',
     paymentAccepted:
-      'Medicaid, SoonerCare, Blue Cross Blue Shield, United Healthcare, Aetna, Cigna, Health Choice, Community Care, TriCare',
+      'Medicaid, SoonerCare, Blue Cross Blue Shield, Aetna',
     currenciesAccepted: 'USD',
     areaServed: [
       { '@type': 'City', name: 'Tulsa, OK' },

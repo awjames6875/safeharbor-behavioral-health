@@ -143,166 +143,27 @@ export default function SouthTulsaPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve South Tulsa Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in South Tulsa
+                How We Serve South Tulsa Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Access & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed for busy suburban families:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 60+ spaces available</li>
-                    <li>• Easy access from major South Tulsa corridors</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered drop-off area for weather protection</li>
-                    <li>• Well-lit, secure parking for evening appointments</li>
-                    <li>• Convenient location for combining with errands and activities</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major South Tulsa Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Woodland Hills Mall: 5-minute drive via Yale Avenue</li>
-                    <li>• From 71st & Yale area: 3-minute drive</li>
-                    <li>• From River Parks: 8-minute drive via Riverside Drive</li>
-                    <li>• From 91st & Memorial area: 7-minute drive via Memorial Drive</li>
-                    <li>• From 101st Street corridor: 10-minute drive</li>
-                    <li>• From LaFortune Park area: 6-minute drive via 51st Street</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Major Corridor Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Direct access from Yale Avenue (major north-south route)</li>
-                    <li>• Easy access from Memorial Drive</li>
-                    <li>• Quick routes from 71st Street and 81st Street</li>
-                    <li>• Convenient from Riverside Drive</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Located in the Heart of South Tulsa
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is strategically positioned near the landmarks and destinations South Tulsa families visit regularly:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves South Tulsa families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Close to Major Destinations:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Woodland Hills Mall</li>
-                    <li>• LaFortune Park and Golf Course</li>
-                    <li>• South Hills Country Club</li>
-                    <li>• River Parks and Arkansas River</li>
-                    <li>• Multiple TPS and private school campuses</li>
-                    <li>• Saint Francis Hospital South</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Target, Walmart, and Whole Foods</li>
-                    <li>• Numerous restaurants and dining options</li>
-                    <li>• Reasor's and other grocery stores</li>
-                    <li>• Multiple Starbucks and coffee shops</li>
-                    <li>• CVS, Walgreens, and pharmacy services</li>
-                    <li>• Banking and professional services along Yale</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from South Tulsa
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "Our 15-year-old son was the picture of South Tulsa success - honor roll student at Edison Prep, 
-                  varsity tennis player, student government, volunteer work, and preparing for early college admission. 
-                  But underneath all the achievements, he was struggling with severe anxiety and perfectionism. He 
-                  was having panic attacks before tests, couldn't sleep, and was putting enormous pressure on himself 
-                  to maintain his 'perfect' image."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor immediately understood the unique pressures of high-achieving South Tulsa students. 
-                  They didn't suggest he lower his standards or quit activities - instead, they taught him healthy 
-                  ways to manage perfectionism and maintain perspective. They worked with his school counselor and 
-                  tennis coach to create strategies that supported his goals while protecting his mental health."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The transformation was remarkable. He learned that excellence didn't require perfection, developed 
-                  healthy study and training habits, and actually improved his performance by reducing his anxiety. 
-                  He's now thriving in college, but more importantly, he has the tools to manage stress and maintain 
-                  balance. SafeHarbor helped him realize that success is about more than achievements - it's about 
-                  being healthy and happy while pursuing your goals."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Rachel P., Mother of two, South Tulsa resident since 2016
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our South Tulsa Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand South Tulsa because they live and work in the community:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Sarah Mitchell, PhD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Educational Psychology Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    South Tulsa resident for 12 years, TPS parent. Specializes in gifted student psychology, academic 
-                    anxiety, and perfectionism. Former TPS school psychologist who understands the district's culture 
-                    and the unique pressures facing high-achieving suburban students.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Michael Rodriguez, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Adolescent Stress Management Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Expert in helping high-achieving teens manage perfectionism, social pressures, and college 
-                    preparation stress. Familiar with South Tulsa schools and extracurricular programs. Specializes 
-                    in helping students balance multiple demanding commitments.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Safe Harbor Behavioral Health Team</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child & Adolescent Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in anxiety disorders, ADHD, and mood disorders in academically gifted students. 
-                    Experienced in medication management for high-achieving teens. Collaborates closely with 
-                    school counselors and coaches to provide comprehensive support.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Jessica Thompson, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Family Systems Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Helps high-achieving families maintain healthy relationships while pursuing excellence. Specializes 
-                    in family communication, managing overscheduled lifestyles, and helping parents support their 
-                    children's success without creating additional pressure.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

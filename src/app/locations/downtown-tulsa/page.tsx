@@ -131,158 +131,27 @@ export default function DowntownTulsaPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Downtown Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor from Downtown Tulsa
+                How We Serve Downtown Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Parking Options</h3>
-                  <p className="text-gray-600 mb-3">
-                    We offer convenient parking options for downtown families:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Free 2-hour street parking along Boston Avenue and Cincinnati Avenue</li>
-                    <li>• Dedicated client parking lot with 30 spaces (entrance on 4th Street)</li>
-                    <li>• Covered parking available in adjacent garage (validated for clients)</li>
-                    <li>• Handicap accessible parking directly in front of building</li>
-                    <li>• Valet service available for families with mobility challenges</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Public Transportation</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Tulsa Transit Route 100 (Downtown Circulator) stops one block away</li>
-                    <li>• Routes 112, 117, and 119 all within walking distance</li>
-                    <li>• Bike racks available for families using Tulsa Townies bike share</li>
-                    <li>• Walking distance from most downtown residences (10-15 minutes)</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major Downtown Locations</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From BOK Center: 5-minute drive via Denver Avenue</li>
-                    <li>• From Blue Dome District: 3-minute drive or 10-minute walk</li>
-                    <li>• From Brady Arts District: 7-minute walk via Boston Avenue</li>
-                    <li>• From Pearl District: 8-minute drive via 6th Street</li>
-                    <li>• From OSU-Tulsa campus: 10-minute drive via 244</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Easy to Find - Near Downtown Landmarks You Know
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is centrally located and easy to find. We're situated in the heart of downtown, making us 
-                convenient for families throughout the area:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Downtown families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">We're Next To:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• 2 blocks from BOK Center</li>
-                    <li>• Across from OneOK Field</li>
-                    <li>• Next to Hyatt Regency Tulsa</li>
-                    <li>• 1 block from Cox Business Convention Center</li>
-                    <li>• Walking distance to Guthrie Green</li>
-                    <li>• Near the Tulsa PAC</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Popular Spots Nearby:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Topeca Coffee (perfect for parent wait time)</li>
-                    <li>• Tulsa City-County Library (Central Library)</li>
-                    <li>• QuikTrip on Denver Avenue</li>
-                    <li>• Whole Foods Market (5-minute drive)</li>
-                    <li>• Mother Road Market</li>
-                    <li>• Center of the Universe monument</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Downtown Tulsa
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "When we moved to our loft in the Blue Dome District, our 10-year-old son struggled with the transition from 
-                  suburban life. He missed his old neighborhood friends and felt overwhelmed by the city sounds and activity. 
-                  SafeHarbor's Body & Brain program was perfect for him - it gave him an outlet for his energy while teaching 
-                  him mindfulness techniques to handle urban overstimulation."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "The therapists understood our downtown lifestyle and worked with our schedule. They even incorporated walks 
-                  to Guthrie Green into therapy sessions, helping our son see the city as less threatening and more exciting. 
-                  After six months, he's thriving - he's made friends at Eugene Field Elementary, joined the downtown youth 
-                  soccer league, and actually loves living downtown now."
-                </p>
-                <p className="text-gray-600 italic">
-                  "What really impressed us was how the SafeHarbor team knew our neighborhood. They recommended downtown 
-                  resources we didn't know about, connected us with other downtown families, and helped us find activities 
-                  that suited city living. They truly understand what it's like raising kids in downtown Tulsa."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Sarah M., Mother of two, Blue Dome District resident
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Downtown Tulsa Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand downtown Tulsa because many of them live and work in the area:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Michael Chen, PsyD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child Psychologist</p>
-                  <p className="text-gray-600 text-sm">
-                    Lives in the Pearl District. Specializes in urban stress and adjustment disorders. Regular at Guthrie Green 
-                    family events. 10+ years serving downtown families.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Jennifer Martinez, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Teen Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Brady Arts District resident. Expert in teen anxiety and social media issues. Volunteers at Tulsa PAC youth 
-                    programs. Bilingual (English/Spanish).
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Robert Thompson, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Body & Brain Program Lead</p>
-                  <p className="text-gray-600 text-sm">
-                    Lives near Riverside Drive. Uses downtown's urban landscape for movement therapy. Partners with Tulsa Parks 
-                    for outdoor sessions.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Ashley Williams, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Works at OSU Medical Center, lives downtown. Specializes in ADHD and mood disorders common in urban youth. 
-                    Active in downtown parent groups.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}

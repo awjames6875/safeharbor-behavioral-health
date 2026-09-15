@@ -89,7 +89,6 @@ export default function ServiceContactForm({ serviceName, serviceTitle }: Servic
     'SoonerCare',
     'Blue Cross Blue Shield',
     'Aetna',
-    'UnitedHealthcare',
     'Other Insurance',
     'Self-Pay',
     'Not Sure'

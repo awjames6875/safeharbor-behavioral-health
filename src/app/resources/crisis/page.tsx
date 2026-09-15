@@ -1302,7 +1302,7 @@ export default function CrisisResourcesPage() {
                 <ul className="space-y-2 text-sm opacity-90">
                   <li>• Medicaid & SoonerCare</li>
                   <li>• Blue Cross Blue Shield</li>
-                  <li>• Aetna, United Healthcare</li>
+                  <li>• Aetna</li>
                   <li>• Sliding scale fees available</li>
                   <li>• Payment plans offered</li>
                 </ul>

@@ -56,7 +56,7 @@ export default function AnimatedStats() {
             Making a Real <span className="gradient-text-accent">Difference</span>
           </h2>
           <p className="text-xl text-white/80">
-            Our network has served over 1,000 families across Oklahoma
+            Serving the Tulsa metro from our midtown office and statewide by telehealth
           </p>
         </div>
 

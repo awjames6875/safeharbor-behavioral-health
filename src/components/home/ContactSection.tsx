@@ -203,7 +203,7 @@ export default function ContactSection() {
                         <option value="">Select...</option>
                         <option value="medicaid">Medicaid/SoonerCare</option>
                         <option value="bcbs">Blue Cross Blue Shield</option>
-                        <option value="united">United Healthcare</option>
+                        <option value="aetna">Aetna</option>
                         <option value="other">Other Insurance</option>
                         <option value="none">No Insurance</option>
                       </select>

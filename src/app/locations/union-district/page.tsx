@@ -143,166 +143,27 @@ export default function UnionDistrictPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Union District Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in Union District
+                How We Serve Union District Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Premium Access & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed for busy, high-achieving families:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 60+ premium spaces</li>
-                    <li>• Easy access from major Union District corridors</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered drop-off area for quick transitions</li>
-                    <li>• Well-lit, secure parking for evening appointments</li>
-                    <li>• Designed for efficiency to respect busy schedules</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major Union District Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Union High School: 3-minute drive via 61st Street</li>
-                    <li>• From Union 8th/9th Grade Center: 4-minute drive</li>
-                    <li>• From 61st & Yale area: 2-minute drive</li>
-                    <li>• From 71st & Yale corridor: 5-minute drive</li>
-                    <li>• From Union elementary schools: 5-8 minute drive</li>
-                    <li>• From Union athletic facilities: 6-minute drive</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Major Corridor Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Direct access from Yale Avenue (primary north-south route)</li>
-                    <li>• Quick access from 61st Street and 71st Street</li>
-                    <li>• Easy routes from Memorial Drive and 51st Street</li>
-                    <li>• Convenient from Riverside Drive for families near the river</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Located in the Heart of Union Excellence
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is positioned near the landmarks and institutions that define Union District pride:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Union District families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Union District Landmarks:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Union High School campus</li>
-                    <li>• Union Athletic Complex</li>
-                    <li>• Union Performing Arts Center</li>
-                    <li>• Multiple Union elementary and middle schools</li>
-                    <li>• Union community facilities</li>
-                    <li>• District administrative offices</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Premium Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Upscale shopping centers and boutiques</li>
-                    <li>• Fine dining and family restaurants</li>
-                    <li>• Premium grocery stores (Whole Foods, Reasor's)</li>
-                    <li>• Starbucks and premium coffee shops</li>
-                    <li>• High-end services and professional offices</li>
-                    <li>• Medical and dental practices along Yale</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Union District
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "Our daughter was the quintessential Union overachiever - valedictorian track, National Merit 
-                  semifinalist, varsity soccer captain, student body president, and applying to Ivy League schools. 
-                  But by her senior year, she was having panic attacks daily, barely sleeping, and had developed 
-                  an eating disorder. She was terrified that any imperfection would ruin her chances at her dream 
-                  colleges and let down the entire Union community that had invested so much in her success."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor understood the unique pressures that come with being a high-profile Union student. 
-                  They didn't suggest she lower her standards or quit activities - that wasn't realistic given her 
-                  goals and our family's expectations. Instead, they taught her sustainable strategies for managing 
-                  perfectionism, handling stress, and maintaining perspective during the college application process."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The transformation was incredible. She learned that excellence didn't require perfection, developed 
-                  healthy eating and sleeping habits, and actually improved her performance by managing her anxiety. 
-                  She got into her first-choice Ivy League school, but more importantly, she learned life skills for 
-                  success beyond high school. SafeHarbor helped her realize that being a Union Redskin means striving 
-                  for excellence while maintaining your health and happiness."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Katherine H., Mother of two, Union District resident since 2012
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Union District Elite Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand Union District excellence because they're part of the Redskin family:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Elizabeth Harvard, PhD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Gifted Education Psychology Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Union High School graduate, current UPS parent. Specializes in gifted student psychology, 
-                    perfectionism, and academic anxiety. Former Union counselor who intimately understands the 
-                    district's culture, expectations, and the unique pressures facing high-achieving Union students.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Jonathan Stevens, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Elite Performance Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Expert in helping high-achieving teens manage competitive stress, time management, and college 
-                    preparation anxiety. Familiar with Union's comprehensive programs and works closely with coaches, 
-                    sponsors, and counselors. Specializes in sustainable high performance and burnout prevention.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Alexander Reed, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child & Adolescent Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in anxiety disorders, ADHD, and mood disorders in academically gifted students. 
-                    Expert in medication management for high-achieving teens. Collaborates closely with Union 
-                    counselors and works with families to optimize both academic performance and mental health.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Victoria Champion, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">High-Achieving Family Systems Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Helps elite families maintain healthy relationships while pursuing excellence. Expert in family 
-                    communication, managing achievement pressure, and helping parents support their children's success 
-                    without compromising mental health. Understands Union family dynamics and expectations.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}
