@@ -166,9 +166,6 @@ export default function ContactPage() {
                 <p className="text-gray-600 mb-3">
                   Start your child&apos;s journey with Safe Harbor today.
                 </p>
-                <a href="https://SafeHarborEasyEnrollment.com" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-md hover:bg-teal-700 transition-colors font-semibold mr-3 mb-2">
-                  Easy Enrollment
-                </a>
                 <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="inline-block bg-navy-700 text-white px-6 py-3 rounded-md hover:bg-navy-800 transition-colors font-semibold mb-2">
                   Therapy Portal
                 </a>
