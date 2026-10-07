@@ -3849,5 +3849,128 @@ Prevention is always preferable to crisis intervention. By building resilience p
     metaTitle: 'Building Emotional Resilience in Children | Crisis Prevention | Safe Harbor Tulsa',
     metaDescription: 'Learn evidence-based strategies to build emotional resilience in children and teens. Prevent mental health crises with Safe Harbor Behavioral Health.',
     relatedPosts: ['childhood-trauma-recognition', 'is-my-childs-behavior-normal', 'group-therapy-shy-children']
+  },
+  {
+    slug: 'how-fast-can-i-get-counseling-tulsa',
+    title: 'How Fast Can I Get Counseling in Tulsa?',
+    excerpt: 'Waiting weeks to start is the hardest part. Here is how fast Safe Harbor can get you in, and what to ask any provider before you book.',
+    content: `
+# How Fast Can I Get Counseling in Tulsa?
+
+You made the call. Now you wait.
+
+Many families tell us the wait is the hardest part. Weeks go by. Sometimes months. The push to get help fades, or the problem gets worse.
+
+## How fast we can get you in
+
+At Safe Harbor Behavioral Health, once your intake paperwork is finished, we can get you in within 48 hours. We also offer same-week appointments.
+
+## What to ask any provider before you book
+
+- How long is it from my first call to my first real appointment?
+- Is the intake paperwork online, and how soon after it is done do I start?
+- If my appointment changes, who tells me?
+- Will I see the same counselor each time?
+
+## Who we help
+
+We work with children, teens, and adults. We take Medicaid/SoonerCare, Blue Cross Blue Shield, Aetna, and United Healthcare.
+
+*Ready to start? Call (918) 553-5746 or visit safeharborbehavioralhealth.com.*
+    `,
+    author: 'Adam James',
+    date: 'October 7, 2026',
+    readTime: '2 min read',
+    category: 'parents',
+    tags: ['same-week appointments', 'getting started', 'Tulsa counseling', 'intake'],
+    featured: false,
+    icon: '⏱️',
+    metaTitle: 'How Fast Can I Get Counseling in Tulsa? | Safe Harbor',
+    metaDescription: 'Waiting weeks to start counseling? Safe Harbor can get you in within 48 hours of finished paperwork. Call (918) 553-5746.',
+    relatedPosts: ['counseling-insurance-tulsa-what-to-ask', 'medicaid-mental-health-tulsa', 'is-my-childs-behavior-normal']
+  },
+  {
+    slug: 'drug-alcohol-help-tulsa-what-to-expect',
+    title: 'Drug or Alcohol Help in Tulsa: What to Expect',
+    excerpt: 'Asking for help with drugs or alcohol takes guts. It should not make you feel judged. Here is what to expect at Safe Harbor.',
+    content: `
+# Drug or Alcohol Help in Tulsa: What to Expect
+
+Asking for help with drugs or alcohol takes guts. It should not make you feel judged.
+
+Recovery is a main focus at Safe Harbor Behavioral Health. You are a person, not a problem. A licensed counselor will listen first.
+
+## What you can expect from us
+
+- **A fast start.** Once your intake paperwork is finished, we can get you in within 48 hours.
+- **Insurance that is accepted.** We take Medicaid/SoonerCare, Blue Cross Blue Shield, Aetna, and United Healthcare.
+- **Help for the whole family.** We work with children, teens, and adults.
+- **One counselor.** You keep the same counselor. If yours leaves, we move you to another, or refer you out if you would rather.
+
+## If you are in crisis right now
+
+Call or text 988. It is free and open all day and night.
+
+## Ready to talk?
+
+*Call (918) 553-5746 or visit safeharborbehavioralhealth.com.*
+    `,
+    author: 'Adam James',
+    date: 'October 7, 2026',
+    readTime: '2 min read',
+    category: 'parents',
+    tags: ['addiction recovery', 'substance use', 'Tulsa', 'Medicaid'],
+    featured: false,
+    icon: '🌱',
+    metaTitle: 'Drug and Alcohol Help in Tulsa: What to Expect | Safe Harbor',
+    metaDescription: 'Asking for recovery help should not feel judged. See what to expect at Safe Harbor in Tulsa. Call (918) 553-5746.',
+    relatedPosts: ['how-fast-can-i-get-counseling-tulsa', 'counseling-insurance-tulsa-what-to-ask', 'medicaid-mental-health-tulsa']
+  },
+  {
+    slug: 'counseling-insurance-tulsa-what-to-ask',
+    title: 'Counseling and Insurance in Tulsa: What to Ask',
+    excerpt: 'What Safe Harbor takes, what you pay, and the questions to ask any provider before you book.',
+    content: `
+# Counseling and Insurance in Tulsa: What to Ask
+
+Insurance is where a lot of people give up. The phone tree. The hold music. The surprise bill.
+
+## What Safe Harbor takes
+
+- Medicaid/SoonerCare
+- Blue Cross Blue Shield
+- Aetna
+- United Healthcare
+
+## What you pay
+
+No intake fee. We bill your insurance. If you miss an appointment or cancel late, there is a $50 fee. We would rather you know that up front.
+
+## Your counselor
+
+You keep the same counselor. If yours leaves, we move you to another counselor, or refer you out if you would rather.
+
+## Questions to ask any provider before you book
+
+1. Do you take my plan, and can you check it for me today?
+2. What will I pay at the first visit?
+3. Are there fees for intake, late cancels, or no-shows?
+4. How long until my first appointment?
+5. Will I see the same counselor each time?
+
+Not sure what your plan covers? Call us and we will look at it with you.
+
+*Call (918) 553-5746 or visit safeharborbehavioralhealth.com.*
+    `,
+    author: 'Adam James',
+    date: 'October 7, 2026',
+    readTime: '2 min read',
+    category: 'parents',
+    tags: ['insurance', 'Medicaid', 'Blue Cross Blue Shield', 'Aetna', 'United Healthcare'],
+    featured: false,
+    icon: '🧾',
+    metaTitle: 'Counseling and Insurance in Tulsa: What to Ask | Safe Harbor',
+    metaDescription: 'Medicaid, Blue Cross Blue Shield, Aetna, United Healthcare. No intake fee. Know what to ask before you book. (918) 553-5746',
+    relatedPosts: ['how-fast-can-i-get-counseling-tulsa', 'medicaid-mental-health-tulsa', 'drug-alcohol-help-tulsa-what-to-expect']
   }
 ]

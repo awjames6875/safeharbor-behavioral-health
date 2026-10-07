@@ -62,3 +62,20 @@ Truth rule: one office phone (918) 553-5746. Canonical host: https://www.safehar
 - [x] "ages 3–17" (en dash) -> "all ages"
 - [x] TITLE-3: "SafeHarbor" -> "Safe Harbor" across src (handles, Therapy Portal URL and locations.ts untouched)
 - [x] Blog rewrites proposed in tasks/blog-rewrites.md (not applied)
+
+## ICM setup (2026-10-07_icm-light)
+- [x] Root CLAUDE.md slimmed to L0 router (265 lines -> ~50); architecture/commands already live in memory-bank/techContext.md
+- [x] Root CONTEXT.md (pipeline, run ID convention, stable vs per-run)
+- [x] 01_audit, 02_fix, 03_verify each with their own CONTEXT.md
+- [ ] Adam to decide: turn .cursorrules / .clinerules / .windsurfrules / .antigravity/rules.md into one-line pointers to CLAUDE.md (not touched)
+
+### Review
+- Applied only the ICM pattern to the change workflow. src/ untouched, no code changes, locations.ts untouched.
+- Walk Test: CLAUDE.md -> CONTEXT.md -> memory-bank/activeContext.md = 3 reads to orient.
+- Old CLAUDE.md held a duplicated copy of the rules plus long architecture notes; those were removed because techContext.md already covers them.
+
+## Round 4: competitor-gap posts
+- [x] Researched 3 Tulsa competitors' 1-3 star Google reviews via Playwright (tasks/competitor-gap-posts.md)
+- [x] Added 3 blog posts (48h after paperwork, recovery, insurance + fees), added to sitemap.ts; no "therapy" words
+- [x] Blog titles now use the post's own metaTitle (no doubled brand suffix) in blog/[slug]
+- [ ] Not done: rewrite of old posts' psychiatric claims and invented case studies (tasks/blog-rewrites.md); VAPI agent claims until it is live

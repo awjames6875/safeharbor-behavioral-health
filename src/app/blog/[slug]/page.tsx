@@ -71,12 +71,12 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 
   return {
-    title: post.metaTitle,
+    title: { absolute: post.metaTitle },
     description: post.metaDescription,
     keywords: post.tags.join(', '),
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
-      title: post.metaTitle,
+      title: { absolute: post.metaTitle },
       description: post.metaDescription,
       type: 'article',
       authors: [post.author],
@@ -85,7 +85,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.metaTitle,
+      title: { absolute: post.metaTitle },
       description: post.metaDescription,
     },
   }

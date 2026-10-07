@@ -56,6 +56,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'medicaid-mental-health-tulsa',
     'children-divorce-support',
     'group-therapy-shy-children',
+    'how-fast-can-i-get-counseling-tulsa',
+    'drug-alcohol-help-tulsa-what-to-expect',
+    'counseling-insurance-tulsa-what-to-ask',
   ].map(slug => ({
     path: `/blog/${slug}`,
     priority: 0.6,
