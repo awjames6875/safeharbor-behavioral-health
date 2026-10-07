@@ -21,13 +21,6 @@ export default function ParentsPage() {
           <p className="text-xl md:text-2xl text-navy-100 max-w-2xl mx-auto mb-8">
             Your child gets world-class behavioral support — disguised as the most fun part of their day. And you don&apos;t have to drive anywhere.
           </p>
-          <Link
-            href="https://SafeHarborEasyEnrollment.com"
-            target="_blank"
-            className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"
-          >
-            Enroll Your Child Now
-          </Link>
         </div>
       </section>
 
@@ -125,13 +118,6 @@ export default function ParentsPage() {
             Behavioral support that feels like play. Delivered where they already are. Covered by SoonerCare. Zero hassle for you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="https://SafeHarborEasyEnrollment.com"
-              target="_blank"
-              className="bg-white text-teal-600 font-bold py-4 px-8 rounded-lg text-lg hover:bg-teal-50 transition-colors"
-            >
-              Enroll Now
-            </Link>
             <Link
               href="tel:9185535746"
               className="border-2 border-white text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-white hover:text-teal-600 transition-colors"

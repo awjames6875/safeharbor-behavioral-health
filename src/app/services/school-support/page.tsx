@@ -428,14 +428,6 @@ export default function SchoolSupportPage() {
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
                   <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
-                  <a
-                    href="https://SafeHarborEasyEnrollment.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold"
-                  >
-                    Enroll Today
-                  </a>
                   <p className="text-sm text-gray-600 mt-2">
                     Current families: <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Access your Therapy Portal</a>
                   </p>

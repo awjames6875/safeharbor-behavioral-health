@@ -51,14 +51,6 @@ export default function PsychiatricEvaluationPage() {
                 and we&apos;ll point you in the right direction.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="https://SafeHarborEasyEnrollment.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-teal-600 text-white px-8 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold text-lg"
-                >
-                  Enroll in Our Programs
-                </a>
                 <Link
                   href="/services"
                   className="inline-block bg-navy-700 text-white px-8 py-3 rounded-lg hover:bg-navy-800 transition-colors font-semibold text-lg"
