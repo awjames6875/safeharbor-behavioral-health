@@ -389,14 +389,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               "name": "SafeHarbor Behavioral Health",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://safeharborbehavioralhealth.com/images/logo.png"
+                "url": "https://www.safeharborbehavioralhealth.com/images/logo.png"
               }
             },
             "datePublished": post.date,
             "dateModified": post.date,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": `https://safeharborbehavioralhealth.com/blog/${post.slug}`
+              "@id": `https://www.safeharborbehavioralhealth.com/blog/${post.slug}`
             },
             "keywords": post.tags.join(", "),
             "articleSection": "Mental Health",

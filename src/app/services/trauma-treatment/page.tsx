@@ -12,12 +12,12 @@ export default function TraumaTherapyPage() {
         name="Trauma Therapy"
         description="Trauma-informed care helping children process difficult experiences in Tulsa"
         serviceType="Trauma Treatment"
-        url="https://safeharborbehavioralhealth.com/services/trauma-treatment"
+        url="https://www.safeharborbehavioralhealth.com/services/trauma-treatment"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Trauma Therapy", item: "https://safeharborbehavioralhealth.com/services/trauma-treatment" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Trauma Therapy", item: "https://www.safeharborbehavioralhealth.com/services/trauma-treatment" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}

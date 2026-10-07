@@ -19,12 +19,12 @@ export default function SubstanceAbusePage() {
         name="Substance Abuse Support"
         description="Youth substance abuse support with early intervention in Tulsa"
         serviceType="Youth Substance Abuse"
-        url="https://safeharborbehavioralhealth.com/services/substance-abuse"
+        url="https://www.safeharborbehavioralhealth.com/services/substance-abuse"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Substance Abuse Support", item: "https://safeharborbehavioralhealth.com/services/substance-abuse" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Substance Abuse Support", item: "https://www.safeharborbehavioralhealth.com/services/substance-abuse" },
       ]} />
     <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-br from-teal-500 to-navy-800 text-white py-16">

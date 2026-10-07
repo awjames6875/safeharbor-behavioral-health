@@ -22,17 +22,17 @@ export default function ChildTherapyPage() {
     {
       position: 1,
       name: 'Home',
-      item: 'https://safeharborbehavioralhealth.com'
+      item: 'https://www.safeharborbehavioralhealth.com'
     },
     {
       position: 2,
       name: 'Services', 
-      item: 'https://safeharborbehavioralhealth.com/services'
+      item: 'https://www.safeharborbehavioralhealth.com/services'
     },
     {
       position: 3,
       name: 'Child Therapy',
-      item: 'https://safeharborbehavioralhealth.com/services/child-therapy'
+      item: 'https://www.safeharborbehavioralhealth.com/services/child-therapy'
     }
   ];
 

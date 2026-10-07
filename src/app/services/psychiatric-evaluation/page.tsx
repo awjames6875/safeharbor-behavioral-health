@@ -18,12 +18,12 @@ export default function PsychiatricEvaluationPage() {
         name="Psychiatric Evaluation"
         description="Comprehensive psychiatric evaluations for diagnosis in Tulsa"
         serviceType="Psychiatric Assessment"
-        url="https://safeharborbehavioralhealth.com/services/psychiatric-evaluation"
+        url="https://www.safeharborbehavioralhealth.com/services/psychiatric-evaluation"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Psychiatric Evaluation", item: "https://safeharborbehavioralhealth.com/services/psychiatric-evaluation" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Psychiatric Evaluation", item: "https://www.safeharborbehavioralhealth.com/services/psychiatric-evaluation" },
       ]} />
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-navy-700 to-navy-900 text-white py-16">

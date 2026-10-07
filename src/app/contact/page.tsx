@@ -34,7 +34,7 @@ export default function ContactPage() {
     "@type": "ContactPage",
     "name": "Contact SafeHarbor Behavioral Health",
     "description": "Contact SafeHarbor Behavioral Health to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa.",
-    "url": "https://safeharborbehavioralhealth.com/contact",
+    "url": "https://www.safeharborbehavioralhealth.com/contact",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "SafeHarbor Behavioral Health",
@@ -80,13 +80,13 @@ export default function ContactPage() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://safeharborbehavioralhealth.com"
+          "item": "https://www.safeharborbehavioralhealth.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Contact",
-          "item": "https://safeharborbehavioralhealth.com/contact"
+          "item": "https://www.safeharborbehavioralhealth.com/contact"
         }
       ]
     }

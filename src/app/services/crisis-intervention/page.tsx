@@ -18,12 +18,12 @@ export default function CrisisInterventionPage() {
         name="Crisis Intervention"
         description="Rapid support and stabilization planning for children in crisis in Tulsa"
         serviceType="Crisis Support"
-        url="https://safeharborbehavioralhealth.com/services/crisis-intervention"
+        url="https://www.safeharborbehavioralhealth.com/services/crisis-intervention"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Crisis Intervention", item: "https://safeharborbehavioralhealth.com/services/crisis-intervention" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Crisis Intervention", item: "https://www.safeharborbehavioralhealth.com/services/crisis-intervention" },
       ]} />
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-navy-700 to-navy-900 text-white py-16">

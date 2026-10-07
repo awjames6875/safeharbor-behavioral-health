@@ -36,7 +36,7 @@ export default function AdamJamesPage() {
         "@type": "Person",
         "name": "Adam James",
         "url": adamJamesBio.website,
-        "image": "https://safeharborbehavioralhealth.com/images/adam-james.png",
+        "image": "https://www.safeharborbehavioralhealth.com/images/adam-james.png",
         "jobTitle": "Founder",
         "worksFor": [
             {

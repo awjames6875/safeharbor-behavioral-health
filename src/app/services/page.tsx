@@ -133,7 +133,7 @@ export default function ServicesPage() {
     name: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
     description:
       'Comprehensive mental health services including individual therapy, group therapy, medication management, and psychiatric evaluation for children, teens, and families.',
-    url: 'https://safeharborbehavioralhealth.com/services',
+    url: 'https://www.safeharborbehavioralhealth.com/services',
     mainEntity: {
       '@type': 'MedicalBusiness',
       name: 'SafeHarbor Behavioral Health',
@@ -166,13 +166,13 @@ export default function ServicesPage() {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://safeharborbehavioralhealth.com',
+          item: 'https://www.safeharborbehavioralhealth.com',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Services',
-          item: 'https://safeharborbehavioralhealth.com/services',
+          item: 'https://www.safeharborbehavioralhealth.com/services',
         },
       ],
     },

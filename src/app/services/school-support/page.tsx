@@ -12,12 +12,12 @@ export default function SchoolSupportPage() {
         name="School Support"
         description="Coordination and strategies to improve success in school settings in Tulsa"
         serviceType="School-Based Services"
-        url="https://safeharborbehavioralhealth.com/services/school-support"
+        url="https://www.safeharborbehavioralhealth.com/services/school-support"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "School Support", item: "https://safeharborbehavioralhealth.com/services/school-support" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "School Support", item: "https://www.safeharborbehavioralhealth.com/services/school-support" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}

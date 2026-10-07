@@ -67,7 +67,7 @@ export default function HomePage() {
         "@type": "WebPage",
         "name": "Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor",
         "description": "Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, Blue Cross Blue Shield, and Aetna accepted. Same-week appointments. Telehealth statewide.",
-        "url": "https://safeharborbehavioralhealth.com",
+        "url": "https://www.safeharborbehavioralhealth.com",
         "mainEntity": {
           "@type": "MedicalBusiness",
           "name": "SafeHarbor Behavioral Health",
@@ -125,7 +125,7 @@ export default function HomePage() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://safeharborbehavioralhealth.com"
+              "item": "https://www.safeharborbehavioralhealth.com"
             }
           ]
         }

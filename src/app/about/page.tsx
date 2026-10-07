@@ -33,7 +33,7 @@ export default function AboutPage() {
     "@type": "WebPage",
     "name": "About SafeHarbor Behavioral Health",
     "description": "Learn about SafeHarbor Behavioral Health's mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.",
-    "url": "https://safeharborbehavioralhealth.com/about",
+    "url": "https://www.safeharborbehavioralhealth.com/about",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "SafeHarbor Behavioral Health",
@@ -83,13 +83,13 @@ export default function AboutPage() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://safeharborbehavioralhealth.com"
+          "item": "https://www.safeharborbehavioralhealth.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "About",
-          "item": "https://safeharborbehavioralhealth.com/about"
+          "item": "https://www.safeharborbehavioralhealth.com/about"
         }
       ]
     }

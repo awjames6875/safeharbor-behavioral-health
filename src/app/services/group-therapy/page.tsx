@@ -12,12 +12,12 @@ export default function GroupTherapyPage() {
         name="Group Therapy"
         description="Structured group sessions building social skills and emotional regulation in Tulsa"
         serviceType="Group Counseling"
-        url="https://safeharborbehavioralhealth.com/services/group-therapy"
+        url="https://www.safeharborbehavioralhealth.com/services/group-therapy"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Group Therapy", item: "https://safeharborbehavioralhealth.com/services/group-therapy" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Group Therapy", item: "https://www.safeharborbehavioralhealth.com/services/group-therapy" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}

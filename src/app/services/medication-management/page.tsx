@@ -18,12 +18,12 @@ export default function MedicationManagementPage() {
         name="Medication Management"
         description="Medication evaluation and follow-up for children and teens in Tulsa"
         serviceType="Psychiatric Medication"
-        url="https://safeharborbehavioralhealth.com/services/medication-management"
+        url="https://www.safeharborbehavioralhealth.com/services/medication-management"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Medication Management", item: "https://safeharborbehavioralhealth.com/services/medication-management" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Medication Management", item: "https://www.safeharborbehavioralhealth.com/services/medication-management" },
       ]} />
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-navy-700 to-navy-900 text-white py-16">

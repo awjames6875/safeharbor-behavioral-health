@@ -12,12 +12,12 @@ export default function BehavioralAssessmentsPage() {
         name="Behavioral Assessments"
         description="Structured assessments to identify strengths and care planning for children and teens in Tulsa"
         serviceType="Behavioral Health Assessment"
-        url="https://safeharborbehavioralhealth.com/services/behavioral-assessments"
+        url="https://www.safeharborbehavioralhealth.com/services/behavioral-assessments"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Behavioral Assessments", item: "https://safeharborbehavioralhealth.com/services/behavioral-assessments" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Behavioral Assessments", item: "https://www.safeharborbehavioralhealth.com/services/behavioral-assessments" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}

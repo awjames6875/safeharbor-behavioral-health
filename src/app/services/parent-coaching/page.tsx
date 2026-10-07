@@ -12,12 +12,12 @@ export default function ParentCoachingPage() {
         name="Parent Coaching"
         description="Expert parent guidance for routines and behavior support in Tulsa"
         serviceType="Parenting Support"
-        url="https://safeharborbehavioralhealth.com/services/parent-coaching"
+        url="https://www.safeharborbehavioralhealth.com/services/parent-coaching"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Parent Coaching", item: "https://safeharborbehavioralhealth.com/services/parent-coaching" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Parent Coaching", item: "https://www.safeharborbehavioralhealth.com/services/parent-coaching" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}

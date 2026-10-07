@@ -24,6 +24,14 @@ Truth rule: one office phone (918) 553-5746. Canonical host: https://www.safehar
 - [x] grep for leftover fake phones
 - [x] one commit (files overlap), no push
 
+## Item 3: Leftover non-www URLs (Phase 0 of redesign plan)
+- [x] services/page.tsx openGraph.url -> www
+- [x] 81 non-www URLs in JSON-LD / breadcrumbs / templates (22 files) -> www
+- [x] sitemap.ts + robots.ts already www (no change)
+- [x] tsc clean; 0 non-www URLs left in src
+- [ ] Adam to confirm: 918-391-3607..3620 are intended per-location numbers (locations.ts, untouched)
+- [ ] Adam to confirm: "therapy" wording rule (repo CLAUDE.md vs 2026-09-13 handoff)
+
 ## Review
 - Root cause of CANON-1: metadataBase was non-www, and layout.tsx set canonical "/" site-wide, so the 27 pages with no canonical all claimed to be the homepage. Fixed both, added self-canonicals (25 new metadata exports + blog + blog/[slug]), made 6 absolute canonicals relative, fixed the wrong-domain crisis canonical, moved og:url hosts to www.
 - PHONE-1: replaced fake 555-01xx / 391-36xx / placeholder numbers with (918) 553-5746; /locations index now shows the office number; locations.ts untouched; removed third-party 587-9471 from the teen-depression blog post.

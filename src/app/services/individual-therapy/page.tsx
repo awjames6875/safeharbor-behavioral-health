@@ -48,7 +48,7 @@ export default function IndividualTherapyPage() {
         "addressCountry": "US"
       },
       "telephone": "+1-918-553-5746",
-      "url": "https://safeharborbehavioralhealth.com"
+      "url": "https://www.safeharborbehavioralhealth.com"
     },
     "serviceType": "Mental Health Treatment",
     "areaServed": {
@@ -101,7 +101,7 @@ export default function IndividualTherapyPage() {
       "@type": "ServiceChannel",
       "availableLanguage": "English",
       "servicePhone": "+1-918-553-5746",
-      "serviceUrl": "https://safeharborbehavioralhealth.com/contact"
+      "serviceUrl": "https://www.safeharborbehavioralhealth.com/contact"
     }
   };
 
@@ -113,19 +113,19 @@ export default function IndividualTherapyPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://safeharborbehavioralhealth.com"
+        "item": "https://www.safeharborbehavioralhealth.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Services",
-        "item": "https://safeharborbehavioralhealth.com/services"
+        "item": "https://www.safeharborbehavioralhealth.com/services"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Individual Therapy",
-        "item": "https://safeharborbehavioralhealth.com/services/individual-therapy"
+        "item": "https://www.safeharborbehavioralhealth.com/services/individual-therapy"
       }
     ]
   };
@@ -135,12 +135,12 @@ export default function IndividualTherapyPage() {
         name="Individual Therapy"
         description="One-on-one emotional wellness support for children and teens in Tulsa"
         serviceType="Individual Counseling"
-        url="https://safeharborbehavioralhealth.com/services/individual-therapy"
+        url="https://www.safeharborbehavioralhealth.com/services/individual-therapy"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Individual Therapy", item: "https://safeharborbehavioralhealth.com/services/individual-therapy" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Individual Therapy", item: "https://www.safeharborbehavioralhealth.com/services/individual-therapy" },
       ]} />
       <script
         type="application/ld+json"

@@ -12,12 +12,12 @@ export default function TeenCounselingPage() {
         name="Teen Counseling"
         description="Safe space for teens to build resilience and manage pressures in Tulsa"
         serviceType="Adolescent Counseling"
-        url="https://safeharborbehavioralhealth.com/services/teen-counseling"
+        url="https://www.safeharborbehavioralhealth.com/services/teen-counseling"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Teen Counseling", item: "https://safeharborbehavioralhealth.com/services/teen-counseling" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Teen Counseling", item: "https://www.safeharborbehavioralhealth.com/services/teen-counseling" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}

@@ -12,12 +12,12 @@ export default function FamilyTherapyPage() {
         name="Family Therapy"
         description="Family-centered sessions strengthening communication and home stability in Tulsa"
         serviceType="Family Counseling"
-        url="https://safeharborbehavioralhealth.com/services/family-therapy"
+        url="https://www.safeharborbehavioralhealth.com/services/family-therapy"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Family Therapy", item: "https://safeharborbehavioralhealth.com/services/family-therapy" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Family Therapy", item: "https://www.safeharborbehavioralhealth.com/services/family-therapy" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
