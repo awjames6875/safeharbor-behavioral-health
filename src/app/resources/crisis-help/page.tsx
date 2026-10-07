@@ -1,3 +1,5 @@
+export const metadata = { alternates: { canonical: '/resources/crisis-help' } }
+
 export default function CrisisHelpPage() {
   return (
     <div className="min-h-screen">

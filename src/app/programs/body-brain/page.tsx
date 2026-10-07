@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/programs/body-brain' } }
+
 export default function BodyBrainPage() {
   return (
     <div className="min-h-screen">

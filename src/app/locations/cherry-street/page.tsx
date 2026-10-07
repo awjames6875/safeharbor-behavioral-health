@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/cherry-street' } }
+
 export default function CherryStreetPage() {
   return (
     <div className="min-h-screen">

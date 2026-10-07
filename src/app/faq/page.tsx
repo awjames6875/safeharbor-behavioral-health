@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'FAQ | Safe Harbor Behavioral Health Tulsa',
     description: 'Common questions about Safe Harbor Behavioral Health — insurance, appointments, services, telehealth, and more.',
-    url: 'https://safeharborbehavioralhealth.com/faq',
+    url: 'https://www.safeharborbehavioralhealth.com/faq',
   }
 }
 

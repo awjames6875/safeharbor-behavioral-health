@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
     description:
       'Comprehensive mental health services including individual therapy, group therapy, medication management, and psychiatric evaluation for children, teens, and families.',
-    url: 'https://safeharborbehavioralhealth.com/services',
+    url: 'https://www.safeharborbehavioralhealth.com/services',
     images: [
       {
         url: '/images/services-og-image.jpg',

@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/union-district' } }
+
 export default function UnionDistrictPage() {
   return (
     <div className="min-h-screen">

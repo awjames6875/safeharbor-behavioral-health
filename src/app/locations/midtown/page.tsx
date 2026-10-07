@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Child Therapy Midtown Tulsa | Teen Mental Health Services | SafeHarbor',
-  description: 'Child therapy and teen counseling in Midtown Tulsa. Expert mental health treatment for anxiety, depression, ADHD. Medicaid accepted. Call (918) 555-0101.',
+  description: 'Child therapy and teen counseling in Midtown Tulsa. Expert mental health treatment for anxiety, depression, ADHD. Medicaid accepted. Call (918) 553-5746.',
   keywords: 'child therapy Midtown Tulsa, teen therapy downtown Tulsa, child psychologist Tulsa, anxiety treatment children, ADHD therapy Tulsa, Medicaid therapist Tulsa',
   alternates: {
     canonical: '/locations/midtown'
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Child Therapy Midtown Tulsa | SafeHarbor Behavioral Health',
     description: 'Expert child therapy and teen counseling in Midtown Tulsa. Specializing in anxiety, depression, ADHD, and behavioral issues. Medicaid accepted.',
-    url: 'https://safeharborbehavioralhealth.com/locations/midtown',
+    url: 'https://www.safeharborbehavioralhealth.com/locations/midtown',
     images: [
       {
         url: '/images/midtown-tulsa-og-image.jpg',
@@ -34,8 +34,7 @@ export default function MidtownPage() {
     "name": "SafeHarbor Behavioral Health - Midtown Tulsa",
     "description": "Child therapy and teen counseling services in Midtown Tulsa, specializing in anxiety, depression, ADHD, and behavioral issues.",
     "url": "https://safeharborbehavioralhealth.com/locations/midtown",
-    "telephone": "+1-918-555-0101",
-    "faxNumber": "+1-918-555-0201",
+    "telephone": "+1-918-553-5746",
     "email": "support@safeharborbehavioralhealth.com",
     "address": {
       "@type": "PostalAddress",
@@ -204,8 +203,7 @@ export default function MidtownPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Contact Information</h3>
-                  <p className="text-gray-600">Phone: (918) 555-0101</p>
-                  <p className="text-gray-600">Fax: (918) 555-0201</p>
+                  <p className="text-gray-600">Phone: (918) 553-5746</p>
                   <p className="text-gray-600">Hours: Mon-Fri 8AM-6PM, Sat 9AM-2PM</p>
                 </div>
               </div>

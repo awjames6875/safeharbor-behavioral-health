@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
   keywords: 'child therapy Tulsa Medicaid, play therapy SoonerCare, child counseling Tulsa, kids therapy Medicaid, behavioral therapy children Tulsa, child psychologist Medicaid',
   alternates: {
-    canonical: 'https://safeharborbehavioralhealth.com/services/child-therapy'
+    canonical: '/services/child-therapy'
   }
 }
 

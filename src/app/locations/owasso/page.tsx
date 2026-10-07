@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/owasso' } }
+
 export default function OwassoPage() {
   return (
     <div className="min-h-screen">

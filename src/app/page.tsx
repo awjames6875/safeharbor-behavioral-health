@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor',
     description: 'Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, BCBS, and Aetna accepted. Same-week appointments. Telehealth statewide.',
-    url: 'https://safeharborbehavioralhealth.com',
+    url: 'https://www.safeharborbehavioralhealth.com',
     images: [
       {
         url: '/images/home-og-image.jpg',

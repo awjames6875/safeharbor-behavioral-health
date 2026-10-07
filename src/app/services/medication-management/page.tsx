@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Medication Management Resources | Safe Harbor Behavioral Health',
   description: 'Looking for medication management? Safe Harbor specializes in activity-based behavioral support for children ages 3-17 in Tulsa, OK. We can connect you with the right provider.',
   alternates: {
-    canonical: 'https://safeharborbehavioralhealth.com/services/medication-management',
+    canonical: '/services/medication-management',
   },
 }
 

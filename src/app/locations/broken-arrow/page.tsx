@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/broken-arrow' } }
+
 export default function BrokenArrowPage() {
   return (
     <div className="min-h-screen">

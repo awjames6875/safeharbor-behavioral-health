@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/brookside' } }
+
 export default function BrooksidePage() {
   return (
     <div className="min-h-screen">

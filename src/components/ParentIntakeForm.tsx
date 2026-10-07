@@ -99,7 +99,7 @@ export default function ParentIntakeForm() {
             value={formData.phone}
             onChange={handleChange}
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
-            placeholder="(918) 555-0123"
+            placeholder="Your phone number"
           />
         </div>
         <div>

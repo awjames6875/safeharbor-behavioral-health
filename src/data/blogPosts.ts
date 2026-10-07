@@ -422,7 +422,6 @@ Teen depression is highly treatable, and most adolescents who receive appropriat
 - National Suicide Prevention Lifeline: 988
 - Crisis Text Line: Text HOME to 741741
 - Tulsa Police Crisis Team: 911
-- Family & Children's Services: (918) 587-9471
 
 ### Support Organizations
 - NAMI Tulsa (National Alliance on Mental Illness)

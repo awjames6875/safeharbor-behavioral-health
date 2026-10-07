@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact SafeHarbor Behavioral Health | Schedule Child Therapy',
     description: 'Contact us to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa. We\'re here to help.',
-    url: 'https://safeharborbehavioralhealth.com/contact',
+    url: 'https://www.safeharborbehavioralhealth.com/contact',
     images: [
       {
         url: '/images/contact-og-image.jpg',

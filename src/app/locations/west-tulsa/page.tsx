@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/west-tulsa' } }
+
 export default function WestTulsaPage() {
   return (
     <div className="min-h-screen">

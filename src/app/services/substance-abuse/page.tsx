@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Safe Harbor provides youth and teen substance abuse support in Tulsa with early intervention, family-centered wellness plans, and clinician-supervised care. Medicaid and SoonerCare accepted.',
   alternates: {
-    canonical: 'https://safeharborbehavioralhealth.com/services/substance-abuse',
+    canonical: '/services/substance-abuse',
   },
 }
 

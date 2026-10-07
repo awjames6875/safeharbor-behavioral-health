@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Psychiatric Evaluation Resources | Safe Harbor Behavioral Health',
   description: 'Looking for psychiatric evaluations? Safe Harbor specializes in activity-based behavioral support for children ages 3-17 in Tulsa, OK. We can connect you with the right provider.',
   alternates: {
-    canonical: 'https://safeharborbehavioralhealth.com/services/psychiatric-evaluation',
+    canonical: '/services/psychiatric-evaluation',
   },
 }
 

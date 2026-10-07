@@ -3,6 +3,8 @@ import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
+export const metadata = { alternates: { canonical: '/services/group-therapy' } }
+
 export default function GroupTherapyPage() {
   return (
     <>

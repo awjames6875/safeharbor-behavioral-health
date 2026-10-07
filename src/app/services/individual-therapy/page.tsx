@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Individual Therapy Tulsa | Child & Teen Counseling | SafeHarbor',
     description: 'Expert individual therapy using activity-based and trauma-informed approaches. Personalized treatment for children and teens ages 3–17 in Tulsa.',
-    url: 'https://safeharborbehavioralhealth.com/services/individual-therapy',
+    url: 'https://www.safeharborbehavioralhealth.com/services/individual-therapy',
     images: [
       {
         url: '/images/individual-therapy-og-image.jpg',

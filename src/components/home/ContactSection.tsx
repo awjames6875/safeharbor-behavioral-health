@@ -287,7 +287,7 @@ export default function ContactSection() {
                   )}
                   {submitStatus === 'error' && (
                     <p className="text-red-600 text-sm text-center">
-                      Something went wrong. Please call us at (918) 391-3606.
+                      Something went wrong. Please call us at (918) 553-5746.
                     </p>
                   )}
 

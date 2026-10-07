@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
   },
   alternates: {
-    canonical: 'https://safeharbortulsa.com/resources/crisis',
+    canonical: '/resources/crisis',
   },
 }
 
@@ -842,7 +842,7 @@ export default function CrisisResourcesPage() {
                   <div className="border-l-4 border-teal-200 pl-4">
                     <h4 className="font-bold text-gray-800 mb-2">Child/Teen Specialists in Tulsa:</h4>
                     <ul className="space-y-2 text-gray-600 text-sm">
-                      <li>• SafeHarbor Behavioral Health - (918) 555-0123</li>
+                      <li>• SafeHarbor Behavioral Health - (918) 553-5746</li>
                       <li>• Children's Medical Center - (918) 584-1351</li>
                       <li>• Laureate Psychiatric Hospital - (918) 481-4000</li>
                       <li>• Family & Children's Services - (918) 587-9471</li>
@@ -865,7 +865,7 @@ export default function CrisisResourcesPage() {
                   <h4 className="font-bold text-teal-800 mb-2">Insurance and Payment Options:</h4>
                   <p className="text-gray-700 text-sm">
                     SafeHarbor accepts most major insurance plans including Medicaid, SoonerCare, Blue Cross Blue Shield, 
-                    Aetna, and others. We also offer sliding scale fees based on income. Call (918) 555-0123 to verify 
+                    Aetna, and others. We also offer sliding scale fees based on income. Call (918) 553-5746 to verify 
                     your coverage and schedule an appointment.
                   </p>
                 </div>
@@ -1009,7 +1009,7 @@ export default function CrisisResourcesPage() {
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">SafeHarbor Family Support Group</h4>
                     <p className="text-gray-600 mb-2">Monthly meetings for SafeHarbor families</p>
-                    <p className="text-sm text-gray-500">Phone: (918) 555-0123</p>
+                    <p className="text-sm text-gray-500">Phone: (918) 553-5746</p>
                     <p className="text-sm text-gray-500">Second Thursday each month, 6:30 PM</p>
                   </div>
                 </div>
@@ -1290,8 +1290,8 @@ export default function CrisisResourcesPage() {
                   </div>
                   <div>
                     <p className="font-semibold">Main Office:</p>
-                    <a href="tel:9185550123" className="text-teal-300 hover:text-teal-200">
-                      (918) 555-0123
+                    <a href="tel:9185535746" className="text-teal-300 hover:text-teal-200">
+                      (918) 553-5746
                     </a>
                   </div>
                 </div>

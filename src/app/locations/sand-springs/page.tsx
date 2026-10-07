@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/sand-springs' } }
+
 export default function SandSpringsPage() {
   return (
     <div className="min-h-screen">

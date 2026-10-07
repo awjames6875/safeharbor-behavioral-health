@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/bixby' } }
+
 export default function BixbyPage() {
   return (
     <div className="min-h-screen">

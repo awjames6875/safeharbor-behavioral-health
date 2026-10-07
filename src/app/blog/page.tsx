@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Blog | Mental Health Resources & Insights',
   description: 'Expert insights on child and teen mental health from SafeHarbor Behavioral Health. Learn about anxiety, ADHD, depression, and parenting tips from our Tulsa therapy professionals.',
   keywords: 'child mental health blog, teen therapy insights, parenting tips Tulsa, ADHD resources, anxiety help children, behavioral health articles',
+  alternates: { canonical: '/blog' },
   openGraph: {
     title: 'SafeHarbor Blog | Mental Health Resources & Insights',
     description: 'Expert insights on child and teen mental health from SafeHarbor Behavioral Health professionals.',
