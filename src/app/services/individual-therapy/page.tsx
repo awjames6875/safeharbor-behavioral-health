@@ -57,7 +57,7 @@ export default function IndividualTherapyPage() {
     },
     "audience": {
       "@type": "PeopleAudience",
-      "audienceType": "Children and Teens ages 3-17"
+      "audienceType": "Children, teens, and adults"
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

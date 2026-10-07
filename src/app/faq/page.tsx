@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     question: "What conditions do you treat?",
-    answer: "Safe Harbor provides support for anxiety, depression, ADHD, trauma and PTSD, behavioral challenges, substance use, family conflict, and general emotional wellness. We serve children, teens, and adults using evidence-based, trauma-informed approaches including individual therapy, group therapy, family therapy, psychiatric evaluation, and medication management."
+    answer: "Safe Harbor provides support for anxiety, depression, ADHD, trauma and PTSD, behavioral challenges, substance use, family conflict, and general emotional wellness. We serve children, teens, and adults using evidence-based, trauma-informed approaches including individual therapy, group therapy, family therapy, and substance use recovery support."
   },
   {
     question: "Is there a long waitlist?",

@@ -19,7 +19,7 @@ export function OrganizationSchema() {
     logo: 'https://www.safeharborbehavioralhealth.com/logo.jpg',
     image: 'https://www.safeharborbehavioralhealth.com/logo.jpg',
     description:
-      'Trauma-informed emotional wellness services for children and teens ages 3-17 in Tulsa, Oklahoma. ODMHSAS certified. Medicaid/SoonerCare accepted.',
+      'Trauma-informed emotional wellness services for children, teens, and adults in Tulsa, Oklahoma. ODMHSAS certified. Medicaid/SoonerCare accepted.',
     telephone: '(918) 553-5746',
     email: 'support@safeharborbehavioralhealth.com',
     founder: {

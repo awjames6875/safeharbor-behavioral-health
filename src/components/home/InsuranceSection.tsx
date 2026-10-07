@@ -3,13 +3,8 @@ import Link from 'next/link'
 export default function InsuranceSection() {
   const accepting = [
     { name: 'Medicaid/SoonerCare', status: 'active' as const },
-  ]
-
-  const credentialingInProgress = [
-    { name: 'Blue Cross Blue Shield', status: 'pending' as const },
-    { name: 'United Healthcare', status: 'pending' as const },
-    { name: 'Aetna', status: 'pending' as const },
-    { name: 'Cigna', status: 'pending' as const },
+    { name: 'Blue Cross Blue Shield', status: 'active' as const },
+    { name: 'Aetna', status: 'active' as const },
   ]
 
   return (
@@ -28,7 +23,7 @@ export default function InsuranceSection() {
             <h3 className="text-lg font-bold text-navy-800 mb-4 uppercase tracking-wide">
               Currently Accepting
             </h3>
-            <div className="flex justify-center mb-8">
+            <div className="flex flex-wrap justify-center gap-4">
               {accepting.map((insurance, index) => (
                 <div
                   key={index}
@@ -40,21 +35,6 @@ export default function InsuranceSection() {
               ))}
             </div>
 
-            {/* Credentialing In Progress */}
-            <h3 className="text-lg font-bold text-navy-800 mb-4 uppercase tracking-wide">
-              Credentialing In Progress <span className="text-sm font-normal text-gray-500 normal-case">(coming soon)</span>
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-              {credentialingInProgress.map((insurance, index) => (
-                <div
-                  key={index}
-                  className="bg-amber-50 border border-amber-200 rounded-md py-3 px-4 text-sm font-medium text-amber-800 shadow-sm flex items-center gap-2 justify-center"
-                >
-                  <span>🔄</span>
-                  {insurance.name}
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Disclaimer */}

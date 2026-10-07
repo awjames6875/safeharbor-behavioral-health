@@ -47,8 +47,6 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
           'Teen Counseling',
           'Family Therapy',
           'Group Therapy',
-          'Medication Management',
-          'Psychiatric Evaluation',
           'Crisis Intervention',
           'Behavioral Assessments'
         ]}
@@ -248,17 +246,6 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
                     <p className="text-xs text-teal-600 font-medium">✓ Medicaid Accepted</p>
                   </div>
 
-                  <div className="bg-teal-50 rounded-lg p-6">
-                    <h3 className="text-lg font-semibold text-navy-800 mb-3">
-                      <Link href="/services/medication-management" className="hover:text-teal-600">
-                        Medication Management
-                      </Link>
-                    </h3>
-                    <p className="text-gray-700 text-sm mb-3">
-                      Psychiatric medication evaluation and ongoing management by board-certified psychiatrists.
-                    </p>
-                    <p className="text-xs text-teal-600 font-medium">✓ SoonerCare Covered</p>
-                  </div>
                 </div>
               </div>
 

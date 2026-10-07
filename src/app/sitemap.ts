@@ -24,9 +24,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const servicePages = [
-    'individual-therapy', 'group-therapy', 'medication-management',
-    'psychiatric-evaluation', 'child-therapy', 'teen-counseling',
-    'family-therapy', 'trauma-therapy', 'adhd-treatment',
+    'individual-therapy', 'group-therapy',
+    'child-therapy', 'teen-counseling',
+    'family-therapy', 'trauma-treatment', 'adhd-treatment',
     'school-support', 'parent-coaching', 'behavioral-assessments',
     'crisis-intervention', 'substance-abuse',
   ].map(slug => ({

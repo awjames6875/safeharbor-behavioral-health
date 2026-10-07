@@ -784,8 +784,8 @@ export default function BodyBrainPage() {
               <div className="bg-cream-50 rounded-2xl p-8">
                 <h3 className="text-xl font-bold text-navy-800 mb-3">Can my child continue regular therapy while in the program?</h3>
                 <p className="text-navy-600 leading-relaxed">
-                  Absolutely! The Body & Brain program works excellently alongside traditional talk therapy, 
-                  medication management, and other therapeutic interventions. We coordinate with your child's 
+                  Absolutely! The Body & Brain program works excellently alongside traditional talk therapy 
+                  and other therapeutic interventions. We coordinate with your child's 
                   other providers to ensure comprehensive, integrated care.
                 </p>
               </div>

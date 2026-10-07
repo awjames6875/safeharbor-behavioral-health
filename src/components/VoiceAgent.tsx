@@ -210,7 +210,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
         }
 
         if (lower.includes('service') || lower.includes('offer') || lower.includes('help with')) {
-            return "We offer individual child therapy (ages 5-12), teen counseling, family therapy, crisis intervention, medication management, group therapy, behavioral assessments, trauma treatment, and the Body & Brain movement program. We specialize in anxiety, ADHD, depression, trauma, and autism. What concerns are you looking to address?";
+            return "We offer individual child therapy, teen counseling, family therapy, crisis intervention, substance use recovery support, group therapy, behavioral assessments, trauma treatment, and the Body & Brain movement program. We specialize in anxiety, ADHD, depression, trauma, and autism. What concerns are you looking to address?";
         }
 
         if (lower.includes('hour') || lower.includes('open') || lower.includes('when')) {

@@ -2207,7 +2207,6 @@ Services that integrate with educational settings:
 
 In Oklahoma, most Medicaid recipients are enrolled in managed care plans:
 - **SoonerSelect**: Centene Corporation
-- **UnitedHealthcare Community Plan**
 - **Aetna Better Health of Oklahoma**
 
 ### Network Participation

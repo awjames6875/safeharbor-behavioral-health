@@ -197,7 +197,7 @@ export default function MidtownPage() {
                   <ul className="space-y-1 text-gray-600">
                     <li>• Individual Therapy</li>
                     <li>• Group Therapy</li>
-                    <li>• Psychiatric Services</li>
+                    <li>• Substance Use Recovery Support</li>
                     <li>• Body-Brain Program</li>
                   </ul>
                 </div>

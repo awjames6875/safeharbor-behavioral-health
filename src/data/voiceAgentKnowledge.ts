@@ -48,11 +48,6 @@ export const SAFEHARBOR_KNOWLEDGE = {
             available: "24/7"
         },
         {
-            name: "Medication Management",
-            description: "Comprehensive medication evaluation and management by board-certified psychiatrists.",
-            conditions: ["ADHD", "Anxiety", "Depression", "Bipolar disorder"]
-        },
-        {
             name: "Group Therapy",
             description: "Therapeutic group sessions providing peer support and social skills development.",
             groupTypes: ["Anxiety groups", "Depression support", "Social skills", "ADHD support", "Trauma recovery", "Teen support"]
@@ -129,7 +124,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
     bookingInfo: {
         phone: "(918) 553-5746",
         contactPage: "/contact",
-        medicaidNote: "We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can often schedule within 24-48 hours.",
+        medicaidNote: "We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can get you in within 48 hours once intake paperwork is completed.",
         process: [
             "1. Call us at (918) 553-5746 or fill out the contact form",
             "2. We'll verify your insurance benefits",

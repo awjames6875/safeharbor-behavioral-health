@@ -4,16 +4,16 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Mental Health Services Tulsa | Child Therapy, Teen Counseling | SafeHarbor',
   description:
-    'Comprehensive mental health services in Tulsa. Individual therapy, group therapy, medication management, and psychiatric evaluation for children, teens, and families.',
+    'Comprehensive mental health services in Tulsa. Individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
   keywords:
-    'mental health services Tulsa, child therapy services, teen counseling Tulsa, individual therapy Oklahoma, group therapy Tulsa, psychiatric services, medication management',
+    'mental health services Tulsa, child therapy services, teen counseling Tulsa, individual therapy Oklahoma, group therapy Tulsa, addiction recovery Tulsa, substance abuse treatment Tulsa',
   alternates: {
     canonical: '/services',
   },
   openGraph: {
     title: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
     description:
-      'Comprehensive mental health services including individual therapy, group therapy, medication management, and psychiatric evaluation for children, teens, and families.',
+      'Comprehensive mental health services including individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
     url: 'https://www.safeharborbehavioralhealth.com/services',
     images: [
       {
@@ -47,20 +47,6 @@ export default function ServicesPage() {
       icon: '👥',
       href: '/services/group-therapy',
       serviceType: 'Mental Health Treatment',
-    },
-    {
-      title: 'Medication Management',
-      description: 'Medication evaluation and follow-up visits to support treatment progress.',
-      icon: '💊',
-      href: '/services/medication-management',
-      serviceType: 'Psychiatric Care',
-    },
-    {
-      title: 'Psychiatric Evaluation',
-      description: 'Comprehensive evaluations to clarify diagnosis and care recommendations.',
-      icon: '🔍',
-      href: '/services/psychiatric-evaluation',
-      serviceType: 'Psychiatric Assessment',
     },
     {
       title: 'Child Therapy',
@@ -132,7 +118,7 @@ export default function ServicesPage() {
     '@type': 'WebPage',
     name: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
     description:
-      'Comprehensive mental health services including individual therapy, group therapy, medication management, and psychiatric evaluation for children, teens, and families.',
+      'Comprehensive mental health services including individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
     url: 'https://www.safeharborbehavioralhealth.com/services',
     mainEntity: {
       '@type': 'MedicalBusiness',

@@ -802,7 +802,7 @@ export default function CrisisResourcesPage() {
             <div className="space-y-8">
               {/* Immediate Follow-up */}
               <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-2xl font-bold text-teal-700 mb-4">Immediate Follow-up Care (24-48 hours)</h3>
+                <h3 className="text-2xl font-bold text-teal-700 mb-4">Immediate Follow-up Care (First Two Days)</h3>
                 <p className="text-gray-600 mb-4">
                   The period immediately after a mental health crisis is critical. Your child may feel embarrassed, 
                   scared, or even angry about what happened. This is normal, but professional follow-up is essential.

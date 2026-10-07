@@ -46,3 +46,11 @@ Truth rule: one office phone (918) 553-5746. Canonical host: https://www.safehar
 - [ ] TRUTH-1 rest: "medication management" / "psychiatric evaluation" (nav, footer, schema, pages), "ages 3-17", SafeHarborEasyEnrollment links, Cigna/UnitedHealthcare in InsuranceSection, "48 hours" - awaiting owner decision
 - [ ] TITLE-3 rest: 38 page titles/H1s still say "SafeHarbor" (about, blog posts, ...)
 - Note: scroll-morph-hero.tsx (Unsplash) is imported nowhere, so it does not ship; left alone.
+
+## Batch A, owner decisions applied
+- [x] Removed Medication Management and Psychiatric Evaluation (pages deleted; nav, footer, services list, schema, sitemap, location template, data, voice agent)
+- [x] Ages: "children, teens, and adults" replaces "ages 3-17" / "ages 5-12"
+- [x] Insurance: Medicaid/SoonerCare, Blue Cross Blue Shield, Aetna listed as accepted; Cigna / United Healthcare removed
+- [x] Speed claim reworded: "within 48 hours once intake paperwork is completed" (owner-approved; client.json banned_text still flags "48 hours", update it there)
+- [x] Substance use recovery support added where the removed services were listed
+- [ ] Open: SafeHarborEasyEnrollment links (12 pages), blog posts still mention psychiatric team / medication management, TITLE-3 in 38 page titles

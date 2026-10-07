@@ -98,9 +98,7 @@ export default function RootLayout({
     "serviceType": [
       "Individual Therapy",
       "Group Therapy",
-      "Family Therapy",
-      "Medication Management",
-      "Psychiatric Evaluation"
+      "Family Therapy"
     ],
     "paymentAccepted": [
       "Cash",

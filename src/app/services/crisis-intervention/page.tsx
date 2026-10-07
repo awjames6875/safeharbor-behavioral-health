@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Crisis Intervention Resources | Safe Harbor Behavioral Health',
-  description: 'Looking for crisis intervention? Safe Harbor specializes in activity-based behavioral support for children ages 3-17 in Tulsa, OK. We can connect you with the right provider.',
+  description: 'Looking for crisis intervention? Safe Harbor specializes in activity-based behavioral support for children, teens, and adults in Tulsa, OK. We can connect you with the right provider.',
   alternates: {
     canonical: '/services/crisis-intervention',
   },

@@ -26,7 +26,7 @@ export const services: ServiceData[] = [
       },
       {
         question: 'How quickly can my child start therapy with Medicaid coverage?',
-        answer: 'We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can often schedule within 24-48 hours. Call (918) 553-5746 to schedule your child\'s first appointment.'
+        answer: 'We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can get your child in within 48 hours once intake paperwork is completed. Call (918) 553-5746 to schedule your child\'s first appointment.'
       },
       {
         question: 'What mental health conditions do you treat in children?',
@@ -119,34 +119,6 @@ export const services: ServiceData[] = [
       {
         question: 'Can you help with psychiatric emergencies for children?',
         answer: 'Absolutely. We specialize in pediatric crisis intervention and work closely with families, schools, and emergency services to ensure children\'s safety during mental health crises.'
-      }
-    ]
-  },
-  {
-    slug: 'medication-management',
-    name: 'Psychiatric Medication Management',
-    description: 'Comprehensive medication evaluation and management by board-certified psychiatrists for children, teens, and adults.',
-    metaDescription: 'Psychiatric medication management Tulsa. Child psychiatrist accepts Medicaid/SoonerCare. ADHD, anxiety, depression meds. Call (918) 553-5746.',
-    faqs: [
-      {
-        question: 'Is psychiatric medication management covered by SoonerCare?',
-        answer: 'Yes, psychiatric medication management is fully covered by SoonerCare and Oklahoma Medicaid. This includes initial evaluations, ongoing monitoring, and medication adjustments.'
-      },
-      {
-        question: 'Do you have child psychiatrists who accept Medicaid?',
-        answer: 'Yes! Our board-certified child and adolescent psychiatrists accept Medicaid and SoonerCare. We specialize in pediatric psychopharmacology and understand developing brains.'
-      },
-      {
-        question: 'What medications do you prescribe for children?',
-        answer: 'We prescribe FDA-approved medications for ADHD, anxiety, depression, bipolar disorder, and other conditions when appropriate. We always start with the lowest effective dose and monitor carefully.'
-      },
-      {
-        question: 'How often will my child need medication check-ups?',
-        answer: 'Initially every 2-4 weeks to monitor effectiveness and side effects, then typically monthly or quarterly once medications are stable. Emergency appointments available if problems arise.'
-      },
-      {
-        question: 'Do you require therapy along with medication?',
-        answer: 'While not always required, we strongly recommend combining medication with therapy for best outcomes, especially in children. We coordinate care between our psychiatrists and therapists.'
       }
     ]
   },

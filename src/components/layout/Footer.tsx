@@ -40,16 +40,6 @@ export default function Footer() {
                   Group Therapy
                 </Link>
               </li>
-              <li>
-                <Link href="/services/medication-management" className="hover:text-white hover:translate-x-1 transition-all inline-block">
-                  Medication Management
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/psychiatric-evaluation" className="hover:text-white hover:translate-x-1 transition-all inline-block">
-                  Psychiatric Evaluation
-                </Link>
-              </li>
             </ul>
           </div>
 
