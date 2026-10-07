@@ -13,7 +13,7 @@ export function OrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'MedicalBusiness',
     '@id': 'https://www.safeharborbehavioralhealth.com/#organization',
-    name: 'SafeHarbor Behavioral Health',
+    name: 'Safe Harbor Behavioral Health',
     alternateName: 'Safe Harbor Behavioral Health',
     url: 'https://www.safeharborbehavioralhealth.com',
     logo: 'https://www.safeharborbehavioralhealth.com/logo.jpg',
@@ -124,7 +124,7 @@ export function WebsiteSchema() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'SafeHarbor Behavioral Health',
+    name: 'Safe Harbor Behavioral Health',
     url: 'https://www.safeharborbehavioralhealth.com',
     potentialAction: {
       '@type': 'SearchAction',
@@ -209,7 +209,7 @@ export function ArticleSchema({
     url,
     publisher: {
       '@type': 'Organization',
-      name: 'SafeHarbor Behavioral Health',
+      name: 'Safe Harbor Behavioral Health',
       logo: {
         '@type': 'ImageObject',
         url: 'https://www.safeharborbehavioralhealth.com/logo.jpg',
@@ -273,14 +273,14 @@ export function ServiceSchema({ name, description, url }: ServiceSchemaProps) {
     url,
     provider: {
       '@type': 'MedicalBusiness',
-      name: 'SafeHarbor Behavioral Health',
+      name: 'Safe Harbor Behavioral Health',
       url: 'https://www.safeharborbehavioralhealth.com',
     },
     availableChannel: {
       '@type': 'ServiceChannel',
       serviceLocation: {
         '@type': 'Place',
-        name: 'SafeHarbor Behavioral Health',
+        name: 'Safe Harbor Behavioral Health',
         address: {
           '@type': 'PostalAddress',
           streetAddress: '2510 East 15th Street',
@@ -314,14 +314,14 @@ export function LocationSchema({ name, areaName, url }: LocationSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'MedicalBusiness',
-    name: `SafeHarbor Behavioral Health - ${name}`,
+    name: `Safe Harbor Behavioral Health - ${name}`,
     url,
     description: `Emotional wellness services for children and teens in ${areaName}. Medicaid accepted.`,
     telephone: '(918) 553-5746',
     areaServed: { '@type': 'City', name: areaName },
     parentOrganization: {
       '@type': 'MedicalBusiness',
-      name: 'SafeHarbor Behavioral Health',
+      name: 'Safe Harbor Behavioral Health',
       url: 'https://www.safeharborbehavioralhealth.com',
     },
   }

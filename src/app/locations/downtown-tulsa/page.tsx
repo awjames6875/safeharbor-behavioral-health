@@ -9,7 +9,7 @@ export default function DowntownTulsaPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Downtown Tulsa | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Downtown Tulsa | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Convenient mental health services for families in the heart of Tulsa, just minutes from the BOK Center, 
@@ -24,12 +24,12 @@ export default function DowntownTulsaPage() {
             {/* Why Downtown Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Downtown Tulsa Families Choose SafeHarbor
+                Why Downtown Tulsa Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Living in Downtown Tulsa offers unique opportunities and challenges for families. The vibrant urban environment 
                 of areas like the Pearl District, Owen Park, and the Tulsa Arts District provides cultural enrichment, but can 
-                also present stressors that impact children's mental health. At SafeHarbor Behavioral Health, we understand the 
+                also present stressors that impact children's mental health. At Safe Harbor Behavioral Health, we understand the 
                 specific needs of downtown families, from busy professionals working in the Williams Tower or BOK Financial 
                 headquarters to families enjoying the amenities of downtown living.
               </p>
@@ -257,7 +257,7 @@ export default function DowntownTulsaPage() {
                 Ready to Support Your Child's Mental Health?
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join hundreds of downtown Tulsa families who trust SafeHarbor for their children's emotional well-being.
+                Join hundreds of downtown Tulsa families who trust Safe Harbor for their children's emotional well-being.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

@@ -4,28 +4,28 @@ import ServiceSchema from '@/components/schema/ServiceSchema'
 import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 
 export const metadata: Metadata = {
-  title: 'Individual Therapy Tulsa | Child & Teen Counseling | SafeHarbor',
-  description: 'Expert individual therapy in Tulsa for children and teens ages 3–17. activity-based and trauma-informed approaches. Medicaid accepted. Call (918) 553-5746.',
+  title: 'Individual Therapy Tulsa | Child & Teen Counseling | Safe Harbor',
+  description: 'Expert individual therapy in Tulsa for children and teens all ages. activity-based and trauma-informed approaches. Medicaid accepted. Call (918) 553-5746.',
   keywords: 'individual therapy Tulsa, child therapy sessions, teen counseling Oklahoma, CBT therapy Tulsa, DBT therapy, EMDR therapy, anxiety therapy Tulsa, depression counseling',
   alternates: {
     canonical: '/services/individual-therapy'
   },
   openGraph: {
-    title: 'Individual Therapy Tulsa | Child & Teen Counseling | SafeHarbor',
-    description: 'Expert individual therapy using activity-based and trauma-informed approaches. Personalized treatment for children and teens ages 3–17 in Tulsa.',
+    title: 'Individual Therapy Tulsa | Child & Teen Counseling | Safe Harbor',
+    description: 'Expert individual therapy using activity-based and trauma-informed approaches. Personalized treatment for children and teens all ages in Tulsa.',
     url: 'https://www.safeharborbehavioralhealth.com/services/individual-therapy',
     images: [
       {
         url: '/images/individual-therapy-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Individual Therapy Services at SafeHarbor Behavioral Health',
+        alt: 'Individual Therapy Services at Safe Harbor Behavioral Health',
       }
     ]
   },
   twitter: {
-    title: 'Individual Therapy Tulsa | SafeHarbor Behavioral Health',
-    description: 'Expert individual therapy using evidence-based approaches for children and teens ages 3–17.',
+    title: 'Individual Therapy Tulsa | Safe Harbor Behavioral Health',
+    description: 'Expert individual therapy using evidence-based approaches for children and teens all ages.',
     images: ['/images/individual-therapy-twitter-image.jpg']
   }
 }
@@ -38,7 +38,7 @@ export default function IndividualTherapyPage() {
     "description": "Personalized one-on-one counseling sessions to address unique mental health needs, develop coping strategies, and work toward personal goals using evidence-based approaches.",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "SafeHarbor Behavioral Health",
+      "name": "Safe Harbor Behavioral Health",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2510 East 15th Street",

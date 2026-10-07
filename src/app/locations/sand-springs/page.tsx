@@ -9,7 +9,7 @@ export default function SandSpringsPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Sand Springs | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Sand Springs | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Sand Springs, Mannford, and surrounding areas with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function SandSpringsPage() {
             {/* Why Sand Springs Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Sand Springs Families Choose SafeHarbor
+                Why Sand Springs Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Sand Springs represents the heart of authentic Oklahoma living - a community where natural beauty 
                 meets small-town values and modern opportunities. Known for the stunning Keystone Ancient Forest, 
                 excellent recreational facilities, and the strong tradition of Sandite pride, Sand Springs offers 
-                families a unique blend of outdoor adventure and community connection. SafeHarbor Behavioral Health 
+                families a unique blend of outdoor adventure and community connection. Safe Harbor Behavioral Health 
                 understands what makes Sand Springs special - the deep appreciation for nature and outdoor activities, 
                 the strong sense of community identity, and the balance between maintaining local traditions while 
                 embracing growth and progress.
@@ -279,7 +279,7 @@ export default function SandSpringsPage() {
                 Support Your Sandite's Mental Health and Well-being
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join Sand Springs families who trust SafeHarbor for accessible, compassionate mental health care that understands our community.
+                Join Sand Springs families who trust Safe Harbor for accessible, compassionate mental health care that understands our community.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

@@ -1,14 +1,14 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Child Therapy Midtown Tulsa | Teen Mental Health Services | SafeHarbor',
+  title: 'Child Therapy Midtown Tulsa | Teen Mental Health Services | Safe Harbor',
   description: 'Child therapy and teen counseling in Midtown Tulsa. Expert mental health treatment for anxiety, depression, ADHD. Medicaid accepted. Call (918) 553-5746.',
   keywords: 'child therapy Midtown Tulsa, teen therapy downtown Tulsa, child psychologist Tulsa, anxiety treatment children, ADHD therapy Tulsa, Medicaid therapist Tulsa',
   alternates: {
     canonical: '/locations/midtown'
   },
   openGraph: {
-    title: 'Child Therapy Midtown Tulsa | SafeHarbor Behavioral Health',
+    title: 'Child Therapy Midtown Tulsa | Safe Harbor Behavioral Health',
     description: 'Expert child therapy and teen counseling in Midtown Tulsa. Specializing in anxiety, depression, ADHD, and behavioral issues. Medicaid accepted.',
     url: 'https://www.safeharborbehavioralhealth.com/locations/midtown',
     images: [
@@ -16,12 +16,12 @@ export const metadata: Metadata = {
         url: '/images/midtown-tulsa-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health Midtown Tulsa Location',
+        alt: 'Safe Harbor Behavioral Health Midtown Tulsa Location',
       }
     ]
   },
   twitter: {
-    title: 'Child Therapy Midtown Tulsa | SafeHarbor Behavioral Health', 
+    title: 'Child Therapy Midtown Tulsa | Safe Harbor Behavioral Health', 
     description: 'Expert child therapy and teen counseling in Midtown Tulsa. Specializing in anxiety, depression, ADHD.',
     images: ['/images/midtown-tulsa-twitter-image.jpg']
   }
@@ -31,7 +31,7 @@ export default function MidtownPage() {
   const locationSchema = {
     "@context": "https://schema.org",
     "@type": ["MedicalBusiness", "LocalBusiness"],
-    "name": "SafeHarbor Behavioral Health - Midtown Tulsa",
+    "name": "Safe Harbor Behavioral Health - Midtown Tulsa",
     "description": "Child therapy and teen counseling services in Midtown Tulsa, specializing in anxiety, depression, ADHD, and behavioral issues.",
     "url": "https://www.safeharborbehavioralhealth.com/locations/midtown",
     "telephone": "+1-918-553-5746",
@@ -187,7 +187,7 @@ export default function MidtownPage() {
             <div className="bg-gray-50 rounded-lg p-8 mb-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">About Our Midtown Office</h2>
               <p className="text-gray-600 mb-4">
-                We proudly serve as our flagship facility, offering the full range of SafeHarbor services 
+                We proudly serve as our flagship facility, offering the full range of Safe Harbor services 
                 in a convenient, centrally-located setting. With easy access from major highways and ample parking, 
                 we're here to serve residents throughout the Tulsa metropolitan area.
               </p>

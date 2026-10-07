@@ -9,7 +9,7 @@ export default function CherryStreetPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy on Cherry Street | SafeHarbor Behavioral Health
+            Child & Teen Therapy on Cherry Street | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Convenient mental health services in the heart of Cherry Street, serving families from 15th & Cherry 
@@ -24,13 +24,13 @@ export default function CherryStreetPage() {
             {/* Why Cherry Street Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Cherry Street Families Choose SafeHarbor
+                Why Cherry Street Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Cherry Street represents the perfect intersection of historic Tulsa charm and modern convenience. 
                 From the bustling shops and restaurants along 15th and Cherry to the medical facilities and schools 
                 that anchor this corridor, families in this area value accessibility, quality, and community connection. 
-                SafeHarbor Behavioral Health has chosen our Cherry Street location specifically to serve families who 
+                Safe Harbor Behavioral Health has chosen our Cherry Street location specifically to serve families who 
                 appreciate the walkability and central location that this district provides.
               </p>
               <p className="text-gray-600 mb-4">
@@ -263,7 +263,7 @@ export default function CherryStreetPage() {
                 Convenient, Compassionate Care in the Heart of Cherry Street
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join families throughout the medical district and school corridor who trust SafeHarbor for integrated mental health care.
+                Join families throughout the medical district and school corridor who trust Safe Harbor for integrated mental health care.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

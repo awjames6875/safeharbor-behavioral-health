@@ -51,7 +51,7 @@ export default function BehavioralAssessmentsPage() {
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
                 A comprehensive behavioral assessment is a thorough evaluation process designed to understand your child's 
-                behavioral patterns, emotional functioning, and mental health needs. At SafeHarbor Behavioral Health, our 
+                behavioral patterns, emotional functioning, and mental health needs. At Safe Harbor Behavioral Health, our 
                 licensed clinicians use evidence-based assessment tools and clinical interviews to create a complete picture 
                 of your child's strengths, challenges, and therapeutic needs.
               </p>
@@ -433,11 +433,9 @@ export default function BehavioralAssessmentsPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children all ages through our Body &amp; Brain program.</p>
                   <a
-                    href="https://SafeHarborEasyEnrollment.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/contact"
                     className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold"
                   >
                     Enroll Today

@@ -3,28 +3,28 @@ import Link from 'next/link'
 import { locations } from '@/data/locations'
 
 export const metadata: Metadata = {
-  title: 'Our Locations | Child Therapy Tulsa, Broken Arrow, Owasso | SafeHarbor',
-  description: 'Find SafeHarbor Behavioral Health locations throughout Tulsa area. Child therapy services in Midtown Tulsa, South Tulsa, Broken Arrow, Owasso, Jenks, and more.',
+  title: 'Our Locations | Child Therapy Tulsa, Broken Arrow, Owasso | Safe Harbor',
+  description: 'Find Safe Harbor Behavioral Health locations throughout Tulsa area. Child therapy services in Midtown Tulsa, South Tulsa, Broken Arrow, Owasso, Jenks, and more.',
   keywords: 'child therapy locations Tulsa, teen therapy Broken Arrow, mental health services Owasso, Jenks child therapy, behavioral health clinics Tulsa area',
   alternates: {
     canonical: '/locations'
   },
   openGraph: {
-    title: 'SafeHarbor Locations | Child Therapy Throughout Tulsa Area',
-    description: 'Convenient SafeHarbor locations throughout Tulsa metro. Find child therapy services near you in Midtown, South Tulsa, Broken Arrow, and more.',
+    title: 'Safe Harbor Locations | Child Therapy Throughout Tulsa Area',
+    description: 'Convenient Safe Harbor locations throughout Tulsa metro. Find child therapy services near you in Midtown, South Tulsa, Broken Arrow, and more.',
     url: 'https://www.safeharborbehavioralhealth.com/locations',
     images: [
       {
         url: '/images/locations-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health Locations Throughout Tulsa',
+        alt: 'Safe Harbor Behavioral Health Locations Throughout Tulsa',
       }
     ]
   },
   twitter: {
-    title: 'SafeHarbor Locations | Child Therapy Throughout Tulsa Area',
-    description: 'Convenient SafeHarbor locations throughout Tulsa metro. Find child therapy services near you.',
+    title: 'Safe Harbor Locations | Child Therapy Throughout Tulsa Area',
+    description: 'Convenient Safe Harbor locations throughout Tulsa metro. Find child therapy services near you.',
     images: ['/images/locations-twitter-image.jpg']
   }
 }
@@ -49,7 +49,7 @@ export default function LocationsPage() {
             {locations.map((location) => (
               <div key={location.slug} className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-xl transition-shadow">
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">{location.name.replace('SafeHarbor Behavioral Health - ', '')}</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">{location.name.replace('Safe Harbor Behavioral Health - ', '')}</h2>
                   <div className="space-y-3 text-gray-600">
                     <div className="flex items-start">
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">

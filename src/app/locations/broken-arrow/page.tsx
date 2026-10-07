@@ -9,7 +9,7 @@ export default function BrokenArrowPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Broken Arrow | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Broken Arrow | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Broken Arrow, Coweta, and surrounding communities with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function BrokenArrowPage() {
             {/* Why Broken Arrow Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Broken Arrow Families Choose SafeHarbor
+                Why Broken Arrow Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Broken Arrow is known for its family-friendly atmosphere, excellent schools, and strong community values. 
                 From the beautiful Rose District with its shops and restaurants to the extensive park system and top-rated 
                 Broken Arrow Public Schools, this community prioritizes family well-being and educational excellence. 
-                SafeHarbor Behavioral Health understands what makes Broken Arrow special - the emphasis on community 
+                Safe Harbor Behavioral Health understands what makes Broken Arrow special - the emphasis on community 
                 involvement, school spirit, and raising children in a safe, supportive environment.
               </p>
               <p className="text-gray-600 mb-4">
@@ -271,7 +271,7 @@ export default function BrokenArrowPage() {
                 Help Your Child Thrive in Broken Arrow
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join hundreds of Broken Arrow families who trust SafeHarbor for mental health support that understands our community.
+                Join hundreds of Broken Arrow families who trust Safe Harbor for mental health support that understands our community.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

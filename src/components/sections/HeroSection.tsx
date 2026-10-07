@@ -10,7 +10,7 @@ export default function HeroSection() {
             Your Journey to Mental Wellness Starts Here
           </h1>
           <p className="text-xl mb-8 opacity-95">
-            SafeHarbor Behavioral Health provides compassionate, comprehensive mental health services 
+            Safe Harbor Behavioral Health provides compassionate, comprehensive mental health services 
             to help you navigate life's challenges and achieve lasting well-being.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

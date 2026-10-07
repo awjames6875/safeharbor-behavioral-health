@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Partner With Us | Daycares, Gyms & Nonprofits | SafeHarbor Behavioral Health',
+  title: 'Partner With Us | Daycares, Gyms & Nonprofits | Safe Harbor Behavioral Health',
   description: 'We bring embedded behavioral health to your facility. Zero work for you. We handle compliance, staffing, documentation — everything. You get the competitive edge.',
   alternates: { canonical: '/partners' },
 }

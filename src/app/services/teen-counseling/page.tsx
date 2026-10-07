@@ -50,7 +50,7 @@ export default function TeenCounselingPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">What is Teen Counseling?</h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Teen counseling at SafeHarbor Behavioral Health is specifically designed for adolescents ages 13-18 
+                Teen counseling at Safe Harbor Behavioral Health is specifically designed for adolescents ages 13-18 
                 who are navigating the complex challenges of teenage years. Our licensed therapists understand the 
                 unique developmental needs of teenagers and provide a safe, non-judgmental space where teens can 
                 express themselves authentically and work through their concerns.
@@ -416,11 +416,9 @@ export default function TeenCounselingPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children all ages through our Body &amp; Brain program.</p>
                   <a
-                    href="https://SafeHarborEasyEnrollment.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/contact"
                     className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold"
                   >
                     Enroll Today

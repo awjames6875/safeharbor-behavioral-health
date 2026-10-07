@@ -250,7 +250,7 @@ export default function ContactSection() {
                       value={formData.concern}
                       onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
-                      placeholder="Briefly describe what brings you to SafeHarbor..."
+                      placeholder="Briefly describe what brings you to Safe Harbor..."
                     />
                   </div>
 

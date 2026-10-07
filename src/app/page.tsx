@@ -10,14 +10,14 @@ import InsuranceSection from '@/components/home/InsuranceSection'
 import ContactSection from '@/components/home/ContactSection'
 
 export const metadata: Metadata = {
-  title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor',
+  title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | Safe Harbor',
   description: 'Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, Blue Cross Blue Shield, and Aetna accepted. Same-week appointments. Telehealth available statewide. Call (918) 553-5746.',
   keywords: 'behavioral health Tulsa, mental health Tulsa Oklahoma, Medicaid mental health Tulsa, adult therapy Tulsa, child therapy Tulsa, teen therapy Tulsa, telehealth Oklahoma Medicaid, same week mental health Tulsa, BCBS therapy Tulsa, Aetna therapy Tulsa, Safe Harbor Behavioral Health, Adam James Tulsa, reentry mental health Oklahoma',
   alternates: {
     canonical: '/'
   },
   openGraph: {
-    title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor',
+    title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | Safe Harbor',
     description: 'Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, BCBS, and Aetna accepted. Same-week appointments. Telehealth statewide.',
     url: 'https://www.safeharborbehavioralhealth.com',
     images: [
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
         url: '/images/home-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health - Tulsa Oklahoma - All Ages Welcome',
+        alt: 'Safe Harbor Behavioral Health - Tulsa Oklahoma - All Ages Welcome',
       }
     ]
   },
   twitter: {
-    title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor',
+    title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | Safe Harbor',
     description: 'Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, BCBS, and Aetna accepted. Same-week appointments.',
     images: ['/images/home-twitter-image.jpg']
   }
@@ -64,12 +64,12 @@ export default function HomePage() {
       },
       {
         "@type": "WebPage",
-        "name": "Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor",
+        "name": "Behavioral Health Tulsa | All Ages | Same-Week Appointments | Safe Harbor",
         "description": "Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, Blue Cross Blue Shield, and Aetna accepted. Same-week appointments. Telehealth statewide.",
         "url": "https://www.safeharborbehavioralhealth.com",
         "mainEntity": {
           "@type": "MedicalBusiness",
-          "name": "SafeHarbor Behavioral Health",
+          "name": "Safe Harbor Behavioral Health",
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Behavioral Health Services",

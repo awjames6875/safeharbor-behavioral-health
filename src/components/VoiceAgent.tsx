@@ -170,7 +170,7 @@ ${messages.map(m => `${m.role}: ${m.content}`).join('\n')}
 
 USER: ${text}
 
-Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
+Respond as Safe Harbor's AI assistant. Be concise, warm, and helpful.`;
 
             const result = await model.generateContent(context);
             const response = result.response.text();
@@ -194,7 +194,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
         const lower = input.toLowerCase();
 
         if (lower.includes('crisis') || lower.includes('suicide') || lower.includes('hurt myself') || lower.includes('end my life')) {
-            return "I'm here for you. If you're in crisis, please call 988 (Suicide & Crisis Lifeline) immediately - they're available 24/7. You can also call SafeHarbor's crisis line at (918) 553-5746. You're not alone, and help is available right now.";
+            return "I'm here for you. If you're in crisis, please call 988 (Suicide & Crisis Lifeline) immediately - they're available 24/7. You can also call Safe Harbor's crisis line at (918) 553-5746. You're not alone, and help is available right now.";
         }
 
         if (lower.includes('book') || lower.includes('appointment') || lower.includes('schedule')) {
@@ -274,7 +274,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 className="font-semibold">SafeHarbor Assistant</h3>
+                                        <h3 className="font-semibold">Safe Harbor Assistant</h3>
                                         <p className="text-xs text-teal-100">AI-powered support</p>
                                     </div>
                                 </div>

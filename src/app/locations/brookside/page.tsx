@@ -9,7 +9,7 @@ export default function BrooksidePage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Brookside | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Brookside | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Tulsa's vibrant Brookside district, from Peoria Avenue's shops and restaurants 
@@ -24,12 +24,12 @@ export default function BrooksidePage() {
             {/* Why Brookside Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Brookside Families Choose SafeHarbor
+                Why Brookside Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Brookside represents the perfect blend of urban convenience and neighborhood charm. This walkable community, 
                 centered along Peoria Avenue from 31st to 51st Street, attracts families who value both tradition and 
-                progressive thinking. SafeHarbor Behavioral Health understands the unique culture of Brookside - from the 
+                progressive thinking. Safe Harbor Behavioral Health understands the unique culture of Brookside - from the 
                 Saturday morning farmers market to First Friday gallery walks, from cozy coffee shops to tree-lined residential 
                 streets where children still ride bikes to friends' houses.
               </p>
@@ -268,7 +268,7 @@ export default function BrooksidePage() {
                 Your Child's Mental Health Can't Wait
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join the many Brookside families who trust SafeHarbor for compassionate, effective mental health care.
+                Join the many Brookside families who trust Safe Harbor for compassionate, effective mental health care.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

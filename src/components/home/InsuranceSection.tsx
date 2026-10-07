@@ -5,6 +5,7 @@ export default function InsuranceSection() {
     { name: 'Medicaid/SoonerCare', status: 'active' as const },
     { name: 'Blue Cross Blue Shield', status: 'active' as const },
     { name: 'Aetna', status: 'active' as const },
+    { name: 'United Healthcare', status: 'active' as const },
   ]
 
   return (

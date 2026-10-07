@@ -1,27 +1,27 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About SafeHarbor | Trauma-Informed Child Wellness in Tulsa',
-  description: 'Meet the SafeHarbor team. Founded by Adam James, we provide evidence-based emotional wellness care for children and teens in Tulsa. ODMHSAS certified.',
-  keywords: 'about SafeHarbor, Tulsa mental health center, child therapy mission, behavioral health team, compassionate care Tulsa, evidence-based therapy Oklahoma',
+  title: 'About Safe Harbor | Trauma-Informed Child Wellness in Tulsa',
+  description: 'Meet the Safe Harbor team. Founded by Adam James, we provide evidence-based emotional wellness care for children and teens in Tulsa. ODMHSAS certified.',
+  keywords: 'about Safe Harbor, Tulsa mental health center, child therapy mission, behavioral health team, compassionate care Tulsa, evidence-based therapy Oklahoma',
   alternates: {
     canonical: '/about'
   },
   openGraph: {
-    title: 'About SafeHarbor Behavioral Health | Child Therapy Tulsa',
-    description: 'Learn about SafeHarbor\'s mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.',
+    title: 'About Safe Harbor Behavioral Health | Child Therapy Tulsa',
+    description: 'Learn about Safe Harbor\'s mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.',
     url: 'https://www.safeharborbehavioralhealth.com/about',
     images: [
       {
         url: '/images/about-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health Team - About Us',
+        alt: 'Safe Harbor Behavioral Health Team - About Us',
       }
     ]
   },
   twitter: {
-    title: 'About SafeHarbor Behavioral Health | Child Therapy Tulsa',
+    title: 'About Safe Harbor Behavioral Health | Child Therapy Tulsa',
     description: 'Learn about our mission to provide compassionate, evidence-based mental health care in Tulsa.',
     images: ['/images/about-twitter-image.jpg']
   }
@@ -31,12 +31,12 @@ export default function AboutPage() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "About SafeHarbor Behavioral Health",
-    "description": "Learn about SafeHarbor Behavioral Health's mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.",
+    "name": "About Safe Harbor Behavioral Health",
+    "description": "Learn about Safe Harbor Behavioral Health's mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.",
     "url": "https://www.safeharborbehavioralhealth.com/about",
     "mainEntity": {
       "@type": "MedicalBusiness",
-      "name": "SafeHarbor Behavioral Health",
+      "name": "Safe Harbor Behavioral Health",
       "foundingDate": "2018",
       "description": "Leading provider of child and teen mental health services in Tulsa, Oklahoma",
       "mission": "To provide a safe, supportive environment where individuals can heal, grow, and thrive through compassionate, evidence-based mental health care",
@@ -105,7 +105,7 @@ export default function AboutPage() {
       <div className="min-h-screen">
         <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white pt-44 pb-16">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-4">About SafeHarbor</h1>
+            <h1 className="text-4xl font-bold mb-4">About Safe Harbor</h1>
             <p className="text-xl opacity-95 max-w-2xl">
               Dedicated to providing compassionate, evidence-based mental health care to the Tulsa community.
             </p>
@@ -117,7 +117,7 @@ export default function AboutPage() {
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-8">
-                At SafeHarbor Behavioral Health, we believe everyone deserves access to high-quality mental health care.
+                At Safe Harbor Behavioral Health, we believe everyone deserves access to high-quality mental health care.
                 Our mission is to provide a safe, supportive environment where individuals can heal, grow, and thrive.
               </p>
 

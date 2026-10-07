@@ -23,7 +23,7 @@ export const blogPosts: BlogPost[] = [
     content: `
 # Is My Child's Behavior Normal? Signs You May Need Professional Help
 
-As a parent, it's natural to wonder whether your child's behavior is typical for their age or if it's something that requires professional attention. At SafeHarbor Behavioral Health in Tulsa, we help families navigate these concerns every day.
+As a parent, it's natural to wonder whether your child's behavior is typical for their age or if it's something that requires professional attention. At Safe Harbor Behavioral Health in Tulsa, we help families navigate these concerns every day.
 
 ## Understanding Normal Child Development
 
@@ -86,11 +86,11 @@ Children who have experienced trauma or significant life changes may exhibit beh
 
 ## When to Seek Professional Help in Tulsa
 
-If you notice multiple warning signs persisting for several weeks, or if your child's behavior is significantly impacting their daily functioning, it's time to consider professional support. At SafeHarbor Behavioral Health, our experienced therapists specialize in child and adolescent mental health.
+If you notice multiple warning signs persisting for several weeks, or if your child's behavior is significantly impacting their daily functioning, it's time to consider professional support. At Safe Harbor Behavioral Health, our experienced therapists specialize in child and adolescent mental health.
 
 ### Our Comprehensive Assessment Process
 
-When you bring your child to SafeHarbor, we conduct thorough evaluations that include:
+When you bring your child to Safe Harbor, we conduct thorough evaluations that include:
 
 - Detailed developmental and family history
 - Behavioral observations
@@ -136,13 +136,13 @@ Research consistently shows that early intervention leads to better outcomes for
 
 ## Cultural and Individual Considerations
 
-Every family is unique, and what's normal varies across cultures and individual circumstances. Our team at SafeHarbor understands the importance of culturally sensitive care and works with families to develop treatment plans that respect their values and beliefs.
+Every family is unique, and what's normal varies across cultures and individual circumstances. Our team at Safe Harbor understands the importance of culturally sensitive care and works with families to develop treatment plans that respect their values and beliefs.
 
 ## Taking the Next Step
 
 If you're concerned about your child's behavior, trust your instincts. As a parent, you know your child better than anyone. Professional evaluation can provide clarity and peace of mind, whether your concerns are confirmed or alleviated.
 
-At SafeHarbor Behavioral Health, we accept most insurance plans, including Medicaid, making quality mental health care accessible to Tulsa families. Our team includes licensed therapists, psychologists, and psychiatrists who specialize in working with children and adolescents.
+At Safe Harbor Behavioral Health, we accept most insurance plans, including Medicaid, making quality mental health care accessible to Tulsa families. Our team includes licensed therapists, psychologists, and psychiatrists who specialize in working with children and adolescents.
 
 ## Conclusion
 
@@ -150,7 +150,7 @@ Recognizing when your child needs professional help is one of the most important
 
 Remember, seeking help is a sign of strength, not weakness. Every child deserves the opportunity to reach their full potential, and sometimes that requires professional support along the way.
 
-*If you're concerned about your child's behavior or mental health, don't hesitate to reach out to SafeHarbor Behavioral Health. Our compassionate team is here to support your family's journey toward healing and growth.*
+*If you're concerned about your child's behavior or mental health, don't hesitate to reach out to Safe Harbor Behavioral Health. Our compassionate team is here to support your family's journey toward healing and growth.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'January 15, 2024',
@@ -159,8 +159,8 @@ Remember, seeking help is a sign of strength, not weakness. Every child deserves
     tags: ['child development', 'warning signs', 'mental health', 'parenting'],
     featured: true,
     icon: '🧠',
-    metaTitle: 'Is My Child\'s Behavior Normal? Warning Signs | SafeHarbor Tulsa',
-    metaDescription: 'Learn to identify when your child\'s behavior requires professional help. Expert guidance from SafeHarbor Behavioral Health therapists in Tulsa.',
+    metaTitle: 'Is My Child\'s Behavior Normal? Warning Signs | Safe Harbor Tulsa',
+    metaDescription: 'Learn to identify when your child\'s behavior requires professional help. Expert guidance from Safe Harbor Behavioral Health therapists in Tulsa.',
     relatedPosts: ['teen-depression-tulsa-guide', 'childhood-trauma-recognition', 'school-anxiety-tips']
   },
   {
@@ -285,7 +285,7 @@ Living in Tulsa presents unique opportunities and challenges for teenagers:
 ## Professional Treatment Options in Tulsa
 
 ### Individual Therapy
-At SafeHarbor Behavioral Health, we offer evidence-based therapeutic approaches including:
+At Safe Harbor Behavioral Health, we offer evidence-based therapeutic approaches including:
 
 **Cognitive Behavioral Therapy (CBT)**
 Helps teens identify and change negative thought patterns and behaviors.
@@ -365,7 +365,7 @@ Students with depression may benefit from:
 
 ## Insurance and Accessibility
 
-At SafeHarbor Behavioral Health, we understand the importance of accessible mental health care:
+At Safe Harbor Behavioral Health, we understand the importance of accessible mental health care:
 
 ### Insurance Coverage
 - Most major insurance plans accepted
@@ -435,9 +435,9 @@ Teen depression is a serious but treatable condition. With proper understanding,
 
 Remember that seeking help is a sign of strength, not weakness. The teenage years are challenging enough without the added burden of depression. By recognizing the signs early and connecting with qualified professionals, you're giving your teen the best chance for a healthy, happy future.
 
-At SafeHarbor Behavioral Health, our team of experienced therapists and psychiatrists specializes in adolescent mental health. We're committed to providing compassionate, evidence-based care that meets each teen's unique needs.
+At Safe Harbor Behavioral Health, our team of experienced therapists and psychiatrists specializes in adolescent mental health. We're committed to providing compassionate, evidence-based care that meets each teen's unique needs.
 
-*If you're concerned about your teenager's mental health, don't wait. Early intervention can make all the difference. Contact SafeHarbor Behavioral Health today to schedule a consultation.*
+*If you're concerned about your teenager's mental health, don't wait. Early intervention can make all the difference. Contact Safe Harbor Behavioral Health today to schedule a consultation.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'January 12, 2024',
@@ -446,18 +446,18 @@ At SafeHarbor Behavioral Health, our team of experienced therapists and psychiat
     tags: ['teen depression', 'adolescent mental health', 'treatment', 'Tulsa'],
     featured: true,
     icon: '💙',
-    metaTitle: 'Teen Depression Guide for Tulsa Families | SafeHarbor Behavioral Health',
-    metaDescription: 'Comprehensive guide to teen depression signs, causes, and treatment options. Expert care from SafeHarbor Behavioral Health in Tulsa.',
+    metaTitle: 'Teen Depression Guide for Tulsa Families | Safe Harbor Behavioral Health',
+    metaDescription: 'Comprehensive guide to teen depression signs, causes, and treatment options. Expert care from Safe Harbor Behavioral Health in Tulsa.',
     relatedPosts: ['social-media-teen-mental-health', 'is-my-childs-behavior-normal', 'building-emotional-resilience']
   },
   {
     slug: 'body-brain-helps-adhd',
     title: 'How Movement Therapy Helps ADHD Children: The Body-Brain Connection',
-    excerpt: 'Discover how SafeHarbor\'s innovative Body-Brain Integration program uses movement and sensory activities to help children with ADHD focus and succeed.',
+    excerpt: 'Discover how Safe Harbor\'s innovative Body-Brain Integration program uses movement and sensory activities to help children with ADHD focus and succeed.',
     content: `
 # How Movement Therapy Helps ADHD Children: The Body-Brain Connection
 
-For children with ADHD, traditional "sit still and listen" approaches often fall short. At SafeHarbor Behavioral Health in Tulsa, our Body-Brain Integration program recognizes that movement isn't the enemy of focus—it's actually the key to unlocking a child's potential.
+For children with ADHD, traditional "sit still and listen" approaches often fall short. At Safe Harbor Behavioral Health in Tulsa, our Body-Brain Integration program recognizes that movement isn't the enemy of focus—it's actually the key to unlocking a child's potential.
 
 ## Understanding ADHD and the Brain
 
@@ -516,7 +516,7 @@ Physical activity helps children:
 - Build confidence and self-esteem
 - Develop resilience
 
-## SafeHarbor's Body-Brain Integration Program
+## Safe Harbor's Body-Brain Integration Program
 
 ### Assessment and Evaluation
 
@@ -623,7 +623,7 @@ Children who complete Body-Brain Integration programs often show:
 
 ## Case Study: Jake's Success Story
 
-Jake, an 8-year-old boy from Tulsa, came to SafeHarbor struggling with:
+Jake, an 8-year-old boy from Tulsa, came to Safe Harbor struggling with:
 - Constant fidgeting in class
 - Difficulty completing homework
 - Poor social relationships
@@ -748,7 +748,7 @@ Modern tools can enhance traditional movement therapy:
 
 The Body-Brain Integration approach represents a paradigm shift in ADHD treatment. By honoring the connection between movement and brain function, we can help children with ADHD not just manage their symptoms, but truly thrive.
 
-At SafeHarbor Behavioral Health, our experienced occupational therapists and movement specialists work closely with families to develop individualized programs that meet each child's unique needs. We understand that every child is different, and our approach reflects that understanding.
+At Safe Harbor Behavioral Health, our experienced occupational therapists and movement specialists work closely with families to develop individualized programs that meet each child's unique needs. We understand that every child is different, and our approach reflects that understanding.
 
 The journey with ADHD doesn't have to be a struggle against your child's natural tendencies. Instead, it can be an opportunity to harness their energy and movement needs as pathways to success.
 
@@ -763,7 +763,7 @@ If you're interested in learning more about how Body-Brain Integration can help 
 
 Remember, movement isn't the opposite of learning—it's the foundation for it.
 
-*Ready to explore how Body-Brain Integration can help your child with ADHD? Contact SafeHarbor Behavioral Health today to learn more about our innovative programs and schedule an evaluation.*
+*Ready to explore how Body-Brain Integration can help your child with ADHD? Contact Safe Harbor Behavioral Health today to learn more about our innovative programs and schedule an evaluation.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'January 10, 2024',
@@ -772,18 +772,18 @@ Remember, movement isn't the opposite of learning—it's the foundation for it.
     tags: ['ADHD', 'movement therapy', 'body-brain integration', 'occupational therapy'],
     featured: true,
     icon: '🏃‍♂️',
-    metaTitle: 'ADHD Movement Therapy | Body-Brain Integration Tulsa | SafeHarbor',
-    metaDescription: 'Learn how SafeHarbor\'s Body-Brain Integration program uses movement therapy to help children with ADHD improve focus and function.',
+    metaTitle: 'ADHD Movement Therapy | Body-Brain Integration Tulsa | Safe Harbor',
+    metaDescription: 'Learn how Safe Harbor\'s Body-Brain Integration program uses movement therapy to help children with ADHD improve focus and function.',
     relatedPosts: ['school-anxiety-tips', 'is-my-childs-behavior-normal', 'group-therapy-shy-children']
   },
   {
     slug: 'school-anxiety-tips',
     title: 'Navigating School Anxiety: Evidence-Based Tips from Tulsa Therapists',
-    excerpt: 'Practical strategies to help your child overcome school anxiety, from morning routines to teacher collaboration. Expert advice from SafeHarbor therapists.',
+    excerpt: 'Practical strategies to help your child overcome school anxiety, from morning routines to teacher collaboration. Expert advice from Safe Harbor therapists.',
     content: `
 # Navigating School Anxiety: Evidence-Based Tips from Tulsa Therapists
 
-School anxiety affects millions of children and can significantly impact their academic performance, social relationships, and overall well-being. At SafeHarbor Behavioral Health in Tulsa, we work with families daily to help children overcome school-related fears and thrive in their educational environment.
+School anxiety affects millions of children and can significantly impact their academic performance, social relationships, and overall well-being. At Safe Harbor Behavioral Health in Tulsa, we work with families daily to help children overcome school-related fears and thrive in their educational environment.
 
 ## Understanding School Anxiety
 
@@ -1091,7 +1091,7 @@ Seek immediate professional help if your child:
 - Shows significant regression in functioning
 - Has severe behavioral outbursts related to school
 
-## Success Stories from SafeHarbor
+## Success Stories from Safe Harbor
 
 ### Emma's Journey (Age 7)
 Emma developed severe separation anxiety after starting second grade. Through a combination of CBT, family therapy, and school collaboration, she went from missing 3 days per week to perfect attendance within 4 months.
@@ -1124,7 +1124,7 @@ With appropriate intervention, most children with school anxiety can:
 
 ## Resources in Tulsa
 
-### SafeHarbor Services
+### Safe Harbor Services
 - Individual child and teen therapy
 - Family therapy sessions
 - Group therapy programs
@@ -1141,11 +1141,11 @@ With appropriate intervention, most children with school anxiety can:
 
 School anxiety is a treatable condition that responds well to appropriate intervention and support. The key is early identification, comprehensive treatment, and collaboration between parents, schools, and mental health professionals.
 
-At SafeHarbor Behavioral Health, we understand the unique challenges facing Tulsa families dealing with school anxiety. Our team of experienced therapists uses evidence-based approaches tailored to each child's specific needs and circumstances.
+At Safe Harbor Behavioral Health, we understand the unique challenges facing Tulsa families dealing with school anxiety. Our team of experienced therapists uses evidence-based approaches tailored to each child's specific needs and circumstances.
 
 Remember, seeking help for school anxiety is not a sign of weakness—it's an investment in your child's future success and well-being. Every child deserves to feel safe, confident, and excited about learning.
 
-*If your child is struggling with school anxiety, don't wait for the problem to resolve on its own. Contact SafeHarbor Behavioral Health today to learn how we can help your family navigate these challenges and create a positive school experience.*
+*If your child is struggling with school anxiety, don't wait for the problem to resolve on its own. Contact Safe Harbor Behavioral Health today to learn how we can help your family navigate these challenges and create a positive school experience.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'January 8, 2024',
@@ -1153,8 +1153,8 @@ Remember, seeking help for school anxiety is not a sign of weakness—it's an in
     category: 'child',
     tags: ['school anxiety', 'childhood anxiety', 'school refusal', 'coping strategies'],
     icon: '🎒',
-    metaTitle: 'School Anxiety Help Tulsa | Tips from SafeHarbor Therapists',
-    metaDescription: 'Expert strategies for helping children overcome school anxiety. Evidence-based tips from SafeHarbor Behavioral Health therapists in Tulsa.',
+    metaTitle: 'School Anxiety Help Tulsa | Tips from Safe Harbor Therapists',
+    metaDescription: 'Expert strategies for helping children overcome school anxiety. Evidence-based tips from Safe Harbor Behavioral Health therapists in Tulsa.',
     relatedPosts: ['is-my-childs-behavior-normal', 'building-emotional-resilience', 'group-therapy-shy-children']
   },
   {
@@ -1164,7 +1164,7 @@ Remember, seeking help for school anxiety is not a sign of weakness—it's an in
     content: `
 # The Impact of Social Media on Teen Mental Health: A Tulsa Therapist's Perspective
 
-Social media has fundamentally changed how teenagers interact, learn, and view themselves. As a therapist at SafeHarbor Behavioral Health in Tulsa, I've witnessed firsthand how these digital platforms can both harm and help adolescents' mental health. Understanding this complex relationship is crucial for parents, educators, and teens themselves.
+Social media has fundamentally changed how teenagers interact, learn, and view themselves. As a therapist at Safe Harbor Behavioral Health in Tulsa, I've witnessed firsthand how these digital platforms can both harm and help adolescents' mental health. Understanding this complex relationship is crucial for parents, educators, and teens themselves.
 
 ## The Current Social Media Landscape
 
@@ -1390,7 +1390,7 @@ Addresses:
 
 ### Assessment and Treatment Planning
 
-At SafeHarbor, our comprehensive approach includes:
+At Safe Harbor, our comprehensive approach includes:
 - Detailed assessment of social media usage patterns
 - Evaluation of mental health symptoms and correlations
 - Family dynamics and communication assessment
@@ -1498,13 +1498,13 @@ Ongoing studies are examining:
 
 Social media's impact on teen mental health is neither wholly positive nor entirely negative—it's complex and highly individual. The key lies in helping teenagers develop the skills and awareness needed to navigate these digital spaces safely and beneficially.
 
-At SafeHarbor Behavioral Health, we work with families to find the right balance for each individual teen. Our approach recognizes that technology isn't going anywhere, so our goal is to help young people develop a healthy, sustainable relationship with social media that enhances rather than detracts from their overall well-being.
+At Safe Harbor Behavioral Health, we work with families to find the right balance for each individual teen. Our approach recognizes that technology isn't going anywhere, so our goal is to help young people develop a healthy, sustainable relationship with social media that enhances rather than detracts from their overall well-being.
 
 The teenage years are already a time of significant emotional and social development. Social media adds another layer of complexity to this process, but with proper support, education, and intervention when needed, teens can learn to use these tools in ways that support their mental health and personal growth.
 
 Remember, you don't have to navigate these challenges alone. Professional support can make a significant difference in helping your teenager develop healthy digital habits and strong mental health.
 
-*If you're concerned about how social media is affecting your teenager's mental health, contact SafeHarbor Behavioral Health today. Our experienced therapists specialize in adolescent mental health and can provide the support and strategies your family needs.*
+*If you're concerned about how social media is affecting your teenager's mental health, contact Safe Harbor Behavioral Health today. Our experienced therapists specialize in adolescent mental health and can provide the support and strategies your family needs.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'January 5, 2024',
@@ -1512,8 +1512,8 @@ Remember, you don't have to navigate these challenges alone. Professional suppor
     category: 'teen',
     tags: ['social media', 'teen mental health', 'technology', 'digital wellness'],
     icon: '📱',
-    metaTitle: 'Social Media & Teen Mental Health | SafeHarbor Behavioral Health Tulsa',
-    metaDescription: 'Understanding how social media impacts teen mental health. Expert insights and practical strategies from SafeHarbor therapists in Tulsa.',
+    metaTitle: 'Social Media & Teen Mental Health | Safe Harbor Behavioral Health Tulsa',
+    metaDescription: 'Understanding how social media impacts teen mental health. Expert insights and practical strategies from Safe Harbor therapists in Tulsa.',
     relatedPosts: ['teen-depression-tulsa-guide', 'building-emotional-resilience', 'children-divorce-support']
   },
   {
@@ -1523,7 +1523,7 @@ Remember, you don't have to navigate these challenges alone. Professional suppor
     content: `
 # Recognizing and Healing from Childhood Trauma: A Path to Recovery
 
-Childhood trauma affects millions of children and can have lasting impacts that extend well into adulthood. At SafeHarbor Behavioral Health in Tulsa, we specialize in trauma-informed care that helps children heal from difficult experiences and build resilience for their future.
+Childhood trauma affects millions of children and can have lasting impacts that extend well into adulthood. At Safe Harbor Behavioral Health in Tulsa, we specialize in trauma-informed care that helps children heal from difficult experiences and build resilience for their future.
 
 ## Understanding Childhood Trauma
 
@@ -1675,7 +1675,7 @@ Without intervention, childhood trauma can lead to:
 - Physical health problems
 - Intergenerational transmission of trauma
 
-## Trauma-Informed Care at SafeHarbor
+## Trauma-Informed Care at Safe Harbor
 
 ### Core Principles
 
@@ -2003,13 +2003,13 @@ Teaching caregivers:
 
 Childhood trauma is a serious but treatable condition that affects millions of children and families. With proper recognition, assessment, and evidence-based treatment, children can not only recover from traumatic experiences but also develop increased resilience and strength.
 
-At SafeHarbor Behavioral Health, we believe that every child has the capacity for healing and growth, regardless of what they've experienced. Our trauma-informed approach recognizes that healing happens in the context of relationships and community support.
+At Safe Harbor Behavioral Health, we believe that every child has the capacity for healing and growth, regardless of what they've experienced. Our trauma-informed approach recognizes that healing happens in the context of relationships and community support.
 
 Recovery from childhood trauma is not about forgetting or "getting over" difficult experiences. Instead, it's about learning to carry those experiences in ways that don't define or limit a child's potential. It's about building new neural pathways, developing healthy relationships, and creating meaning from suffering.
 
 The journey of healing from childhood trauma takes time, patience, and professional support. But with the right care and commitment, children can not only survive but thrive, creating lives filled with connection, purpose, and joy.
 
-*If you're concerned that your child may have experienced trauma, or if you're seeing signs that worry you, don't hesitate to reach out for help. Early intervention can make a significant difference in your child's recovery and long-term well-being. Contact SafeHarbor Behavioral Health today to learn more about our trauma-informed services and how we can support your family's healing journey.*
+*If you're concerned that your child may have experienced trauma, or if you're seeing signs that worry you, don't hesitate to reach out for help. Early intervention can make a significant difference in your child's recovery and long-term well-being. Contact Safe Harbor Behavioral Health today to learn more about our trauma-informed services and how we can support your family's healing journey.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'January 3, 2024',
@@ -2017,18 +2017,18 @@ The journey of healing from childhood trauma takes time, patience, and professio
     category: 'child',
     tags: ['childhood trauma', 'trauma therapy', 'PTSD', 'healing'],
     icon: '🌱',
-    metaTitle: 'Childhood Trauma Recognition & Recovery | SafeHarbor Behavioral Health Tulsa',
+    metaTitle: 'Childhood Trauma Recognition & Recovery | Safe Harbor Behavioral Health Tulsa',
     metaDescription: 'Learn to recognize signs of childhood trauma and understand how trauma-informed therapy helps children heal and build resilience.',
     relatedPosts: ['is-my-childs-behavior-normal', 'children-divorce-support', 'building-emotional-resilience']
   },
   {
     slug: 'medicaid-mental-health-tulsa',
-    title: 'Medicaid Mental Health Coverage: Why Tulsa Families Choose SafeHarbor',
-    excerpt: 'Understanding Medicaid mental health benefits and how SafeHarbor Behavioral Health makes quality child therapy accessible to all Tulsa families.',
+    title: 'Medicaid Mental Health Coverage: Why Tulsa Families Choose Safe Harbor',
+    excerpt: 'Understanding Medicaid mental health benefits and how Safe Harbor Behavioral Health makes quality child therapy accessible to all Tulsa families.',
     content: `
-# Medicaid Mental Health Coverage: Why Tulsa Families Choose SafeHarbor
+# Medicaid Mental Health Coverage: Why Tulsa Families Choose Safe Harbor
 
-Access to quality mental health care shouldn't depend on your family's income. At SafeHarbor Behavioral Health in Tulsa, we're proud to accept Medicaid and SoonerCare, ensuring that all children and families in our community can receive the mental health support they deserve.
+Access to quality mental health care shouldn't depend on your family's income. At Safe Harbor Behavioral Health in Tulsa, we're proud to accept Medicaid and SoonerCare, ensuring that all children and families in our community can receive the mental health support they deserve.
 
 ## Understanding Medicaid Mental Health Benefits
 
@@ -2082,11 +2082,11 @@ Eligibility includes:
 - Treatment plan development
 - Crisis intervention planning
 
-## Why SafeHarbor Accepts Medicaid
+## Why Safe Harbor Accepts Medicaid
 
 ### Our Mission and Values
 
-At SafeHarbor Behavioral Health, we believe every child deserves access to quality mental health care, regardless of their family's financial situation. Our commitment to serving Medicaid families reflects our core values:
+At Safe Harbor Behavioral Health, we believe every child deserves access to quality mental health care, regardless of their family's financial situation. Our commitment to serving Medicaid families reflects our core values:
 
 **Equity and Access**
 - Removing financial barriers to mental health care
@@ -2102,7 +2102,7 @@ At SafeHarbor Behavioral Health, we believe every child deserves access to quali
 
 ### No Difference in Quality of Care
 
-Medicaid families at SafeHarbor receive:
+Medicaid families at Safe Harbor receive:
 - The same high-quality services as private-pay families
 - Access to all our specialized programs
 - Treatment from the same experienced therapists
@@ -2211,7 +2211,7 @@ In Oklahoma, most Medicaid recipients are enrolled in managed care plans:
 
 ### Network Participation
 
-SafeHarbor is in-network with all major Medicaid MCOs, ensuring:
+Safe Harbor is in-network with all major Medicaid MCOs, ensuring:
 - Direct billing to your insurance
 - No out-of-pocket costs for covered services
 - Streamlined authorization processes
@@ -2333,7 +2333,7 @@ Their daughter is now thriving in school and has returned to her favorite activi
 
 ### "Is Medicaid therapy really as good as private therapy?"
 
-Absolutely. At SafeHarbor:
+Absolutely. At Safe Harbor:
 - Same therapists serve all families regardless of insurance
 - Same treatment approaches and interventions
 - Same quality standards and outcomes measurement
@@ -2355,7 +2355,7 @@ Our team helps navigate benefit changes:
 - Help accessing alternative resources if needed
 - Continuity of care during transitions
 
-## Getting Started at SafeHarbor
+## Getting Started at Safe Harbor
 
 ### Initial Contact Process
 
@@ -2384,7 +2384,7 @@ Our team helps navigate benefit changes:
 
 ## Conclusion
 
-Access to quality mental health care is a right, not a privilege. At SafeHarbor Behavioral Health, we're committed to ensuring that all Tulsa families, regardless of their insurance status, can access the mental health services their children need to thrive.
+Access to quality mental health care is a right, not a privilege. At Safe Harbor Behavioral Health, we're committed to ensuring that all Tulsa families, regardless of their insurance status, can access the mental health services their children need to thrive.
 
 Our acceptance of Medicaid and SoonerCare reflects our deep commitment to health equity and community well-being. We understand the unique challenges facing families who rely on Medicaid, and we've designed our services to be accessible, welcoming, and highly effective.
 
@@ -2392,7 +2392,7 @@ Mental health treatment is an investment in your child's future—and in our com
 
 If you've been hesitating to seek mental health services because of financial concerns, let us help. Our experienced team is ready to work with you and your Medicaid benefits to provide the care your child needs.
 
-*Don't let insurance concerns prevent your child from getting help. Contact SafeHarbor Behavioral Health today to learn more about our Medicaid services and how we can support your family's mental health journey. Your child's well-being is worth the call.*
+*Don't let insurance concerns prevent your child from getting help. Contact Safe Harbor Behavioral Health today to learn more about our Medicaid services and how we can support your family's mental health journey. Your child's well-being is worth the call.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'December 30, 2023',
@@ -2400,8 +2400,8 @@ If you've been hesitating to seek mental health services because of financial co
     category: 'parents',
     tags: ['Medicaid', 'SoonerCare', 'insurance', 'accessibility'],
     icon: '🏥',
-    metaTitle: 'Medicaid Mental Health Coverage Tulsa | SafeHarbor Behavioral Health',
-    metaDescription: 'SafeHarbor accepts Medicaid & SoonerCare for child mental health services in Tulsa. Quality therapy accessible to all families.',
+    metaTitle: 'Medicaid Mental Health Coverage Tulsa | Safe Harbor Behavioral Health',
+    metaDescription: 'Safe Harbor accepts Medicaid & SoonerCare for child mental health services in Tulsa. Quality therapy accessible to all families.',
     relatedPosts: ['is-my-childs-behavior-normal', 'school-anxiety-tips', 'children-divorce-support']
   },
   {
@@ -2411,7 +2411,7 @@ If you've been hesitating to seek mental health services because of financial co
     content: `
 # Supporting Your Child Through Divorce: A Therapist's Guide for Tulsa Families
 
-Divorce is one of life's most challenging experiences, not just for couples but especially for children caught in the middle. At SafeHarbor Behavioral Health in Tulsa, we work with many families navigating the complex emotions and adjustments that come with divorce. While this transition is undeniably difficult, with the right support and strategies, children can emerge resilient and emotionally healthy.
+Divorce is one of life's most challenging experiences, not just for couples but especially for children caught in the middle. At Safe Harbor Behavioral Health in Tulsa, we work with many families navigating the complex emotions and adjustments that come with divorce. While this transition is undeniably difficult, with the right support and strategies, children can emerge resilient and emotionally healthy.
 
 ## Understanding the Impact of Divorce on Children
 
@@ -2750,7 +2750,7 @@ Beneficial for:
 
 ### Local Support Services
 
-**SafeHarbor Behavioral Health Services**
+**Safe Harbor Behavioral Health Services**
 - Individual therapy for children and teens
 - Family therapy and co-parenting counseling
 - Support groups for children of divorce
@@ -2811,13 +2811,13 @@ Beneficial for:
 
 Divorce is undeniably challenging for families, but it doesn't have to define your child's future. With thoughtful planning, professional support, and a commitment to putting children's needs first, families can navigate this transition successfully.
 
-At SafeHarbor Behavioral Health, we've seen countless families emerge from divorce stronger, more resilient, and with deeper connections to each other. Children can learn valuable lessons about resilience, problem-solving, and the importance of healthy relationships.
+At Safe Harbor Behavioral Health, we've seen countless families emerge from divorce stronger, more resilient, and with deeper connections to each other. Children can learn valuable lessons about resilience, problem-solving, and the importance of healthy relationships.
 
 Remember that healing takes time. Be patient with your children and yourself as you navigate this journey. Some days will be harder than others, and setbacks are normal parts of the adjustment process.
 
 Your children need to see that while your marriage didn't work out, your commitment to their well-being remains unwavering. By working together, seeking support when needed, and focusing on what's best for your children, you can help them not just survive this transition, but truly thrive.
 
-*If your family is going through a divorce or separation, you don't have to face these challenges alone. Contact SafeHarbor Behavioral Health today to learn about our family therapy services, co-parenting counseling, and individual support for children. We're here to help your family find strength, healing, and hope during this difficult time.*
+*If your family is going through a divorce or separation, you don't have to face these challenges alone. Contact Safe Harbor Behavioral Health today to learn about our family therapy services, co-parenting counseling, and individual support for children. We're here to help your family find strength, healing, and hope during this difficult time.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'December 28, 2023',
@@ -2825,8 +2825,8 @@ Your children need to see that while your marriage didn't work out, your commitm
     category: 'parents',
     tags: ['divorce', 'family therapy', 'co-parenting', 'children'],
     icon: '👨‍👩‍👧‍👦',
-    metaTitle: 'Supporting Children Through Divorce | Tulsa Family Therapy | SafeHarbor',
-    metaDescription: 'Expert guidance for helping children cope with divorce. Family therapy and co-parenting support from SafeHarbor Behavioral Health in Tulsa.',
+    metaTitle: 'Supporting Children Through Divorce | Tulsa Family Therapy | Safe Harbor',
+    metaDescription: 'Expert guidance for helping children cope with divorce. Family therapy and co-parenting support from Safe Harbor Behavioral Health in Tulsa.',
     relatedPosts: ['childhood-trauma-recognition', 'building-emotional-resilience', 'is-my-childs-behavior-normal']
   },
   {
@@ -2836,7 +2836,7 @@ Your children need to see that while your marriage didn't work out, your commitm
     content: `
 # Benefits of Group Therapy for Shy Children: Building Confidence Together
 
-Many parents of shy children wonder if group therapy might be helpful, but they also worry: "Won't my child just sit quietly in the corner?" At SafeHarbor Behavioral Health in Tulsa, we've seen remarkable transformations when shy children participate in carefully designed group therapy programs. Far from being overwhelming, the right group setting can be exactly what shy children need to build confidence and develop crucial social skills.
+Many parents of shy children wonder if group therapy might be helpful, but they also worry: "Won't my child just sit quietly in the corner?" At Safe Harbor Behavioral Health in Tulsa, we've seen remarkable transformations when shy children participate in carefully designed group therapy programs. Far from being overwhelming, the right group setting can be exactly what shy children need to build confidence and develop crucial social skills.
 
 ## Understanding Shyness in Children
 
@@ -2971,7 +2971,7 @@ The group setting allows for:
 - Peer compliments and affirmations
 - Success story sharing
 
-## SafeHarbor's Group Therapy Approach
+## Safe Harbor's Group Therapy Approach
 
 ### Our Philosophy
 
@@ -3139,7 +3139,7 @@ We evaluate:
 - Children become more confident in their own skin
 - Self-acceptance is as important as skill building
 
-## Success Stories from SafeHarbor
+## Success Stories from Safe Harbor
 
 ### Emma's Journey
 Eight-year-old Emma was so shy she wouldn't speak to adults outside her family. After 12 weeks in our social skills group:
@@ -3260,7 +3260,7 @@ Children who participate in group therapy show:
 
 ## Conclusion
 
-Group therapy offers shy children something that individual therapy alone cannot: the opportunity to practice social skills with peers in a safe, supportive environment. At SafeHarbor Behavioral Health, we've witnessed countless shy children blossom through our carefully designed group programs.
+Group therapy offers shy children something that individual therapy alone cannot: the opportunity to practice social skills with peers in a safe, supportive environment. At Safe Harbor Behavioral Health, we've witnessed countless shy children blossom through our carefully designed group programs.
 
 The beauty of group therapy lies in its authentic social nature. Children don't just learn about social skills—they experience them firsthand. They discover that other children share their struggles, that friendships can develop naturally, and that their quiet, thoughtful nature is actually a strength in relationships.
 
@@ -3268,7 +3268,7 @@ For many shy children, group therapy becomes a turning point—not because it ch
 
 If your child struggles with shyness or social anxiety, consider the transformative power of group therapy. It might be exactly the gentle push they need to step into their social world with confidence and joy.
 
-*Is your shy child ready to build confidence and social skills? Contact SafeHarbor Behavioral Health today to learn more about our group therapy programs for children and teens. Our experienced therapists are ready to help your child discover the joy of authentic social connection while honoring their unique personality and temperament.*
+*Is your shy child ready to build confidence and social skills? Contact Safe Harbor Behavioral Health today to learn more about our group therapy programs for children and teens. Our experienced therapists are ready to help your child discover the joy of authentic social connection while honoring their unique personality and temperament.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'December 26, 2023',
@@ -3276,8 +3276,8 @@ If your child struggles with shyness or social anxiety, consider the transformat
     category: 'child',
     tags: ['group therapy', 'social skills', 'shyness', 'social anxiety'],
     icon: '👥',
-    metaTitle: 'Group Therapy for Shy Children Tulsa | Social Skills Groups | SafeHarbor',
-    metaDescription: 'Help your shy child build confidence through group therapy. Social skills groups at SafeHarbor Behavioral Health in Tulsa.',
+    metaTitle: 'Group Therapy for Shy Children Tulsa | Social Skills Groups | Safe Harbor',
+    metaDescription: 'Help your shy child build confidence through group therapy. Social skills groups at Safe Harbor Behavioral Health in Tulsa.',
     relatedPosts: ['school-anxiety-tips', 'building-emotional-resilience', 'social-media-teen-mental-health']
   },
   {
@@ -3287,7 +3287,7 @@ If your child struggles with shyness or social anxiety, consider the transformat
     content: `
 # Crisis Prevention: Building Emotional Resilience in Children and Teens
 
-Prevention is always better than crisis intervention. At SafeHarbor Behavioral Health in Tulsa, we believe that building emotional resilience in children and teens is one of the most important investments we can make in their future mental health. When children develop strong coping skills and emotional intelligence early in life, they're better equipped to handle life's inevitable challenges without reaching a crisis point.
+Prevention is always better than crisis intervention. At Safe Harbor Behavioral Health in Tulsa, we believe that building emotional resilience in children and teens is one of the most important investments we can make in their future mental health. When children develop strong coping skills and emotional intelligence early in life, they're better equipped to handle life's inevitable challenges without reaching a crisis point.
 
 ## Understanding Emotional Resilience
 
@@ -3728,7 +3728,7 @@ Teaching children to:
 - Addressing emerging challenges and obstacles
 - Planning for transitions and changes
 
-## SafeHarbor's Resilience Building Programs
+## Safe Harbor's Resilience Building Programs
 
 ### Comprehensive Assessment
 
@@ -3831,13 +3831,13 @@ Resilience building leads to:
 
 Building emotional resilience in children and teens is one of the most powerful ways to prevent mental health crises and promote lifelong well-being. Resilience isn't a trait that children either have or don't have—it's a set of skills and capacities that can be developed and strengthened over time.
 
-At SafeHarbor Behavioral Health, we believe that every child has the potential to develop resilience, regardless of their circumstances or challenges. Through evidence-based interventions, supportive relationships, and comprehensive community approaches, we can help children build the emotional strength they need to thrive.
+At Safe Harbor Behavioral Health, we believe that every child has the potential to develop resilience, regardless of their circumstances or challenges. Through evidence-based interventions, supportive relationships, and comprehensive community approaches, we can help children build the emotional strength they need to thrive.
 
 The investment in resilience building pays dividends throughout a person's life. Children who develop strong coping skills, emotional regulation abilities, and problem-solving capacities are better equipped to handle academic challenges, social difficulties, family changes, and all the other inevitable stresses of growing up.
 
 Prevention is always preferable to crisis intervention. By building resilience proactively, we can help children develop the internal resources they need to navigate life's challenges successfully while maintaining their mental health and well-being.
 
-*Ready to help your child build emotional resilience and prevent mental health crises? Contact SafeHarbor Behavioral Health today to learn about our resilience building programs and comprehensive mental health services. Together, we can give your child the tools they need for a lifetime of emotional strength and well-being.*
+*Ready to help your child build emotional resilience and prevent mental health crises? Contact Safe Harbor Behavioral Health today to learn about our resilience building programs and comprehensive mental health services. Together, we can give your child the tools they need for a lifetime of emotional strength and well-being.*
     `,
     author: 'Safe Harbor Behavioral Health Team',
     date: 'December 24, 2023',
@@ -3846,8 +3846,8 @@ Prevention is always preferable to crisis intervention. By building resilience p
     tags: ['resilience', 'crisis prevention', 'emotional regulation', 'coping skills'],
     featured: false,
     icon: '💪',
-    metaTitle: 'Building Emotional Resilience in Children | Crisis Prevention | SafeHarbor Tulsa',
-    metaDescription: 'Learn evidence-based strategies to build emotional resilience in children and teens. Prevent mental health crises with SafeHarbor Behavioral Health.',
+    metaTitle: 'Building Emotional Resilience in Children | Crisis Prevention | Safe Harbor Tulsa',
+    metaDescription: 'Learn evidence-based strategies to build emotional resilience in children and teens. Prevent mental health crises with Safe Harbor Behavioral Health.',
     relatedPosts: ['childhood-trauma-recognition', 'is-my-childs-behavior-normal', 'group-therapy-shy-children']
   }
 ]

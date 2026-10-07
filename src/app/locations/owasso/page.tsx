@@ -9,7 +9,7 @@ export default function OwassoPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Owasso | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Owasso | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Owasso, Collinsville, and northern Tulsa County with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function OwassoPage() {
             {/* Why Owasso Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Owasso Families Choose SafeHarbor
+                Why Owasso Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Owasso embodies the best of Oklahoma living - a rapidly growing community that maintains its small-town 
                 values while offering modern amenities and excellent schools. From the natural beauty of Redbud Valley 
                 Nature Preserve to the vibrant downtown area and the pride in Owasso Public Schools' achievements, this 
-                community is dedicated to family life and educational excellence. SafeHarbor Behavioral Health understands 
+                community is dedicated to family life and educational excellence. Safe Harbor Behavioral Health understands 
                 what makes Owasso special - the strong sense of community pride, the emphasis on youth development, and 
                 the balance between growth and maintaining neighborhood connections.
               </p>
@@ -276,7 +276,7 @@ export default function OwassoPage() {
                 Help Your Ram Thrive in School and Life
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join Owasso families who trust SafeHarbor for mental health support that understands our Ram pride and community values.
+                Join Owasso families who trust Safe Harbor for mental health support that understands our Ram pride and community values.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

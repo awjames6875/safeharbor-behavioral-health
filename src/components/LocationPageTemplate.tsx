@@ -48,7 +48,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in {data.name} | SafeHarbor Behavioral Health
+            Child & Teen Therapy in {data.name} | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             {data.heroDescription}
@@ -62,7 +62,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
             {/* Why Choose Us Section */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why {data.name} Families Choose SafeHarbor
+                Why {data.name} Families Choose Safe Harbor
               </h2>
               {data.whyChooseUs.map((paragraph, index) => (
                 <p key={index} className="text-gray-600 mb-4">
@@ -114,7 +114,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
             {/* Transportation */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor from {data.name}
+                Getting to Safe Harbor from {data.name}
               </h2>
               <div className="space-y-6">
                 <div>
@@ -240,7 +240,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
                 Ready to Support Your Child's Mental Health?
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join hundreds of {data.name} families who trust SafeHarbor.
+                Join hundreds of {data.name} families who trust Safe Harbor.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

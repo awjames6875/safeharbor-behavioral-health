@@ -3,7 +3,7 @@ import Link from 'next/link'
 import ParentIntakeForm from '@/components/ParentIntakeForm'
 
 export const metadata: Metadata = {
-  title: 'For Parents | Body & Brain Program for Kids 3-8 | SafeHarbor Behavioral Health',
+  title: 'For Parents | Body & Brain Program for Kids 3-8 | Safe Harbor Behavioral Health',
   description: 'Therapy disguised as play. Boxing, yoga, dance, obstacle courses & mindfulness — delivered right at your child\'s daycare. Covered by SoonerCare.',
   alternates: { canonical: '/parents' },
 }
@@ -22,8 +22,7 @@ export default function ParentsPage() {
             Your child gets world-class behavioral support — disguised as the most fun part of their day. And you don&apos;t have to drive anywhere.
           </p>
           <Link
-            href="https://SafeHarborEasyEnrollment.com"
-            target="_blank"
+            href="/contact"
             className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"
           >
             Enroll Your Child Now
@@ -126,8 +125,7 @@ export default function ParentsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="https://SafeHarborEasyEnrollment.com"
-              target="_blank"
+              href="/contact"
               className="bg-white text-teal-600 font-bold py-4 px-8 rounded-lg text-lg hover:bg-teal-50 transition-colors"
             >
               Enroll Now

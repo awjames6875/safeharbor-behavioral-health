@@ -9,7 +9,7 @@ export default function SouthTulsaPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in South Tulsa | SafeHarbor Behavioral Health
+            Child & Teen Therapy in South Tulsa | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families throughout South Tulsa with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function SouthTulsaPage() {
             {/* Why South Tulsa Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why South Tulsa Families Choose SafeHarbor
+                Why South Tulsa Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 South Tulsa represents the heart of suburban family life in the Tulsa metro area. From the shopping 
                 and dining at Woodland Hills Mall to the beautiful homes along the Arkansas River, and from the 
                 excellent schools to the convenient access to everything Tulsa has to offer, South Tulsa attracts 
-                families who value quality education, safe neighborhoods, and an active lifestyle. SafeHarbor 
+                families who value quality education, safe neighborhoods, and an active lifestyle. Safe Harbor 
                 Behavioral Health understands what makes South Tulsa special - the commitment to family values, 
                 the emphasis on educational excellence, and the balance between suburban convenience and community connection.
               </p>
@@ -275,7 +275,7 @@ export default function SouthTulsaPage() {
                 Help Your Child Thrive in South Tulsa and Beyond
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join South Tulsa families who trust SafeHarbor for mental health support that understands the unique opportunities and pressures of our community.
+                Join South Tulsa families who trust Safe Harbor for mental health support that understands the unique opportunities and pressures of our community.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

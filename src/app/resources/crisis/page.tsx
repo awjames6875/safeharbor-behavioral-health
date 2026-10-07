@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Mental Health Crisis Help Tulsa | 24/7 Emergency Resources | SafeHarbor',
+  title: 'Mental Health Crisis Help Tulsa | 24/7 Emergency Resources | Safe Harbor',
   description: 'Immediate mental health crisis help in Tulsa. 24/7 hotlines, pediatric psych ERs, suicide prevention resources. Call 988 or 911. We accept Medicaid.',
   keywords: [
     'mental health crisis Tulsa',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'youth crisis intervention Tulsa'
   ],
   openGraph: {
-    title: 'Mental Health Crisis Help Tulsa | SafeHarbor Behavioral Health',
+    title: 'Mental Health Crisis Help Tulsa | Safe Harbor Behavioral Health',
     description: 'Immediate mental health crisis help in Tulsa. 24/7 hotlines, pediatric psychiatric emergency rooms, and comprehensive crisis resources.',
     type: 'website',
     locale: 'en_US',
@@ -87,9 +87,9 @@ export default function CrisisResourcesPage() {
                 </a>
               </div>
 
-              {/* SafeHarbor Crisis Line */}
+              {/* Safe Harbor Crisis Line */}
               <div className="bg-white rounded-lg p-6 shadow-md border-l-4 border-teal-600">
-                <h3 className="text-xl font-bold text-teal-600 mb-2">SafeHarbor Crisis Line</h3>
+                <h3 className="text-xl font-bold text-teal-600 mb-2">Safe Harbor Crisis Line</h3>
                 <p className="text-gray-600 mb-4">Direct access to our crisis specialists</p>
                 <a href="tel:9185535746" className="block bg-teal-600 text-white text-center py-3 px-4 rounded-md hover:bg-teal-700 transition-colors font-semibold">
                   (918) 553-5746
@@ -644,7 +644,7 @@ export default function CrisisResourcesPage() {
                     <p className="font-semibold">Psychiatrist: __________________________</p>
                     <p>Phone: ___________________________________</p>
                     <br />
-                    <p className="font-semibold">Crisis Service: SafeHarbor Crisis Line</p>
+                    <p className="font-semibold">Crisis Service: Safe Harbor Crisis Line</p>
                     <p>Phone: (918) 553-5746</p>
                   </div>
                 </div>
@@ -842,7 +842,7 @@ export default function CrisisResourcesPage() {
                   <div className="border-l-4 border-teal-200 pl-4">
                     <h4 className="font-bold text-gray-800 mb-2">Child/Teen Specialists in Tulsa:</h4>
                     <ul className="space-y-2 text-gray-600 text-sm">
-                      <li>• SafeHarbor Behavioral Health - (918) 553-5746</li>
+                      <li>• Safe Harbor Behavioral Health - (918) 553-5746</li>
                       <li>• Children's Medical Center - (918) 584-1351</li>
                       <li>• Laureate Psychiatric Hospital - (918) 481-4000</li>
                       <li>• Family & Children's Services - (918) 587-9471</li>
@@ -864,7 +864,7 @@ export default function CrisisResourcesPage() {
                 <div className="bg-teal-50 p-4 rounded">
                   <h4 className="font-bold text-teal-800 mb-2">Insurance and Payment Options:</h4>
                   <p className="text-gray-700 text-sm">
-                    SafeHarbor accepts most major insurance plans including Medicaid, SoonerCare, Blue Cross Blue Shield, 
+                    Safe Harbor accepts most major insurance plans including Medicaid, SoonerCare, Blue Cross Blue Shield, 
                     Aetna, and others. We also offer sliding scale fees based on income. Call (918) 553-5746 to verify 
                     your coverage and schedule an appointment.
                   </p>
@@ -1007,8 +1007,8 @@ export default function CrisisResourcesPage() {
                     <p className="text-sm text-gray-500">Phone: (918) 587-9471</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">SafeHarbor Family Support Group</h4>
-                    <p className="text-gray-600 mb-2">Monthly meetings for SafeHarbor families</p>
+                    <h4 className="font-bold text-gray-800 mb-3">Safe Harbor Family Support Group</h4>
+                    <p className="text-gray-600 mb-2">Monthly meetings for Safe Harbor families</p>
                     <p className="text-sm text-gray-500">Phone: (918) 553-5746</p>
                     <p className="text-sm text-gray-500">Second Thursday each month, 6:30 PM</p>
                   </div>
@@ -1269,11 +1269,11 @@ export default function CrisisResourcesPage() {
         </div>
       </section>
 
-      {/* Contact SafeHarbor Section */}
+      {/* Contact Safe Harbor Section */}
       <section className="py-16 bg-navy-900 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">SafeHarbor Behavioral Health is Here to Help</h2>
+            <h2 className="text-3xl font-bold mb-6">Safe Harbor Behavioral Health is Here to Help</h2>
             <p className="text-xl mb-8 opacity-90">
               Serving Tulsa families with compassionate, comprehensive mental health care
             </p>
@@ -1342,7 +1342,7 @@ export default function CrisisResourcesPage() {
                 <p className="text-2xl font-bold">911</p>
               </div>
               <div className="text-center">
-                <p className="text-sm opacity-90">SafeHarbor Crisis Line</p>
+                <p className="text-sm opacity-90">Safe Harbor Crisis Line</p>
                 <p className="text-2xl font-bold">(918) 553-5746</p>
               </div>
               <div className="text-center">

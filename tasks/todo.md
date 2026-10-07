@@ -54,3 +54,11 @@ Truth rule: one office phone (918) 553-5746. Canonical host: https://www.safehar
 - [x] Speed claim reworded: "within 48 hours once intake paperwork is completed" (owner-approved; client.json banned_text still flags "48 hours", update it there)
 - [x] Substance use recovery support added where the removed services were listed
 - [ ] Open: SafeHarborEasyEnrollment links (12 pages), blog posts still mention psychiatric team / medication management, TITLE-3 in 38 page titles
+
+## Round 3 (owner answers)
+- [x] client.json (SEO engine): "48 hours"/"48-hour"/United Healthcare no longer banned; United Healthcare added to insurance_live (Cigna stays banned)
+- [x] United Healthcare listed as accepted on the homepage insurance section
+- [x] SafeHarborEasyEnrollment removed: CTAs now go to /contact (contact page button removed), line removed from llms.txt
+- [x] "ages 3–17" (en dash) -> "all ages"
+- [x] TITLE-3: "SafeHarbor" -> "Safe Harbor" across src (handles, Therapy Portal URL and locations.ts untouched)
+- [x] Blog rewrites proposed in tasks/blog-rewrites.md (not applied)

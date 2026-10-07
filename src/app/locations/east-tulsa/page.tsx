@@ -9,7 +9,7 @@ export default function EastTulsaPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in East Tulsa | SafeHarbor Behavioral Health
+            Child & Teen Therapy in East Tulsa | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in East Tulsa, Catoosa, and surrounding areas with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function EastTulsaPage() {
             {/* Why East Tulsa Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why East Tulsa Families Choose SafeHarbor
+                Why East Tulsa Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 East Tulsa represents the dynamic growth and cultural diversity that makes Tulsa unique. From the 
                 stunning Arkansas River waterfront and the world-class Gathering Place to the diverse neighborhoods 
                 along 21st Street and beyond, East Tulsa combines urban amenities with suburban comfort and cultural 
-                richness. SafeHarbor Behavioral Health understands what makes East Tulsa special - the vibrant 
+                richness. Safe Harbor Behavioral Health understands what makes East Tulsa special - the vibrant 
                 multicultural community, the blend of established neighborhoods and new developments, and the balance 
                 between city conveniences and community connection that characterizes this growing area.
               </p>
@@ -279,7 +279,7 @@ export default function EastTulsaPage() {
                 Celebrate Your Heritage While Building Your Future
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join East Tulsa families who trust SafeHarbor for culturally responsive mental health care that honors diversity and builds on community strengths.
+                Join East Tulsa families who trust Safe Harbor for culturally responsive mental health care that honors diversity and builds on community strengths.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

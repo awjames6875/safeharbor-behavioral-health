@@ -9,7 +9,7 @@ export default function SapulpaPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Sapulpa | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Sapulpa | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Sapulpa, Kellyville, and surrounding areas with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function SapulpaPage() {
             {/* Why Sapulpa Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Sapulpa Families Choose SafeHarbor
+                Why Sapulpa Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Sapulpa embodies the perfect blend of historical charm and modern community values. Known as the 
                 "Crossroads of America" due to its strategic location and rich Route 66 heritage, Sapulpa offers 
                 families a unique combination of small-town warmth, educational excellence, and economic opportunity. 
-                SafeHarbor Behavioral Health understands what makes Sapulpa special - the deep appreciation for 
+                Safe Harbor Behavioral Health understands what makes Sapulpa special - the deep appreciation for 
                 community history and traditions, the strong commitment to family values, and the balance between 
                 honoring the past while building for the future that characterizes Sapulpa families.
               </p>
@@ -279,7 +279,7 @@ export default function SapulpaPage() {
                 Support Your Chieftain's Mental Health and Future
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join Sapulpa families who trust SafeHarbor for mental health care that honors our community values and traditions.
+                Join Sapulpa families who trust Safe Harbor for mental health care that honors our community values and traditions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

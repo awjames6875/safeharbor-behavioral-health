@@ -9,7 +9,7 @@ export default function JenksPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Jenks | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Jenks | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Jenks, Glenpool, and surrounding areas with comprehensive mental health services, 
@@ -24,12 +24,12 @@ export default function JenksPage() {
             {/* Why Jenks Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Jenks Families Choose SafeHarbor
+                Why Jenks Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Jenks represents the epitome of Oklahoma educational excellence and community pride. Known statewide 
                 for its outstanding academic programs, championship athletics, and the beautiful Arkansas Riverfront, 
-                Jenks attracts families who value both achievement and quality of life. SafeHarbor Behavioral Health 
+                Jenks attracts families who value both achievement and quality of life. Safe Harbor Behavioral Health 
                 understands what makes Jenks special - the commitment to educational excellence at Jenks Public Schools, 
                 the strong sense of community identity, and the balance between high expectations and supportive 
                 family environments that characterizes this remarkable district.
@@ -280,7 +280,7 @@ export default function JenksPage() {
                 Help Your Trojan Excel Academically and Emotionally
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join Jenks families who trust SafeHarbor for mental health support that understands our commitment to excellence and Trojan pride.
+                Join Jenks families who trust Safe Harbor for mental health support that understands our commitment to excellence and Trojan pride.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

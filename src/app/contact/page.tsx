@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
-  title: 'Contact SafeHarbor Behavioral Health | Schedule Child Therapy Tulsa',
-  description: 'Contact SafeHarbor Behavioral Health to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa. Call (918) 553-5746.',
-  keywords: 'contact SafeHarbor Tulsa, schedule child therapy appointment, teen counseling contact, mental health services inquiry, therapy consultation Tulsa',
+  title: 'Contact Safe Harbor Behavioral Health | Schedule Child Therapy Tulsa',
+  description: 'Contact Safe Harbor Behavioral Health to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa. Call (918) 553-5746.',
+  keywords: 'contact Safe Harbor Tulsa, schedule child therapy appointment, teen counseling contact, mental health services inquiry, therapy consultation Tulsa',
   alternates: {
     canonical: '/contact'
   },
   openGraph: {
-    title: 'Contact SafeHarbor Behavioral Health | Schedule Child Therapy',
+    title: 'Contact Safe Harbor Behavioral Health | Schedule Child Therapy',
     description: 'Contact us to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa. We\'re here to help.',
     url: 'https://www.safeharborbehavioralhealth.com/contact',
     images: [
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
         url: '/images/contact-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Contact SafeHarbor Behavioral Health',
+        alt: 'Contact Safe Harbor Behavioral Health',
       }
     ]
   },
   twitter: {
-    title: 'Contact SafeHarbor Behavioral Health | Schedule Child Therapy',
+    title: 'Contact Safe Harbor Behavioral Health | Schedule Child Therapy',
     description: 'Contact us to schedule child therapy, teen counseling, or learn about our mental health services.',
     images: ['/images/contact-twitter-image.jpg']
   }
@@ -32,12 +32,12 @@ export default function ContactPage() {
   const contactSchema = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact SafeHarbor Behavioral Health",
-    "description": "Contact SafeHarbor Behavioral Health to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa.",
+    "name": "Contact Safe Harbor Behavioral Health",
+    "description": "Contact Safe Harbor Behavioral Health to schedule child therapy, teen counseling, or learn about our mental health services in Tulsa.",
     "url": "https://www.safeharborbehavioralhealth.com/contact",
     "mainEntity": {
       "@type": "MedicalBusiness",
-      "name": "SafeHarbor Behavioral Health",
+      "name": "Safe Harbor Behavioral Health",
       "telephone": "+1-918-553-5746",
       "email": "support@safeharborbehavioralhealth.com",
       "address": {
@@ -166,9 +166,6 @@ export default function ContactPage() {
                 <p className="text-gray-600 mb-3">
                   Start your child&apos;s journey with Safe Harbor today.
                 </p>
-                <a href="https://SafeHarborEasyEnrollment.com" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-md hover:bg-teal-700 transition-colors font-semibold mr-3 mb-2">
-                  Easy Enrollment
-                </a>
                 <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="inline-block bg-navy-700 text-white px-6 py-3 rounded-md hover:bg-navy-800 transition-colors font-semibold mb-2">
                   Therapy Portal
                 </a>

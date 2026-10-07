@@ -50,7 +50,7 @@ export default function GroupTherapyPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">What is Group Therapy?</h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Group therapy at SafeHarbor Behavioral Health provides a unique opportunity to heal and 
+                Group therapy at Safe Harbor Behavioral Health provides a unique opportunity to heal and 
                 grow alongside others who share similar experiences and challenges. Led by our licensed 
                 therapists, these groups offer a safe, supportive environment where participants can 
                 share their stories, learn from others, and develop new coping strategies together.
@@ -446,11 +446,9 @@ export default function GroupTherapyPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children all ages through our Body &amp; Brain program.</p>
                   <a
-                    href="https://SafeHarborEasyEnrollment.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/contact"
                     className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold"
                   >
                     Enroll Today

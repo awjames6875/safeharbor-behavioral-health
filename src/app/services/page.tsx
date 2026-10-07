@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Mental Health Services Tulsa | Child Therapy, Teen Counseling | SafeHarbor',
+  title: 'Mental Health Services Tulsa | Child Therapy, Teen Counseling | Safe Harbor',
   description:
     'Comprehensive mental health services in Tulsa. Individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
   keywords:
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical: '/services',
   },
   openGraph: {
-    title: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
+    title: 'Mental Health Services Tulsa | Safe Harbor Behavioral Health',
     description:
       'Comprehensive mental health services including individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
     url: 'https://www.safeharborbehavioralhealth.com/services',
@@ -20,12 +20,12 @@ export const metadata: Metadata = {
         url: '/images/services-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health Mental Health Services',
+        alt: 'Safe Harbor Behavioral Health Mental Health Services',
       },
     ],
   },
   twitter: {
-    title: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
+    title: 'Mental Health Services Tulsa | Safe Harbor Behavioral Health',
     description:
       'Comprehensive mental health services for children, teens, and families in Tulsa, Oklahoma.',
     images: ['/images/services-twitter-image.jpg'],
@@ -116,13 +116,13 @@ export default function ServicesPage() {
   const servicesSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
+    name: 'Mental Health Services Tulsa | Safe Harbor Behavioral Health',
     description:
       'Comprehensive mental health services including individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
     url: 'https://www.safeharborbehavioralhealth.com/services',
     mainEntity: {
       '@type': 'MedicalBusiness',
-      name: 'SafeHarbor Behavioral Health',
+      name: 'Safe Harbor Behavioral Health',
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
         name: 'Mental Health Services',
@@ -251,9 +251,7 @@ export default function ServicesPage() {
               </div>
               <div className="text-center mt-8 space-x-4">
                 <a
-                  href="https://SafeHarborEasyEnrollment.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/contact"
                   className="inline-block bg-teal-600 text-white px-8 py-3 rounded-md hover:bg-teal-700 transition-colors font-semibold"
                 >
                   Enroll Today

@@ -9,7 +9,7 @@ export default function WestTulsaPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in West Tulsa | SafeHarbor Behavioral Health
+            Child & Teen Therapy in West Tulsa | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in West Tulsa, Red Fork, and surrounding areas with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function WestTulsaPage() {
             {/* Why West Tulsa Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why West Tulsa Families Choose SafeHarbor
+                Why West Tulsa Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 West Tulsa embodies the authentic spirit of working-class Oklahoma, where community bonds run deep 
                 and families take care of each other. From the historic neighborhoods of Red Fork to the recreational 
                 opportunities at the Tulsa Zoo and Mohawk Park, West Tulsa combines blue-collar pride with natural 
-                beauty and family values. SafeHarbor Behavioral Health understands what makes West Tulsa special - 
+                beauty and family values. Safe Harbor Behavioral Health understands what makes West Tulsa special - 
                 the strong sense of neighborhood community, the importance of hard work and family loyalty, and the 
                 resilience that defines families who choose to build their lives in this authentic, unpretentious 
                 part of Tulsa.
@@ -281,7 +281,7 @@ export default function WestTulsaPage() {
                 Strengthen Your Family with Practical, Real-World Solutions
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join West Tulsa families who trust SafeHarbor for straightforward mental health support that respects working-class values and gets results.
+                Join West Tulsa families who trust Safe Harbor for straightforward mental health support that respects working-class values and gets results.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

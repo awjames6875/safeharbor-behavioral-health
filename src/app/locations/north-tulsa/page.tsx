@@ -9,7 +9,7 @@ export default function NorthTulsaPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in North Tulsa | SafeHarbor Behavioral Health
+            Child & Teen Therapy in North Tulsa | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in North Tulsa, Turley, and surrounding areas with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function NorthTulsaPage() {
             {/* Why North Tulsa Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why North Tulsa Families Choose SafeHarbor
+                Why North Tulsa Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 North Tulsa represents the heart of Tulsa's rich cultural heritage and community resilience. Home to 
                 historic landmarks like Greenwood District, the vibrant legacy of Black Wall Street, and the beautiful 
                 Gilcrease Museum, North Tulsa combines deep historical significance with modern community strength. 
-                SafeHarbor Behavioral Health understands what makes North Tulsa special - the strong sense of community 
+                Safe Harbor Behavioral Health understands what makes North Tulsa special - the strong sense of community 
                 pride, the importance of cultural identity and family traditions, and the resilience that has defined 
                 this area through generations of change and growth.
               </p>
@@ -274,7 +274,7 @@ export default function NorthTulsaPage() {
                 Strengthen Your Family and Honor Your Heritage
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join North Tulsa families who trust SafeHarbor for culturally responsive mental health care that builds on our community's strength and resilience.
+                Join North Tulsa families who trust Safe Harbor for culturally responsive mental health care that builds on our community's strength and resilience.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

@@ -214,7 +214,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <div>
                     <h3 className="text-lg font-bold text-navy-800 mb-2">{post.author}</h3>
                     <p className="text-navy-600 mb-3">
-                      Licensed mental health professional specializing in child and adolescent therapy at SafeHarbor Behavioral Health in Tulsa, Oklahoma.
+                      Licensed mental health professional specializing in child and adolescent therapy at Safe Harbor Behavioral Health in Tulsa, Oklahoma.
                     </p>
                     <p className="text-sm text-gray-600">
                       Our team of experienced therapists provides comprehensive mental health services to children, teens, and families throughout the Tulsa metro area.
@@ -227,7 +227,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <div className="mt-8 p-6 bg-navy-800 text-white rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Need Professional Support?</h3>
                 <p className="mb-4">
-                  If you're concerned about your child's mental health or need professional guidance, our experienced team at SafeHarbor Behavioral Health is here to help.
+                  If you're concerned about your child's mental health or need professional guidance, our experienced team at Safe Harbor Behavioral Health is here to help.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link
@@ -305,7 +305,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       </a>
                     </div>
                     <div>
-                      <p className="font-medium">SafeHarbor:</p>
+                      <p className="font-medium">Safe Harbor:</p>
                       <a href="tel:918-553-5746" className="text-teal-300 hover:text-teal-200">
                         (918) 553-5746
                       </a>
@@ -386,7 +386,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             },
             "publisher": {
               "@type": "Organization",
-              "name": "SafeHarbor Behavioral Health",
+              "name": "Safe Harbor Behavioral Health",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://www.safeharborbehavioralhealth.com/images/logo.png"

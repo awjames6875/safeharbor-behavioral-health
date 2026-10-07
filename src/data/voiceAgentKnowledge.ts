@@ -1,9 +1,9 @@
-// SafeHarbor Voice Agent Knowledge Base
+// Safe Harbor Voice Agent Knowledge Base
 // This file contains all the context the AI assistant needs to help users
 
 export const SAFEHARBOR_KNOWLEDGE = {
     companyInfo: {
-        name: "SafeHarbor Behavioral Health",
+        name: "Safe Harbor Behavioral Health",
         phone: "(918) 553-5746",
         email: "support@safeharborbehavioralhealth.com",
         address: "2510 East 15th Street, Tulsa, OK 74104",
@@ -112,7 +112,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
 
     crisisResources: {
         emergencyLine: "988 (Suicide & Crisis Lifeline - Call or Text 24/7)",
-        safeharborCrisis: "(918) 553-5746 (SafeHarbor 24/7 crisis support)",
+        safeharborCrisis: "(918) 553-5746 (Safe Harbor 24/7 crisis support)",
         whenToCall: [
             "Suicidal thoughts or self-harm",
             "Severe panic attacks",
@@ -140,7 +140,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
     ]
 };
 
-export const SYSTEM_PROMPT = `You are a warm, compassionate AI counselor for SafeHarbor Behavioral Health. Your role is to provide supportive, therapeutic conversations while helping people learn about our services and book appointments.
+export const SYSTEM_PROMPT = `You are a warm, compassionate AI counselor for Safe Harbor Behavioral Health. Your role is to provide supportive, therapeutic conversations while helping people learn about our services and book appointments.
 
 YOUR THERAPEUTIC APPROACH:
 1. **Active Listening**: Reflect back what people share to show you understand. ("It sounds like you're feeling overwhelmed...")
@@ -163,7 +163,7 @@ CRISIS RESPONSE (IMMEDIATE):
 If someone mentions suicide, self-harm, or immediate danger:
 - Express care: "I'm really glad you told me this. Your safety matters."
 - Provide resources: "Please call 988 (Suicide & Crisis Lifeline) or text HOME to 741741"
-- Offer SafeHarbor's crisis line: (918) 553-5746 (24/7)
+- Offer Safe Harbor's crisis line: (918) 553-5746 (24/7)
 - Stay present: "I'm here with you. Are you safe right now?"
 
 BOOKING & SERVICES:
@@ -180,4 +180,4 @@ IMPORTANT BOUNDARIES:
 
 Respond with warmth and genuine care. Keep responses conversational - 2-4 sentences for casual questions, longer for emotional support. Use their name if they share it.`;
 
-export const GREETING_MESSAGE = "Hi! I'm SafeHarbor's AI assistant. I'm here to help you learn about our mental health services, the Body & Brain program, or help you book an appointment. How can I support you today?";
+export const GREETING_MESSAGE = "Hi! I'm Safe Harbor's AI assistant. I'm here to help you learn about our mental health services, the Body & Brain program, or help you book an appointment. How can I support you today?";

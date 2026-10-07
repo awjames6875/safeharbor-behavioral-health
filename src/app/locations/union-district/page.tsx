@@ -9,7 +9,7 @@ export default function UnionDistrictPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Union District | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Union District | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Union Public Schools district and surrounding areas with comprehensive mental health services, 
@@ -24,13 +24,13 @@ export default function UnionDistrictPage() {
             {/* Why Union District Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Union District Families Choose SafeHarbor
+                Why Union District Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 The Union District represents educational excellence and community pride at its finest. Home to one 
                 of Oklahoma's most prestigious school districts, Union Public Schools consistently ranks among the 
                 state's top performers, attracting families who prioritize academic achievement, extracurricular 
-                excellence, and comprehensive student development. SafeHarbor Behavioral Health understands what 
+                excellence, and comprehensive student development. Safe Harbor Behavioral Health understands what 
                 makes the Union District special - the unwavering commitment to educational excellence, the community-wide 
                 support for student achievement, and the high expectations that define the Redskin way of life.
               </p>
@@ -278,7 +278,7 @@ export default function UnionDistrictPage() {
                 Achieve Union Excellence While Protecting Mental Health
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join Union District families who trust SafeHarbor for elite mental health support that understands Redskin pride and championship expectations.
+                Join Union District families who trust Safe Harbor for elite mental health support that understands Redskin pride and championship expectations.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

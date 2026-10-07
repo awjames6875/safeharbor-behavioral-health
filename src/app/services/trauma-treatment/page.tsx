@@ -50,7 +50,7 @@ export default function TraumaTherapyPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">What is Trauma Treatment?</h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Trauma treatment at SafeHarbor Behavioral Health provides specialized, evidence-based 
+                Trauma treatment at Safe Harbor Behavioral Health provides specialized, evidence-based 
                 interventions for children, teens, and families who have experienced traumatic events. 
                 We understand that trauma affects everyone differently and can have lasting impacts 
                 on mental health, relationships, and daily functioning.
@@ -405,7 +405,7 @@ export default function TraumaTherapyPage() {
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-teal-600 mb-3">What makes SafeHarbor's trauma treatment different?</h3>
+                <h3 className="text-lg font-semibold text-teal-600 mb-3">What makes Safe Harbor's trauma treatment different?</h3>
                 <p className="text-gray-700">
                   Our therapists are specifically trained in evidence-based trauma treatments. We provide 
                   a trauma-informed environment, individualized treatment plans, family involvement when 
@@ -440,11 +440,9 @@ export default function TraumaTherapyPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children all ages through our Body &amp; Brain program.</p>
                   <a
-                    href="https://SafeHarborEasyEnrollment.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/contact"
                     className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold"
                   >
                     Enroll Today

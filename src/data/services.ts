@@ -14,11 +14,11 @@ export const services: ServiceData[] = [
     slug: 'child-therapy',
     name: 'Individual Child Therapy',
     description: 'Specialized therapy services for children ages 5-12 using play therapy, art therapy, and age-appropriate interventions.',
-    metaDescription: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
+    metaDescription: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. Safe Harbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
-        question: 'Does SafeHarbor accept Medicaid and SoonerCare for child therapy?',
-        answer: 'Yes! SafeHarbor proudly accepts Oklahoma Medicaid and SoonerCare for all child therapy services. We also accept most major insurance plans and offer sliding scale fees for families who need financial assistance.'
+        question: 'Does Safe Harbor accept Medicaid and SoonerCare for child therapy?',
+        answer: 'Yes! Safe Harbor proudly accepts Oklahoma Medicaid and SoonerCare for all child therapy services. We also accept most major insurance plans and offer sliding scale fees for families who need financial assistance.'
       },
       {
         question: 'What age children do you provide therapy for in Tulsa?',
@@ -42,11 +42,11 @@ export const services: ServiceData[] = [
     slug: 'teen-counseling',
     name: 'Teen Counseling & Adolescent Therapy',
     description: 'Specialized counseling for teenagers dealing with depression, anxiety, peer pressure, academic stress, and identity issues.',
-    metaDescription: 'Teen counseling Tulsa - Medicaid accepted. Adolescent therapy for depression, anxiety, peer pressure. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
+    metaDescription: 'Teen counseling Tulsa - Medicaid accepted. Adolescent therapy for depression, anxiety, peer pressure. Safe Harbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is teen counseling covered by SoonerCare in Tulsa?',
-        answer: 'Absolutely! SoonerCare (Oklahoma Medicaid) covers teen counseling and adolescent therapy services at SafeHarbor. We handle all insurance verification and billing for you.'
+        answer: 'Absolutely! SoonerCare (Oklahoma Medicaid) covers teen counseling and adolescent therapy services at Safe Harbor. We handle all insurance verification and billing for you.'
       },
       {
         question: 'What issues do you help teenagers with?',
@@ -70,7 +70,7 @@ export const services: ServiceData[] = [
     slug: 'family-therapy',
     name: 'Family Therapy & Counseling',
     description: 'Family counseling to improve communication, resolve conflicts, and strengthen relationships between family members.',
-    metaDescription: 'Family therapy Tulsa with Medicaid coverage. Strengthen family relationships, improve communication. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
+    metaDescription: 'Family therapy Tulsa with Medicaid coverage. Strengthen family relationships, improve communication. Safe Harbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Does Medicaid cover family therapy in Tulsa?',
@@ -110,7 +110,7 @@ export const services: ServiceData[] = [
       },
       {
         question: 'Do you provide 24/7 crisis support?',
-        answer: 'Yes, SafeHarbor provides 24/7 crisis support. Call our main number (918) 553-5746 and you\'ll be connected to our crisis response team, even after hours and on weekends.'
+        answer: 'Yes, Safe Harbor provides 24/7 crisis support. Call our main number (918) 553-5746 and you\'ll be connected to our crisis response team, even after hours and on weekends.'
       },
       {
         question: 'What happens during a crisis intervention?',
@@ -126,7 +126,7 @@ export const services: ServiceData[] = [
     slug: 'group-therapy',
     name: 'Group Therapy for Children & Teens',
     description: 'Therapeutic group sessions providing peer support and social skills development for children and adolescents.',
-    metaDescription: 'Group therapy Tulsa for kids and teens. Peer support groups, social skills training. Medicaid accepted. SafeHarbor Behavioral Health. Call (918) 553-5746.',
+    metaDescription: 'Group therapy Tulsa for kids and teens. Peer support groups, social skills training. Medicaid accepted. Safe Harbor Behavioral Health. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Does Medicaid cover group therapy in Tulsa?',
@@ -182,7 +182,7 @@ export const services: ServiceData[] = [
     slug: 'trauma-treatment',
     name: 'Trauma Treatment & PTSD Therapy',
     description: 'Specialized trauma-informed therapy for children and teens who have experienced abuse, neglect, or traumatic events.',
-    metaDescription: 'Trauma therapy Tulsa for children and teens. PTSD treatment, abuse recovery. Medicaid/SoonerCare accepted. SafeHarbor Behavioral Health. Call (918) 553-5746.',
+    metaDescription: 'Trauma therapy Tulsa for children and teens. PTSD treatment, abuse recovery. Medicaid/SoonerCare accepted. Safe Harbor Behavioral Health. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is trauma therapy covered by SoonerCare?',

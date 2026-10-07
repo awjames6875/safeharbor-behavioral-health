@@ -9,7 +9,7 @@ export default function BixbyPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Bixby | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Bixby | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Bixby, Leonard, and surrounding areas with comprehensive mental health services, 
@@ -24,12 +24,12 @@ export default function BixbyPage() {
             {/* Why Bixby Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Bixby Families Choose SafeHarbor
+                Why Bixby Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Bixby embodies the perfect balance of small-town charm and modern suburban living. Known for its 
                 exceptional schools, safe neighborhoods, and strong sense of community, Bixby has become one of 
-                Oklahoma's most desirable places to raise a family. SafeHarbor Behavioral Health understands what 
+                Oklahoma's most desirable places to raise a family. Safe Harbor Behavioral Health understands what 
                 draws families to Bixby - the commitment to educational excellence at Bixby Public Schools, the 
                 beautiful parks and recreational facilities, the family-friendly atmosphere, and the community pride 
                 that makes residents proud to call themselves Spartans.
@@ -277,7 +277,7 @@ export default function BixbyPage() {
                 Help Your Spartan Thrive in School and Life
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join Bixby families who trust SafeHarbor for mental health support that understands our community values and Spartan pride.
+                Join Bixby families who trust Safe Harbor for mental health support that understands our community values and Spartan pride.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

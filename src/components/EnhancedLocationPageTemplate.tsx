@@ -93,7 +93,7 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
             </nav>
             
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Child Therapy {location.city} | Medicaid Accepted | SafeHarbor Behavioral Health
+              Child Therapy {location.city} | Medicaid Accepted | Safe Harbor Behavioral Health
             </h1>
             <p className="text-xl opacity-95 max-w-3xl mb-6">
               {location.description}
@@ -370,7 +370,7 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
                   Ready to Support Your Child\'s Mental Health?
                 </h2>
                 <p className="text-xl mb-6 opacity-95">
-                  Join hundreds of {location.city} families who trust SafeHarbor for exceptional mental health care.
+                  Join hundreds of {location.city} families who trust Safe Harbor for exceptional mental health care.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <Link

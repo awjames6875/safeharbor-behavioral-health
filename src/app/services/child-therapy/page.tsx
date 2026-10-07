@@ -8,7 +8,7 @@ import { getServiceBySlug } from '@/data/services'
 
 export const metadata: Metadata = {
   title: 'Child Therapy Tulsa | Medicaid Accepted | Play Therapy Ages 5-12',
-  description: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
+  description: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. Safe Harbor accepts SoonerCare. Call (918) 553-5746.',
   keywords: 'child therapy Tulsa Medicaid, play therapy SoonerCare, child counseling Tulsa, kids therapy Medicaid, behavioral therapy children Tulsa, child psychologist Medicaid',
   alternates: {
     canonical: '/services/child-therapy'
@@ -94,7 +94,7 @@ export default function ChildTherapyPage() {
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
                 Individual child therapy is a specialized form of counseling designed specifically for children ages 5-12. 
-                At SafeHarbor Behavioral Health, we understand that children experience and express emotions differently 
+                At Safe Harbor Behavioral Health, we understand that children experience and express emotions differently 
                 than adults. Our child therapy services use age-appropriate techniques including play therapy, art therapy, 
                 and interactive activities to help young clients process emotions, develop coping skills, and overcome challenges.
               </p>
@@ -431,11 +431,9 @@ export default function ChildTherapyPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children all ages through our Body &amp; Brain program.</p>
                   <a
-                    href="https://SafeHarborEasyEnrollment.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/contact"
                     className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors font-semibold"
                   >
                     Enroll Today
