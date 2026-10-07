@@ -11,31 +11,31 @@ import { OrganizationSchema, WebsiteSchema } from '@/components/SchemaMarkup'
 
 export const metadata: Metadata = {
   title: {
-    default: 'SafeHarbor Behavioral Health - Child Therapy Tulsa | Mental Health Services',
-    template: '%s | SafeHarbor Behavioral Health'
+    default: 'Safe Harbor Behavioral Health - Child Therapy Tulsa | Mental Health Services',
+    template: '%s | Safe Harbor Behavioral Health'
   },
-  description: 'Leading child therapy in Tulsa, OK. SafeHarbor accepts Medicaid/SoonerCare. Comprehensive mental health services for children, teens, and families. Same-week appointments available.',
+  description: 'Leading child therapy in Tulsa, OK. Safe Harbor accepts Medicaid/SoonerCare. Comprehensive mental health services for children, teens, and families. Same-week appointments available.',
   keywords: 'child therapy Tulsa Medicaid, teen counseling Tulsa SoonerCare, mental health crisis Tulsa, behavioral health Tulsa Medicaid, anxiety therapy children, ADHD treatment Tulsa, family therapy Oklahoma, psychiatry Tulsa',
   metadataBase: new URL('https://www.safeharborbehavioralhealth.com'),
   openGraph: {
-    title: 'SafeHarbor Behavioral Health - Child Therapy Tulsa',
+    title: 'Safe Harbor Behavioral Health - Child Therapy Tulsa',
     description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, and families.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.safeharborbehavioralhealth.com',
-    siteName: 'SafeHarbor Behavioral Health',
+    siteName: 'Safe Harbor Behavioral Health',
     images: [
       {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health - Child Therapy in Tulsa',
+        alt: 'Safe Harbor Behavioral Health - Child Therapy in Tulsa',
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SafeHarbor Behavioral Health - Child Therapy Tulsa',
+    title: 'Safe Harbor Behavioral Health - Child Therapy Tulsa',
     description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, and families.',
     images: ['/images/twitter-image.jpg'],
     creator: '@SafeHarborBH'
@@ -51,10 +51,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
-  }
 }
 
 export default function RootLayout({
@@ -65,7 +61,7 @@ export default function RootLayout({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "name": "SafeHarbor Behavioral Health",
+    "name": "Safe Harbor Behavioral Health",
     "description": "Leading child therapy and mental health services in Tulsa, Oklahoma",
     "url": "https://www.safeharborbehavioralhealth.com",
     "logo": "https://www.safeharborbehavioralhealth.com/images/logo.png",

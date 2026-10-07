@@ -37,3 +37,12 @@ Truth rule: one office phone (918) 553-5746. Canonical host: https://www.safehar
 - PHONE-1: replaced fake 555-01xx / 391-36xx / placeholder numbers with (918) 553-5746; /locations index now shows the office number; locations.ts untouched; removed third-party 587-9471 from the teen-depression blog post.
 - Verified: tsc clean, npm run build passes, built HTML has one www self-referencing canonical on sampled pages, no 555-0 / 391-36 left in built HTML.
 - Notes: `npm run lint` fails on a pre-existing duplicate @next/next plugin (parent-folder node_modules), not related. Third-party (918) 587-9471 remains on /resources/crisis (real crisis resource, not flagged). JSON-LD/breadcrumb non-www URLs left for a later item.
+
+## Batch A (in progress)
+- [x] H1-1: Header logo h1 -> div (removes the duplicate H1 on every page)
+- [x] TITLE-3 (layout only): "Safe Harbor Behavioral Health" in default title, template, OG, siteName, schema
+- [x] NAP-1/NAP-2: full address with Suite 207 in footer
+- [x] TRUTH-1 partial: GoogleReviews unmounted from homepage (file kept for real reviews), placeholder verification codes removed
+- [ ] TRUTH-1 rest: "medication management" / "psychiatric evaluation" (nav, footer, schema, pages), "ages 3-17", SafeHarborEasyEnrollment links, Cigna/UnitedHealthcare in InsuranceSection, "48 hours" - awaiting owner decision
+- [ ] TITLE-3 rest: 38 page titles/H1s still say "SafeHarbor" (about, blog posts, ...)
+- Note: scroll-morph-hero.tsx (Unsplash) is imported nowhere, so it does not ship; left alone.

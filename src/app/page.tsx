@@ -4,7 +4,6 @@ import { GlowingEffect } from '@/components/ui/glowing-effect'
 import TrustBar from '@/components/home/TrustBar'
 import AnimatedServicesGrid from '@/components/home/AnimatedServicesGrid'
 import AnimatedStats from '@/components/home/AnimatedStats'
-import GoogleReviews from '@/components/home/GoogleReviews'
 import BodyBrainFeature from '@/components/home/BodyBrainFeature'
 import BlogFeature from '@/components/home/BlogFeature'
 import InsuranceSection from '@/components/home/InsuranceSection'
@@ -194,7 +193,6 @@ export default function HomePage() {
       <AnimatedServicesGrid />
       <AnimatedStats />
       <BodyBrainFeature />
-      <GoogleReviews />
       <BlogFeature />
       <InsuranceSection />
       <ContactSection />

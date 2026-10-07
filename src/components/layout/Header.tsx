@@ -39,7 +39,7 @@ export default function Header() {
               <img src="/logo.jpg" alt="SafeHarbor Logo" className="w-full h-full object-cover" />
             </div>
             <div>
-              <h1 className="text-xl font-serif font-bold text-navy-900 tracking-tight">SafeHarbor</h1>
+              <div className="text-xl font-serif font-bold text-navy-900 tracking-tight">SafeHarbor</div>
               <p className="text-xs text-teal-700 font-medium tracking-wide uppercase">Behavioral Health</p>
             </div>
           </Link>
