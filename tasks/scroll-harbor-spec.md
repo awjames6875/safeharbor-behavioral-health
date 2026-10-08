@@ -1,4 +1,4 @@
-# Scroll Harbor hero: character sheet, storyboard, spec sheet (approved)
+# Scroll Harbor hero: character sheet, storyboard, spec sheet (revision 2: whole family, pending approval)
 
 Headline (the page's single H1): **Every storm has a safe harbor.**
 Generator: Higgsfield (Wan 3.0 first/last frame). Method: ~/.claude/skills/scroll-world.
@@ -8,13 +8,20 @@ Consistency is easiest when the same few things appear in every scene and each h
 
 | Item | Fixed description (copied word for word into every prompt) | Appears in |
 |---|---|---|
-| **The boat** | Small wooden fishing boat, cream hull, navy stripe, one warm yellow lantern at the bow | Scenes 1–3, seen again moored in 4 |
-| **The parent** | Adult in a bright yellow rain coat, short dark hair, standing at the tiller, face never closer than medium-wide | Scenes 1–4 |
-| **The child** | About 8 years old, teal rain jacket, sitting at the bow beside the lantern | Scenes 1–4 |
-| **The family on shore** | Two figures on the dock with a warm lamp: an adult in a cream knit sweater and a teen in a navy hoodie | Scene 4 only |
-| **The lighthouse** | White tower with a navy band, teal door, warm white beam | Scenes 1–4 |
+**Revision 2 (Adam):** the whole family is on the boat together, and it includes a man (the dad). Nobody waits on shore; the family arrives together. Each person has one signature color so they read even when tiny.
 
-Why this works: the two travelers are recognizable from clothing color even when the face is tiny, and the only scene with faces in view is the last. Video models drift faces over time, so we avoid needing them in scenes 1–3.
+| Item | Fixed description (copied word for word into every prompt) | Appears in | Reference sheet |
+|---|---|---|---|
+| **The boat** | Small wooden boat big enough for four, cream hull, navy stripe, one warm yellow lantern at the bow | Scenes 1–3, moored in 4 | Done, keep |
+| **The dad** | Man about 40, tall, short dark beard, navy rain coat, cream knit beanie, standing at the tiller | Scenes 1–4 | New |
+| **The mom** | Woman about 38, bright yellow rain coat, shoulder-length dark hair, arm around the child | Scenes 1–4 | Redo from the existing yellow-coat sheet: clearly adult, taller, black boots instead of green |
+| **The child** | About 8 years old, teal rain jacket, navy pants, yellow boots, sitting at the bow by the lantern | Scenes 1–4 | Redo: same outfit, look 8 instead of 5 |
+| **The teen** | About 15, cream rain jacket over a navy hoodie, sitting near the dad | Scenes 1–4 | New |
+| **The lighthouse** | White tower with a navy band, teal door, warm white beam | Scenes 1–4 | Done, keep |
+
+Plus one **family group sheet** (all four together, standing, then seated in the boat) so the model learns them as a set.
+
+Why this works: navy, yellow, teal, and cream are each one person, so the family reads from clothing even when faces are tiny, and only scene 4 shows faces up close. Video models drift faces over time, so we avoid needing them in scenes 1–3.
 
 How I lock it in (after approval): generate one reference sheet per character plus the boat and lighthouse in Higgsfield, save them as reference elements (`manage_reference_elements`), and attach them to every still prompt. Each clip then starts from the previous clip's real last frame (skill Step 5), which carries the look forward. You approve the reference sheet images before anything else is made.
 
@@ -25,13 +32,13 @@ Camera style: fly-through (dive in, pull up and out, glide to the next). Light m
 
 | # | Shot | What we see | Camera | On-screen words (all provable) | Light |
 |---|---|---|---|---|---|
-| 1 | Dive 1 — "The Storm" | Dark choppy water, the boat small in frame, parent at the tiller, child at the lantern, lighthouse beam far off | Start high and wide, descend to the boat, ease toward the beam | **Every storm has a safe harbor.** (H1) + subline "Counseling and recovery support in Tulsa for children, teens, and adults. Same-week appointments." | Cold blue-grey dusk |
+| 1 | Dive 1 — "The Storm" | Dark choppy water, the boat small in frame, dad at the tiller, mom holding the child at the lantern, teen bracing beside the dad, lighthouse beam far off | Start high and wide, descend to the boat, ease toward the beam | **Every storm has a safe harbor.** (H1) + subline "Counseling and recovery support in Tulsa for children, teens, and adults. Same-week appointments." | Cold blue-grey dusk |
 | C1 | Connector 1 | Pull up and out over the waves, glide toward the beam, descend to the harbor mouth | Aerial, forward | none | Blue turning teal |
-| 2 | Dive 2 — "The Beam" | The boat follows the beam, rocks, steadies; the child points at the light | Close glide beside the boat | **One call. In within 48 hours of finished paperwork.** | Teal with a warm beam |
+| 2 | Dive 2 — "The Beam" | The boat follows the beam, rocks, steadies; the child points at the light, the dad turns the tiller toward it, the teen looks up | Close glide beside the boat | **One call. In within 48 hours of finished paperwork.** | Teal with a warm beam |
 | C2 | Connector 2 | Pull up, drift over the breakwater into the harbor | Aerial, forward | none | Teal to amber |
 | 3 | Dive 3 — "The Harbor" | Calm water, dock lights, the boat slows, ropes thrown | Slow push-in at water level | **Licensed counselors for children, teens, and adults.** | Warm amber dusk |
 | C3 | Connector 3 | Rise over the dock, turn toward the shore | Aerial, forward | none | Amber to gold |
-| 4 | Dive 4 — "The Shore" | Golden hour, the family on the dock with a lamp, parent and child step off, the lighthouse behind | Slow descent to a wide, warm hold | **Welcome to Safe Harbor.** Where recovery meets a second chance. Call (918) 553-5746. Medicaid/SoonerCare, Blue Cross Blue Shield, Aetna, United Healthcare. | Golden hour |
+| 4 | Dive 4 — "The Shore" | Golden hour, the family steps onto the dock together: dad helps the child up, mom and the teen side by side, a warm lamp post on the dock, the lighthouse behind. Faces relaxed and relieved | Slow descent to a wide, warm hold | **Welcome to Safe Harbor.** Where recovery meets a second chance. Call (918) 553-5746. Medicaid/SoonerCare, Blue Cross Blue Shield, Aetna, United Healthcare. | Golden hour |
 
 Scroll pacing (skill: `scroll`/`linger`): scene 1 and scene 4 get longer dwell (1.6 and 1.8 viewport heights), scenes 2–3 are brisker (1.2). Connectors 0.9. The H1 is shown on landing before any scroll.
 

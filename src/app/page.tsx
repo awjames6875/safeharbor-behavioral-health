@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import HeroSection from '@/components/home/HeroSection'
+import ScrollHarborHero from '@/components/home/ScrollHarborHero'
 import { GlowingEffect } from '@/components/ui/glowing-effect'
 import TrustBar from '@/components/home/TrustBar'
 import AnimatedServicesGrid from '@/components/home/AnimatedServicesGrid'
@@ -140,7 +140,13 @@ export default function HomePage() {
           __html: JSON.stringify(homePageSchema)
         }}
       />
-      <HeroSection />
+      <ScrollHarborHero />
+
+      <section className="bg-cream-50 px-4 py-12">
+        <p className="mx-auto max-w-3xl text-center text-lg text-navy-700">
+          Safe Harbor Behavioral Health offers counseling and recovery support in Tulsa, Oklahoma, for children, teens, and adults. We accept Medicaid/SoonerCare, Blue Cross Blue Shield, Aetna, and United Healthcare, and offer same-week appointments.
+        </p>
+      </section>
 
       {/* Three-Path CTA */}
       <section className="bg-navy-50 py-16 px-4">
