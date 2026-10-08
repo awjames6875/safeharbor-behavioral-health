@@ -79,3 +79,20 @@ Truth rule: one office phone (918) 553-5746. Canonical host: https://www.safehar
 - [x] Added 3 blog posts (48h after paperwork, recovery, insurance + fees), added to sitemap.ts; no "therapy" words
 - [x] Blog titles now use the post's own metaTitle (no doubled brand suffix) in blog/[slug]
 - [ ] Not done: rewrite of old posts' psychiatric claims and invented case studies (tasks/blog-rewrites.md); VAPI agent claims until it is live
+
+## Round 5: adult + recovery pages (from competitor analysis 2026-10-08)
+Why: homepage "Adults / Recovery" card links to /services/adult-mental-health, which 404s. No adult or adult-recovery page exists, so Google has nothing to rank against LifeStance, Valley Hope, Laureate, Parkside, FCS. Facts: IOP offered; NO opioid medication (MAT) — never claim it.
+
+- [ ] 1. Create `src/app/services/adult-mental-health/page.tsx` (copy structure of individual-therapy page): anxiety, depression, trauma; Medicaid/BCBS/Aetna; Zoom statewide; same-week
+- [ ] 2. Create `src/app/services/adult-recovery/page.tsx`: intensive outpatient program + outpatient recovery counseling; no MAT/detox claims
+- [ ] 3. Add both slugs to `src/app/sitemap.ts`
+- [ ] 4. Add both cards to `src/app/services/page.tsx` list
+- [ ] 5. Verify: tsc + build, homepage card no longer 404s, grep for "Suboxone|MAT|detox" = 0 on new pages
+
+Not touching: youth substance-abuse page, locations.ts, nav dropdown.
+
+### Questions for Adam (needed so nothing is invented)
+- IOP schedule: which days, how many hours, in-person, Zoom, or both?
+- IOP insurance: same as the rest (Medicaid, BCBS, Aetna)?
+- Adults only (18+)?
+- Sitemap also lists `/services/adhd-treatment`, which does not exist (404). Remove it now, or keep it for the ADHD page we build later?
