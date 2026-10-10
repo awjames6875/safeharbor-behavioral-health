@@ -39,7 +39,7 @@ const services = [
     title: "Trauma Recovery",
     description: "Compassionate, trauma-informed care helping children process difficult experiences and find healing.",
     icon: "❤️",
-    link: "/services/trauma-therapy"
+    link: "/services/trauma-treatment"
   }
 ]
 
