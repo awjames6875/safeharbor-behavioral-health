@@ -1,24 +1,13 @@
 'use client';
 
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 import { motion, AnimatePresence } from 'framer-motion';
-import { SAFEHARBOR_KNOWLEDGE, SYSTEM_PROMPT, GREETING_MESSAGE } from '@/data/voiceAgentKnowledge';
+import { GREETING_MESSAGE } from '@/data/voiceAgentKnowledge';
 
 interface Message {
     role: 'user' | 'assistant';
     content: string;
 }
-
-// Initialize Gemini (will be null if no API key)
-const getGeminiModel = () => {
-    const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
-    if (!apiKey || apiKey === 'your_gemini_api_key_here') {
-        return null;
-    }
-    const genAI = new GoogleGenerativeAI(apiKey);
-    return genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-};
 
 export default function VoiceAgent() {
     const [isOpen, setIsOpen] = useState(false);
@@ -144,9 +133,14 @@ export default function VoiceAgent() {
         setError(null);
 
         try {
-            const model = getGeminiModel();
+            // The Gemini key lives on the server (/api/voice)
+            const res = await fetch('/api/voice', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ history: messages, text }),
+            });
 
-            if (!model) {
+            if (res.status === 503) {
                 // Demo mode without API key
                 const demoResponse = getDemoResponse(text);
                 const assistantMessage: Message = { role: 'assistant', content: demoResponse };
@@ -158,22 +152,10 @@ export default function VoiceAgent() {
                 return;
             }
 
-            // Build context with knowledge base
-            const context = `
-${SYSTEM_PROMPT}
-
-KNOWLEDGE BASE:
-${JSON.stringify(SAFEHARBOR_KNOWLEDGE, null, 2)}
-
-CONVERSATION HISTORY:
-${messages.map(m => `${m.role}: ${m.content}`).join('\n')}
-
-USER: ${text}
-
-Respond as Safe Harbor's AI assistant. Be concise, warm, and helpful.`;
-
-            const result = await model.generateContent(context);
-            const response = result.response.text();
+            if (!res.ok) {
+                throw new Error(`Voice API ${res.status}`);
+            }
+            const { reply: response } = await res.json();
 
             const assistantMessage: Message = { role: 'assistant', content: response };
             setMessages(prev => [...prev, assistantMessage]);
