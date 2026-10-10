@@ -240,7 +240,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
                 Ready to Support Your Child's Mental Health?
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join hundreds of {data.name} families who trust Safe Harbor.
+                Call (918) 553-5746 to get started.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

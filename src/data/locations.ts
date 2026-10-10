@@ -22,7 +22,7 @@ export interface LocationData {
 export const locations: LocationData[] = [
   {
     slug: 'midtown-tulsa',
-    name: 'SafeHarbor Behavioral Health - Midtown Tulsa',
+    name: 'Safe Harbor Behavioral Health - Midtown Tulsa',
     description: 'Serving families in the heart of Tulsa from Utica Square to the Fairgrounds, including Maple Ridge, Swan Lake, and Ranch Acres neighborhoods.',
     streetAddress: '1234 Utica Avenue',
     city: 'Tulsa',
@@ -34,11 +34,11 @@ export const locations: LocationData[] = [
     neighborhoods: ['Maple Ridge', 'Swan Lake', 'Ranch Acres', 'Florence Park', 'Gillette', 'Renaissance'],
     schools: ['Edison Preparatory School', 'Cascia Hall', 'Bishop Kelley', 'Eliot Elementary', 'Grimes Elementary'],
     landmarks: ['Utica Square', 'Philbrook Museum', 'St. John Medical Center', 'Woodward Park'],
-    metaDescription: 'Child therapy and teen counseling in Midtown Tulsa. SafeHarbor accepts Medicaid/SoonerCare. Serving Maple Ridge, Swan Lake & Utica Square families. Call (918) 553-5746.',
+    metaDescription: 'Child therapy and teen counseling in Midtown Tulsa. Safe Harbor accepts Medicaid/SoonerCare. Serving Maple Ridge, Swan Lake & Utica Square families. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Do you accept Medicaid and SoonerCare for child therapy in Midtown Tulsa?',
-        answer: 'Yes, SafeHarbor accepts Oklahoma Medicaid and SoonerCare for all our child and teen therapy services in Midtown Tulsa. We also accept most major insurance plans.'
+        answer: 'Yes, Safe Harbor accepts Oklahoma Medicaid and SoonerCare for all our child and teen therapy services in Midtown Tulsa. We also accept most major insurance plans.'
       },
       {
         question: 'What Midtown Tulsa schools do you work with?',
@@ -52,7 +52,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'south-tulsa',
-    name: 'SafeHarbor Behavioral Health - South Tulsa',
+    name: 'Safe Harbor Behavioral Health - South Tulsa',
     description: 'Comprehensive behavioral health services for South Tulsa families, serving Brookside, Riverside, and surrounding communities.',
     streetAddress: '5678 Yale Avenue',
     city: 'Tulsa',
@@ -78,7 +78,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'broken-arrow',
-    name: 'SafeHarbor Behavioral Health - Broken Arrow',
+    name: 'Safe Harbor Behavioral Health - Broken Arrow',
     description: 'Mental health services for children and teens in Broken Arrow, serving families throughout the BA school district.',
     streetAddress: '9876 Lynn Lane Road',
     city: 'Broken Arrow',
@@ -93,7 +93,7 @@ export const locations: LocationData[] = [
     metaDescription: 'Broken Arrow child therapy & behavioral health services. Medicaid/SoonerCare accepted. Serving BA school district families. Call (918) 553-5746 today.',
     faqs: [
       {
-        question: 'Is SafeHarbor located within Broken Arrow city limits?',
+        question: 'Is Safe Harbor located within Broken Arrow city limits?',
         answer: 'Yes, our Broken Arrow office is centrally located within the city with easy access from all BA neighborhoods and schools.'
       },
       {
@@ -104,7 +104,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'north-tulsa',
-    name: 'SafeHarbor Behavioral Health - North Tulsa',
+    name: 'Safe Harbor Behavioral Health - North Tulsa',
     description: 'Culturally responsive mental health care for North Tulsa families, emphasizing community connections and accessibility.',
     streetAddress: '2345 North Peoria Avenue',
     city: 'Tulsa',
@@ -119,7 +119,7 @@ export const locations: LocationData[] = [
     metaDescription: 'North Tulsa child therapy with cultural sensitivity. Medicaid/SoonerCare accepted. Serving Greenwood, Pine Street communities. Call (918) 553-5746.',
     faqs: [
       {
-        question: 'Does SafeHarbor provide culturally responsive therapy in North Tulsa?',
+        question: 'Does Safe Harbor provide culturally responsive therapy in North Tulsa?',
         answer: 'Absolutely. Our North Tulsa team understands the unique cultural needs of our community and provides culturally responsive mental health care for children and families.'
       },
       {
@@ -130,7 +130,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'downtown-tulsa',
-    name: 'SafeHarbor Behavioral Health - Downtown Tulsa',
+    name: 'Safe Harbor Behavioral Health - Downtown Tulsa',
     description: 'Downtown Tulsa behavioral health services for urban families, easily accessible by public transit.',
     streetAddress: '555 South Main Street',
     city: 'Tulsa',
@@ -156,7 +156,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'owasso',
-    name: 'SafeHarbor Behavioral Health - Owasso',
+    name: 'Safe Harbor Behavioral Health - Owasso',
     description: 'Family-focused mental health services in Owasso, serving the growing northern Tulsa metro community.',
     streetAddress: '3456 North Main Street',
     city: 'Owasso',
@@ -182,7 +182,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'jenks',
-    name: 'SafeHarbor Behavioral Health - Jenks',
+    name: 'Safe Harbor Behavioral Health - Jenks',
     description: 'Supporting Jenks Trojan families with comprehensive behavioral health services for children and teens.',
     streetAddress: '7890 Main Street',
     city: 'Jenks',
@@ -208,7 +208,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'bixby',
-    name: 'SafeHarbor Behavioral Health - Bixby',
+    name: 'Safe Harbor Behavioral Health - Bixby',
     description: 'Mental health services for Bixby Spartan families, emphasizing academic support and family wellness.',
     streetAddress: '4567 Memorial Drive',
     city: 'Bixby',
@@ -234,7 +234,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'sand-springs',
-    name: 'SafeHarbor Behavioral Health - Sand Springs',
+    name: 'Safe Harbor Behavioral Health - Sand Springs',
     description: 'Community-centered mental health care for Sand Springs families with a focus on accessibility and support.',
     streetAddress: '6789 Highway 97',
     city: 'Sand Springs',
@@ -260,7 +260,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'sapulpa',
-    name: 'SafeHarbor Behavioral Health - Sapulpa',
+    name: 'Safe Harbor Behavioral Health - Sapulpa',
     description: 'Serving Sapulpa Chieftain families with culturally aware mental health services and community connections.',
     streetAddress: '8901 Mission Street',
     city: 'Sapulpa',
@@ -286,7 +286,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'brookside',
-    name: 'SafeHarbor Behavioral Health - Brookside',
+    name: 'Safe Harbor Behavioral Health - Brookside',
     description: 'Boutique mental health services for Brookside families, blending community charm with professional excellence.',
     streetAddress: '1357 Brookside Drive',
     city: 'Tulsa',
@@ -312,7 +312,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'cherry-street',
-    name: 'SafeHarbor Behavioral Health - Cherry Street',
+    name: 'Safe Harbor Behavioral Health - Cherry Street',
     description: 'Hip, accessible mental health care on Cherry Street, serving midtown\'s most vibrant corridor.',
     streetAddress: '2468 South Peoria Avenue',
     city: 'Tulsa',
@@ -338,7 +338,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'east-tulsa',
-    name: 'SafeHarbor Behavioral Health - East Tulsa',
+    name: 'Safe Harbor Behavioral Health - East Tulsa',
     description: 'Comprehensive mental health services for East Tulsa families, emphasizing accessibility and community connection.',
     streetAddress: '3579 East 31st Street',
     city: 'Tulsa',
@@ -364,7 +364,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'west-tulsa',
-    name: 'SafeHarbor Behavioral Health - West Tulsa',
+    name: 'Safe Harbor Behavioral Health - West Tulsa',
     description: 'Culturally responsive mental health care for West Tulsa\'s diverse communities, emphasizing family and cultural values.',
     streetAddress: '4680 Southwest Boulevard',
     city: 'Tulsa',
@@ -390,7 +390,7 @@ export const locations: LocationData[] = [
   },
   {
     slug: 'union-district',
-    name: 'SafeHarbor Behavioral Health - Union District',
+    name: 'Safe Harbor Behavioral Health - Union District',
     description: 'Supporting Union Public Schools families with specialized mental health care and academic support services.',
     streetAddress: '5791 South Yale Avenue',
     city: 'Tulsa',
