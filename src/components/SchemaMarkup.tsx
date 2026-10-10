@@ -16,8 +16,8 @@ export function OrganizationSchema() {
     name: 'Safe Harbor Behavioral Health',
     alternateName: 'Safe Harbor Behavioral Health',
     url: 'https://www.safeharborbehavioralhealth.com',
-    logo: 'https://www.safeharborbehavioralhealth.com/logo.jpg',
-    image: 'https://www.safeharborbehavioralhealth.com/logo.jpg',
+    logo: 'https://www.safeharborbehavioralhealth.com/logo.png',
+    image: 'https://www.safeharborbehavioralhealth.com/logo.png',
     description:
       'Trauma-informed emotional wellness services for children, teens, and adults in Tulsa, Oklahoma. ODMHSAS certified. Medicaid/SoonerCare accepted.',
     telephone: '(918) 553-5746',
@@ -205,14 +205,14 @@ export function ArticleSchema({
     author: { '@type': 'Person', name: author },
     datePublished,
     dateModified: dateModified || datePublished,
-    image: image || 'https://www.safeharborbehavioralhealth.com/logo.jpg',
+    image: image || 'https://www.safeharborbehavioralhealth.com/logo.png',
     url,
     publisher: {
       '@type': 'Organization',
       name: 'Safe Harbor Behavioral Health',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.safeharborbehavioralhealth.com/logo.jpg',
+        url: 'https://www.safeharborbehavioralhealth.com/logo.png',
       },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },

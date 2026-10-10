@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden">
-                <img src="/logo.jpg" alt="Safe Harbor Logo" className="w-full h-full object-cover" />
+                <img src="/logo.webp" alt="Safe Harbor Logo" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="text-xl font-serif font-bold text-cream-100">Safe Harbor</h3>

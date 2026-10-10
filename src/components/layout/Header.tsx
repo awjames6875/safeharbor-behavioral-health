@@ -36,7 +36,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative w-12 h-12 md:w-14 md:h-14 overflow-hidden rounded-full border-2 border-teal-100 shadow-md transform group-hover:scale-105 transition-transform duration-300">
-              <img src="/logo.jpg" alt="Safe Harbor Logo" className="w-full h-full object-cover" />
+              <img src="/logo.webp" alt="Safe Harbor Logo" className="w-full h-full object-cover" />
             </div>
             <div>
               <div className="text-xl font-serif font-bold text-navy-900 tracking-tight">Safe Harbor</div>

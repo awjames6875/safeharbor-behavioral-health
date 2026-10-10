@@ -32,6 +32,7 @@ const LINES: Line[] = [
   { text: "The worry that won't stop.", from: 0.62, to: 0.88 },
   { text: 'The arguments every night.', from: 0.88, to: 1.14 },
   { text: 'Coping the only way you know how.', from: 1.14, to: 1.42 },
+  { text: 'So you reached out for help.', from: 1.42, to: 1.62 },
   { text: 'Calls that go unanswered.', from: 1.62, to: 1.88 },
   { text: 'Weeks on a waitlist.', from: 1.88, to: 2.14 },
   { text: 'Forms that go nowhere.', from: 2.14, to: 2.42 },
@@ -68,7 +69,8 @@ export default function ScrollHarborHero() {
   const taglineRef = useRef<HTMLHeadingElement>(null)
   const callRef = useRef<HTMLParagraphElement>(null)
   const buttonRef = useRef<HTMLAnchorElement>(null)
-  const brandRef = useRef<HTMLParagraphElement>(null)
+  const brandRef = useRef<HTMLDivElement>(null)
+  const logoRef = useRef<HTMLImageElement>(null)
   const hintRef = useRef<HTMLDivElement>(null)
   const [reducedMotion, setReducedMotion] = useState(false)
 
@@ -116,7 +118,7 @@ export default function ScrollHarborHero() {
           v.setAttribute('muted', '')
           v.setAttribute('playsinline', '')
           v.setAttribute('aria-hidden', 'true')
-          v.className = 'absolute inset-0 h-full w-full object-cover'
+          v.className = 'absolute inset-0 h-full w-full object-contain'
           v.style.opacity = '0'
           v.style.zIndex = String(10 + i)
           v.src = URL.createObjectURL(blob)
@@ -184,6 +186,12 @@ export default function ScrollHarborHero() {
       setFade(callRef.current, CALL_FROM)
       setFade(buttonRef.current, BUTTON_FROM)
       setFade(brandRef.current, BUTTON_FROM + 0.1)
+      // The logo unravels with the last line: it opens out from its center while turning.
+      if (logoRef.current) {
+        const reveal = smooth((timeline - (BUTTON_FROM + 0.1)) / 0.3)
+        logoRef.current.style.clipPath = `circle(${(reveal * 71).toFixed(1)}% at 50% 50%)`
+        logoRef.current.style.transform = `rotate(${((1 - reveal) * -180).toFixed(1)}deg)`
+      }
       if (hintRef.current) hintRef.current.style.opacity = String(clamp(1 - progress * 40))
       ticking = false
     }
@@ -276,7 +284,7 @@ export default function ScrollHarborHero() {
               {...(k === 0 ? { fetchPriority: 'high' as const } : { loading: 'lazy' as const })}
               decoding="async"
               style={{ opacity: k === 0 ? 1 : 0 }}
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover md:object-contain"
             />
           ))}
         </div>
@@ -286,8 +294,8 @@ export default function ScrollHarborHero() {
         {/* readability gradient */}
         <div className="pointer-events-none absolute inset-0 z-20 bg-gradient-to-t from-black/70 via-black/20 to-black/20" />
 
-        {/* story lines, one at a time */}
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-30 px-6 pb-28 md:px-16 md:pb-32">
+        {/* story lines, one at a time (pr-24 keeps them clear of the floating chat button) */}
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-30 pl-6 pr-24 pb-28 md:pl-16 md:pb-32">
           <div className="relative mx-auto h-24 max-w-5xl md:h-32">
             {LINES.map((line, i) => (
               <p
@@ -307,13 +315,24 @@ export default function ScrollHarborHero() {
         {/* the ending: tagline (the page's only H1), a simple invitation, the call button */}
         <div className="absolute inset-x-0 bottom-0 z-40 px-6 pb-16 md:px-16 md:pb-20">
           <div className="mx-auto max-w-5xl text-center md:text-left">
-            <h1
-              ref={taglineRef}
-              style={{ opacity: 0 }}
-              className="font-serif text-4xl leading-tight text-[#f0f0f0] drop-shadow-[0_2px_16px_rgba(0,0,0,0.65)] md:text-7xl"
-            >
-              Every storm has a safe harbor.
-            </h1>
+            <div className="relative">
+              {/* the logo sits level with "Every" and unravels with the last line */}
+              <img
+                ref={logoRef}
+                src="/logo.webp"
+                alt=""
+                aria-hidden="true"
+                style={{ clipPath: 'circle(0% at 50% 50%)' }}
+                className="pointer-events-none mx-auto mb-4 block h-14 w-14 rounded-full border-2 border-teal-100 shadow-lg md:mx-0 xl:absolute xl:right-full xl:-top-1 xl:mb-0 xl:mr-8 xl:h-24 xl:w-24"
+              />
+              <h1
+                ref={taglineRef}
+                style={{ opacity: 0 }}
+                className="font-serif text-4xl leading-tight text-[#f0f0f0] drop-shadow-[0_2px_16px_rgba(0,0,0,0.65)] md:text-7xl"
+              >
+                Every storm has a safe harbor.
+              </h1>
+            </div>
             <p
               ref={callRef}
               style={{ opacity: 0 }}
@@ -329,9 +348,9 @@ export default function ScrollHarborHero() {
             >
               {PHONE_LABEL}
             </a>
-            <p ref={brandRef} style={{ opacity: 0 }} className="mt-4 text-sm tracking-wide text-[#f0f0f0]/80">
-              Safe Harbor Behavioral Health, Tulsa
-            </p>
+            <div ref={brandRef} style={{ opacity: 0 }} className="mt-4 flex flex-col items-center gap-2 md:flex-row md:gap-3">
+              <p className="text-sm tracking-wide text-[#f0f0f0]/80">Safe Harbor Behavioral Health, Tulsa</p>
+            </div>
           </div>
         </div>
 

@@ -389,7 +389,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               "name": "Safe Harbor Behavioral Health",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.safeharborbehavioralhealth.com/images/logo.png"
+                "url": "https://www.safeharborbehavioralhealth.com/logo.png"
               }
             },
             "datePublished": post.date,

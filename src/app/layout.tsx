@@ -64,7 +64,7 @@ export default function RootLayout({
     "name": "Safe Harbor Behavioral Health",
     "description": "Leading child therapy and mental health services in Tulsa, Oklahoma",
     "url": "https://www.safeharborbehavioralhealth.com",
-    "logo": "https://www.safeharborbehavioralhealth.com/images/logo.png",
+    "logo": "https://www.safeharborbehavioralhealth.com/logo.png",
     "image": "https://www.safeharborbehavioralhealth.com/images/og-image.jpg",
     "telephone": "+1-918-553-5746",
     "address": {

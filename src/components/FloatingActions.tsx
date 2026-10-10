@@ -1,16 +1,29 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 
 export default function FloatingActions() {
   const [isOpen, setIsOpen] = useState(false)
   const [showChat, setShowChat] = useState(false)
+  const [isStoryOnScreen, setIsStoryOnScreen] = useState(false)
+  const pathname = usePathname()
 
   useEffect(() => {
     // Show chat bubble after 5 seconds
     const timer = setTimeout(() => setShowChat(true), 5000)
     return () => clearTimeout(timer)
   }, [])
+
+  useEffect(() => {
+    // Hide the chat bubble while the homepage story hero is on screen so it doesn't cover the story text or call button
+    setIsStoryOnScreen(false)
+    const story = document.querySelector('section[aria-label="Safe Harbor story"]')
+    if (!story) return
+    const observer = new IntersectionObserver(([entry]) => setIsStoryOnScreen(entry.isIntersecting))
+    observer.observe(story)
+    return () => observer.disconnect()
+  }, [pathname])
 
   const actions = [
     {
@@ -81,7 +94,7 @@ export default function FloatingActions() {
       </div>
 
       {/* Chat Bubble */}
-      {showChat && !isOpen && (
+      {showChat && !isOpen && !isStoryOnScreen && (
         <div className="fixed bottom-28 right-6 z-40">
           <div className="relative animate-bounce">
             <div className="bg-white rounded-2xl shadow-2xl p-4 max-w-xs">
