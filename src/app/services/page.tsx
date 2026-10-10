@@ -111,6 +111,13 @@ export default function ServicesPage() {
       href: '/services/substance-abuse',
       serviceType: 'Substance Abuse Support',
     },
+    {
+      title: 'Adult Mental Health',
+      description: 'One-on-one support for adults facing anxiety, depression, trauma, or stress, in person or by Zoom.',
+      icon: '🙋',
+      href: '/services/adult-mental-health',
+      serviceType: 'Adult Mental Health',
+    },
   ]
 
   const servicesSchema = {

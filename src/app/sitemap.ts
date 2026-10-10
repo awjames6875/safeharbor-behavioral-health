@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'child-therapy', 'teen-counseling',
     'family-therapy', 'trauma-treatment', 'adhd-treatment',
     'school-support', 'parent-coaching', 'behavioral-assessments',
-    'crisis-intervention', 'substance-abuse',
+    'crisis-intervention', 'substance-abuse', 'adult-mental-health',
   ].map(slug => ({
     path: `/services/${slug}`,
     priority: 0.8,
