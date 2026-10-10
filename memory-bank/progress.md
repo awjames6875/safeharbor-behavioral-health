@@ -37,9 +37,10 @@
 - [ ] Ship: Lighthouse re-check, open PR (needs `gh auth login`), preview review, attorney review of /privacy + /terms, merge
 
 ### Medium
+- [x] "SafeHarbor" spelling in location names/FAQs; "Join hundreds of families" claim removed (`ac42716`). Left on purpose: Therapy Portal URL `SafeHarbor74104`, social handle `@SafeHarborBH`
 - [ ] Cookie consent banner
 - [ ] Connect site to GHL with VAPI voice agent
-- [ ] Security headers
+- [ ] Security headers: only X-Frame-Options and X-Content-Type-Options exist in `next.config.js`; no HSTS, Referrer-Policy, Permissions-Policy or CSP yet
 - [ ] Run the Playwright/Vitest suites from 2025-12 (never confirmed run)
 
 ## Launch Readiness
