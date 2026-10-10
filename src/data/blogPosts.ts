@@ -111,8 +111,8 @@ We work with the entire family system to improve communication and create suppor
 ### Group Therapy
 Peer support groups help children realize they're not alone and learn from others facing similar challenges.
 
-### Medication Management
-When appropriate, our psychiatric team can provide medication evaluation and ongoing management.
+### Medication
+Safe Harbor does not prescribe medication. If your child's doctor suggests it, counseling can run alongside that care.
 
 ## Supporting Your Child at Home
 
@@ -142,7 +142,7 @@ Every family is unique, and what's normal varies across cultures and individual 
 
 If you're concerned about your child's behavior, trust your instincts. As a parent, you know your child better than anyone. Professional evaluation can provide clarity and peace of mind, whether your concerns are confirmed or alleviated.
 
-At Safe Harbor Behavioral Health, we accept most insurance plans, including Medicaid, making quality mental health care accessible to Tulsa families. Our team includes licensed therapists, psychologists, and psychiatrists who specialize in working with children and adolescents.
+Our licensed counselors work with children, teens, and adults. We take Medicaid/SoonerCare, Blue Cross Blue Shield, Aetna, and United Healthcare. Call (918) 553-5746.
 
 ## Conclusion
 
@@ -306,17 +306,11 @@ Group therapy sessions provide teens with:
 - Reduced feelings of isolation
 - Shared coping strategies
 
-### Medication Management
-When appropriate, our psychiatric team may recommend medication:
-- Antidepressants (SSRIs or SNRIs)
-- Mood stabilizers
-- Anxiety medications
-- Sleep aids (short-term use)
+### Medication
+Medication is a decision for your teen and a doctor. Safe Harbor does not prescribe it. Counseling can support your teen alongside any treatment their doctor recommends.
 
 ### Intensive Programs
 For severe depression, we offer:
-- Intensive outpatient programs (IOP)
-- Partial hospitalization programs (PHP)
 - Crisis intervention services
 - Safety planning
 
@@ -411,7 +405,6 @@ Teen depression is highly treatable, and most adolescents who receive appropriat
 
 ### Ongoing Support
 - Regular therapy sessions
-- Medication monitoring
 - Family involvement
 - Peer support groups
 - Lifestyle modifications
@@ -435,7 +428,7 @@ Teen depression is a serious but treatable condition. With proper understanding,
 
 Remember that seeking help is a sign of strength, not weakness. The teenage years are challenging enough without the added burden of depression. By recognizing the signs early and connecting with qualified professionals, you're giving your teen the best chance for a healthy, happy future.
 
-At Safe Harbor Behavioral Health, our team of experienced therapists and psychiatrists specializes in adolescent mental health. We're committed to providing compassionate, evidence-based care that meets each teen's unique needs.
+At Safe Harbor Behavioral Health, our licensed counselors work with teens and their families. We can get your teen in within 48 hours once intake paperwork is completed. Call (918) 553-5746.
 
 *If you're concerned about your teenager's mental health, don't wait. Early intervention can make all the difference. Contact Safe Harbor Behavioral Health today to schedule a consultation.*
     `,
@@ -621,30 +614,12 @@ Children who complete Body-Brain Integration programs often show:
 - Increased self-confidence
 - Improved family relationships
 
-## Case Study: Jake's Success Story
-
-Jake, an 8-year-old boy from Tulsa, came to Safe Harbor struggling with:
-- Constant fidgeting in class
-- Difficulty completing homework
-- Poor social relationships
-- Low self-esteem
-
-After 12 weeks in our Body-Brain Integration program:
-- His teacher reported 75% improvement in attention
-- Homework completion increased from 20% to 80%
-- He joined the school soccer team
-- Family stress significantly decreased
-
 ## Integration with Traditional ADHD Treatment
 
 Body-Brain Integration works well alongside:
 
-### Medication Management
-Movement therapy can:
-- Enhance medication effectiveness
-- Reduce side effects
-- Allow for lower dosages in some cases
-- Provide non-medication alternatives
+### Your Child's Doctor
+Body & Brain is movement-based support. It does not replace medical care. If your child sees a doctor for ADHD, tell us and we will keep that in mind.
 
 ### Behavioral Therapy
 Combined approaches offer:
@@ -1012,11 +987,7 @@ Provides peer support and social skills:
 - Builds confidence through peer interaction
 
 ### Medication Considerations
-When therapy alone isn't sufficient:
-- SSRIs may be prescribed for severe anxiety
-- Short-term anti-anxiety medications for specific situations
-- Regular monitoring and adjustment
-- Combined with therapeutic interventions
+Questions about medication belong with your child's doctor.
 
 ## Creating a Supportive Home Environment
 
@@ -1090,14 +1061,6 @@ Seek immediate professional help if your child:
 - Expresses thoughts of self-harm
 - Shows significant regression in functioning
 - Has severe behavioral outbursts related to school
-
-## Success Stories from Safe Harbor
-
-### Emma's Journey (Age 7)
-Emma developed severe separation anxiety after starting second grade. Through a combination of CBT, family therapy, and school collaboration, she went from missing 3 days per week to perfect attendance within 4 months.
-
-### Marcus's Transformation (Age 13)
-Marcus's social anxiety made middle school unbearable. Group therapy helped him build friendships and confidence, while individual therapy addressed underlying perfectionist tendencies.
 
 ## Prevention Strategies
 
@@ -2070,12 +2033,6 @@ Eligibility includes:
 - Trauma recovery groups
 - Anger management groups
 
-**Psychiatric Services**
-- Medication evaluation and management
-- Psychiatric evaluations
-- Medication monitoring and adjustment
-- Crisis psychiatric services
-
 **Case Management**
 - Care coordination services
 - Resource linkage and referrals
@@ -2125,7 +2082,6 @@ We handle all prior authorization requests on your behalf, ensuring a smooth pro
 Most Medicaid plans cover:
 - Weekly individual therapy sessions
 - Bi-weekly family therapy sessions
-- Monthly medication management appointments
 - Crisis intervention services as needed
 
 ### Documentation and Paperwork
@@ -2217,26 +2173,7 @@ Safe Harbor is in-network with all major Medicaid MCOs, ensuring:
 - Streamlined authorization processes
 - Coordination of care with your primary care provider
 
-## Success Stories: Real Families, Real Results
-
-### Maria's Story
-Maria, a single mother of three, was struggling with her 8-year-old son's ADHD and behavioral challenges. Through SoonerCare coverage, her son received:
-- Comprehensive evaluation and diagnosis
-- Individual therapy sessions
-- Body-Brain Integration program
-- Parent training and support
-- School consultation services
-
-After six months of treatment, his grades improved from failing to B's and C's, and family stress decreased significantly.
-
-### The Johnson Family
-After a car accident left their 12-year-old daughter with PTSD, the Johnson family used their Medicaid benefits for:
-- Trauma-focused therapy
-- Family therapy sessions
-- Medication evaluation and management
-- Crisis support during difficult periods
-
-Their daughter is now thriving in school and has returned to her favorite activities.
+Not sure what your plan covers? Call (918) 553-5746 and we will check it with you.
 
 ## Additional Resources for Medicaid Families
 
@@ -3138,32 +3075,6 @@ We evaluate:
 - Social skills can be learned while maintaining personality
 - Children become more confident in their own skin
 - Self-acceptance is as important as skill building
-
-## Success Stories from Safe Harbor
-
-### Emma's Journey
-Eight-year-old Emma was so shy she wouldn't speak to adults outside her family. After 12 weeks in our social skills group:
-- She began greeting her teacher each morning
-- Made her first friend at school
-- Started participating in class discussions
-- Joined the school art club
-- Reported feeling "proud of being brave"
-
-### Marcus's Transformation
-Twelve-year-old Marcus avoided school social events and ate lunch alone. Through our anxiety management group:
-- He learned to challenge his anxious predictions
-- Developed coping strategies for social situations
-- Made three close friends in the group
-- Started sitting with classmates at lunch
-- Joined the school robotics team
-
-### Lily's Growth
-Six-year-old Lily had selective mutism and only spoke to immediate family. After individual preparation and group participation:
-- She began speaking to her therapist and group members
-- Developed non-verbal communication skills
-- Started whispering to trusted peers
-- Eventually spoke to her teacher
-- Made significant academic progress
 
 ## Integration with Other Services
 
