@@ -28,12 +28,13 @@
 ## Backlog
 
 ### High
-- [ ] Round 5: adult mental health + adult recovery (IOP, no MAT) pages; homepage "Adults / Recovery" card 404s today. Waiting on Adam's IOP answers.
-- [ ] Privacy policy page (still missing)
-- [ ] Terms of service page (still missing)
-- [ ] Move Gemini key server-side (`NEXT_PUBLIC_GEMINI_API_KEY` in `VoiceAgent.tsx`)
-- [ ] Rewrite old blog posts' psychiatric claims and invented case studies (`tasks/blog-rewrites.md`)
-- [ ] `/services/adhd-treatment` in sitemap 404s (remove or build)
+- [x] Round 5: adult mental health page (`219c2c3`). Adult recovery / IOP page ON HOLD: no ODMHSAS certification yet (Adam, 2026-10-09)
+- [x] Privacy policy page (`d8e64a8`, draft, needs attorney review)
+- [x] ADHD page `/services/adhd-treatment` + one office phone in locations.ts + trauma card link (`d8e64a8`)
+- [x] Terms of service + Accessibility pages (`ccb456f`, shared `LegalPage` component; terms needs attorney review)
+- [x] Gemini key server-side (`6cf70b6`, `/api/voice`). TODO on host: set `GEMINI_API_KEY` and rotate the old public key
+- [x] Old blog posts' psychiatric claims and invented case studies removed (`dce5609`)
+- [ ] Ship: Lighthouse re-check, open PR (needs `gh auth login`), preview review, attorney review of /privacy + /terms, merge
 
 ### Medium
 - [ ] Cookie consent banner
