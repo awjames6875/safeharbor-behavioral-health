@@ -315,7 +315,7 @@ export default function ScrollHarborHero() {
         {/* the ending: tagline (the page's only H1), a simple invitation, the call button */}
         <div className="absolute inset-x-0 bottom-0 z-40 px-6 pb-16 md:px-16 md:pb-20">
           <div className="mx-auto max-w-5xl text-center md:text-left">
-            <div className="relative">
+            <div className="md:flex md:items-start md:gap-6">
               {/* the logo sits level with "Every" and unravels with the last line */}
               <img
                 ref={logoRef}
@@ -323,7 +323,7 @@ export default function ScrollHarborHero() {
                 alt=""
                 aria-hidden="true"
                 style={{ clipPath: 'circle(0% at 50% 50%)' }}
-                className="pointer-events-none mx-auto mb-4 block h-14 w-14 rounded-full border-2 border-teal-100 shadow-lg md:mx-0 xl:absolute xl:right-full xl:-top-1 xl:mb-0 xl:mr-8 xl:h-24 xl:w-24"
+                className="pointer-events-none mx-auto mb-4 block h-14 w-14 shrink-0 rounded-full border-2 border-teal-100 shadow-lg md:mx-0 md:mb-0 md:h-[5.5rem] md:w-[5.5rem]"
               />
               <h1
                 ref={taglineRef}
