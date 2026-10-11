@@ -313,41 +313,42 @@ export default function ScrollHarborHero() {
         </div>
 
         {/* the ending: tagline (the page's only H1), a simple invitation, the call button */}
-        <div className="absolute inset-x-0 bottom-0 z-40 px-6 pb-16 md:px-16 md:pb-20">
-          <div className="mx-auto max-w-5xl text-center md:text-left">
-            <div className="relative">
-              {/* the logo sits level with "Every" and unravels with the last line */}
-              <img
-                ref={logoRef}
-                src="/logo.webp"
-                alt=""
-                aria-hidden="true"
-                style={{ clipPath: 'circle(0% at 50% 50%)' }}
-                className="pointer-events-none mx-auto mb-4 block h-14 w-14 rounded-full border-2 border-teal-100 shadow-lg md:mx-0 2xl:absolute 2xl:right-full 2xl:-top-1 2xl:mb-0 2xl:mr-8 2xl:h-24 2xl:w-24"
-              />
-              <h1
-                ref={taglineRef}
-                style={{ opacity: 0 }}
-                className="font-serif text-4xl leading-tight text-[#f0f0f0] drop-shadow-[0_2px_16px_rgba(0,0,0,0.65)] md:text-7xl"
-              >
-                Every storm has a safe harbor.
-              </h1>
-            </div>
-            <p
-              ref={callRef}
+        <div className="absolute inset-x-0 bottom-0 z-40 px-6 pb-16 md:px-16 md:pb-8">
+          <div className="mx-auto max-w-4xl text-center md:text-left">
+            {/* the logo sits just above the tagline and unravels with the last line */}
+            <img
+              ref={logoRef}
+              src="/logo.webp"
+              alt=""
+              aria-hidden="true"
+              style={{ clipPath: 'circle(0% at 50% 50%)' }}
+              className="pointer-events-none mx-auto mb-4 block h-14 w-14 rounded-full border-2 border-teal-100 shadow-lg md:mx-0 md:mb-3 md:h-12 md:w-12"
+            />
+            <h1
+              ref={taglineRef}
               style={{ opacity: 0 }}
-              className="mt-4 font-serif text-2xl text-[#f0f0f0] drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)] md:text-3xl"
+              className="font-serif text-4xl leading-tight text-[#f0f0f0] drop-shadow-[0_2px_16px_rgba(0,0,0,0.65)] md:text-6xl"
             >
-              Give us a call.
-            </p>
-            <a
-              ref={buttonRef}
-              href={PHONE_HREF}
-              style={{ opacity: 0, pointerEvents: 'none' }}
-              className="mt-5 inline-block rounded-full bg-teal-500 px-8 py-4 text-lg font-bold text-white shadow-lg transition-colors hover:bg-teal-600"
-            >
-              {PHONE_LABEL}
-            </a>
+              Every storm has a safe harbor.
+            </h1>
+            {/* phones: stacked; desktop: the invitation and the button share one row */}
+            <div className="md:mt-4 md:flex md:items-center md:gap-6">
+              <p
+                ref={callRef}
+                style={{ opacity: 0 }}
+                className="mt-4 font-serif text-2xl text-[#f0f0f0] drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)] md:mt-0 md:text-3xl"
+              >
+                Give us a call.
+              </p>
+              <a
+                ref={buttonRef}
+                href={PHONE_HREF}
+                style={{ opacity: 0, pointerEvents: 'none' }}
+                className="mt-5 inline-block rounded-full bg-teal-500 px-8 py-4 text-lg font-bold text-white shadow-lg transition-colors hover:bg-teal-600 md:mt-0"
+              >
+                {PHONE_LABEL}
+              </a>
+            </div>
             <div ref={brandRef} style={{ opacity: 0 }} className="mt-4 flex flex-col items-center gap-2 md:flex-row md:gap-3">
               <p className="text-sm tracking-wide text-[#f0f0f0]/80">Safe Harbor Behavioral Health, Tulsa</p>
             </div>
