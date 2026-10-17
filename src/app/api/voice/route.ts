@@ -45,7 +45,7 @@ USER: ${text}
 
 Respond as Safe Harbor's AI assistant. Be concise, warm, and helpful.`
 
-    const model = new GoogleGenerativeAI(apiKey).getGenerativeModel({ model: 'gemini-2.5-flash' })
+    const model = new GoogleGenerativeAI(apiKey).getGenerativeModel({ model: 'gemini-flash-latest' })
     const result = await model.generateContent(context)
 
     return NextResponse.json({ reply: result.response.text() })
