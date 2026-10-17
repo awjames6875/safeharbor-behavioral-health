@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     default: 'Safe Harbor Behavioral Health - Child Therapy Tulsa | Mental Health Services',
     template: '%s | Safe Harbor Behavioral Health'
   },
-  description: 'Leading child therapy in Tulsa, OK. Safe Harbor accepts Medicaid/SoonerCare. Comprehensive mental health services for children, teens, and families. Same-week appointments available.',
+  description: 'Leading child therapy in Tulsa, OK. Safe Harbor accepts Medicaid/SoonerCare. Comprehensive mental health services for children, teens, adults, and families. Same-week appointments available.',
   keywords: 'child therapy Tulsa Medicaid, teen counseling Tulsa SoonerCare, mental health crisis Tulsa, behavioral health Tulsa Medicaid, anxiety therapy children, ADHD treatment Tulsa, family therapy Oklahoma',
   metadataBase: new URL('https://www.safeharborbehavioralhealth.com'),
   openGraph: {
     title: 'Safe Harbor Behavioral Health - Child Therapy Tulsa',
-    description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, and families.',
+    description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, adults, and families.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.safeharborbehavioralhealth.com',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Safe Harbor Behavioral Health - Child Therapy Tulsa',
-    description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, and families.',
+    description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, adults, and families.',
     images: ['/images/twitter-image.jpg'],
     creator: '@SafeHarborBH'
   },

@@ -7,7 +7,7 @@ import { GlowingEffect } from '@/components/ui/glowing-effect'
 const services = [
   {
     title: "Child Therapy",
-    description: "Specialized support for children ages 3-12 navigating anxiety, behavioral challenges, and emotional growth.",
+    description: "Specialized support for children ages 5-12 navigating anxiety, behavioral challenges, and emotional growth.",
     icon: "🧸",
     link: "/services/child-therapy"
   },

@@ -21,6 +21,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
         specializations: [
             "Children ages 5-12",
             "Teenagers ages 13-18",
+            "Adults 18 and older",
             "Families",
             "Trauma-informed care"
         ]

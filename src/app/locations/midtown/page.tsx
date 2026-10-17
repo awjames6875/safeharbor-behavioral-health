@@ -75,7 +75,7 @@ export default function MidtownPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Child Therapy",
-            "description": "Individual therapy for children ages 3-12",
+            "description": "Individual therapy for children ages 5-12",
             "serviceType": "Mental Health Treatment"
           }
         },

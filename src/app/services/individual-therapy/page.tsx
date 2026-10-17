@@ -5,14 +5,14 @@ import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 
 export const metadata: Metadata = {
   title: 'Individual Therapy Tulsa | Child & Teen Counseling | Safe Harbor',
-  description: 'Expert individual therapy in Tulsa for children and teens all ages. activity-based and trauma-informed approaches. Medicaid accepted. Call (918) 553-5746.',
+  description: 'Expert individual therapy in Tulsa for ages 5 and up. activity-based and trauma-informed approaches. Medicaid accepted. Call (918) 553-5746.',
   keywords: 'individual therapy Tulsa, child therapy sessions, teen counseling Oklahoma, CBT therapy Tulsa, DBT therapy, EMDR therapy, anxiety therapy Tulsa, depression counseling',
   alternates: {
     canonical: '/services/individual-therapy'
   },
   openGraph: {
     title: 'Individual Therapy Tulsa | Child & Teen Counseling | Safe Harbor',
-    description: 'Expert individual therapy using activity-based and trauma-informed approaches. Personalized treatment for children and teens all ages in Tulsa.',
+    description: 'Expert individual therapy using activity-based and trauma-informed approaches. Personalized treatment for ages 5 and up in Tulsa.',
     url: 'https://www.safeharborbehavioralhealth.com/services/individual-therapy',
     images: [
       {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'Individual Therapy Tulsa | Safe Harbor Behavioral Health',
-    description: 'Expert individual therapy using evidence-based approaches for children and teens all ages.',
+    description: 'Expert individual therapy using evidence-based approaches for ages 5 and up.',
     images: ['/images/individual-therapy-twitter-image.jpg']
   }
 }

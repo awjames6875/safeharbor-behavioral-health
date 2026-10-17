@@ -78,7 +78,7 @@ export function OrganizationSchema() {
         '@type': 'MedicalTherapy',
         name: 'Child Behavioral Health Services',
         description:
-          'Specialized emotional wellness support for children ages 3-12',
+          'Specialized emotional wellness support for children ages 5-12',
       },
       {
         '@type': 'MedicalTherapy',

@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'FAQ | Safe Harbor Behavioral Health Tulsa | Common Questions Answered',
-  description: 'Answers to common questions about Safe Harbor Behavioral Health in Tulsa, OK. Insurance, appointments, services for all ages, telehealth, and more.',
+  description: 'Answers to common questions about Safe Harbor Behavioral Health in Tulsa, OK. Insurance, appointments, services for ages 5 and up, telehealth, and more.',
   alternates: {
     canonical: '/faq'
   },
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: "Do you serve adults, or only children and teens?",
-    answer: "Safe Harbor serves all ages — children, teens, and adults. We provide emotional wellness support for individuals in recovery, those reintegrating after incarceration, and adults navigating anxiety, depression, trauma, and other behavioral health challenges. Everyone deserves a safe harbor."
+    answer: "Safe Harbor serves ages 5 and up — children, teens, and adults. We provide emotional wellness support for individuals in recovery, those reintegrating after incarceration, and adults navigating anxiety, depression, trauma, and other behavioral health challenges. Everyone deserves a safe harbor."
   },
   {
     question: "Can I get therapy online or by video in Oklahoma?",
@@ -117,7 +117,7 @@ export default function FAQPage() {
             {[
               { icon: "📅", label: "Same-Week Appointments" },
               { icon: "💳", label: "Medicaid, BCBS & Aetna" },
-              { icon: "🧑‍🤝‍🧑", label: "All Ages Served" },
+              { icon: "🧑‍🤝‍🧑", label: "Ages 5 and Up Served" },
               { icon: "💻", label: "Telehealth Statewide" },
             ].map((item) => (
               <div key={item.label} className="bg-white rounded-xl p-4 text-center shadow-sm border border-slate-100">

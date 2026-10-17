@@ -55,7 +55,7 @@ export default function CrisisInterventionPage() {
               <h2 className="text-2xl font-bold text-navy-800 mb-4">Looking for Ongoing Behavioral Support?</h2>
               <p className="text-gray-700 text-lg mb-6">
                 While Safe Harbor Behavioral Health does not provide crisis intervention services, we specialize in{' '}
-                <strong>activity-based behavioral support for children all ages</strong> through our Body &amp; Brain program. 
+                <strong>activity-based behavioral support for ages 5 and up</strong> through our Body &amp; Brain program. 
                 If your family is looking for ongoing support after a crisis, we&apos;re here to help.
               </p>
               <p className="text-gray-700 text-lg mb-8">
@@ -82,7 +82,7 @@ export default function CrisisInterventionPage() {
             <div className="text-left bg-gray-50 rounded-xl p-8">
               <h3 className="text-xl font-bold text-navy-800 mb-4">What Safe Harbor Does Offer</h3>
               <p className="text-gray-700 mb-4">
-                Safe Harbor provides trauma-informed, activity-based behavioral health services for children and teens all ages, including:
+                Safe Harbor provides trauma-informed, activity-based behavioral health services for ages 5 and up, including:
               </p>
               <ul className="space-y-2 text-gray-700 mb-6">
                 <li className="flex items-start"><span className="text-teal-500 mr-2">✓</span> Body &amp; Brain activity-based therapy</li>

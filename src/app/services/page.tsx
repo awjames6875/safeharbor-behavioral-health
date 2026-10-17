@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     title: 'Mental Health Services Tulsa | Safe Harbor Behavioral Health',
     description:
-      'Comprehensive mental health services for children, teens, and families in Tulsa, Oklahoma.',
+      'Comprehensive mental health services for children, teens, adults, and families in Tulsa, Oklahoma.',
     images: ['/images/services-twitter-image.jpg'],
   },
 }
@@ -142,7 +142,7 @@ export default function ServicesPage() {
             serviceType: service.serviceType,
             audience: {
               '@type': 'PeopleAudience',
-              audienceType: 'Children, Teens, Families',
+              audienceType: 'Children, Teens, Adults, Families',
             },
             areaServed: {
               '@type': 'State',
@@ -185,7 +185,7 @@ export default function ServicesPage() {
           <div className="container mx-auto px-4">
             <h1 className="text-4xl font-bold mb-4">Our Services</h1>
             <p className="text-xl opacity-95 max-w-2xl">
-              Comprehensive mental health services tailored to children, teens, and families.
+              Comprehensive mental health services tailored to children, teens, adults, and families.
             </p>
           </div>
         </section>

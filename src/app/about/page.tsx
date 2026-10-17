@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About Safe Harbor | Trauma-Informed Child Wellness in Tulsa',
-  description: 'Meet the Safe Harbor team. Founded by Adam James, we provide evidence-based emotional wellness care for children and teens in Tulsa. ODMHSAS certified.',
+  description: 'Meet the Safe Harbor team. Founded by Adam James, we provide evidence-based emotional wellness care for ages 5 and up in Tulsa. ODMHSAS certified.',
   keywords: 'about Safe Harbor, Tulsa mental health center, child therapy mission, behavioral health team, compassionate care Tulsa, evidence-based therapy Oklahoma',
   alternates: {
     canonical: '/about'
@@ -54,7 +54,7 @@ export default function AboutPage() {
             "itemOffered": {
               "@type": "Service",
               "name": "Child Therapy",
-              "description": "Individual therapy for children ages 3-12"
+              "description": "Individual therapy for children ages 5-12"
             }
           },
           {
