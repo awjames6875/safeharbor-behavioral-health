@@ -73,7 +73,6 @@ export function OrganizationSchema() {
       // 'https://www.facebook.com/safeharborbehavioralhealth',
       // 'https://www.instagram.com/safeharborbehavioralhealth',
     ],
-    medicalSpecialty: ['Psychiatric', 'Pediatric'],
     availableService: [
       {
         '@type': 'MedicalTherapy',

@@ -110,15 +110,15 @@ export const services: ServiceData[] = [
       },
       {
         question: 'Do you provide 24/7 crisis support?',
-        answer: 'Yes, Safe Harbor provides 24/7 crisis support. Call our main number (918) 553-5746 and you\'ll be connected to our crisis response team, even after hours and on weekends.'
+        answer: 'No. Safe Harbor is not an emergency service. If you or someone you love is in crisis, call or text 988, or call 911 if there is immediate danger. Call us at (918) 553-5746 during office hours to set up support sessions.'
       },
       {
         question: 'What happens during a crisis intervention?',
         answer: 'Our crisis team assesses immediate safety, provides de-escalation support, connects you with emergency services if needed, and creates a safety plan. We also coordinate follow-up care.'
       },
       {
-        question: 'Can you help with psychiatric emergencies for children?',
-        answer: 'Absolutely. We specialize in pediatric crisis intervention and work closely with families, schools, and emergency services to ensure children\'s safety during mental health crises.'
+        question: 'Where do I go for an emergency?',
+        answer: 'Call or text 988, or call 911 if there is immediate danger. Our licensed counselors can support your family with follow-up sessions once everyone is safe.'
       }
     ]
   },
