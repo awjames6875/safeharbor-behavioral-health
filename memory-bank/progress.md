@@ -1,6 +1,6 @@
 # Progress Tracker
 
-**Last Updated:** 2026-10-08
+**Last Updated:** 2026-10-17
 **Current Sprint:** Scroll Harbor hero (homepage) + truth/SEO cleanup
 **Detailed task log:** `tasks/todo.md` (audit rounds) and `tasks/scroll-harbor-spec.md` (hero)
 
@@ -15,6 +15,7 @@
 - [x] Final 1080p render of the 6 clips (270 credits, 104.5 left)
 - [x] Encode (crf 26, ~18 MB total), replace `public/scroll-harbor/c1-c6.mp4`, seam + size check
 - [x] Build passes, committed `c4f0681` (not pushed)
+- [x] Fixed corrupted `'use client'` directive in `src/components/home/ScrollHarborHero.tsx`; app builds successfully again
 - [ ] Lighthouse re-check with 1080p clips, push, PR decision (Adam)
 
 ## Done Since Last Update (2025-12 to 2026-10)
@@ -34,7 +35,9 @@
 - [x] Terms of service + Accessibility pages (`ccb456f`, shared `LegalPage` component; terms needs attorney review)
 - [x] Gemini key server-side (`6cf70b6`, `/api/voice`). TODO on host: set `GEMINI_API_KEY` and rotate the old public key
 - [x] Old blog posts' psychiatric claims and invented case studies removed (`dce5609`)
-- [ ] Ship: Lighthouse re-check, open PR (needs `gh auth login`), preview review, attorney review of /privacy + /terms, merge
+- [x] Attorney review of /privacy + /terms (Adam, 2026-10-17)
+- [x] Voice API model fix, ages 5+, psychiatry claims removed, SUD outpatient page (2026-10-17)
+- [ ] Ship: Lighthouse re-check, open PR (needs `gh auth login`), preview review, merge
 
 ### Medium
 - [x] "SafeHarbor" spelling in location names/FAQs; "Join hundreds of families" claim removed (`ac42716`). Left on purpose: Therapy Portal URL `SafeHarbor74104`, social handle `@SafeHarborBH`
