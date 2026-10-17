@@ -105,11 +105,11 @@ export default function ServicesPage() {
       serviceType: 'Crisis Care',
     },
     {
-      title: 'Substance Abuse',
-      description: 'Youth and teen substance abuse support with early intervention and family care.',
+      title: 'Drug & Alcohol Counseling',
+      description: 'Substance use assessments and outpatient counseling for ages 5 and up.',
       icon: '🌱',
       href: '/services/substance-abuse',
-      serviceType: 'Substance Abuse Support',
+      serviceType: 'Substance Use Counseling',
     },
     {
       title: 'Adult Mental Health',

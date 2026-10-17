@@ -171,7 +171,7 @@ export default function HomePage() {
               <a href="/services/adult-mental-health" className="relative block bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow group h-full">
                 <div className="text-4xl mb-4">🙋</div>
                 <h3 className="text-xl font-bold text-navy-900 mb-2 group-hover:text-teal-600 transition-colors">I Need Help</h3>
-                <p className="text-navy-700">Adult emotional wellness support. Medicaid, BCBS, and Aetna accepted. Zoom sessions statewide. Same-week appointments.</p>
+                <p className="text-navy-700">Adult emotional wellness support and drug and alcohol counseling. Medicaid, BCBS, and Aetna accepted. Zoom sessions statewide. Same-week appointments.</p>
               </a>
             </div>
 

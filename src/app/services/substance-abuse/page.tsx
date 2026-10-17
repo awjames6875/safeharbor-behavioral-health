@@ -4,9 +4,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Youth Substance Abuse Support Tulsa | Early Intervention & Family Care',
+  title: 'Drug & Alcohol Counseling Tulsa | Assessments & Outpatient Support | Ages 5+',
   description:
-    'Safe Harbor provides youth and teen substance abuse support in Tulsa with early intervention, family-centered wellness plans, and clinician-supervised care. Medicaid and SoonerCare accepted.',
+    'Safe Harbor offers drug and alcohol assessments and outpatient counseling in Tulsa for ages 5 and up, with individual and group support sessions from licensed counselors. Medicaid and SoonerCare accepted.',
   alternates: {
     canonical: '/services/substance-abuse',
   },
@@ -16,23 +16,23 @@ export default function SubstanceAbusePage() {
   return (
     <>
       <ServiceSchema
-        name="Substance Abuse Support"
-        description="Youth substance abuse support with early intervention in Tulsa"
-        serviceType="Youth Substance Abuse"
+        name="Drug & Alcohol Counseling"
+        description="Substance use assessments and outpatient counseling for ages 5 and up in Tulsa"
+        serviceType="Substance Use Counseling"
         url="https://www.safeharborbehavioralhealth.com/services/substance-abuse"
       />
       <BreadcrumbSchema items={[
         { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
         { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Substance Abuse Support", item: "https://www.safeharborbehavioralhealth.com/services/substance-abuse" },
+        { position: 3, name: "Drug & Alcohol Counseling", item: "https://www.safeharborbehavioralhealth.com/services/substance-abuse" },
       ]} />
     <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-br from-teal-500 to-navy-800 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Youth & Teen Substance Abuse Support</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Drug & Alcohol Counseling</h1>
             <p className="text-xl md:text-2xl opacity-95 mb-8">
-              Family-centered, clinician-supervised support with a practical wellness plan for long-term recovery.
+              Substance use assessments and outpatient counseling for ages 5 and up, with a licensed counselor and a practical plan for lasting recovery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -55,7 +55,7 @@ export default function SubstanceAbusePage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold text-navy-800 mb-8 text-center">What We Treat</h2>
+            <h2 className="text-3xl font-bold text-navy-800 mb-8 text-center">What We Support</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-teal-50 rounded-xl p-6">
                 <h3 className="text-xl font-semibold text-navy-800 mb-4">Substance Use Patterns</h3>
@@ -77,7 +77,7 @@ export default function SubstanceAbusePage() {
               </div>
             </div>
             <p className="text-gray-700 mt-8 text-center">
-              We focus on early intervention so concerns are addressed before they become severe.
+              Support is available for children, teens, and adults. Safe Harbor does not prescribe medication.
             </p>
           </div>
         </div>
@@ -89,21 +89,21 @@ export default function SubstanceAbusePage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8 text-center">How It Works</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-teal-700 mb-3">1) Family Intake</h3>
+                <h3 className="text-lg font-semibold text-teal-700 mb-3">1) Fit Call</h3>
                 <p className="text-gray-700 text-sm">
-                  We gather history, current concerns, and immediate safety needs from both youth and caregivers.
+                  A short, judgment-free call to make sure Safe Harbor is the right fit, followed by a simple intake form.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-teal-700 mb-3">2) Wellness Plan</h3>
+                <h3 className="text-lg font-semibold text-teal-700 mb-3">2) Assessment</h3>
                 <p className="text-gray-700 text-sm">
-                  We create a personalized Mind &amp; Body program (Body &amp; Brain program) with measurable goals and home support steps.
+                  You meet with our clinical director for a substance use assessment, and together you set clear goals.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-teal-700 mb-3">3) Ongoing Support</h3>
+                <h3 className="text-lg font-semibold text-teal-700 mb-3">3) Outpatient Counseling</h3>
                 <p className="text-gray-700 text-sm">
-                  Partner staff are trained to carry out the plan consistently, with remote clinician-supervised guidance and progress checks.
+                  Individual and group support sessions with a licensed counselor, with regular check-ins on your progress.
                 </p>
               </div>
             </div>
@@ -146,9 +146,9 @@ export default function SubstanceAbusePage() {
 
       <section className="py-16 bg-gradient-to-r from-navy-700 to-teal-700 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Start Early. Strengthen Recovery.</h2>
+          <h2 className="text-3xl font-bold mb-4">Take the First Step.</h2>
           <p className="text-xl opacity-95 max-w-3xl mx-auto mb-8">
-            Complete our contact form and our team will reach out with next steps for youth substance abuse support.
+            Complete our contact form and our team will reach out with next steps for drug and alcohol counseling.
           </p>
           <Link
             href="/contact"

@@ -2073,7 +2073,6 @@ Medicaid families at Safe Harbor receive:
 Some services may require prior authorization:
 - Extended therapy sessions
 - Specialized treatments
-- Intensive outpatient programs
 - Group therapy programs
 
 We handle all prior authorization requests on your behalf, ensuring a smooth process.

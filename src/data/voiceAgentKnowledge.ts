@@ -39,6 +39,11 @@ export const SAFEHARBOR_KNOWLEDGE = {
             conditions: ["Depression", "Anxiety", "Self-harm", "Substance abuse", "Eating disorders", "Academic pressure", "Peer relationships"]
         },
         {
+            name: "Drug & Alcohol Counseling",
+            description: "Substance use assessments and outpatient counseling (individual and group) for ages 5 and up. Safe Harbor does not prescribe medication and does not offer intensive outpatient programs or detox.",
+            conditions: ["Alcohol use", "Drug use", "Cannabis and vaping", "Prescription misuse"]
+        },
+        {
             name: "Family Therapy",
             description: "Family counseling to improve communication, resolve conflicts, and strengthen relationships.",
             conditions: ["Communication problems", "Divorce/separation effects", "Blended family challenges", "Parent-teen conflicts", "Sibling rivalry"]
