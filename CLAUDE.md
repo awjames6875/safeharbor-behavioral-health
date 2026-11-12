@@ -7,7 +7,7 @@ Next.js 14 site for safeharborbehavioralhealth.com. This file routes. It holds n
 - Simplest change that fixes the root cause. No temporary fixes, no scope creep.
 
 ## Language rules (never violate)
-- Never say "therapy" or "therapist" in parent-facing content. Use: emotional wellness, support sessions, licensed counselor.
+- Use the words therapy and therapist (Adam's decision, 2026-10-06; the old "emotional wellness" restriction is retired).
 - No specific dollar amounts in B2B messaging. Use: new revenue stream, facility fee partnership.
 - Always include safeharborbehavioralhealth.com in outreach.
 
