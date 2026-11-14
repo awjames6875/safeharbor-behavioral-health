@@ -3928,7 +3928,7 @@ Here is a simple example. The thought "I am worth nothing" feels like a fact. Th
 That is all we do. We clean the glasses so you can see yourself differently, and we bring you back to your original state, who you were before the pain.
 
 ## What Safe Harbor offers
-We accept Medicaid and SoonerCare. We also take Blue Cross Blue Shield, Aetna and United Healthcare. We serve all ages: families, teenagers, kids and adults. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.
+We accept Medicaid and SoonerCare. We also take Blue Cross Blue Shield, Aetna and United Healthcare. We serve ages 5 and up: kids, teenagers, adults and families. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.
 
 My hope is that when you walk in, you feel you belong here.
 
@@ -3937,7 +3937,7 @@ My hope is that when you walk in, you feel you belong here.
 Yes. We accept Medicaid and SoonerCare. We also take Blue Cross Blue Shield, Aetna and United Healthcare.
 
 ### Who does Safe Harbor serve?
-We serve all ages: families, teenagers, kids and adults. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.
+We serve ages 5 and up: kids, teenagers, adults and families. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.
 
 ### What does "from pain to possibility" mean?
 It is my mission. I want to help people see themselves differently, so they can see what is possible for them beyond the pain they are in. We don't fix people. People do that themselves, and we clean the glasses.
@@ -3960,7 +3960,7 @@ If you are ready, we are here. Safe Harbor Behavioral Health, 2510 East 15th Str
     reviewedBy: { name: 'Apollo Gonzalez', credentials: 'MSW, LPC, LADC/Mh, CRC. Mental Health & Addiction Therapist. Board Approved Supervisor for LPC & LADC/Mh', url: '' },
     faq: [
       { question: 'Does Safe Harbor take Medicaid?', answer: 'Yes. We accept Medicaid and SoonerCare. We also take Blue Cross Blue Shield, Aetna and United Healthcare.' },
-      { question: 'Who does Safe Harbor serve?', answer: 'We serve all ages: families, teenagers, kids and adults. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.' },
+      { question: 'Who does Safe Harbor serve?', answer: 'We serve ages 5 and up: kids, teenagers, adults and families. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.' },
       { question: 'What does "from pain to possibility" mean?', answer: 'It is my mission. I want to help people see themselves differently, so they can see what is possible for them beyond the pain they are in. We don\'t fix people. People do that themselves, and we clean the glasses.' }
     ]
   }
