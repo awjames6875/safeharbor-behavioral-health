@@ -3,6 +3,8 @@ import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
+export const metadata = { alternates: { canonical: '/services/trauma-treatment' } }
+
 export default function TraumaTherapyPage() {
   return (
     <>
@@ -10,12 +12,12 @@ export default function TraumaTherapyPage() {
         name="Trauma Therapy"
         description="Trauma-informed care helping children process difficult experiences in Tulsa"
         serviceType="Trauma Treatment"
-        url="https://safeharborbehavioralhealth.com/services/trauma-treatment"
+        url="https://www.safeharborbehavioralhealth.com/services/trauma-treatment"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Trauma Therapy", item: "https://safeharborbehavioralhealth.com/services/trauma-treatment" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Trauma Therapy", item: "https://www.safeharborbehavioralhealth.com/services/trauma-treatment" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -48,7 +50,7 @@ export default function TraumaTherapyPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">What is Trauma Treatment?</h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Trauma treatment at SafeHarbor Behavioral Health provides specialized, evidence-based 
+                Trauma treatment at Safe Harbor Behavioral Health provides specialized, evidence-based 
                 interventions for children, teens, and families who have experienced traumatic events. 
                 We understand that trauma affects everyone differently and can have lasting impacts 
                 on mental health, relationships, and daily functioning.
@@ -403,7 +405,7 @@ export default function TraumaTherapyPage() {
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-teal-600 mb-3">What makes SafeHarbor's trauma treatment different?</h3>
+                <h3 className="text-lg font-semibold text-teal-600 mb-3">What makes Safe Harbor's trauma treatment different?</h3>
                 <p className="text-gray-700">
                   Our therapists are specifically trained in evidence-based trauma treatments. We provide 
                   a trauma-informed environment, individualized treatment plans, family involvement when 
@@ -438,7 +440,7 @@ export default function TraumaTherapyPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for ages 5 and up through our Body &amp; Brain program.</p>
                   <p className="text-sm text-gray-600 mt-2">
                     Current families: <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Access your Therapy Portal</a>
                   </p>

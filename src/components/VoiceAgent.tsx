@@ -1,24 +1,13 @@
 'use client';
 
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 import { motion, AnimatePresence } from 'framer-motion';
-import { SAFEHARBOR_KNOWLEDGE, SYSTEM_PROMPT, GREETING_MESSAGE } from '@/data/voiceAgentKnowledge';
+import { GREETING_MESSAGE } from '@/data/voiceAgentKnowledge';
 
 interface Message {
     role: 'user' | 'assistant';
     content: string;
 }
-
-// Initialize Gemini (will be null if no API key)
-const getGeminiModel = () => {
-    const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
-    if (!apiKey || apiKey === 'your_gemini_api_key_here') {
-        return null;
-    }
-    const genAI = new GoogleGenerativeAI(apiKey);
-    return genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-};
 
 export default function VoiceAgent() {
     const [isOpen, setIsOpen] = useState(false);
@@ -144,9 +133,14 @@ export default function VoiceAgent() {
         setError(null);
 
         try {
-            const model = getGeminiModel();
+            // The Gemini key lives on the server (/api/voice)
+            const res = await fetch('/api/voice', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ history: messages, text }),
+            });
 
-            if (!model) {
+            if (res.status === 503) {
                 // Demo mode without API key
                 const demoResponse = getDemoResponse(text);
                 const assistantMessage: Message = { role: 'assistant', content: demoResponse };
@@ -158,22 +152,10 @@ export default function VoiceAgent() {
                 return;
             }
 
-            // Build context with knowledge base
-            const context = `
-${SYSTEM_PROMPT}
-
-KNOWLEDGE BASE:
-${JSON.stringify(SAFEHARBOR_KNOWLEDGE, null, 2)}
-
-CONVERSATION HISTORY:
-${messages.map(m => `${m.role}: ${m.content}`).join('\n')}
-
-USER: ${text}
-
-Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
-
-            const result = await model.generateContent(context);
-            const response = result.response.text();
+            if (!res.ok) {
+                throw new Error(`Voice API ${res.status}`);
+            }
+            const { reply: response } = await res.json();
 
             const assistantMessage: Message = { role: 'assistant', content: response };
             setMessages(prev => [...prev, assistantMessage]);
@@ -194,7 +176,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
         const lower = input.toLowerCase();
 
         if (lower.includes('crisis') || lower.includes('suicide') || lower.includes('hurt myself') || lower.includes('end my life')) {
-            return "I'm here for you. If you're in crisis, please call 988 (Suicide & Crisis Lifeline) immediately - they're available 24/7. You can also call SafeHarbor's crisis line at (918) 553-5746. You're not alone, and help is available right now.";
+            return "I'm here for you. If you're in crisis, please call 988 (Suicide & Crisis Lifeline) immediately - they're available 24/7. You can also call Safe Harbor's crisis line at (918) 553-5746. You're not alone, and help is available right now.";
         }
 
         if (lower.includes('book') || lower.includes('appointment') || lower.includes('schedule')) {
@@ -210,7 +192,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
         }
 
         if (lower.includes('service') || lower.includes('offer') || lower.includes('help with')) {
-            return "We offer individual child therapy (ages 5-12), teen counseling, family therapy, crisis intervention, medication management, group therapy, behavioral assessments, trauma treatment, and the Body & Brain movement program. We specialize in anxiety, ADHD, depression, trauma, and autism. What concerns are you looking to address?";
+            return "We offer individual child therapy, teen counseling, family therapy, crisis intervention, substance use recovery support, group therapy, behavioral assessments, trauma treatment, and the Body & Brain movement program. We specialize in anxiety, ADHD, depression, trauma, and autism. What concerns are you looking to address?";
         }
 
         if (lower.includes('hour') || lower.includes('open') || lower.includes('when')) {
@@ -274,7 +256,7 @@ Respond as SafeHarbor's AI assistant. Be concise, warm, and helpful.`;
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 className="font-semibold">SafeHarbor Assistant</h3>
+                                        <h3 className="font-semibold">Safe Harbor Assistant</h3>
                                         <p className="text-xs text-teal-100">AI-powered support</p>
                                     </div>
                                 </div>

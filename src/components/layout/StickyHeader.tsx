@@ -22,7 +22,7 @@ export default function StickyHeader() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <Link href="/" className="font-bold text-lg">
-            SafeHarbor
+            Safe Harbor
           </Link>
           <div className="hidden sm:flex items-center space-x-1 text-sm">
             <span className="bg-green-500 w-2 h-2 rounded-full"></span>

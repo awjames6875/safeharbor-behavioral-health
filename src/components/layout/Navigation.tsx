@@ -24,8 +24,6 @@ export default function Navigation({ mobile = false, onItemClick }: NavProps) {
       subItems: [
         { href: '/services/individual-therapy', label: 'Individual Therapy' },
         { href: '/services/group-therapy', label: 'Group Therapy' },
-        { href: '/services/medication-management', label: 'Medication Management' },
-        { href: '/services/psychiatric-evaluation', label: 'Psychiatric Evaluation' },
       ],
     },
     {

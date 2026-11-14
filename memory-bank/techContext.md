@@ -173,7 +173,7 @@ PORT=3001 npm run dev   # Run on alternative port
 - **src/app/about/page.tsx** - About page with company info
 
 ### Logo
-- **public/logo.jpg** - Lighthouse-themed logo (nautical design)
+- **public/logo.webp** (256px, header/footer/hero) and **public/logo.png** (512px, schema logo) - navy and gold lighthouse emblem; favicons and manifest icons in **public/icons/**
 
 ## Animation Strategy
 

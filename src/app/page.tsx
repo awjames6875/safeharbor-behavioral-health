@@ -1,37 +1,36 @@
 import { Metadata } from 'next'
-import HeroSection from '@/components/home/HeroSection'
+import ScrollHarborHero from '@/components/home/ScrollHarborHero'
 import { GlowingEffect } from '@/components/ui/glowing-effect'
 import TrustBar from '@/components/home/TrustBar'
 import AnimatedServicesGrid from '@/components/home/AnimatedServicesGrid'
 import AnimatedStats from '@/components/home/AnimatedStats'
-import TestimonialCarousel from '@/components/home/TestimonialCarousel'
 import BodyBrainFeature from '@/components/home/BodyBrainFeature'
 import BlogFeature from '@/components/home/BlogFeature'
 import InsuranceSection from '@/components/home/InsuranceSection'
 import ContactSection from '@/components/home/ContactSection'
 
 export const metadata: Metadata = {
-  title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor',
+  title: 'Behavioral Health Tulsa | Ages 5+ | Same-Week Appointments | Safe Harbor',
   description: 'Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, Blue Cross Blue Shield, and Aetna accepted. Same-week appointments. Telehealth available statewide. Call (918) 553-5746.',
   keywords: 'behavioral health Tulsa, mental health Tulsa Oklahoma, Medicaid mental health Tulsa, adult therapy Tulsa, child therapy Tulsa, teen therapy Tulsa, telehealth Oklahoma Medicaid, same week mental health Tulsa, BCBS therapy Tulsa, Aetna therapy Tulsa, Safe Harbor Behavioral Health, Adam James Tulsa, reentry mental health Oklahoma',
   alternates: {
     canonical: '/'
   },
   openGraph: {
-    title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor',
+    title: 'Behavioral Health Tulsa | Ages 5+ | Same-Week Appointments | Safe Harbor',
     description: 'Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, BCBS, and Aetna accepted. Same-week appointments. Telehealth statewide.',
-    url: 'https://safeharborbehavioralhealth.com',
+    url: 'https://www.safeharborbehavioralhealth.com',
     images: [
       {
         url: '/images/home-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health - Tulsa Oklahoma - All Ages Welcome',
+        alt: 'Safe Harbor Behavioral Health - Tulsa Oklahoma - Ages 5 and Up Welcome',
       }
     ]
   },
   twitter: {
-    title: 'Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor',
+    title: 'Behavioral Health Tulsa | Ages 5+ | Same-Week Appointments | Safe Harbor',
     description: 'Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, BCBS, and Aetna accepted. Same-week appointments.',
     images: ['/images/home-twitter-image.jpg']
   }
@@ -65,12 +64,12 @@ export default function HomePage() {
       },
       {
         "@type": "WebPage",
-        "name": "Behavioral Health Tulsa | All Ages | Same-Week Appointments | SafeHarbor",
+        "name": "Behavioral Health Tulsa | Ages 5+ | Same-Week Appointments | Safe Harbor",
         "description": "Safe Harbor Behavioral Health serves children, teens, and adults in Tulsa, OK. Medicaid, Blue Cross Blue Shield, and Aetna accepted. Same-week appointments. Telehealth statewide.",
-        "url": "https://safeharborbehavioralhealth.com",
+        "url": "https://www.safeharborbehavioralhealth.com",
         "mainEntity": {
           "@type": "MedicalBusiness",
-          "name": "SafeHarbor Behavioral Health",
+          "name": "Safe Harbor Behavioral Health",
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Behavioral Health Services",
@@ -80,7 +79,7 @@ export default function HomePage() {
                 "itemOffered": {
                   "@type": "Service",
                   "name": "Individual Therapy for Children",
-                  "description": "One-on-one therapy sessions for children ages 3-12"
+                  "description": "One-on-one therapy sessions for children ages 5-12"
                 }
               },
               {
@@ -125,7 +124,7 @@ export default function HomePage() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://safeharborbehavioralhealth.com"
+              "item": "https://www.safeharborbehavioralhealth.com"
             }
           ]
         }
@@ -141,7 +140,13 @@ export default function HomePage() {
           __html: JSON.stringify(homePageSchema)
         }}
       />
-      <HeroSection />
+      <ScrollHarborHero />
+
+      <section className="bg-cream-50 px-4 py-12">
+        <p className="mx-auto max-w-3xl text-center text-lg text-navy-700">
+          Safe Harbor Behavioral Health offers counseling and recovery support in Tulsa, Oklahoma, for children, teens, and adults. We accept Medicaid/SoonerCare, Blue Cross Blue Shield, Aetna, and United Healthcare, and offer same-week appointments.
+        </p>
+      </section>
 
       {/* Three-Path CTA */}
       <section className="bg-navy-50 py-16 px-4">
@@ -166,7 +171,7 @@ export default function HomePage() {
               <a href="/services/adult-mental-health" className="relative block bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow group h-full">
                 <div className="text-4xl mb-4">🙋</div>
                 <h3 className="text-xl font-bold text-navy-900 mb-2 group-hover:text-teal-600 transition-colors">I Need Help</h3>
-                <p className="text-navy-700">Adult emotional wellness support. Medicaid, BCBS, and Aetna accepted. Zoom sessions statewide. Same-week appointments.</p>
+                <p className="text-navy-700">Adult emotional wellness support and drug and alcohol counseling. Medicaid, BCBS, and Aetna accepted. Zoom sessions statewide. Same-week appointments.</p>
               </a>
             </div>
 
@@ -194,7 +199,6 @@ export default function HomePage() {
       <AnimatedServicesGrid />
       <AnimatedStats />
       <BodyBrainFeature />
-      <TestimonialCarousel />
       <BlogFeature />
       <InsuranceSection />
       <ContactSection />

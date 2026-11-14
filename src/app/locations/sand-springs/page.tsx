@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/sand-springs' } }
+
 export default function SandSpringsPage() {
   return (
     <div className="min-h-screen">
@@ -7,7 +9,7 @@ export default function SandSpringsPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Sand Springs | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Sand Springs | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Sand Springs, Mannford, and surrounding areas with comprehensive mental health services, 
@@ -22,13 +24,13 @@ export default function SandSpringsPage() {
             {/* Why Sand Springs Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Sand Springs Families Choose SafeHarbor
+                Why Sand Springs Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Sand Springs represents the heart of authentic Oklahoma living - a community where natural beauty 
                 meets small-town values and modern opportunities. Known for the stunning Keystone Ancient Forest, 
                 excellent recreational facilities, and the strong tradition of Sandite pride, Sand Springs offers 
-                families a unique blend of outdoor adventure and community connection. SafeHarbor Behavioral Health 
+                families a unique blend of outdoor adventure and community connection. Safe Harbor Behavioral Health 
                 understands what makes Sand Springs special - the deep appreciation for nature and outdoor activities, 
                 the strong sense of community identity, and the balance between maintaining local traditions while 
                 embracing growth and progress.
@@ -146,165 +148,27 @@ export default function SandSpringsPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Sand Springs Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in Sand Springs
+                How We Serve Sand Springs Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Easy Access & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed to be accessible for families throughout the area:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 45+ spaces available</li>
-                    <li>• Easy access from major Sand Springs highways</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered drop-off area for weather protection</li>
-                    <li>• Well-lit, secure parking for all appointment times</li>
-                    <li>• Convenient location to combine with other errands</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major Sand Springs Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Charles Page High School: 5-minute drive via 41st Street</li>
-                    <li>• From downtown Sand Springs: 3-minute drive via Highway 97</li>
-                    <li>• From Case Community Park: 4-minute drive via 17th Street</li>
-                    <li>• From Keystone Ancient Forest: 8-minute drive via Highway 97</li>
-                    <li>• From Mannford: 12-minute drive via Highway 51</li>
-                    <li>• From west Tulsa areas: 15-minute drive via 41st Street</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Highway and Regional Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Direct access from Highway 97 (main Sand Springs corridor)</li>
-                    <li>• Easy route from Highway 412 (Cimarron Turnpike)</li>
-                    <li>• Quick access via 41st Street from Tulsa areas</li>
-                    <li>• Convenient from Highway 51 (Mannford direction)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Located Near Sand Springs Landmarks
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is strategically positioned near the places Sand Springs families visit regularly:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Sand Springs families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Close to Major Destinations:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Case Community Park and Sports Complex</li>
-                    <li>• Sand Springs Cultural and Arts Center</li>
-                    <li>• Downtown Sand Springs shopping district</li>
-                    <li>• Keystone Ancient Forest Preserve</li>
-                    <li>• Arkansas River and fishing areas</li>
-                    <li>• Multiple SSPS school campuses</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Walmart Supercenter and local shopping</li>
-                    <li>• Various restaurants and dining options</li>
-                    <li>• Homeland grocery and local markets</li>
-                    <li>• Coffee shops and local cafes</li>
-                    <li>• CVS, Walgreens, and pharmacy services</li>
-                    <li>• Banking and professional services</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Sand Springs
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "Our 16-year-old son was struggling with depression and had started experimenting with substances. 
-                  As a single parent working two jobs, I felt overwhelmed and didn't know where to turn. The school 
-                  counselor had been helpful, but my son needed more intensive support than they could provide. I was 
-                  worried about the cost and whether we could find quality mental health care in Sand Springs."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor was recommended by a friend, and I'm so grateful we found them. They understood our 
-                  financial situation and worked with us on payment options. More importantly, the therapists really 
-                  got the challenges of being a teenager in Sand Springs - the limited opportunities, the social 
-                  pressures, and the economic stress many families face. They didn't judge our situation; they just 
-                  focused on helping my son."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The combination of individual therapy and family sessions made all the difference. My son learned 
-                  healthy coping strategies, and I learned how to support him better while managing my own stress. 
-                  He's now clean, back on track at Charles Page, and even has a part-time job. Most importantly, 
-                  we've rebuilt our relationship and communication. SafeHarbor gave us hope when we needed it most."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Maria T., Single mother of two, Sand Springs resident since 2017
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Sand Springs Sandite Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand Sand Springs because they're part of the Sandite community:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. James Wilson, PsyD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Rural Community Psychology Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Sand Springs resident for 15 years, SSPS parent. Specializes in depression, anxiety, and substance 
-                    use issues common in rural and semi-rural communities. Former military counselor who understands 
-                    working-class family dynamics and economic stress.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Casey Reynolds, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Adolescent Substance Abuse Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Charles Page High School graduate who understands local teen culture and challenges. Expert in 
-                    substance abuse prevention and treatment, family systems therapy, and helping teens develop 
-                    healthy coping strategies in environments with limited resources.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Patricia Brown, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Community Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in mood disorders, ADHD, and trauma in children and teens. Experienced in working 
-                    with families facing economic challenges. Provides medication management and collaborates closely 
-                    with SSPS counselors and community resources.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Robert Martinez, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Family Support Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Bilingual therapist specializing in family crisis intervention and economic stress management. 
-                    Helps families navigate community resources, develop resilience, and maintain stability during 
-                    challenging times. Active in Sand Springs community organizations.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}
@@ -415,7 +279,7 @@ export default function SandSpringsPage() {
                 Support Your Sandite's Mental Health and Well-being
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join Sand Springs families who trust SafeHarbor for accessible, compassionate mental health care that understands our community.
+                Join Sand Springs families who trust Safe Harbor for accessible, compassionate mental health care that understands our community.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

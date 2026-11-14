@@ -20,7 +20,7 @@ export default function ServicesGrid() {
     },
     {
       title: 'Family Therapy',
-      ages: 'All Ages',
+      ages: 'Ages 5 and Up',
       description: 'Strengthen bonds, improve communication, and heal together as a family unit.',
       icon: '👨‍👩‍👧‍👦',
       href: '/services/family-therapy',

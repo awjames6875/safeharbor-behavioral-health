@@ -3,6 +3,8 @@ import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
+export const metadata = { alternates: { canonical: '/services/parent-coaching' } }
+
 export default function ParentCoachingPage() {
   return (
     <>
@@ -10,12 +12,12 @@ export default function ParentCoachingPage() {
         name="Parent Coaching"
         description="Expert parent guidance for routines and behavior support in Tulsa"
         serviceType="Parenting Support"
-        url="https://safeharborbehavioralhealth.com/services/parent-coaching"
+        url="https://www.safeharborbehavioralhealth.com/services/parent-coaching"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Parent Coaching", item: "https://safeharborbehavioralhealth.com/services/parent-coaching" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Parent Coaching", item: "https://www.safeharborbehavioralhealth.com/services/parent-coaching" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -48,7 +50,7 @@ export default function ParentCoachingPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">What is Parent Coaching & Support?</h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Parent Coaching & Support at SafeHarbor Behavioral Health provides specialized guidance 
+                Parent Coaching & Support at Safe Harbor Behavioral Health provides specialized guidance 
                 for parents and caregivers who are navigating the challenges of raising children and 
                 teenagers with mental health, behavioral, or developmental concerns. Our experienced 
                 therapists understand that parenting is one of life's most rewarding yet challenging roles.
@@ -256,9 +258,9 @@ export default function ParentCoachingPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">Age-Specific Parenting Support</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-xl font-semibold text-teal-600 mb-4">Early Childhood (3-7)</h3>
+                <h3 className="text-xl font-semibold text-teal-600 mb-4">Early Childhood (5-7)</h3>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• Toddler tantrums and emotional meltdowns</li>
+                  <li>• Tantrums and emotional meltdowns</li>
                   <li>• Establishing routines and structure</li>
                   <li>• Toilet training and developmental milestones</li>
                   <li>• Bedtime and sleep issues</li>
@@ -427,7 +429,7 @@ export default function ParentCoachingPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for ages 5 and up through our Body &amp; Brain program.</p>
                   <p className="text-sm text-gray-600 mt-2">
                     Current families: <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Access your Therapy Portal</a>
                   </p>

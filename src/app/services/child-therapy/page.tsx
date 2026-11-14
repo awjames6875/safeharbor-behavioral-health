@@ -8,10 +8,10 @@ import { getServiceBySlug } from '@/data/services'
 
 export const metadata: Metadata = {
   title: 'Child Therapy Tulsa | Medicaid Accepted | Play Therapy Ages 5-12',
-  description: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
+  description: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. Safe Harbor accepts SoonerCare. Call (918) 553-5746.',
   keywords: 'child therapy Tulsa Medicaid, play therapy SoonerCare, child counseling Tulsa, kids therapy Medicaid, behavioral therapy children Tulsa, child psychologist Medicaid',
   alternates: {
-    canonical: 'https://safeharborbehavioralhealth.com/services/child-therapy'
+    canonical: '/services/child-therapy'
   }
 }
 
@@ -22,17 +22,17 @@ export default function ChildTherapyPage() {
     {
       position: 1,
       name: 'Home',
-      item: 'https://safeharborbehavioralhealth.com'
+      item: 'https://www.safeharborbehavioralhealth.com'
     },
     {
       position: 2,
       name: 'Services', 
-      item: 'https://safeharborbehavioralhealth.com/services'
+      item: 'https://www.safeharborbehavioralhealth.com/services'
     },
     {
       position: 3,
       name: 'Child Therapy',
-      item: 'https://safeharborbehavioralhealth.com/services/child-therapy'
+      item: 'https://www.safeharborbehavioralhealth.com/services/child-therapy'
     }
   ];
 
@@ -94,7 +94,7 @@ export default function ChildTherapyPage() {
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
                 Individual child therapy is a specialized form of counseling designed specifically for children ages 5-12. 
-                At SafeHarbor Behavioral Health, we understand that children experience and express emotions differently 
+                At Safe Harbor Behavioral Health, we understand that children experience and express emotions differently 
                 than adults. Our child therapy services use age-appropriate techniques including play therapy, art therapy, 
                 and interactive activities to help young clients process emotions, develop coping skills, and overcome challenges.
               </p>
@@ -431,7 +431,7 @@ export default function ChildTherapyPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for ages 5 and up through our Body &amp; Brain program.</p>
                   <p className="text-sm text-gray-600 mt-2">
                     Current families: <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Access your Therapy Portal</a>
                   </p>

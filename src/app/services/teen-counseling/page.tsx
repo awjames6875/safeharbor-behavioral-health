@@ -3,6 +3,8 @@ import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
+export const metadata = { alternates: { canonical: '/services/teen-counseling' } }
+
 export default function TeenCounselingPage() {
   return (
     <>
@@ -10,12 +12,12 @@ export default function TeenCounselingPage() {
         name="Teen Counseling"
         description="Safe space for teens to build resilience and manage pressures in Tulsa"
         serviceType="Adolescent Counseling"
-        url="https://safeharborbehavioralhealth.com/services/teen-counseling"
+        url="https://www.safeharborbehavioralhealth.com/services/teen-counseling"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Teen Counseling", item: "https://safeharborbehavioralhealth.com/services/teen-counseling" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Teen Counseling", item: "https://www.safeharborbehavioralhealth.com/services/teen-counseling" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -48,7 +50,7 @@ export default function TeenCounselingPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">What is Teen Counseling?</h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Teen counseling at SafeHarbor Behavioral Health is specifically designed for adolescents ages 13-18 
+                Teen counseling at Safe Harbor Behavioral Health is specifically designed for adolescents ages 13-18 
                 who are navigating the complex challenges of teenage years. Our licensed therapists understand the 
                 unique developmental needs of teenagers and provide a safe, non-judgmental space where teens can 
                 express themselves authentically and work through their concerns.
@@ -414,7 +416,7 @@ export default function TeenCounselingPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for ages 5 and up through our Body &amp; Brain program.</p>
                   <p className="text-sm text-gray-600 mt-2">
                     Current families: <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Access your Therapy Portal</a>
                   </p>

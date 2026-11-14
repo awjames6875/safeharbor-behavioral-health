@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/bixby' } }
+
 export default function BixbyPage() {
   return (
     <div className="min-h-screen">
@@ -7,7 +9,7 @@ export default function BixbyPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Bixby | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Bixby | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Bixby, Leonard, and surrounding areas with comprehensive mental health services, 
@@ -22,12 +24,12 @@ export default function BixbyPage() {
             {/* Why Bixby Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Bixby Families Choose SafeHarbor
+                Why Bixby Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Bixby embodies the perfect balance of small-town charm and modern suburban living. Known for its 
                 exceptional schools, safe neighborhoods, and strong sense of community, Bixby has become one of 
-                Oklahoma's most desirable places to raise a family. SafeHarbor Behavioral Health understands what 
+                Oklahoma's most desirable places to raise a family. Safe Harbor Behavioral Health understands what 
                 draws families to Bixby - the commitment to educational excellence at Bixby Public Schools, the 
                 beautiful parks and recreational facilities, the family-friendly atmosphere, and the community pride 
                 that makes residents proud to call themselves Spartans.
@@ -145,166 +147,27 @@ export default function BixbyPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Bixby Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in Bixby
+                How We Serve Bixby Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Location & Parking</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our services are designed for busy families with multiple commitments:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 40+ spaces available</li>
-                    <li>• Easy access from major Bixby roads and highways</li>
-                    <li>• Handicap accessible parking and building entrance</li>
-                    <li>• Covered drop-off area for inclement weather</li>
-                    <li>• Well-lit, secure parking for all appointment times</li>
-                    <li>• Quick access to minimize time away from family activities</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major Bixby Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Bixby High School: 6-minute drive via Memorial Drive</li>
-                    <li>• From downtown Bixby: 4-minute drive via 111th Street</li>
-                    <li>• From Charley Young Park: 5-minute drive via Memorial</li>
-                    <li>• From new developments near 151st Street: 8-minute drive</li>
-                    <li>• From Leonard area: 10-minute drive via Highway 64</li>
-                    <li>• From Glenpool: 12-minute drive via Highway 75</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Highway and Regional Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• 3 minutes from Highway 75 (main north-south route)</li>
-                    <li>• Easy access via Memorial Drive corridor</li>
-                    <li>• Quick route from 111th Street and 121st Street</li>
-                    <li>• Convenient from Highway 64 (Leonard direction)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Easy to Find Near Bixby Landmarks
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is strategically convenient to the places Bixby families visit regularly:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Bixby families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">We're Close To:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Bixby Sports Complex</li>
-                    <li>• Charley Young Recreation Center</li>
-                    <li>• Bixby Community Center</li>
-                    <li>• Downtown Bixby Green Corn Festival grounds</li>
-                    <li>• Multiple BPS school campuses</li>
-                    <li>• Bixby Historical Museum</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Walmart Supercenter and shopping centers</li>
-                    <li>• Multiple restaurants and dining options</li>
-                    <li>• Reasor's and Homeland grocery stores</li>
-                    <li>• Starbucks and local coffee shops</li>
-                    <li>• CVS, Walgreens, and other pharmacies</li>
-                    <li>• Banking and professional services on Memorial</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Bixby
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "We moved to Bixby when our son was in 7th grade, specifically for the schools and community. 
-                  While he was a good student, he struggled to make friends and fit in with classmates who had grown 
-                  up together. He became increasingly withdrawn, stopped participating in activities he used to enjoy, 
-                  and his grades began to slip. As new residents, we felt lost trying to navigate both his social 
-                  struggles and the high expectations of BPS."
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor was recommended by our pediatrician, and we're so grateful we found them. The therapists 
-                  immediately understood the challenges of being a new family in Bixby's tight-knit community. They 
-                  worked with our son on social skills and confidence, but also helped us as parents understand the 
-                  community culture and find ways to get more involved."
-                </p>
-                <p className="text-gray-600 italic">
-                  "The turning point came when the therapist suggested he try the robotics team, knowing his interest 
-                  in technology. He found his people there and slowly began to branch out. Now he's thriving at Bixby 
-                  High School, has a solid group of friends, and even volunteers with the Green Corn Festival. 
-                  SafeHarbor didn't just treat his symptoms - they helped our whole family become part of the Bixby 
-                  community in an authentic way."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Jennifer W., Mother of three, Bixby resident since 2020
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Bixby Spartan Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand Bixby because they're part of the Spartan community:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Laura Henderson, PsyD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child Development Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Bixby resident for 10 years, BPS parent. Specializes in adjustment disorders and social anxiety 
-                    in children and teens. Former school psychologist who understands the academic and social 
-                    pressures within the Bixby community.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Tyler Johnson, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Adolescent Relationship Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Bixby High School graduate who returned to serve his community. Expert in teen identity development, 
-                    peer relationships, and helping students navigate the social dynamics specific to BPS environments. 
-                    Active in Spartan athletic programs as a volunteer coach.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Rachel Parks, MD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in anxiety disorders, ADHD, and mood disorders in school-age children. Works closely 
-                    with BPS counselors and special education teams. Available for comprehensive evaluations and 
-                    medication management when needed.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Monica Davis, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Family Integration Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in helping new families integrate into the Bixby community successfully. Expert in 
-                    family systems therapy and helping families balance achievement expectations with mental health. 
-                    Active in multiple Bixby parent organizations.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}
@@ -414,7 +277,7 @@ export default function BixbyPage() {
                 Help Your Spartan Thrive in School and Life
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join Bixby families who trust SafeHarbor for mental health support that understands our community values and Spartan pride.
+                Join Bixby families who trust Safe Harbor for mental health support that understands our community values and Spartan pride.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

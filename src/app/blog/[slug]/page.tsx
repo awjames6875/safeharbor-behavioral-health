@@ -5,16 +5,18 @@ import { blogPosts } from '@/data/blogPosts'
 
 function formatArticleContent(content: string): string {
   return content
-    // Handle paragraphs - split by double newlines and wrap in <p> tags
-    .split('\n\n')
+    // Put every heading line in its own block, even when its text starts on the next line
+    .replace(/^(#{1,3} .*)$/gm, '\n$1\n')
+    // Handle paragraphs - split by blank lines and wrap in <p> tags
+    .split(/\n\s*\n/)
+    .map(paragraph => paragraph.trim())
     .map(paragraph => {
       // Skip empty paragraphs
-      if (!paragraph.trim()) return ''
+      if (!paragraph) return ''
       
       // Handle headers
-      if (paragraph.startsWith('# ')) {
-        return `<h1 class="text-3xl font-bold text-navy-800 mt-8 mb-4">${paragraph.substring(2)}</h1>`
-      }
+      // The page header already shows the title, so skip the article's own "# " title (one H1 per page)
+      if (paragraph.startsWith('# ')) return ''
       if (paragraph.startsWith('## ')) {
         return `<h2 class="text-2xl font-bold text-navy-800 mt-6 mb-3">${paragraph.substring(3)}</h2>`
       }
@@ -38,6 +40,8 @@ function formatArticleContent(content: string): string {
         .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-navy-800">$1</strong>')
         // Italic text
         .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        // Links: [text](url)
+        .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2" class="text-teal-600 underline">$1</a>')
         // Handle line breaks within paragraphs
         .replace(/\n/g, '<br>')
       
@@ -71,11 +75,12 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 
   return {
-    title: post.metaTitle,
+    title: { absolute: post.metaTitle },
     description: post.metaDescription,
     keywords: post.tags.join(', '),
+    alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
-      title: post.metaTitle,
+      title: { absolute: post.metaTitle },
       description: post.metaDescription,
       type: 'article',
       authors: [post.author],
@@ -84,7 +89,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.metaTitle,
+      title: { absolute: post.metaTitle },
       description: post.metaDescription,
     },
   }
@@ -97,6 +102,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   if (!post) {
     notFound()
   }
+
+  // Adam is the founder and CEO, not a therapist. Never give him a clinical title.
+  const isAdam = post.author === 'Adam James'
+  const authorRole = isAdam ? 'Founder & CEO' : 'Safe Harbor Behavioral Health'
+  const authorBio = isAdam
+    ? 'Founder and CEO of Safe Harbor Behavioral Health in Tulsa, Oklahoma.'
+    : 'Written by the Safe Harbor Behavioral Health team in Tulsa, Oklahoma.'
 
   const relatedPosts = blogPosts.filter((p) => 
     post.relatedPosts.includes(p.slug)
@@ -152,7 +164,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </div>
                 <div>
                   <p className="font-medium">{post.author}</p>
-                  <p className="text-sm text-gray-500">Mental Health Professional</p>
+                  <p className="text-sm text-gray-500">{authorRole}</p>
                 </div>
               </div>
               <div className="text-sm">
@@ -213,7 +225,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <div>
                     <h3 className="text-lg font-bold text-navy-800 mb-2">{post.author}</h3>
                     <p className="text-navy-600 mb-3">
-                      Licensed mental health professional specializing in child and adolescent therapy at SafeHarbor Behavioral Health in Tulsa, Oklahoma.
+                      {authorBio}
                     </p>
                     <p className="text-sm text-gray-600">
                       Our team of experienced therapists provides comprehensive mental health services to children, teens, and families throughout the Tulsa metro area.
@@ -226,7 +238,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <div className="mt-8 p-6 bg-navy-800 text-white rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Need Professional Support?</h3>
                 <p className="mb-4">
-                  If you're concerned about your child's mental health or need professional guidance, our experienced team at SafeHarbor Behavioral Health is here to help.
+                  If you're concerned about your child's mental health or need professional guidance, our experienced team at Safe Harbor Behavioral Health is here to help.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link
@@ -304,7 +316,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       </a>
                     </div>
                     <div>
-                      <p className="font-medium">SafeHarbor:</p>
+                      <p className="font-medium">Safe Harbor:</p>
                       <a href="tel:918-553-5746" className="text-teal-300 hover:text-teal-200">
                         (918) 553-5746
                       </a>
@@ -386,17 +398,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             ...(post.reviewedBy && { "reviewedBy": { "@type": "Person", "name": post.reviewedBy.name, "jobTitle": post.reviewedBy.credentials } }),
             "publisher": {
               "@type": "Organization",
-              "name": "SafeHarbor Behavioral Health",
+              "name": "Safe Harbor Behavioral Health",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://safeharborbehavioralhealth.com/images/logo.png"
+                "url": "https://www.safeharborbehavioralhealth.com/logo.png"
               }
             },
             "datePublished": post.date,
             "dateModified": post.date,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": `https://safeharborbehavioralhealth.com/blog/${post.slug}`
+              "@id": `https://www.safeharborbehavioralhealth.com/blog/${post.slug}`
             },
             "keywords": post.tags.join(", "),
             "articleSection": "Mental Health",

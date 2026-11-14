@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/locations/broken-arrow' } }
+
 export default function BrokenArrowPage() {
   return (
     <div className="min-h-screen">
@@ -7,7 +9,7 @@ export default function BrokenArrowPage() {
       <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Child & Teen Therapy in Broken Arrow | SafeHarbor Behavioral Health
+            Child & Teen Therapy in Broken Arrow | Safe Harbor Behavioral Health
           </h1>
           <p className="text-xl opacity-95 max-w-3xl">
             Serving families in Broken Arrow, Coweta, and surrounding communities with comprehensive mental health services, 
@@ -22,13 +24,13 @@ export default function BrokenArrowPage() {
             {/* Why Broken Arrow Families Choose Us */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Why Broken Arrow Families Choose SafeHarbor
+                Why Broken Arrow Families Choose Safe Harbor
               </h2>
               <p className="text-gray-600 mb-4">
                 Broken Arrow is known for its family-friendly atmosphere, excellent schools, and strong community values. 
                 From the beautiful Rose District with its shops and restaurants to the extensive park system and top-rated 
                 Broken Arrow Public Schools, this community prioritizes family well-being and educational excellence. 
-                SafeHarbor Behavioral Health understands what makes Broken Arrow special - the emphasis on community 
+                Safe Harbor Behavioral Health understands what makes Broken Arrow special - the emphasis on community 
                 involvement, school spirit, and raising children in a safe, supportive environment.
               </p>
               <p className="text-gray-600 mb-4">
@@ -139,161 +141,27 @@ export default function BrokenArrowPage() {
               </div>
             </div>
 
-            {/* Transportation and Parking */}
+            {/* How We Serve Broken Arrow Families */}
             <div className="mb-12 bg-teal-50 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Getting to SafeHarbor in Broken Arrow
+                How We Serve Broken Arrow Families
               </h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Convenient Parking & Access</h3>
-                  <p className="text-gray-600 mb-3">
-                    Our Broken Arrow location offers hassle-free access for busy families:
-                  </p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Large parking lot with 60+ spaces</li>
-                    <li>• Easy access from major roads (no neighborhood traffic)</li>
-                    <li>• Handicap accessible parking and entrance</li>
-                    <li>• Covered drop-off area for inclement weather</li>
-                    <li>• Well-lit parking for evening activities</li>
-                    <li>• Quick in-and-out access for busy schedules</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">From Major Broken Arrow Areas</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• From Rose District: 8-minute drive via Elm Place</li>
-                    <li>• From Central Park: 5-minute drive via Aspen Avenue</li>
-                    <li>• From BA High School: 6-minute drive via Kenosha</li>
-                    <li>• From 71st & Yale area: 10-minute drive via 71st Street</li>
-                    <li>• From South Broken Arrow: 12-minute drive via 111th Street</li>
-                    <li>• From Coweta: 15-minute drive via Highway 51</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-teal-700 mb-3">Major Highway Access</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• 2 minutes from Highway 51 (access to Coweta, Wagoner)</li>
-                    <li>• 5 minutes from Highway 169 (access to Tulsa)</li>
-                    <li>• Easy access from 71st Street corridor</li>
-                    <li>• Quick route from Muskogee Turnpike</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Nearby Landmarks */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Easy to Find Near Broken Arrow Landmarks
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our team is conveniently convenient to the places Broken Arrow families visit regularly:
+              <p className="text-gray-600 mb-4">
+                Safe Harbor Behavioral Health serves Broken Arrow families from our Tulsa
+                office at 2510 East 15th Street, Suite 207, and through telehealth
+                available statewide across Oklahoma.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">We're Close To:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Rose District shopping and dining</li>
-                    <li>• Central Park and Sports Complex</li>
-                    <li>• Broken Arrow Performing Arts Center</li>
-                    <li>• Nienhuis Park</li>
-                    <li>• BA Senior Center</li>
-                    <li>• Multiple BAPS schools</li>
-                  </ul>
-                </div>
-                <div className="bg-white border-2 border-teal-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-3">Convenient Amenities:</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Target and Walmart nearby</li>
-                    <li>• Multiple restaurants in Rose District</li>
-                    <li>• Reasor's and Homeland grocery stores</li>
-                    <li>• Starbucks and local coffee shops</li>
-                    <li>• CVS and Walgreens pharmacies</li>
-                    <li>• Banks and service providers</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Success Story */}
-            <div className="mb-12 bg-gradient-to-br from-cream-100 to-cream-200 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Success Story from Broken Arrow
-              </h2>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <p className="text-gray-600 italic mb-4">
-                  "Our 14-year-old daughter was the 'perfect' Broken Arrow student - honor roll, varsity volleyball, 
-                  student council, church youth group, and volunteer work. But at home, she was having panic attacks 
-                  and barely sleeping. She was terrified of disappointing anyone and felt like she couldn't live up 
-                  to the expectations of being a 'BA kid.'"
-                </p>
-                <p className="text-gray-600 italic mb-4">
-                  "SafeHarbor immediately understood the pressure cooker environment that high-achieving BA students 
-                  face. They didn't tell her to quit activities - instead, they taught her how to set boundaries, 
-                  manage perfectionism, and communicate with us about her stress levels. The Body & Brain program 
-                  gave her physical outlets for anxiety that fit into her already busy schedule."
-                </p>
-                <p className="text-gray-600 italic">
-                  "What impressed us most was how the therapists knew our community. They understood the BAPS culture, 
-                  the social dynamics at the high school, and even recommended stress management strategies that worked 
-                  with her volleyball schedule. Our daughter is still achieving at high levels, but now she's doing it 
-                  from a place of joy rather than fear. She's learned that being a successful BA student doesn't mean 
-                  being perfect."
-                </p>
-                <p className="text-teal-600 font-semibold mt-4">
-                  - Karen R., Mother of three, Broken Arrow resident since 2015
-                </p>
-              </div>
-            </div>
-
-            {/* Staff Members */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-navy-800 mb-6">
-                Our Broken Arrow Community Team
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Our therapists understand Broken Arrow because they're part of the community:
+              <p className="text-gray-600">
+                Call{' '}
+                <a href="tel:+19185535746" className="text-teal-600 font-semibold hover:underline">
+                  (918) 553-5746
+                </a>{' '}
+                to ask about same-week appointments. If you are in crisis, call or text{' '}
+                <a href="tel:988" className="text-teal-600 font-semibold hover:underline">
+                  988
+                </a>{' '}
+                at any time.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Dr. Amanda Foster, PhD</h3>
-                  <p className="text-teal-600 text-sm mb-2">Licensed Psychologist</p>
-                  <p className="text-gray-600 text-sm">
-                    Broken Arrow resident for 12 years, BAPS parent. Specializes in perfectionism and academic anxiety. 
-                    Volunteers at BA Performing Arts Center. Knows the unique pressures of Broken Arrow students.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Michael Thompson, LCSW</h3>
-                  <p className="text-teal-600 text-sm mb-2">Adolescent Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Former BAPS counselor, current BA resident. Expert in teen depression, anxiety, and social media issues. 
-                    Coaches youth sports in the community. Understands BA teen social dynamics.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Sarah Williams, LPC</h3>
-                  <p className="text-teal-600 text-sm mb-2">Family Therapist</p>
-                  <p className="text-gray-600 text-sm">
-                    Specializes in family dynamics and communication. Helps families balance achievement with well-being. 
-                    Active in BA community organizations. Expert in managing overscheduled families.
-                  </p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-navy-800 mb-2">Safe Harbor Behavioral Health Team</h3>
-                  <p className="text-teal-600 text-sm mb-2">Child Psychiatrist</p>
-                  <p className="text-gray-600 text-sm">
-                    Available for medication evaluation and management. Specializes in ADHD, anxiety, and mood disorders. 
-                    Works closely with BA school counselors and local pediatricians.
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Community Resources */}
@@ -403,7 +271,7 @@ export default function BrokenArrowPage() {
                 Help Your Child Thrive in Broken Arrow
               </h2>
               <p className="text-xl mb-6 opacity-95">
-                Join hundreds of Broken Arrow families who trust SafeHarbor for mental health support that understands our community.
+                Join hundreds of Broken Arrow families who trust Safe Harbor for mental health support that understands our community.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

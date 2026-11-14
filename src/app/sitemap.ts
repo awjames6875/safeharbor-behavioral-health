@@ -24,11 +24,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const servicePages = [
-    'individual-therapy', 'group-therapy', 'medication-management',
-    'psychiatric-evaluation', 'child-therapy', 'teen-counseling',
-    'family-therapy', 'trauma-therapy', 'adhd-treatment',
+    'individual-therapy', 'group-therapy',
+    'child-therapy', 'teen-counseling',
+    'family-therapy', 'trauma-treatment', 'adhd-treatment',
     'school-support', 'parent-coaching', 'behavioral-assessments',
-    'crisis-intervention', 'substance-abuse',
+    'crisis-intervention', 'substance-abuse', 'adult-mental-health',
   ].map(slug => ({
     path: `/services/${slug}`,
     priority: 0.8,
@@ -56,6 +56,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'medicaid-mental-health-tulsa',
     'children-divorce-support',
     'group-therapy-shy-children',
+    'how-fast-can-i-get-counseling-tulsa',
+    'drug-alcohol-help-tulsa-what-to-expect',
+    'counseling-insurance-tulsa-what-to-ask',
   ].map(slug => ({
     path: `/blog/${slug}`,
     priority: 0.6,

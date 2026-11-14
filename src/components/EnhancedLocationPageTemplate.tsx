@@ -13,17 +13,17 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
     {
       position: 1,
       name: 'Home',
-      item: 'https://safeharborbehavioralhealth.com'
+      item: 'https://www.safeharborbehavioralhealth.com'
     },
     {
       position: 2,
       name: 'Locations',
-      item: 'https://safeharborbehavioralhealth.com/locations'
+      item: 'https://www.safeharborbehavioralhealth.com/locations'
     },
     {
       position: 3,
       name: location.name,
-      item: `https://safeharborbehavioralhealth.com/locations/${location.slug}`
+      item: `https://www.safeharborbehavioralhealth.com/locations/${location.slug}`
     }
   ];
 
@@ -40,15 +40,13 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
         telephone={location.phone}
         latitude={location.latitude}
         longitude={location.longitude}
-        url={`https://safeharborbehavioralhealth.com/locations/${location.slug}`}
+        url={`https://www.safeharborbehavioralhealth.com/locations/${location.slug}`}
         areaServed={location.neighborhoods}
         services={[
           'Individual Child Therapy',
           'Teen Counseling',
           'Family Therapy',
           'Group Therapy',
-          'Medication Management',
-          'Psychiatric Evaluation',
           'Crisis Intervention',
           'Behavioral Assessments'
         ]}
@@ -64,11 +62,8 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
           'Insurance',
           'Medicaid',
           'SoonerCare',
-          'Medicare',
           'Blue Cross Blue Shield',
-          'Aetna',
-          'UnitedHealthcare',
-          'Cigna'
+          'Aetna'
         ]}
         amenityFeature={[
           { name: 'Wheelchair Accessible', value: true },
@@ -98,7 +93,7 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
             </nav>
             
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Child Therapy {location.city} | Medicaid Accepted | SafeHarbor Behavioral Health
+              Child Therapy {location.city} | Medicaid Accepted | Safe Harbor Behavioral Health
             </h1>
             <p className="text-xl opacity-95 max-w-3xl mb-6">
               {location.description}
@@ -159,19 +154,11 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
                       </li>
                       <li className="flex items-center">
                         <span className="text-green-500 mr-2">✓</span>
-                        Medicare
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-green-500 mr-2">✓</span>
                         Blue Cross Blue Shield
                       </li>
                       <li className="flex items-center">
                         <span className="text-green-500 mr-2">✓</span>
-                        UnitedHealthcare
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-green-500 mr-2">✓</span>
-                        Aetna & Cigna
+                        Aetna
                       </li>
                     </ul>
                   </div>
@@ -259,17 +246,6 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
                     <p className="text-xs text-teal-600 font-medium">✓ Medicaid Accepted</p>
                   </div>
 
-                  <div className="bg-teal-50 rounded-lg p-6">
-                    <h3 className="text-lg font-semibold text-navy-800 mb-3">
-                      <Link href="/services/medication-management" className="hover:text-teal-600">
-                        Medication Management
-                      </Link>
-                    </h3>
-                    <p className="text-gray-700 text-sm mb-3">
-                      Psychiatric medication evaluation and ongoing management by board-certified psychiatrists.
-                    </p>
-                    <p className="text-xs text-teal-600 font-medium">✓ SoonerCare Covered</p>
-                  </div>
                 </div>
               </div>
 
@@ -394,7 +370,7 @@ export default function EnhancedLocationPageTemplate({ location }: EnhancedLocat
                   Ready to Support Your Child\'s Mental Health?
                 </h2>
                 <p className="text-xl mb-6 opacity-95">
-                  Join hundreds of {location.city} families who trust SafeHarbor for exceptional mental health care.
+                  Join hundreds of {location.city} families who trust Safe Harbor for exceptional mental health care.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <Link

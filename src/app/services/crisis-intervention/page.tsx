@@ -5,9 +5,9 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Crisis Intervention Resources | Safe Harbor Behavioral Health',
-  description: 'Looking for crisis intervention? Safe Harbor specializes in activity-based behavioral support for children ages 3-17 in Tulsa, OK. We can connect you with the right provider.',
+  description: 'Looking for crisis intervention? Safe Harbor specializes in activity-based behavioral support for children, teens, and adults in Tulsa, OK. We can connect you with the right provider.',
   alternates: {
-    canonical: 'https://safeharborbehavioralhealth.com/services/crisis-intervention',
+    canonical: '/services/crisis-intervention',
   },
 }
 
@@ -18,12 +18,12 @@ export default function CrisisInterventionPage() {
         name="Crisis Intervention"
         description="Rapid support and stabilization planning for children in crisis in Tulsa"
         serviceType="Crisis Support"
-        url="https://safeharborbehavioralhealth.com/services/crisis-intervention"
+        url="https://www.safeharborbehavioralhealth.com/services/crisis-intervention"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Crisis Intervention", item: "https://safeharborbehavioralhealth.com/services/crisis-intervention" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Crisis Intervention", item: "https://www.safeharborbehavioralhealth.com/services/crisis-intervention" },
       ]} />
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-navy-700 to-navy-900 text-white py-16">
@@ -55,7 +55,7 @@ export default function CrisisInterventionPage() {
               <h2 className="text-2xl font-bold text-navy-800 mb-4">Looking for Ongoing Behavioral Support?</h2>
               <p className="text-gray-700 text-lg mb-6">
                 While Safe Harbor Behavioral Health does not provide crisis intervention services, we specialize in{' '}
-                <strong>activity-based behavioral support for children ages 3–17</strong> through our Body &amp; Brain program. 
+                <strong>activity-based behavioral support for ages 5 and up</strong> through our Body &amp; Brain program. 
                 If your family is looking for ongoing support after a crisis, we&apos;re here to help.
               </p>
               <p className="text-gray-700 text-lg mb-8">
@@ -76,7 +76,7 @@ export default function CrisisInterventionPage() {
             <div className="text-left bg-gray-50 rounded-xl p-8">
               <h3 className="text-xl font-bold text-navy-800 mb-4">What Safe Harbor Does Offer</h3>
               <p className="text-gray-700 mb-4">
-                Safe Harbor provides trauma-informed, activity-based behavioral health services for children and teens ages 3–17, including:
+                Safe Harbor provides trauma-informed, activity-based behavioral health services for ages 5 and up, including:
               </p>
               <ul className="space-y-2 text-gray-700 mb-6">
                 <li className="flex items-start"><span className="text-teal-500 mr-2">✓</span> Body &amp; Brain activity-based therapy</li>

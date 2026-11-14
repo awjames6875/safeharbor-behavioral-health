@@ -14,11 +14,11 @@ export const services: ServiceData[] = [
     slug: 'child-therapy',
     name: 'Individual Child Therapy',
     description: 'Specialized therapy services for children ages 5-12 using play therapy, art therapy, and age-appropriate interventions.',
-    metaDescription: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
+    metaDescription: 'Child therapy Tulsa with Medicaid accepted. Play therapy for kids 5-12 with anxiety, ADHD, behavioral issues. Safe Harbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
-        question: 'Does SafeHarbor accept Medicaid and SoonerCare for child therapy?',
-        answer: 'Yes! SafeHarbor proudly accepts Oklahoma Medicaid and SoonerCare for all child therapy services. We also accept most major insurance plans and offer sliding scale fees for families who need financial assistance.'
+        question: 'Does Safe Harbor accept Medicaid and SoonerCare for child therapy?',
+        answer: 'Yes! Safe Harbor proudly accepts Oklahoma Medicaid and SoonerCare for all child therapy services. We also accept most major insurance plans and offer sliding scale fees for families who need financial assistance.'
       },
       {
         question: 'What age children do you provide therapy for in Tulsa?',
@@ -26,7 +26,7 @@ export const services: ServiceData[] = [
       },
       {
         question: 'How quickly can my child start therapy with Medicaid coverage?',
-        answer: 'We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can often schedule within 24-48 hours. Call (918) 553-5746 to schedule your child\'s first appointment.'
+        answer: 'We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can get your child in within 48 hours once intake paperwork is completed. Call (918) 553-5746 to schedule your child\'s first appointment.'
       },
       {
         question: 'What mental health conditions do you treat in children?',
@@ -42,11 +42,11 @@ export const services: ServiceData[] = [
     slug: 'teen-counseling',
     name: 'Teen Counseling & Adolescent Therapy',
     description: 'Specialized counseling for teenagers dealing with depression, anxiety, peer pressure, academic stress, and identity issues.',
-    metaDescription: 'Teen counseling Tulsa - Medicaid accepted. Adolescent therapy for depression, anxiety, peer pressure. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
+    metaDescription: 'Teen counseling Tulsa - Medicaid accepted. Adolescent therapy for depression, anxiety, peer pressure. Safe Harbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is teen counseling covered by SoonerCare in Tulsa?',
-        answer: 'Absolutely! SoonerCare (Oklahoma Medicaid) covers teen counseling and adolescent therapy services at SafeHarbor. We handle all insurance verification and billing for you.'
+        answer: 'Absolutely! SoonerCare (Oklahoma Medicaid) covers teen counseling and adolescent therapy services at Safe Harbor. We handle all insurance verification and billing for you.'
       },
       {
         question: 'What issues do you help teenagers with?',
@@ -70,7 +70,7 @@ export const services: ServiceData[] = [
     slug: 'family-therapy',
     name: 'Family Therapy & Counseling',
     description: 'Family counseling to improve communication, resolve conflicts, and strengthen relationships between family members.',
-    metaDescription: 'Family therapy Tulsa with Medicaid coverage. Strengthen family relationships, improve communication. SafeHarbor accepts SoonerCare. Call (918) 553-5746.',
+    metaDescription: 'Family therapy Tulsa with Medicaid coverage. Strengthen family relationships, improve communication. Safe Harbor accepts SoonerCare. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Does Medicaid cover family therapy in Tulsa?',
@@ -110,43 +110,15 @@ export const services: ServiceData[] = [
       },
       {
         question: 'Do you provide 24/7 crisis support?',
-        answer: 'Yes, SafeHarbor provides 24/7 crisis support. Call our main number (918) 553-5746 and you\'ll be connected to our crisis response team, even after hours and on weekends.'
+        answer: 'No. Safe Harbor is not an emergency service. If you or someone you love is in crisis, call or text 988, or call 911 if there is immediate danger. Call us at (918) 553-5746 during office hours to set up support sessions.'
       },
       {
         question: 'What happens during a crisis intervention?',
         answer: 'Our crisis team assesses immediate safety, provides de-escalation support, connects you with emergency services if needed, and creates a safety plan. We also coordinate follow-up care.'
       },
       {
-        question: 'Can you help with psychiatric emergencies for children?',
-        answer: 'Absolutely. We specialize in pediatric crisis intervention and work closely with families, schools, and emergency services to ensure children\'s safety during mental health crises.'
-      }
-    ]
-  },
-  {
-    slug: 'medication-management',
-    name: 'Psychiatric Medication Management',
-    description: 'Comprehensive medication evaluation and management by board-certified psychiatrists for children, teens, and adults.',
-    metaDescription: 'Psychiatric medication management Tulsa. Child psychiatrist accepts Medicaid/SoonerCare. ADHD, anxiety, depression meds. Call (918) 553-5746.',
-    faqs: [
-      {
-        question: 'Is psychiatric medication management covered by SoonerCare?',
-        answer: 'Yes, psychiatric medication management is fully covered by SoonerCare and Oklahoma Medicaid. This includes initial evaluations, ongoing monitoring, and medication adjustments.'
-      },
-      {
-        question: 'Do you have child psychiatrists who accept Medicaid?',
-        answer: 'Yes! Our board-certified child and adolescent psychiatrists accept Medicaid and SoonerCare. We specialize in pediatric psychopharmacology and understand developing brains.'
-      },
-      {
-        question: 'What medications do you prescribe for children?',
-        answer: 'We prescribe FDA-approved medications for ADHD, anxiety, depression, bipolar disorder, and other conditions when appropriate. We always start with the lowest effective dose and monitor carefully.'
-      },
-      {
-        question: 'How often will my child need medication check-ups?',
-        answer: 'Initially every 2-4 weeks to monitor effectiveness and side effects, then typically monthly or quarterly once medications are stable. Emergency appointments available if problems arise.'
-      },
-      {
-        question: 'Do you require therapy along with medication?',
-        answer: 'While not always required, we strongly recommend combining medication with therapy for best outcomes, especially in children. We coordinate care between our psychiatrists and therapists.'
+        question: 'Where do I go for an emergency?',
+        answer: 'Call or text 988, or call 911 if there is immediate danger. Our licensed counselors can support your family with follow-up sessions once everyone is safe.'
       }
     ]
   },
@@ -154,7 +126,7 @@ export const services: ServiceData[] = [
     slug: 'group-therapy',
     name: 'Group Therapy for Children & Teens',
     description: 'Therapeutic group sessions providing peer support and social skills development for children and adolescents.',
-    metaDescription: 'Group therapy Tulsa for kids and teens. Peer support groups, social skills training. Medicaid accepted. SafeHarbor Behavioral Health. Call (918) 553-5746.',
+    metaDescription: 'Group therapy Tulsa for kids and teens. Peer support groups, social skills training. Medicaid accepted. Safe Harbor Behavioral Health. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Does Medicaid cover group therapy in Tulsa?',
@@ -210,7 +182,7 @@ export const services: ServiceData[] = [
     slug: 'trauma-treatment',
     name: 'Trauma Treatment & PTSD Therapy',
     description: 'Specialized trauma-informed therapy for children and teens who have experienced abuse, neglect, or traumatic events.',
-    metaDescription: 'Trauma therapy Tulsa for children and teens. PTSD treatment, abuse recovery. Medicaid/SoonerCare accepted. SafeHarbor Behavioral Health. Call (918) 553-5746.',
+    metaDescription: 'Trauma therapy Tulsa for children and teens. PTSD treatment, abuse recovery. Medicaid/SoonerCare accepted. Safe Harbor Behavioral Health. Call (918) 553-5746.',
     faqs: [
       {
         question: 'Is trauma therapy covered by SoonerCare?',

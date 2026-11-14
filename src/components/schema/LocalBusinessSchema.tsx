@@ -96,11 +96,8 @@ export default function LocalBusinessSchema({
       "Insurance",
       "Medicaid",
       "SoonerCare",
-      "Medicare",
       "Blue Cross Blue Shield",
-      "Aetna",
-      "UnitedHealthcare",
-      "Cigna"
+      "Aetna"
     ],
     "currenciesAccepted": "USD",
     ...(openingHours.length > 0 && { "openingHours": openingHours }),

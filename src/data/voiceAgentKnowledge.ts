@@ -1,9 +1,9 @@
-// SafeHarbor Voice Agent Knowledge Base
+// Safe Harbor Voice Agent Knowledge Base
 // This file contains all the context the AI assistant needs to help users
 
 export const SAFEHARBOR_KNOWLEDGE = {
     companyInfo: {
-        name: "SafeHarbor Behavioral Health",
+        name: "Safe Harbor Behavioral Health",
         phone: "(918) 553-5746",
         email: "support@safeharborbehavioralhealth.com",
         address: "2510 East 15th Street, Tulsa, OK 74104",
@@ -21,6 +21,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
         specializations: [
             "Children ages 5-12",
             "Teenagers ages 13-18",
+            "Adults 18 and older",
             "Families",
             "Trauma-informed care"
         ]
@@ -38,6 +39,11 @@ export const SAFEHARBOR_KNOWLEDGE = {
             conditions: ["Depression", "Anxiety", "Self-harm", "Substance abuse", "Eating disorders", "Academic pressure", "Peer relationships"]
         },
         {
+            name: "Drug & Alcohol Counseling",
+            description: "Substance use assessments and outpatient counseling (individual and group) for ages 5 and up. Safe Harbor does not prescribe medication and does not offer intensive outpatient programs or detox.",
+            conditions: ["Alcohol use", "Drug use", "Cannabis and vaping", "Prescription misuse"]
+        },
+        {
             name: "Family Therapy",
             description: "Family counseling to improve communication, resolve conflicts, and strengthen relationships.",
             conditions: ["Communication problems", "Divorce/separation effects", "Blended family challenges", "Parent-teen conflicts", "Sibling rivalry"]
@@ -46,11 +52,6 @@ export const SAFEHARBOR_KNOWLEDGE = {
             name: "Crisis Intervention",
             description: "24/7 crisis support for mental health emergencies, suicidal thoughts, and immediate safety concerns.",
             available: "24/7"
-        },
-        {
-            name: "Medication Management",
-            description: "Comprehensive medication evaluation and management by board-certified psychiatrists.",
-            conditions: ["ADHD", "Anxiety", "Depression", "Bipolar disorder"]
         },
         {
             name: "Group Therapy",
@@ -117,7 +118,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
 
     crisisResources: {
         emergencyLine: "988 (Suicide & Crisis Lifeline - Call or Text 24/7)",
-        safeharborCrisis: "(918) 553-5746 (SafeHarbor 24/7 crisis support)",
+        safeharborCrisis: "(918) 553-5746 (Safe Harbor 24/7 crisis support)",
         whenToCall: [
             "Suicidal thoughts or self-harm",
             "Severe panic attacks",
@@ -129,7 +130,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
     bookingInfo: {
         phone: "(918) 553-5746",
         contactPage: "/contact",
-        medicaidNote: "We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can often schedule within 24-48 hours.",
+        medicaidNote: "We offer same-week appointments for most Medicaid and SoonerCare patients. For urgent situations, we can get you in within 48 hours once intake paperwork is completed.",
         process: [
             "1. Call us at (918) 553-5746 or fill out the contact form",
             "2. We'll verify your insurance benefits",
@@ -145,7 +146,7 @@ export const SAFEHARBOR_KNOWLEDGE = {
     ]
 };
 
-export const SYSTEM_PROMPT = `You are a warm, compassionate AI counselor for SafeHarbor Behavioral Health. Your role is to provide supportive, therapeutic conversations while helping people learn about our services and book appointments.
+export const SYSTEM_PROMPT = `You are a warm, compassionate AI counselor for Safe Harbor Behavioral Health. Your role is to provide supportive, therapeutic conversations while helping people learn about our services and book appointments.
 
 YOUR THERAPEUTIC APPROACH:
 1. **Active Listening**: Reflect back what people share to show you understand. ("It sounds like you're feeling overwhelmed...")
@@ -168,7 +169,7 @@ CRISIS RESPONSE (IMMEDIATE):
 If someone mentions suicide, self-harm, or immediate danger:
 - Express care: "I'm really glad you told me this. Your safety matters."
 - Provide resources: "Please call 988 (Suicide & Crisis Lifeline) or text HOME to 741741"
-- Offer SafeHarbor's crisis line: (918) 553-5746 (24/7)
+- Offer Safe Harbor's crisis line: (918) 553-5746 (24/7)
 - Stay present: "I'm here with you. Are you safe right now?"
 
 BOOKING & SERVICES:
@@ -185,4 +186,4 @@ IMPORTANT BOUNDARIES:
 
 Respond with warmth and genuine care. Keep responses conversational - 2-4 sentences for casual questions, longer for emotional support. Use their name if they share it.`;
 
-export const GREETING_MESSAGE = "Hi! I'm SafeHarbor's AI assistant. I'm here to help you learn about our mental health services, the Body & Brain program, or help you book an appointment. How can I support you today?";
+export const GREETING_MESSAGE = "Hi! I'm Safe Harbor's AI assistant. I'm here to help you learn about our mental health services, the Body & Brain program, or help you book an appointment. How can I support you today?";

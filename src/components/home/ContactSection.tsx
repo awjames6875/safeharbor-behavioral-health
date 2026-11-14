@@ -203,7 +203,7 @@ export default function ContactSection() {
                         <option value="">Select...</option>
                         <option value="medicaid">Medicaid/SoonerCare</option>
                         <option value="bcbs">Blue Cross Blue Shield</option>
-                        <option value="united">United Healthcare</option>
+                        <option value="aetna">Aetna</option>
                         <option value="other">Other Insurance</option>
                         <option value="none">No Insurance</option>
                       </select>
@@ -250,7 +250,7 @@ export default function ContactSection() {
                       value={formData.concern}
                       onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
-                      placeholder="Briefly describe what brings you to SafeHarbor..."
+                      placeholder="Briefly describe what brings you to Safe Harbor..."
                     />
                   </div>
 
@@ -287,7 +287,7 @@ export default function ContactSection() {
                   )}
                   {submitStatus === 'error' && (
                     <p className="text-red-600 text-sm text-center">
-                      Something went wrong. Please call us at (918) 391-3606.
+                      Something went wrong. Please call us at (918) 553-5746.
                     </p>
                   )}
 

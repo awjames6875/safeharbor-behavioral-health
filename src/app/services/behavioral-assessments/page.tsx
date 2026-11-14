@@ -3,6 +3,8 @@ import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
+export const metadata = { alternates: { canonical: '/services/behavioral-assessments' } }
+
 export default function BehavioralAssessmentsPage() {
   return (
     <>
@@ -10,12 +12,12 @@ export default function BehavioralAssessmentsPage() {
         name="Behavioral Assessments"
         description="Structured assessments to identify strengths and care planning for children and teens in Tulsa"
         serviceType="Behavioral Health Assessment"
-        url="https://safeharborbehavioralhealth.com/services/behavioral-assessments"
+        url="https://www.safeharborbehavioralhealth.com/services/behavioral-assessments"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Behavioral Assessments", item: "https://safeharborbehavioralhealth.com/services/behavioral-assessments" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Behavioral Assessments", item: "https://www.safeharborbehavioralhealth.com/services/behavioral-assessments" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -49,7 +51,7 @@ export default function BehavioralAssessmentsPage() {
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
                 A comprehensive behavioral assessment is a thorough evaluation process designed to understand your child's 
-                behavioral patterns, emotional functioning, and mental health needs. At SafeHarbor Behavioral Health, our 
+                behavioral patterns, emotional functioning, and mental health needs. At Safe Harbor Behavioral Health, our 
                 licensed clinicians use evidence-based assessment tools and clinical interviews to create a complete picture 
                 of your child's strengths, challenges, and therapeutic needs.
               </p>
@@ -264,7 +266,7 @@ export default function BehavioralAssessmentsPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">Age-Appropriate Assessment Considerations</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-xl font-semibold text-teal-600 mb-4">Ages 3-6: Early Childhood</h3>
+                <h3 className="text-xl font-semibold text-teal-600 mb-4">Ages 5-6: Early Childhood</h3>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Play-based assessment activities</li>
                   <li>• Parent-child interaction observations</li>
@@ -431,7 +433,7 @@ export default function BehavioralAssessmentsPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for ages 5 and up through our Body &amp; Brain program.</p>
                   <p className="text-sm text-gray-600 mt-2">
                     Current families: <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Access your Therapy Portal</a>
                   </p>

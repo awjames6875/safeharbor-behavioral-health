@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Adam James | Founder of Safe Harbor Behavioral Health',
         description: 'Adam James builds companies that help people see themselves differently. Founder of Safe Harbor Behavioral Health, Integrity Corporate Housing, and Growthgenix.ai.',
-        url: 'https://safeharborbehavioralhealth.com/adam-james',
+        url: 'https://www.safeharborbehavioralhealth.com/adam-james',
         images: [
             {
                 url: '/images/adam-james.png',
@@ -36,7 +36,7 @@ export default function AdamJamesPage() {
         "@type": "Person",
         "name": "Adam James",
         "url": adamJamesBio.website,
-        "image": "https://safeharborbehavioralhealth.com/images/adam-james.png",
+        "image": "https://www.safeharborbehavioralhealth.com/images/adam-james.png",
         "jobTitle": "Founder",
         "worksFor": [
             {

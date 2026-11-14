@@ -40,7 +40,7 @@ export default function OptimizedImage({
   const [webpError, setWebpError] = useState(false)
 
   // Enhanced alt text for SEO
-  const enhancedAlt = `${alt}${location ? ` in ${location}` : ''}${serviceType ? ` - ${serviceType}` : ''} - SafeHarbor Behavioral Health Tulsa`
+  const enhancedAlt = `${alt}${location ? ` in ${location}` : ''}${serviceType ? ` - ${serviceType}` : ''} - Safe Harbor Behavioral Health Tulsa`
 
   // Fallback image for errors
   const handleImageError = () => {
@@ -63,7 +63,7 @@ export default function OptimizedImage({
           <svg className="w-12 h-12 mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
           </svg>
-          <span className="text-sm font-medium">SafeHarbor Behavioral Health</span>
+          <span className="text-sm font-medium">Safe Harbor Behavioral Health</span>
         </div>
       </div>
     )
@@ -131,7 +131,7 @@ export function optimizeAltText(baseAlt: string, location?: string, serviceType?
   
   // Add brand context if not present
   if (!altText.toLowerCase().includes('safeharbor') && !altText.toLowerCase().includes('behavioral health')) {
-    altText += ' - SafeHarbor Behavioral Health'
+    altText += ' - Safe Harbor Behavioral Health'
   }
   
   // Add Tulsa if location not specified but other indicators suggest it's local

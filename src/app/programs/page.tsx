@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+export const metadata = { alternates: { canonical: '/programs' } }
+
 export default function ProgramsPage() {
   return (
     <div className="min-h-screen">

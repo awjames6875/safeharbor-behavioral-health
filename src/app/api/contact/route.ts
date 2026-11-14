@@ -161,7 +161,7 @@ export async function POST(request: NextRequest) {
     
     if (twilioSid && twilioAuth && body.phone && body.urgency !== 'crisis') {
       const parentName = firstName || 'there'
-      const twiml = `<Response><Say voice="Polly.Joanna">Hi ${parentName}! This is Harbor from Safe Harbor Behavioral Health. We just received your inquiry and wanted to reach out right away. We help children ages 3 to 12 build emotional wellness through programs like our Body and Brain program delivered right at your child's school or daycare. A member of our team will follow up with you very shortly to answer your questions and help you get started. We're here for you and your family. Have a wonderful day!</Say></Response>`
+      const twiml = `<Response><Say voice="Polly.Joanna">Hi ${parentName}! This is Harbor from Safe Harbor Behavioral Health. We just received your inquiry and wanted to reach out right away. We help children ages 5 to 12, teens, and adults build emotional wellness through programs like our Body and Brain program delivered right at your child's school or daycare. A member of our team will follow up with you very shortly to answer your questions and help you get started. We're here for you and your family. Have a wonderful day!</Say></Response>`
       
       // Clean phone number
       let callTo = body.phone.replace(/[^+\d]/g, '')

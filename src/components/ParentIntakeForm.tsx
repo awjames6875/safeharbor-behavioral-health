@@ -99,7 +99,7 @@ export default function ParentIntakeForm() {
             value={formData.phone}
             onChange={handleChange}
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
-            placeholder="(918) 555-0123"
+            placeholder="Your phone number"
           />
         </div>
         <div>
@@ -147,7 +147,7 @@ export default function ParentIntakeForm() {
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
           >
             <option value="">Select age</option>
-            {[3, 4, 5, 6, 7, 8].map(age => (
+            {[5, 6, 7, 8].map(age => (
               <option key={age} value={age}>{age} years old</option>
             ))}
           </select>

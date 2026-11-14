@@ -3,6 +3,8 @@ import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema'
 import Link from 'next/link'
 import ServiceContactForm from '@/components/ServiceContactForm'
 
+export const metadata = { alternates: { canonical: '/services/family-therapy' } }
+
 export default function FamilyTherapyPage() {
   return (
     <>
@@ -10,12 +12,12 @@ export default function FamilyTherapyPage() {
         name="Family Therapy"
         description="Family-centered sessions strengthening communication and home stability in Tulsa"
         serviceType="Family Counseling"
-        url="https://safeharborbehavioralhealth.com/services/family-therapy"
+        url="https://www.safeharborbehavioralhealth.com/services/family-therapy"
       />
       <BreadcrumbSchema items={[
-        { position: 1, name: "Home", item: "https://safeharborbehavioralhealth.com" },
-        { position: 2, name: "Services", item: "https://safeharborbehavioralhealth.com/services" },
-        { position: 3, name: "Family Therapy", item: "https://safeharborbehavioralhealth.com/services/family-therapy" },
+        { position: 1, name: "Home", item: "https://www.safeharborbehavioralhealth.com" },
+        { position: 2, name: "Services", item: "https://www.safeharborbehavioralhealth.com/services" },
+        { position: 3, name: "Family Therapy", item: "https://www.safeharborbehavioralhealth.com/services/family-therapy" },
       ]} />
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -48,7 +50,7 @@ export default function FamilyTherapyPage() {
             <h2 className="text-3xl font-bold text-navy-800 mb-8">What is Family Therapy?</h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Family therapy at SafeHarbor Behavioral Health is a collaborative approach that brings family 
+                Family therapy at Safe Harbor Behavioral Health is a collaborative approach that brings family 
                 members together to improve communication, resolve conflicts, and strengthen relationships. 
                 We understand that families are complex systems where each person's well-being affects the 
                 entire family unit.
@@ -404,7 +406,7 @@ export default function FamilyTherapyPage() {
                 <h3 className="text-lg font-semibold text-teal-600 mb-3">What's the difference between family therapy and family counseling?</h3>
                 <p className="text-gray-700">
                   The terms are often used interchangeably. Both involve working with families to 
-                  improve relationships and functioning. At SafeHarbor, we use evidence-based family 
+                  improve relationships and functioning. At Safe Harbor, we use evidence-based family 
                   therapy approaches that address both immediate concerns and underlying family patterns.
                 </p>
               </div>
@@ -444,7 +446,7 @@ export default function FamilyTherapyPage() {
               <div>
                 <h3 className="text-xl font-semibold text-teal-600 mb-4">Take the Next Step</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for children ages 3–17 through our Body &amp; Brain program.</p>
+                  <p className="text-gray-700">Safe Harbor provides activity-based behavioral support for ages 5 and up through our Body &amp; Brain program.</p>
                   <p className="text-sm text-gray-600 mt-2">
                     Current families: <a href="https://therapyportal.com/p/SafeHarbor74104" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Access your Therapy Portal</a>
                   </p>

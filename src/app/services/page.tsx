@@ -2,32 +2,32 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Mental Health Services Tulsa | Child Therapy, Teen Counseling | SafeHarbor',
+  title: 'Mental Health Services Tulsa | Child Therapy, Teen Counseling | Safe Harbor',
   description:
-    'Comprehensive mental health services in Tulsa. Individual therapy, group therapy, medication management, and psychiatric evaluation for children, teens, and families.',
+    'Comprehensive mental health services in Tulsa. Individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
   keywords:
-    'mental health services Tulsa, child therapy services, teen counseling Tulsa, individual therapy Oklahoma, group therapy Tulsa, psychiatric services, medication management',
+    'mental health services Tulsa, child therapy services, teen counseling Tulsa, individual therapy Oklahoma, group therapy Tulsa, addiction recovery Tulsa, substance abuse treatment Tulsa',
   alternates: {
     canonical: '/services',
   },
   openGraph: {
-    title: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
+    title: 'Mental Health Services Tulsa | Safe Harbor Behavioral Health',
     description:
-      'Comprehensive mental health services including individual therapy, group therapy, medication management, and psychiatric evaluation for children, teens, and families.',
-    url: 'https://safeharborbehavioralhealth.com/services',
+      'Comprehensive mental health services including individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
+    url: 'https://www.safeharborbehavioralhealth.com/services',
     images: [
       {
         url: '/images/services-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health Mental Health Services',
+        alt: 'Safe Harbor Behavioral Health Mental Health Services',
       },
     ],
   },
   twitter: {
-    title: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
+    title: 'Mental Health Services Tulsa | Safe Harbor Behavioral Health',
     description:
-      'Comprehensive mental health services for children, teens, and families in Tulsa, Oklahoma.',
+      'Comprehensive mental health services for children, teens, adults, and families in Tulsa, Oklahoma.',
     images: ['/images/services-twitter-image.jpg'],
   },
 }
@@ -47,20 +47,6 @@ export default function ServicesPage() {
       icon: '👥',
       href: '/services/group-therapy',
       serviceType: 'Mental Health Treatment',
-    },
-    {
-      title: 'Medication Management',
-      description: 'Medication evaluation and follow-up visits to support treatment progress.',
-      icon: '💊',
-      href: '/services/medication-management',
-      serviceType: 'Psychiatric Care',
-    },
-    {
-      title: 'Psychiatric Evaluation',
-      description: 'Comprehensive evaluations to clarify diagnosis and care recommendations.',
-      icon: '🔍',
-      href: '/services/psychiatric-evaluation',
-      serviceType: 'Psychiatric Assessment',
     },
     {
       title: 'Child Therapy',
@@ -119,24 +105,31 @@ export default function ServicesPage() {
       serviceType: 'Crisis Care',
     },
     {
-      title: 'Substance Abuse',
-      description: 'Youth and teen substance abuse support with early intervention and family care.',
+      title: 'Drug & Alcohol Counseling',
+      description: 'Substance use assessments and outpatient counseling for ages 5 and up.',
       icon: '🌱',
       href: '/services/substance-abuse',
-      serviceType: 'Substance Abuse Support',
+      serviceType: 'Substance Use Counseling',
+    },
+    {
+      title: 'Adult Mental Health',
+      description: 'One-on-one support for adults facing anxiety, depression, trauma, or stress, in person or by Zoom.',
+      icon: '🙋',
+      href: '/services/adult-mental-health',
+      serviceType: 'Adult Mental Health',
     },
   ]
 
   const servicesSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Mental Health Services Tulsa | SafeHarbor Behavioral Health',
+    name: 'Mental Health Services Tulsa | Safe Harbor Behavioral Health',
     description:
-      'Comprehensive mental health services including individual therapy, group therapy, medication management, and psychiatric evaluation for children, teens, and families.',
-    url: 'https://safeharborbehavioralhealth.com/services',
+      'Comprehensive mental health services including individual therapy, group therapy, family therapy, and substance use recovery support for children, teens, and adults.',
+    url: 'https://www.safeharborbehavioralhealth.com/services',
     mainEntity: {
       '@type': 'MedicalBusiness',
-      name: 'SafeHarbor Behavioral Health',
+      name: 'Safe Harbor Behavioral Health',
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
         name: 'Mental Health Services',
@@ -149,7 +142,7 @@ export default function ServicesPage() {
             serviceType: service.serviceType,
             audience: {
               '@type': 'PeopleAudience',
-              audienceType: 'Children, Teens, Families',
+              audienceType: 'Children, Teens, Adults, Families',
             },
             areaServed: {
               '@type': 'State',
@@ -166,13 +159,13 @@ export default function ServicesPage() {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://safeharborbehavioralhealth.com',
+          item: 'https://www.safeharborbehavioralhealth.com',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Services',
-          item: 'https://safeharborbehavioralhealth.com/services',
+          item: 'https://www.safeharborbehavioralhealth.com/services',
         },
       ],
     },
@@ -192,7 +185,7 @@ export default function ServicesPage() {
           <div className="container mx-auto px-4">
             <h1 className="text-4xl font-bold mb-4">Our Services</h1>
             <p className="text-xl opacity-95 max-w-2xl">
-              Comprehensive mental health services tailored to children, teens, and families.
+              Comprehensive mental health services tailored to children, teens, adults, and families.
             </p>
           </div>
         </section>

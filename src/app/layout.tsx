@@ -11,35 +11,32 @@ import { OrganizationSchema, WebsiteSchema } from '@/components/SchemaMarkup'
 
 export const metadata: Metadata = {
   title: {
-    default: 'SafeHarbor Behavioral Health - Child Therapy Tulsa | Mental Health Services',
-    template: '%s | SafeHarbor Behavioral Health'
+    default: 'Safe Harbor Behavioral Health - Child Therapy Tulsa | Mental Health Services',
+    template: '%s | Safe Harbor Behavioral Health'
   },
-  description: 'Leading child therapy in Tulsa, OK. SafeHarbor accepts Medicaid/SoonerCare. Comprehensive mental health services for children, teens, and families. Same-week appointments available.',
-  keywords: 'child therapy Tulsa Medicaid, teen counseling Tulsa SoonerCare, mental health crisis Tulsa, behavioral health Tulsa Medicaid, anxiety therapy children, ADHD treatment Tulsa, family therapy Oklahoma, psychiatry Tulsa',
-  metadataBase: new URL('https://safeharborbehavioralhealth.com'),
-  alternates: {
-    canonical: '/'
-  },
+  description: 'Leading child therapy in Tulsa, OK. Safe Harbor accepts Medicaid/SoonerCare. Comprehensive mental health services for children, teens, adults, and families. Same-week appointments available.',
+  keywords: 'child therapy Tulsa Medicaid, teen counseling Tulsa SoonerCare, mental health crisis Tulsa, behavioral health Tulsa Medicaid, anxiety therapy children, ADHD treatment Tulsa, family therapy Oklahoma',
+  metadataBase: new URL('https://www.safeharborbehavioralhealth.com'),
   openGraph: {
-    title: 'SafeHarbor Behavioral Health - Child Therapy Tulsa',
-    description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, and families.',
+    title: 'Safe Harbor Behavioral Health - Child Therapy Tulsa',
+    description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, adults, and families.',
     type: 'website',
     locale: 'en_US',
-    url: 'https://safeharborbehavioralhealth.com',
-    siteName: 'SafeHarbor Behavioral Health',
+    url: 'https://www.safeharborbehavioralhealth.com',
+    siteName: 'Safe Harbor Behavioral Health',
     images: [
       {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health - Child Therapy in Tulsa',
+        alt: 'Safe Harbor Behavioral Health - Child Therapy in Tulsa',
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SafeHarbor Behavioral Health - Child Therapy Tulsa',
-    description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, and families.',
+    title: 'Safe Harbor Behavioral Health - Child Therapy Tulsa',
+    description: 'Leading child therapy in Tulsa, OK. Comprehensive mental health services for children, teens, adults, and families.',
     images: ['/images/twitter-image.jpg'],
     creator: '@SafeHarborBH'
   },
@@ -54,10 +51,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
-  }
 }
 
 export default function RootLayout({
@@ -68,11 +61,11 @@ export default function RootLayout({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "name": "SafeHarbor Behavioral Health",
+    "name": "Safe Harbor Behavioral Health",
     "description": "Leading child therapy and mental health services in Tulsa, Oklahoma",
-    "url": "https://safeharborbehavioralhealth.com",
-    "logo": "https://safeharborbehavioralhealth.com/images/logo.png",
-    "image": "https://safeharborbehavioralhealth.com/images/og-image.jpg",
+    "url": "https://www.safeharborbehavioralhealth.com",
+    "logo": "https://www.safeharborbehavioralhealth.com/logo.png",
+    "image": "https://www.safeharborbehavioralhealth.com/images/og-image.jpg",
     "telephone": "+1-918-553-5746",
     "address": {
       "@type": "PostalAddress",
@@ -105,9 +98,7 @@ export default function RootLayout({
     "serviceType": [
       "Individual Therapy",
       "Group Therapy",
-      "Family Therapy",
-      "Medication Management",
-      "Psychiatric Evaluation"
+      "Family Therapy"
     ],
     "paymentAccepted": [
       "Cash",
@@ -117,11 +108,8 @@ export default function RootLayout({
       "Insurance",
       "Medicaid",
       "SoonerCare",
-      "Medicare",
       "Blue Cross Blue Shield",
-      "Aetna",
-      "UnitedHealthcare",
-      "Cigna"
+      "Aetna"
     ],
     "currenciesAccepted": "USD",
     "openingHours": [
@@ -145,7 +133,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#1e40af" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="SafeHarbor BH" />
+        <meta name="apple-mobile-web-app-title" content="Safe Harbor BH" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />

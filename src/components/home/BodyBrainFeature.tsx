@@ -13,7 +13,7 @@ export default function BodyBrainFeature() {
           {/* Content Side */}
           <div className="flex-1 order-2 lg:order-1">
             <div className="inline-block px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-semibold mb-6">
-              Exclusive to SafeHarbor
+              Exclusive to Safe Harbor
             </div>
 
             <h2 className="text-3xl md:text-5xl font-serif text-navy-900 mb-6 leading-tight">
@@ -78,8 +78,8 @@ export default function BodyBrainFeature() {
               <div className="absolute inset-0 bg-gradient-to-t from-navy-900/50 via-transparent to-transparent"></div>
 
               <div className="absolute bottom-8 left-8 right-8 text-white">
-                <p className="text-3xl font-serif mb-2">"He's a different kid."</p>
-                <p className="text-teal-200 font-medium">– Sarah, Mother of 8-year-old</p>
+                <p className="text-3xl font-serif mb-2">Movement first, then words.</p>
+                <p className="text-teal-200 font-medium">The Body &amp; Brain approach</p>
               </div>
             </div>
           </div>

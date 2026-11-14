@@ -140,7 +140,7 @@ Primary target audience is low-income families with Medicaid/SoonerCare. "Same-w
 ### Design System
 - Colors defined in `tailwind.config.ts`: teal-500 (#14b8a6), navy-800 (#1e293b), cream-50/100
 - Theme: Warm, compassionate, professional - designed for anxious parents seeking help
-- Logo: Nautical/lighthouse theme stored at `/public/logo.jpg`
+- Logo: navy and gold lighthouse emblem (new 2026-10-09): `/public/logo.webp` (display), `/public/logo.png` (structured data), favicons and app icons in `/public/icons/`
 
 ### Brand Messaging
 - Tone: Warm, compassionate, non-judgmental, parent-focused

@@ -4,11 +4,12 @@ import { blogPosts } from '@/data/blogPosts'
 
 export const metadata: Metadata = {
   title: 'Blog | Mental Health Resources & Insights',
-  description: 'Expert insights on child and teen mental health from SafeHarbor Behavioral Health. Learn about anxiety, ADHD, depression, and parenting tips from our Tulsa therapy professionals.',
+  description: 'Expert insights on child and teen mental health from Safe Harbor Behavioral Health. Learn about anxiety, ADHD, depression, and parenting tips from our Tulsa therapy professionals.',
   keywords: 'child mental health blog, teen therapy insights, parenting tips Tulsa, ADHD resources, anxiety help children, behavioral health articles',
+  alternates: { canonical: '/blog' },
   openGraph: {
-    title: 'SafeHarbor Blog | Mental Health Resources & Insights',
-    description: 'Expert insights on child and teen mental health from SafeHarbor Behavioral Health professionals.',
+    title: 'Safe Harbor Blog | Mental Health Resources & Insights',
+    description: 'Expert insights on child and teen mental health from Safe Harbor Behavioral Health professionals.',
     type: 'website',
   },
 }
@@ -21,8 +22,9 @@ const categories = [
   { name: 'Body & Brain', slug: 'body-brain', color: 'bg-orange-100 text-orange-800' },
 ]
 
-const featuredPosts = blogPosts.filter(post => post.featured).slice(0, 3)
-const recentPosts = blogPosts.filter(post => !post.featured).slice(0, 6)
+const postsNewestFirst = [...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+const featuredPosts = postsNewestFirst.filter(post => post.featured).slice(0, 3)
+const recentPosts = postsNewestFirst.filter(post => !post.featured).slice(0, 6)
 
 export default function BlogPage() {
   return (
@@ -35,7 +37,7 @@ export default function BlogPage() {
               Mental Health Insights & Resources
             </h1>
             <p className="text-xl text-navy-600 mb-8">
-              Expert guidance from SafeHarbor's mental health professionals to support your family's wellbeing
+              Expert guidance from Safe Harbor's mental health professionals to support your family's wellbeing
             </p>
             
             {/* Newsletter Signup */}

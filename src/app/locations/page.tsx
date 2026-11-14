@@ -3,28 +3,28 @@ import Link from 'next/link'
 import { locations } from '@/data/locations'
 
 export const metadata: Metadata = {
-  title: 'Our Locations | Child Therapy Tulsa, Broken Arrow, Owasso | SafeHarbor',
-  description: 'Find SafeHarbor Behavioral Health locations throughout Tulsa area. Child therapy services in Midtown Tulsa, South Tulsa, Broken Arrow, Owasso, Jenks, and more.',
+  title: 'Our Locations | Child Therapy Tulsa, Broken Arrow, Owasso | Safe Harbor',
+  description: 'Find Safe Harbor Behavioral Health locations throughout Tulsa area. Child therapy services in Midtown Tulsa, South Tulsa, Broken Arrow, Owasso, Jenks, and more.',
   keywords: 'child therapy locations Tulsa, teen therapy Broken Arrow, mental health services Owasso, Jenks child therapy, behavioral health clinics Tulsa area',
   alternates: {
     canonical: '/locations'
   },
   openGraph: {
-    title: 'SafeHarbor Locations | Child Therapy Throughout Tulsa Area',
-    description: 'Convenient SafeHarbor locations throughout Tulsa metro. Find child therapy services near you in Midtown, South Tulsa, Broken Arrow, and more.',
-    url: 'https://safeharborbehavioralhealth.com/locations',
+    title: 'Safe Harbor Locations | Child Therapy Throughout Tulsa Area',
+    description: 'Convenient Safe Harbor locations throughout Tulsa metro. Find child therapy services near you in Midtown, South Tulsa, Broken Arrow, and more.',
+    url: 'https://www.safeharborbehavioralhealth.com/locations',
     images: [
       {
         url: '/images/locations-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SafeHarbor Behavioral Health Locations Throughout Tulsa',
+        alt: 'Safe Harbor Behavioral Health Locations Throughout Tulsa',
       }
     ]
   },
   twitter: {
-    title: 'SafeHarbor Locations | Child Therapy Throughout Tulsa Area',
-    description: 'Convenient SafeHarbor locations throughout Tulsa metro. Find child therapy services near you.',
+    title: 'Safe Harbor Locations | Child Therapy Throughout Tulsa Area',
+    description: 'Convenient Safe Harbor locations throughout Tulsa metro. Find child therapy services near you.',
     images: ['/images/locations-twitter-image.jpg']
   }
 }
@@ -49,7 +49,7 @@ export default function LocationsPage() {
             {locations.map((location) => (
               <div key={location.slug} className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-xl transition-shadow">
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">{location.name.replace('SafeHarbor Behavioral Health - ', '')}</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">{location.name.replace('Safe Harbor Behavioral Health - ', '')}</h2>
                   <div className="space-y-3 text-gray-600">
                     <div className="flex items-start">
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -62,8 +62,8 @@ export default function LocationsPage() {
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                       </svg>
-                      <a href={`tel:${location.phone.replace(/[^0-9]/g, '')}`} className="hover:text-primary-600">
-                        {location.phone}
+                      <a href="tel:9185535746" className="hover:text-primary-600">
+                        (918) 553-5746
                       </a>
                     </div>
                     <div className="flex items-start">
