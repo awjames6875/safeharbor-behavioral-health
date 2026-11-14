@@ -111,7 +111,8 @@ export default function LocalBusinessSchema({
     "sameAs": [
       "https://www.facebook.com/SafeHarborBH",
       "https://www.linkedin.com/company/safeharbor-behavioral-health",
-      "https://www.instagram.com/safeharborbh"
+      "https://www.instagram.com/safeharborbh",
+      "https://www.psychologytoday.com/profile/1788295"
     ]
   };
 

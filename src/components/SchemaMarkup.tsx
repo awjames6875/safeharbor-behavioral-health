@@ -69,6 +69,7 @@ export function OrganizationSchema() {
       { '@type': 'City', name: 'Sapulpa, OK' },
     ],
     sameAs: [
+      'https://www.psychologytoday.com/profile/1788295',
       // Add your social media URLs here:
       // 'https://www.facebook.com/safeharborbehavioralhealth',
       // 'https://www.instagram.com/safeharborbehavioralhealth',

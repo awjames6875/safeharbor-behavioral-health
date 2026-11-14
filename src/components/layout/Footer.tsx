@@ -98,6 +98,14 @@ export default function Footer() {
                   support@safeharborbehavioralhealth.com
                 </a>
               </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 mr-3 mt-1 flex-shrink-0 text-teal-400" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <a href="https://www.psychologytoday.com/profile/1788295" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  Find us on Psychology Today
+                </a>
+              </li>
             </ul>
           </div>
         </div>
