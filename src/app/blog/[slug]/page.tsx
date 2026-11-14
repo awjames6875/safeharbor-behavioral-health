@@ -103,6 +103,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound()
   }
 
+  // Adam is the founder and CEO, not a therapist. Never give him a clinical title.
+  const isAdam = post.author === 'Adam James'
+  const authorRole = isAdam ? 'Founder & CEO' : 'Safe Harbor Behavioral Health'
+  const authorBio = isAdam
+    ? 'Founder and CEO of Safe Harbor Behavioral Health in Tulsa, Oklahoma.'
+    : 'Written by the Safe Harbor Behavioral Health team in Tulsa, Oklahoma.'
+
   const relatedPosts = blogPosts.filter((p) => 
     post.relatedPosts.includes(p.slug)
   ).slice(0, 3)
@@ -157,7 +164,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </div>
                 <div>
                   <p className="font-medium">{post.author}</p>
-                  <p className="text-sm text-gray-500">Mental Health Professional</p>
+                  <p className="text-sm text-gray-500">{authorRole}</p>
                 </div>
               </div>
               <div className="text-sm">
@@ -218,7 +225,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <div>
                     <h3 className="text-lg font-bold text-navy-800 mb-2">{post.author}</h3>
                     <p className="text-navy-600 mb-3">
-                      Licensed mental health professional specializing in child and adolescent therapy at Safe Harbor Behavioral Health in Tulsa, Oklahoma.
+                      {authorBio}
                     </p>
                     <p className="text-sm text-gray-600">
                       Our team of experienced therapists provides comprehensive mental health services to children, teens, and families throughout the Tulsa metro area.
