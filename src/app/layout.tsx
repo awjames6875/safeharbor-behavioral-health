@@ -117,10 +117,13 @@ export default function RootLayout({
       "Sa 09:00-14:00"
     ],
     "sameAs": [
-      "https://www.facebook.com/SafeHarborBH",
-      "https://www.linkedin.com/company/safeharbor-behavioral-health",
-      "https://www.instagram.com/safeharborbh",
-      "https://www.psychologytoday.com/profile/1788295"
+      "https://www.facebook.com/profile.php?id=61577803150292",
+      "https://www.linkedin.com/in/safeharbor-bh-337796356/",
+      "https://www.instagram.com/safeharborbh/",
+      "https://www.psychologytoday.com/profile/1788295",
+      "https://www.youtube.com/channel/UCCIaW9elV5Z3maAkhrbEzyw",
+      "https://www.tiktok.com/@safeharbor_b",
+      "https://x.com/SafeHarborBH"
     ]
   };
 

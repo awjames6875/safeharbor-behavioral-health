@@ -70,9 +70,12 @@ export function OrganizationSchema() {
     ],
     sameAs: [
       'https://www.psychologytoday.com/profile/1788295',
-      // Add your social media URLs here:
-      // 'https://www.facebook.com/safeharborbehavioralhealth',
-      // 'https://www.instagram.com/safeharborbehavioralhealth',
+      'https://www.facebook.com/profile.php?id=61577803150292',
+      'https://www.instagram.com/safeharborbh/',
+      'https://www.linkedin.com/in/safeharbor-bh-337796356/',
+      'https://www.youtube.com/channel/UCCIaW9elV5Z3maAkhrbEzyw',
+      'https://www.tiktok.com/@safeharbor_b',
+      'https://x.com/SafeHarborBH',
     ],
     availableService: [
       {

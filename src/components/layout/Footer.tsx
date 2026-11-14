@@ -1,5 +1,14 @@
 import Link from 'next/link'
 
+const SOCIAL_LINKS = [
+  { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61577803150292' },
+  { name: 'Instagram', url: 'https://www.instagram.com/safeharborbh/' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/safeharbor-bh-337796356/' },
+  { name: 'YouTube', url: 'https://www.youtube.com/channel/UCCIaW9elV5Z3maAkhrbEzyw' },
+  { name: 'TikTok', url: 'https://www.tiktok.com/@safeharbor_b' },
+  { name: 'X', url: 'https://x.com/SafeHarborBH' },
+]
+
 export default function Footer() {
   return (
     <footer className="bg-navy-900 text-white border-t border-navy-800">
@@ -111,6 +120,14 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-navy-800 mt-12 pt-8 text-center text-navy-300 text-sm">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-4">
+            <span className="font-medium text-navy-200">Follow us:</span>
+            {SOCIAL_LINKS.map((social) => (
+              <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                {social.name}
+              </a>
+            ))}
+          </div>
           <p className="mb-4">&copy; {new Date().getFullYear()} Safe Harbor Behavioral Health. All rights reserved.</p>
           <div className="flex justify-center space-x-6">
             <Link href="/privacy" className="hover:text-white transition-colors">
