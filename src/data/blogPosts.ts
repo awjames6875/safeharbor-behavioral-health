@@ -13,6 +13,8 @@ export interface BlogPost {
   metaTitle: string
   metaDescription: string
   relatedPosts: string[]
+  reviewedBy?: { name: string; credentials: string; url: string }
+  faq?: { question: string; answer: string }[]
 }
 
 export const blogPosts: BlogPost[] = [
@@ -3882,5 +3884,84 @@ Not sure what your plan covers? Call us and we will look at it with you.
     metaTitle: 'Counseling and Insurance in Tulsa: What to Ask | Safe Harbor',
     metaDescription: 'Medicaid, Blue Cross Blue Shield, Aetna, United Healthcare. No intake fee. Know what to ask before you book. (918) 553-5746',
     relatedPosts: ['how-fast-can-i-get-counseling-tulsa', 'medicaid-mental-health-tulsa', 'drug-alcohol-help-tulsa-what-to-expect']
+  },
+  {
+    slug: 'medicaid-counselors-near-me',
+    title: 'How do I find a therapist who takes Medicaid in Tulsa?',
+    excerpt: 'If you are in pain and looking for a therapist who takes Medicaid, start here. From Adam James, founder of Safe Harbor Behavioral Health.',
+    content: `
+# How do I find a therapist who takes Medicaid in Tulsa?
+
+If you are looking for a therapist who takes Medicaid, you may be carrying something heavy right now. Maybe you feel stuck. Maybe you feel like nobody sees you. Before anything else, I want you to hear this: what you are feeling is not who you are.
+
+I know, because I lived it. I know what it feels like to believe you are nothing, or worth nothing. I know what it feels like to be cast out. I lived that myself, from self-limiting beliefs, without being able to create possibility.
+
+I have been to prison, for a mistake I made. While I was there I saw so many people, murderers and thieves, and a lot of what I saw came from people who never had access to mental health care. They were taught they could not express themselves, that it was weak. If you don't know your power, you don't know your impact, and that can make you explode on the inside. It does not only turn into violence. It can turn into lying, depression, anything.
+
+Now imagine if people got the tools to see themselves differently. That is what I care about. My goal is always to bring someone from pain to possibility. That is my mission.
+
+You came here for a practical answer, so here it is.
+
+## How do I find a therapist who takes Medicaid?
+There are a lot of ways to find a therapist who takes Medicaid. One of the main ones is Psychology Today. You can go on there and screen for the exact type of insurance you want. You can also go to Reddit and find recommendations. Or you can Google "therapist near me that takes Medicaid." You can always call different ones and ask if they take your Medicaid.
+
+## Does Medicaid pay for counseling?
+Yes, Medicaid does pay for counseling. Make sure you check whether there is a deductible, because Medicaid pays a percentage based on your plan. Find out what your deductible is. You can also read more in our post on [Medicaid and mental health in Tulsa](/blog/medicaid-mental-health-tulsa).
+
+## Why don't most therapists take Medicaid?
+Many therapists don't take Medicaid because commercial plans pay more and the state pays less. If a few calls didn't work out, that is not about you.
+
+## What can change
+I can't promise you what your life will look like. I can tell you what I believe.
+
+I believe that whatever you think about your future is a result of the beliefs you hold right now. I believe you are not your past and you are not what you think. Our past and our comparisons look backwards and blind our vision, so we can't see who we are.
+
+One of the greatest things I realized is that the Kingdom of God is within us. A lot of people believe it is separate from them, but it is inside them. It gives you the power to create the life you want, whatever is going on around you.
+
+## How does a therapist help you see yourself differently?
+Think of your beliefs as a pair of glasses. After years of pain, mistakes and comparing yourself to other people, the lenses get dirty. You look at your life through them, and everything looks dark. That doesn't mean the picture is true. It means the glasses are blurred.
+
+A therapist doesn't fix you. Therapy doesn't fix anyone. People have to do that themselves. A therapist works with you to notice the thoughts you keep repeating about yourself, and gives you tools to look at them another way.
+
+Here is a simple example. The thought "I am worth nothing" feels like a fact. Through clean glasses, you can see it is a belief you picked up, not the truth about you. Seeing that is what I call a distinction. Once you can see a belief as a belief, you can reframe it.
+
+That is all we do. We clean the glasses so you can see yourself differently, and we bring you back to your original state, who you were before the pain.
+
+## What Safe Harbor offers
+We accept Medicaid and SoonerCare. We also take Blue Cross Blue Shield, Aetna and United Healthcare. We serve all ages: families, teenagers, kids and adults. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.
+
+My hope is that when you walk in, you feel you belong here.
+
+## FAQ
+### Does Safe Harbor take Medicaid?
+Yes. We accept Medicaid and SoonerCare. We also take Blue Cross Blue Shield, Aetna and United Healthcare.
+
+### Who does Safe Harbor serve?
+We serve all ages: families, teenagers, kids and adults. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.
+
+### What does "from pain to possibility" mean?
+It is my mission. I want to help people see themselves differently, so they can see what is possible for them beyond the pain they are in. We don't fix people. People do that themselves, and we clean the glasses.
+
+## Contact
+If you or someone you love is in crisis, call or text 988 any time.
+
+If you are ready, we are here. Safe Harbor Behavioral Health, 2510 East 15th Street, Suite 207, Tulsa, OK 74104. Call (918) 553-5746.
+`,
+    author: 'Adam James',
+    date: 'November 13, 2026',
+    readTime: '5 min read',
+    category: 'medicaid',
+    tags: ['Medicaid', 'SoonerCare', 'counseling', 'Tulsa', 'insurance'],
+    featured: false,
+    icon: '📝',
+    metaTitle: 'Medicaid Counselors in Tulsa | Safe Harbor Behavioral Health',
+    metaDescription: 'How to find a therapist who takes Medicaid in Tulsa, and what to check first. Safe Harbor accepts Medicaid and SoonerCare. (918) 553-5746',
+    relatedPosts: ['medicaid-mental-health-tulsa', 'counseling-insurance-tulsa-what-to-ask', 'drug-alcohol-help-tulsa-what-to-expect'],
+    reviewedBy: { name: 'Apollo Gonzalez', credentials: 'MSW, LPC, LADC/Mh, CRC. Mental Health & Addiction Therapist. Board Approved Supervisor for LPC & LADC/Mh', url: '' },
+    faq: [
+      { question: 'Does Safe Harbor take Medicaid?', answer: 'Yes. We accept Medicaid and SoonerCare. We also take Blue Cross Blue Shield, Aetna and United Healthcare.' },
+      { question: 'Who does Safe Harbor serve?', answer: 'We serve all ages: families, teenagers, kids and adults. We offer individual therapy, addiction recovery, child and teen therapy, family therapy and Body & Brain.' },
+      { question: 'What does "from pain to possibility" mean?', answer: 'It is my mission. I want to help people see themselves differently, so they can see what is possible for them beyond the pain they are in. We don\'t fix people. People do that themselves, and we clean the glasses.' }
+    ]
   }
 ]

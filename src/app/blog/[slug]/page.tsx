@@ -384,6 +384,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               "@type": "Person",
               "name": post.author
             },
+            ...(post.reviewedBy && { "reviewedBy": { "@type": "Person", "name": post.reviewedBy.name, "jobTitle": post.reviewedBy.credentials } }),
             "publisher": {
               "@type": "Organization",
               "name": "Safe Harbor Behavioral Health",
@@ -407,6 +408,22 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           })
         }}
       />
+      {post.faq && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": post.faq.map(item => ({
+                "@type": "Question",
+                "name": item.question,
+                "acceptedAnswer": { "@type": "Answer", "text": item.answer }
+              }))
+            })
+          }}
+        />
+      )}
     </article>
   )
 }
