@@ -81,13 +81,18 @@ Truth rule: one office phone (918) 553-5746. Canonical host: https://www.safehar
 - [ ] Not done: rewrite of old posts' psychiatric claims and invented case studies (tasks/blog-rewrites.md); VAPI agent claims until it is live
 
 ## Round 5: adult + recovery pages (from competitor analysis 2026-10-08)
-Why: homepage "Adults / Recovery" card links to /services/adult-mental-health, which 404s. No adult or adult-recovery page exists, so Google has nothing to rank against LifeStance, Valley Hope, Laureate, Parkside, FCS. Facts: IOP offered; NO opioid medication (MAT) — never claim it.
+Why: homepage "Adults / Recovery" card links to /services/adult-mental-health, which 404s. No adult or adult-recovery page exists, so Google has nothing to rank against LifeStance, Valley Hope, Laureate, Parkside, FCS. Facts: NO opioid medication (MAT); IOP unconfirmed — never claim either.
+ON HOLD (2026-10-09): Adam asked what IOP is, so IOP is NOT confirmed. Step 2 waits on whether Safe Harbor has ODMHSAS substance-use certification. Step 1 (adult mental health page) can go ahead.
 
-- [ ] 1. Create `src/app/services/adult-mental-health/page.tsx` (copy structure of individual-therapy page): anxiety, depression, trauma; Medicaid/BCBS/Aetna; Zoom statewide; same-week
-- [ ] 2. Create `src/app/services/adult-recovery/page.tsx`: intensive outpatient program + outpatient recovery counseling; no MAT/detox claims
-- [ ] 3. Add both slugs to `src/app/sitemap.ts`
-- [ ] 4. Add both cards to `src/app/services/page.tsx` list
-- [ ] 5. Verify: tsc + build, homepage card no longer 404s, grep for "Suboxone|MAT|detox" = 0 on new pages
+- [x] 1. Create `src/app/services/adult-mental-health/page.tsx` (same structure as the ADHD page): anxiety, depression, trauma, stress, grief, life after incarceration; live insurance; Zoom statewide; same-week
+- [ ] 2. ON HOLD: adult recovery page. Adam confirmed no ODMHSAS certification yet (see Round 6)
+- [x] 3. Add `adult-mental-health` to `src/app/sitemap.ts`
+- [x] 4. Add an adult mental health card to the `src/app/services/page.tsx` list
+- [x] 5. Verify: tsc + build, homepage card no longer 404s, grep for "Suboxone|MAT|detox" = 0 on new pages
+
+### Review
+- New /services/adult-mental-health: one H1, www self-canonical, 988 banner, 0 IOP/MAT/detox/Suboxone mentions, no "therapy" in visible copy, no medication. Uses the owner-approved "48 hours once intake paperwork is completed" wording.
+- Homepage "I Need Help" card now resolves. Added to sitemap and /services list. Build passes.
 
 Not touching: youth substance-abuse page, locations.ts, nav dropdown.
 
@@ -95,4 +100,65 @@ Not touching: youth substance-abuse page, locations.ts, nav dropdown.
 - IOP schedule: which days, how many hours, in-person, Zoom, or both?
 - IOP insurance: same as the rest (Medicaid, BCBS, Aetna)?
 - Adults only (18+)?
-- Sitemap also lists `/services/adhd-treatment`, which does not exist (404). Remove it now, or keep it for the ADHD page we build later?
+- RESOLVED: /services/adhd-treatment now exists (d8e64a8), so keep it in the sitemap.
+
+## Round 6: Adam's answers (2026-10-09)
+Answers: IOP 8am-5pm by Zoom; create privacy page; create ADHD page; one phone number everywhere.
+
+- [x] 1. Phones: in `src/data/locations.ts` change only the 15 `phone:` values (918-391-3607..3620) and the matching numbers in the 15 `metaDescription` lines to the office number (918) 553-5746. Nothing else in that file changes. (Adam's explicit instruction.)
+- [x] 2. Privacy page: new `src/app/privacy/page.tsx` (plain server page, metadata + canonical `/privacy`, same layout style as `faq/page.tsx`). Covers only what the site really does: contact/intake forms go to GoHighLevel, the voice assistant sends what you say to Google Gemini, phone and email contact, no selling of data, cookies, children, how to reach us. Marked "needs attorney review". Footer link and sitemap entry already exist.
+- [x] 3. ADHD page: new `src/app/services/adhd-treatment/page.tsx`, copying the structure of an existing service page. Content: ADHD and focus support for children, teens and adults; behavior strategies, parent coaching, school support, Body & Brain; Zoom statewide; live insurance only. No medication, no "therapy"/"therapist" wording, no invented staff or stats. Homepage card and sitemap already point here.
+- [x] 4. Same homepage grid: "Trauma Recovery" card links to `/services/trauma-therapy` (404). Change to `/services/trauma-treatment` (one line in `AnimatedServicesGrid.tsx`).
+- [x] 5. Verify: `npm run build`, open /privacy, /services/adhd-treatment, a location page; grep `391-36` = 0.
+- [x] 6. Commit on `feat/scroll-harbor-hero` (only these files), no push until Adam says.
+
+### Review
+- Phones: 14 location numbers + 14 meta descriptions now (918) 553-5746 (midtown already was). Nothing else in locations.ts changed. 0 "391-36" left in the build.
+- /privacy: new page describing only what the site does (GoHighLevel forms + team notification, Google-processed voice assistant, no selling, HIPAA via Notice of Privacy Practices, cookies, children, contact). Needs attorney review; Adam to confirm a Notice of Privacy Practices is given at intake.
+- /services/adhd-treatment: new page, no medication, no "therapy" wording, live insurance only, Zoom statewide. Homepage card and sitemap now resolve.
+- Trauma card now links to /services/trauma-treatment.
+- Build passes (4GB heap); both new pages have www self-canonicals and the 988 banner.
+- Still open: Terms and Accessibility footer links (create or remove?).
+
+## Round 7: Terms + Accessibility pages (Adam: "create the terms and accessibility pages")
+- [x] 1. Third legal page = rule of three: move the privacy page layout into `src/components/LegalPage.tsx` (title, updated date, intro, sections, contact block). Privacy page keeps its text, just uses the component.
+- [x] 2. New `src/app/terms/page.tsx`: website info is not medical advice, using the site does not make you a client, emergencies -> 988/911, voice assistant is automated, insurance coverage varies, links to other sites, no warranties, Oklahoma law. No invented fees or cancellation policies. Needs attorney review.
+- [x] 3. New `src/app/accessibility/page.tsx`: goal of WCAG 2.1 AA (not a claim of full compliance), how to get help another way (phone, email, Zoom), how to report a problem. No unverified office access claims.
+- [x] 4. Verify: build, both pages render with canonical + 988 banner, footer links resolve. Commit + push the branch.
+
+### Review
+- Shared `LegalPage` component now renders /privacy, /terms and /accessibility (same look, one place to change it). Privacy text unchanged.
+- Build passes; each page has one H1, a www self-canonical and the 988 banner. All three footer links and sitemap entries now resolve.
+- Terms and Privacy need attorney review. Accessibility states a WCAG 2.1 AA goal, not a claim of full compliance.
+
+On hold: IOP / adult recovery page. Adam confirmed 2026-10-09: no ODMHSAS certification yet. Do not build or claim IOP until he has it.
+
+---
+
+# PR #2 merge conflicts (branch feat/scroll-harbor-hero <- origin/main)
+
+Dry run (`git merge-tree`) shows 13 conflicts. Main's change: EasyEnrollment removal. Ours: truth fixes (phone, ages 5+, no psychiatric/medication claims).
+
+Conflicted files:
+- Content (11): parents, services/page, and service pages behavioral-assessments, child-therapy, crisis-intervention, family-therapy, group-therapy, parent-coaching, school-support, teen-counseling, trauma-treatment
+- Modify/delete (2): services/medication-management, services/psychiatric-evaluation (we deleted, main edited)
+
+## Rules for resolving
+- Keep our truth fixes (phone, ages 5+, no psychiatric/medication claims, 988 banner).
+- Take main's EasyEnrollment removal.
+- Modify/delete: keep them deleted (we removed those services on purpose). Only check main's edit was just the EasyEnrollment removal.
+- Never touch `src/data/locations.ts`.
+
+## Steps
+- [ ] 1. Protect uncommitted work: `git stash -u` (hero tweak, globals.css, package files, todo.md), pop after the merge
+- [ ] 2. `git merge origin/main` on this branch (no push yet)
+- [ ] 3. Resolve the 11 content conflicts, one file at a time, showing Adam each diff summary
+- [ ] 4. Resolve the 2 modify/delete conflicts (keep deleted)
+- [ ] 5. grep for leftover `<<<<<<<`, `EasyEnrollment`, fake phones, "all ages"
+- [ ] 6. `npm run build` passes
+- [ ] 7. Commit the merge, `git stash pop`, check nothing unrelated got staged
+- [ ] 8. Adam OKs, then push the branch (not main); check PR #2 shows mergeable and Vercel passes
+- [ ] 9. Lighthouse re-check on the preview, then Adam decides on merge
+
+## Review
+(fill in after the work is done)
