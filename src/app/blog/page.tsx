@@ -22,8 +22,9 @@ const categories = [
   { name: 'Body & Brain', slug: 'body-brain', color: 'bg-orange-100 text-orange-800' },
 ]
 
-const featuredPosts = blogPosts.filter(post => post.featured).slice(0, 3)
-const recentPosts = blogPosts.filter(post => !post.featured).slice(0, 6)
+const postsNewestFirst = [...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+const featuredPosts = postsNewestFirst.filter(post => post.featured).slice(0, 3)
+const recentPosts = postsNewestFirst.filter(post => !post.featured).slice(0, 6)
 
 export default function BlogPage() {
   return (
