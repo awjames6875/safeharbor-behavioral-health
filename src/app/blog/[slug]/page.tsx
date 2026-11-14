@@ -5,16 +5,18 @@ import { blogPosts } from '@/data/blogPosts'
 
 function formatArticleContent(content: string): string {
   return content
-    // Handle paragraphs - split by double newlines and wrap in <p> tags
-    .split('\n\n')
+    // Put every heading line in its own block, even when its text starts on the next line
+    .replace(/^(#{1,3} .*)$/gm, '\n$1\n')
+    // Handle paragraphs - split by blank lines and wrap in <p> tags
+    .split(/\n\s*\n/)
+    .map(paragraph => paragraph.trim())
     .map(paragraph => {
       // Skip empty paragraphs
-      if (!paragraph.trim()) return ''
+      if (!paragraph) return ''
       
       // Handle headers
-      if (paragraph.startsWith('# ')) {
-        return `<h1 class="text-3xl font-bold text-navy-800 mt-8 mb-4">${paragraph.substring(2)}</h1>`
-      }
+      // The page header already shows the title, so skip the article's own "# " title (one H1 per page)
+      if (paragraph.startsWith('# ')) return ''
       if (paragraph.startsWith('## ')) {
         return `<h2 class="text-2xl font-bold text-navy-800 mt-6 mb-3">${paragraph.substring(3)}</h2>`
       }
@@ -38,6 +40,8 @@ function formatArticleContent(content: string): string {
         .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-navy-800">$1</strong>')
         // Italic text
         .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        // Links: [text](url)
+        .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2" class="text-teal-600 underline">$1</a>')
         // Handle line breaks within paragraphs
         .replace(/\n/g, '<br>')
       
