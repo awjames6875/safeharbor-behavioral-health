@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About Safe Harbor | Trauma-Informed Child Wellness in Tulsa',
-  description: 'Meet the Safe Harbor team. Founded by Adam James, we provide evidence-based emotional wellness care for ages 5 and up in Tulsa. ODMHSAS certified.',
+  description: 'Helped by people who\'ve been there. Safe Harbor brings people from pain to possibility. No one is broken. Ages 5 and up in Tulsa. ODMHSAS certified.',
   keywords: 'about Safe Harbor, Tulsa mental health center, child therapy mission, behavioral health team, compassionate care Tulsa, evidence-based therapy Oklahoma',
   alternates: {
     canonical: '/about'
   },
   openGraph: {
     title: 'About Safe Harbor Behavioral Health | Child Therapy Tulsa',
-    description: 'Learn about Safe Harbor\'s mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.',
+    description: 'Helped by people who\'ve been there. Safe Harbor brings people from pain to possibility, because no one is broken.',
     url: 'https://www.safeharborbehavioralhealth.com/about',
     images: [
       {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'About Safe Harbor Behavioral Health | Child Therapy Tulsa',
-    description: 'Learn about our mission to provide compassionate, evidence-based mental health care in Tulsa.',
+    description: 'Helped by people who\'ve been there. From pain to possibility, because no one is broken.',
     images: ['/images/about-twitter-image.jpg']
   }
 }
@@ -32,18 +32,20 @@ export default function AboutPage() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "About Safe Harbor Behavioral Health",
-    "description": "Learn about Safe Harbor Behavioral Health's mission to provide compassionate, evidence-based mental health care to children, teens, and families in Tulsa.",
+    "description": "Safe Harbor Behavioral Health brings people from pain to possibility, helped by people who've been there. No one is broken, so no one needs to be fixed.",
     "url": "https://www.safeharborbehavioralhealth.com/about",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "Safe Harbor Behavioral Health",
       "foundingDate": "2018",
       "description": "Leading provider of child and teen mental health services in Tulsa, Oklahoma",
-      "mission": "To provide a safe, supportive environment where individuals can heal, grow, and thrive through compassionate, evidence-based mental health care",
+      "slogan": "Helped by people who've been there.",
+      "mission": "Safe Harbor exists to bring people from pain to possibility, guided by people who've walked through the same storms. No one is broken, so no one needs to be fixed.",
       "values": [
-        "Compassion - We treat every client with empathy, respect, and understanding",
-        "Excellence - We maintain the highest standards of clinical care and professionalism",
-        "Partnership - We work collaboratively with clients to achieve their goals"
+        "No one is broken - You were made whole. Pain is real, but it isn't who you are.",
+        "We've been there - Many of us have lived through addiction, prison and loss. We don't judge your story. We understand it.",
+        "We clean glasses, we don't fix people - You do the changing. We give you the tools and walk with you.",
+        "You belong here - Kids, teens, adults, families. Whatever you're carrying, there's room for you."
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -107,7 +109,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <h1 className="text-4xl font-bold mb-4">About Safe Harbor</h1>
             <p className="text-xl opacity-95 max-w-2xl">
-              Dedicated to providing compassionate, evidence-based mental health care to the Tulsa community.
+              Helped by people who&apos;ve been there.
             </p>
           </div>
         </section>
@@ -116,32 +118,61 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
-              <p className="text-lg text-gray-600 mb-8">
-                At Safe Harbor Behavioral Health, we believe everyone deserves access to high-quality mental health care.
-                Our mission is to provide a safe, supportive environment where individuals can heal, grow, and thrive.
-              </p>
+              <div className="text-lg text-gray-600 mb-8 space-y-4">
+                <p className="text-xl font-semibold text-gray-900">
+                  At Safe Harbor, we believe no one is broken. So we don&apos;t try to fix anyone.
+                </p>
+                <p>
+                  Every person was created whole, complete and good, made in God&apos;s image. Pain, addiction, prison,
+                  mistakes and the things life teaches us can blur how we see ourselves. That doesn&apos;t change who you
+                  are. It only changes what you can see.
+                </p>
+                <p>
+                  We know, because many of us have been there. Our team includes people who have fought addiction, served
+                  time, and rebuilt their lives from the ground up. When you sit down with us, you&apos;re not talking to
+                  someone reading from a textbook. You&apos;re talking to someone who understands, because they&apos;ve
+                  walked that road and found their way back.
+                </p>
+                <p>
+                  Therapy is how we clean the glasses. We help you find your blind spots, and we give you the tools to
+                  clear away whatever is standing between you and who you really are.
+                </p>
+                <p>
+                  We don&apos;t make you into someone new. We help you come back to who you were before the pain.
+                </p>
+                <p className="text-xl font-semibold text-gray-900">
+                  From pain to possibility. That is why we&apos;re here.
+                </p>
+              </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
                 <div className="text-center">
                   <div className="bg-primary-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                     <span className="text-3xl">💙</span>
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Compassion</h3>
-                  <p className="text-gray-600">We treat every client with empathy, respect, and understanding.</p>
-                </div>
-                <div className="text-center">
-                  <div className="bg-primary-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                    <span className="text-3xl">🎯</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Excellence</h3>
-                  <p className="text-gray-600">We maintain the highest standards of clinical care and professionalism.</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">No one is broken</h3>
+                  <p className="text-gray-600">You were made whole. Pain is real, but it isn&apos;t who you are.</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-primary-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                     <span className="text-3xl">🤝</span>
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Partnership</h3>
-                  <p className="text-gray-600">We work collaboratively with clients to achieve their goals.</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">We&apos;ve been there</h3>
+                  <p className="text-gray-600">Many of us have lived through addiction, prison and loss. We don&apos;t judge your story. We understand it.</p>
+                </div>
+                <div className="text-center">
+                  <div className="bg-primary-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                    <span className="text-3xl">👓</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">We clean glasses</h3>
+                  <p className="text-gray-600">We don&apos;t fix people. You do the changing. We give you the tools and walk with you.</p>
+                </div>
+                <div className="text-center">
+                  <div className="bg-primary-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                    <span className="text-3xl">🏠</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">You belong here</h3>
+                  <p className="text-gray-600">Kids, teens, adults, families. Whatever you&apos;re carrying, there&apos;s room for you.</p>
                 </div>
               </div>
 
